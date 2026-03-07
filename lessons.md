@@ -48,3 +48,9 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 11. Tilanne / virhe: Staattisessa Vercel-julkaisussa data-refreshin kannattaa paivittaa koko datasetti, ei vain frontendin JSON-exporttia, koska muuten repo, artifactit ja tuotantodeploy voivat ajautua eri data-tiloihin.
    Korjaus: Workflow muutettiin generoimaan ensin python_pipeline/data/financials.csv, sen jalkeen src/data/ranking-v1.json, validoimaan exportin ja commitoimaan molemmat tiedostot yhdessa vain main-branchissa.
    Uudelleenkaytettava malli tai saanto: Kun staattinen sovellus deployaa suoraan Git-reposta, commitoi ja validoi aina koko julkaistava datasetti samassa CI-ajossa.
+12. Tilanne / virhe: Laaja visuaalinen redesign hajoaa helposti irrallisiksi komponenttikorjauksiksi, jolloin lopputulos on epajohdonmukainen vaikka yksittaiset kortit nayttaisivat paremmilta.
+   Korjaus: Tyylisuunta lukittiin ensin yhteen dark-first AI/tech -design-systemiin globaalien tokenien, pintojen, kontrollien, statusten ja motion-saantojen tasolla, minka jalkeen sivut ja komponentit paivittyivat saman kieliopin alle.
+   Uudelleenkaytettava malli tai saanto: Kun v1:n UI viimeistellaan uskottavaksi tutkimustyokaluksi, aloita aina yhdesta yhtenaisesta tokeni- ja pintajarjestelmasta ennen komponenttikohtaista viilausta.
+13. Tilanne / virhe: Dark-first AI/tech-ilme muuttuu helposti lapselliseksi, jos se rakennetaan suurilla pillerinapeilla, raskailla glow-efekteilla, leveilla korteilla ja liian nayttavalla herolla.
+   Korjaus: Mittasuhteet kiristettiin finance/research-UI:n ehdoilla: kontrollit madallettiin, radiuset pienennettiin, efektit hillittiin, taulukolle annettiin etusijainen leveys ja sidebar siirrettiin taulukon jalkeiseen informaatiorooliin.
+   Uudelleenkaytettava malli tai saanto: Kun rakennat teknista premium-UI:ta datatyokalulle, uskottavuus syntyy tiheydesta, rytmista ja kurinalaisista mittasuhteista eika visuaalisesta nayttavyydesta.
