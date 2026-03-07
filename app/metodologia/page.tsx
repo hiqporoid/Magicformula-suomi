@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Metodologia ja vastuuvapaus",
   description:
-    "Lue miten Magic Formula, EBIT/EV, quality overlay, poissulut ja datalaadun kasittely on toteutettu Magicformula-suomi v1-demossa.",
+    "Lue miten Magic Formula, EBIT/EV, quality overlay, poissulut ja datan laadun käsittely on toteutettu Magicformula-suomi v1-demossa.",
   alternates: {
     canonical: "/metodologia"
   }
@@ -13,104 +13,117 @@ export const metadata: Metadata = {
 const formulaRows = [
   {
     title: "ROC",
-    formula: "EBIT / (Net PPE + nettokayttopaaoma)",
-    note: "Mittaa operatiivisen paoman tuottoa. Nimittajan on oltava positiivinen, muuten rivi poistuu rankingista."
+    formula: "EBIT / (Net PPE + nettokäyttöpääoma)",
+    note: "Mittaa operatiivisen pääoman tuottoa. Nimittäjän on oltava positiivinen, muuten rivi poistuu rankingista."
   },
   {
     title: "Earnings Yield / EBIT/EV",
     formula: "EBIT / Enterprise Value",
-    note: "Arvioi tulostuottoa suhteessa yritysarvoon. EV <= 0 ei tuota mielekasta vertailulukua v1:ssa."
+    note: "Arvioi tulostuottoa suhteessa yritysarvoon. EV ≤ 0 ei tuota mielekästä vertailulukua v1:ssä."
   },
   {
     title: "Magic Formula -piste",
     formula: "ROC-rank + Earnings Yield -rank",
-    note: "Pienempi yhteispiste on parempi. Tasapisteissa ticker ratkaisee jarjestyksen deterministisesti."
+    note: "Pienempi yhteispiste on parempi. Tasapisteissä ticker ratkaisee järjestyksen deterministisesti."
   },
   {
     title: "Quality overlay",
-    formula: "Kevyt 0-100 pisteytys",
-    note: "Mukana on kannattavuus-, velkaisuus- ja vakauskomponentteja. Se ei kumoa perusrankingia, vaan auttaa tulkinnassa."
+    formula: "Kevyt 0–100 pisteytys",
+    note: "Mukana on kannattavuus-, velkaisuus- ja vakauskomponentteja. Se tukee tulkintaa, ei korvaa perusrankingia."
   }
 ];
 
 export default function MethodologyPage() {
   return (
-    <main className="container pageStack">
-      <section className="panel heroSlim">
-        <p className="eyebrow">Metodologia</p>
-        <h1>Miten taman demon ranking muodostuu</h1>
-        <p className="heroLead">
-          v1-demo pyrkii olemaan selitettavissa rivi rivilta: mita mitataan, mita poistetaan, mita julkaistaan ja
-          mita ei pideta sijoitusneuvontana.
-        </p>
-      </section>
-
-      <section className="panel panelSpacious">
-        <div className="sectionHeader">
-          <div>
-            <p className="eyebrow">Kaavat</p>
-            <h2>Nelja rakennuspalikkaa</h2>
+    <main className="shellContainer pageStack pageOffset">
+      <section className="heroSurface heroSurfaceCompact">
+        <div className="heroMainCard">
+          <div className="eyebrowRow">
+            <p className="eyebrow">Metodologia</p>
+            <span className="softBadge">Selitettävä v1</span>
           </div>
-          <Link href="/" className="textLink">
-            Takaisin rankingiin
-          </Link>
+          <h1>Miten ranking muodostuu ja mitä tästä demosta saa tulkita?</h1>
+          <p className="heroLead">
+            Tavoite ei ole piilottaa laskentaa siistin käyttöliittymän alle, vaan tehdä kaavat, poissulut, datan laatu
+            ja vastuuvapauslauseke helposti tarkistettaviksi samalla kun näkymä pysyy rauhallisena.
+          </p>
         </div>
-        <div className="formulaGrid">
-          {formulaRows.map((item) => (
-            <article key={item.title} className="formulaCard">
-              <h3>{item.title}</h3>
-              <p className="formulaValue">{item.formula}</p>
-              <p>{item.note}</p>
-            </article>
-          ))}
-        </div>
+
+        <aside className="heroSideCard">
+          <div className="sideCardSection">
+            <p className="eyebrow">Nopea yhteenveto</p>
+            <ul className="plainList compactList">
+              <li>ROC ja EBIT/EV muodostavat perusrankingin.</li>
+              <li>Laatupiste auttaa priorisoimaan jatkotutkimusta.</li>
+              <li>Poissulut ja datalaatuviestit näytetään avoimesti.</li>
+            </ul>
+          </div>
+          <div className="sideCardSection sideCardDivider">
+            <Link href="/" className="textLink">
+              Takaisin rankingiin
+            </Link>
+          </div>
+        </aside>
       </section>
 
-      <section className="infoGrid">
-        <article className="panel">
-          <p className="eyebrow">Poissulut</p>
-          <h2>Milloin rivi ei paase mukaan</h2>
+      <section className="methodGrid">
+        {formulaRows.map((item) => (
+          <article key={item.title} className="methodCard">
+            <p className="eyebrow">Kaava</p>
+            <h2>{item.title}</h2>
+            <p className="formulaValue">{item.formula}</p>
+            <p>{item.note}</p>
+          </article>
+        ))}
+      </section>
+
+      <section className="contentGrid">
+        <article className="contentPanel">
+          <p className="eyebrow">Julkaisusäännöt</p>
+          <h2>Milloin rivi ei pääse mukaan</h2>
           <ul className="plainList">
-            <li>Pakollinen talouskentta puuttuu tai ei ole numeerinen.</li>
+            <li>Pakollinen talouskenttä puuttuu tai ei ole numeerinen.</li>
             <li>Enterprise Value on nolla tai negatiivinen.</li>
-            <li>Sijoitetun paoman nimittaja on nolla tai negatiivinen.</li>
-            <li>Rivi olisi muuten niin puutteellinen, ettei ROC- tai EBIT/EV-vertailu ole mielekas.</li>
+            <li>Sijoitetun pääoman nimittäjä on nolla tai negatiivinen.</li>
+            <li>Rivi on muuten niin puutteellinen, ettei vertailu ole enää rehellinen.</li>
           </ul>
         </article>
-        <article className="panel">
+
+        <article className="contentPanel mutedPanel">
           <p className="eyebrow">Datan laatu</p>
-          <h2>Mita kayttajan kannattaa huomioida</h2>
+          <h2>Mitä käyttäjän kannattaa huomioida</h2>
           <ul className="plainList">
-            <li>Talousdata voi olla viiveellista ja myohemmin korjattua.</li>
-            <li>Kertaluonteiset erat voivat nostaa tai painaa tunnuslukuja hetkellisesti.</li>
-            <li>Finanssisektoria ei mallinneta erikseen v1:ssa, joten tulkinta vaatii harkintaa.</li>
-            <li>Laatupiste on tulkintaa tukeva overlay, ei itsenainen sijoitussuositus.</li>
+            <li>Talousdata voi olla viiveellistä ja myöhemmin korjattua.</li>
+            <li>Kertaluonteiset erät voivat vääristää tunnuslukuja hetkellisesti.</li>
+            <li>Finanssisektoria ei mallinneta erikseen v1:ssä, joten tulkinta vaatii harkintaa.</li>
+            <li>Laatupiste on tulkintaa tukeva overlay, ei itsenäinen sijoitussuositus.</li>
           </ul>
         </article>
       </section>
 
-      <section className="panel notesGrid">
-        <div>
-          <p className="eyebrow">Selitettavyys UI:ssa</p>
-          <h2>Mita naytetaan rankingin rinnalla</h2>
+      <section className="contentGrid">
+        <article className="contentPanel">
+          <p className="eyebrow">Käyttöliittymässä näkyvä selitettävyys</p>
+          <h2>Miten luvut näkyvät tuotteen eri näkymissä</h2>
           <ul className="plainList">
-            <li>Ranking-sivulla nakyvat erikseen sijoitus, MF-piste, ROC, EBIT/EV ja laatupiste.</li>
-            <li>Yhtiosivu toistaa samat luvut ja kertoo, onko rivilla validointivaroituksia.</li>
-            <li>Poissulut ja vastuuvapaus ovat omissa, helposti loydettavissa olevissa osioissaan.</li>
+            <li>Ranking-sivulla näkyvät sijoitus, Magic Formula -piste, ROC, EBIT/EV ja laatupiste.</li>
+            <li>Yhtiösivu toistaa samat luvut ja kertoo, onko rivillä validointivaroituksia.</li>
+            <li>Datan laatu, poissulut ja vastuuvapauslauseke ovat helposti löydettävissä omissa osioissaan.</li>
           </ul>
-        </div>
-        <div>
-          <p className="eyebrow">Vastuuvapaus</p>
+        </article>
+
+        <article className="contentPanel cautionPanel">
+          <p className="eyebrow">Vastuuvapauslauseke</p>
           <h2>Ei sijoitusneuvontaa</h2>
           <p>
-            Sovellus on henkilokohtaisen tutkimusprosessin demo. Sisalto ei ole sijoitusneuvontaa, ei kehotus ostaa
-            tai myyda arvopapereita eika korvaa omaa analyysia.
+            Sovellus on henkilökohtaisen tutkimusprosessin demo. Sisältö ei ole sijoitusneuvontaa, kehotus ostaa tai
+            myydä arvopapereita eikä korvaa omaa analyysiä.
           </p>
           <p>
-            Jokainen kayttaja vastaa itse siita, miten tunnuslukuja tulkitsee, mita lisatietoa hankkii ja sopiiko
+            Jokainen käyttäjä vastaa itse siitä, miten tunnuslukuja tulkitsee, mitä lisätietoa hankkii ja sopiiko
             mahdollinen sijoitus omaan tilanteeseen.
           </p>
-        </div>
+        </article>
       </section>
     </main>
   );

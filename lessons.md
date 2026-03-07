@@ -1,38 +1,41 @@
 # lessons.md
 
 ## Tiedoston tarkoitus
-Koota projektin aikana opitut asiat yhteen, jotta virheet eivat toistu ja hyvat kaytannot monistuvat.
+Koota projektin aikana opitut asiat yhteen, jotta virheet eivät toistu ja hyvät käytännöt monistuvat.
 
 ## Numeroitu formaatti
 Kirjaa opit juoksevasti numeroituna listana muodossa:
 1. Tilanne / virhe
 2. Korjaus
-3. Uudelleenkaytettava malli tai saanto
+3. Uudelleenkäytettävä malli tai sääntö
 
 ## Kirjauskonventiot
-- Ole konkreettinen: viittaa paatokseen, ei yleiseen tuntemukseen.
-- Kuvaa vaikutus: mita parani (laatu, nopeus, luotettavuus).
+- Ole konkreettinen: viittaa päätökseen, ei yleiseen tuntemukseen.
+- Kuvaa vaikutus: mitä parani (laatu, nopeus, luotettavuus).
 - Kirjaa vain aidosti toistettavat mallit.
 
 ## Opit
-1. Tilanne / virhe: Rankinglogiikassa tasatilanteet jaisivat helposti epadeterministisiksi, jos lajittelu tehdaan vain pistemaaralla.
-   Korjaus: Lisattiin vakioitu tie-breaker tickerin aakkosjarjestyksella ja testattiin tapaus.
-   Uudelleenkaytettava malli tai saanto: Kaikissa ranking-funktioissa maarita eksplisiittinen toissijainen sort-kentta.
-2. Tilanne / virhe: Frontend jai sampledatan varaan, jolloin pipeline ja UI eivat muodostaneet testattavaa kokonaisuutta.
-   Korjaus: Lisattiin kevyt JSON-export pipelineen ja luettiin sama tiedosto suoraan Next.js:ssa tyyppimappayksen kautta.
-   Uudelleenkaytettava malli tai saanto: v1-vaiheessa suosi staattista valiformaattia (JSON) ennen tietokantaa, kun tavoite on nopeasti todennettava end-to-end thin slice.
-3. Tilanne / virhe: Frontendin `npm install` epaonnistui virheella 403, vaikka `registry` oli oikein (`https://registry.npmjs.org/`) eika repossa ollut virheellista `.npmrc`-ylikirjoitusta.
-   Korjaus: Juurisyyn varmistus tehtiin verkko-/proxytasolla (`curl -v`), joka naytti envoy-proxyn estavan jo `CONNECT registry.npmjs.org:443` -vaiheen. Repoon ei tehty turhia package manager -vaihtoja, vaan dokumentoitiin ymparistovaatimus (proxy allowlist tai corporate npm mirror).
-   Uudelleenkaytettava malli tai saanto: Kun npm antaa 403 kaikille paketeille heti metadatan haussa, varmista ensin proxy-tason CONNECT-estot ennen kuin muutat riippuvuuksia tai lockfilea.
-4. Tilanne / virhe: Next.js production build kaatui, vaikka runko vaikutti toimivalta, koska vanha `src/lib/sampleData.ts` ei enaa vastannut `RankingRow`-tyyppia.
-   Korjaus: Paivitettiin sample-rivit vastaamaan nykyista skeemaa lisaamalla kentat `roc` ja `validationWarnings`, ja varmennettiin build + runtime-URLit savutestilla.
-   Uudelleenkaytettava malli tai saanto: Aja aina production build osana v1-demo-verifiointia; se paljastaa staattisen datan ja tyyppimallien ajautumat, joita dev-tila ei valttamatta nayta.
-5. Tilanne / virhe: Testien ajo repojuuresta vaati manuaalisen `PYTHONPATH=.`-muuttujan, muuten `python_pipeline`-importit epaonnistuivat joissain paikallisymparistoissa.
+1. Tilanne / virhe: Rankinglogiikassa tasatilanteet jäisivät helposti epädeterministisiksi, jos lajittelu tehdään vain pistemäärällä.
+   Korjaus: Lisättiin vakioitu tie-breaker tickerin aakkosjärjestyksellä ja testattiin tapaus.
+   Uudelleenkäytettävä malli tai sääntö: Kaikissa ranking-funktioissa määritä eksplisiittinen toissijainen sort-kenttä.
+2. Tilanne / virhe: Frontend jäi sampledatan varaan, jolloin pipeline ja UI eivät muodostaneet testattavaa kokonaisuutta.
+   Korjaus: Lisättiin kevyt JSON-export pipelineen ja luettiin sama tiedosto suoraan Next.js:ssa tyyppimäppäyksen kautta.
+   Uudelleenkäytettävä malli tai sääntö: v1-vaiheessa suosi staattista väliformaattia (JSON) ennen tietokantaa, kun tavoite on nopeasti todennettava end-to-end thin slice.
+3. Tilanne / virhe: Frontendin `npm install` epäonnistui virheellä 403, vaikka `registry` oli oikein (`https://registry.npmjs.org/`) eikä repossa ollut virheellistä `.npmrc`-ylikirjoitusta.
+   Korjaus: Juurisyyn varmistus tehtiin verkko-/proxytasolla (`curl -v`), joka näytti envoy-proxyn estävän jo `CONNECT registry.npmjs.org:443` -vaiheen. Repoon ei tehty turhia package manager -vaihtoja, vaan dokumentoitiin ympäristövaatimus (proxy allowlist tai corporate npm mirror).
+   Uudelleenkäytettävä malli tai sääntö: Kun npm antaa 403 kaikille paketeille heti metadatan haussa, varmista ensin proxy-tason CONNECT-estot ennen kuin muutat riippuvuuksia tai lockfilea.
+4. Tilanne / virhe: Next.js production build kaatui, vaikka runko vaikutti toimivalta, koska vanha `src/lib/sampleData.ts` ei enää vastannut `RankingRow`-tyyppiä.
+   Korjaus: Päivitettiin sample-rivit vastaamaan nykyistä skeemaa lisäämällä kentät `roc` ja `validationWarnings`, ja varmennettiin build + runtime-URLit savutestilla.
+   Uudelleenkäytettävä malli tai sääntö: Aja aina production build osana v1-demo-verifiointia; se paljastaa staattisen datan ja tyyppimallien ajautumat, joita dev-tila ei välttämättä näytä.
+5. Tilanne / virhe: Testien ajo repojuuresta vaati manuaalisen `PYTHONPATH=.`-muuttujan, muuten `python_pipeline`-importit epäonnistuivat joissain paikallisympäristöissä.
    Korjaus: Siirrettiin import-pathin oletus pytest-konfiguraatioon (`pytest.ini`: `pythonpath = .`) ja lukittiin testihakemisto `testpaths`-asetuksella.
-   Uudelleenkaytettava malli tai saanto: Kun testit nojaavat repojuuren importteihin, tallenna path-oletus testikonfigiin eika shell-komentoon, jotta kehitys- ja CI-ajot pysyvat toistettavina.
-6. Tilanne / virhe: PowerShellin oletustallennus saattoi kirjoittaa muokatut Next.js-tiedostot UTF-16- tai BOM-muotoon, jolloin route-tiedostot ja `package.json` rikkoivat buildin vaikeasti tulkittavilla virheilla.
+   Uudelleenkäytettävä malli tai sääntö: Kun testit nojaavat repojuuren importteihin, tallenna path-oletus testikonfigiin eikä shell-komentoon, jotta kehitys- ja CI-ajot pysyvät toistettavina.
+6. Tilanne / virhe: PowerShellin oletustallennus saattoi kirjoittaa muokatut Next.js-tiedostot UTF-16- tai BOM-muotoon, jolloin route-tiedostot ja `package.json` rikkoivat buildin vaikeasti tulkittavilla virheillä.
    Korjaus: Muokatut tekstitiedostot kirjoitettiin eksplisiittisesti UTF-8 no BOM -muotoon ennen build-verifiointia.
-   Uudelleenkaytettava malli tai saanto: Kun kirjoitat Node/Next-repon lahetiedostoja PowerShellista, lukitse encoding aina UTF-8 no BOM -muotoon etenkin `package.json`- ja route-tiedostoille.
-7. Tilanne / virhe: Runtime-generoitu `next/og`-share image lisasi tarpeetonta deploy-riski a suhteessa v1-demoon, vaikka tavoite oli vain perustason share preview.
+   Uudelleenkäytettävä malli tai sääntö: Kun kirjoitat Node/Next-repon lähdetiedostoja PowerShellista, lukitse encoding aina UTF-8 no BOM -muotoon etenkin `package.json`- ja route-tiedostoille.
+7. Tilanne / virhe: Runtime-generoitu `next/og`-share image lisäsi tarpeetonta deploy-riskiä suhteessa v1-demoon, vaikka tavoite oli vain perustason share preview.
    Korjaus: Dynaaminen OG-kuvagenerointi korvattiin staattisella `public/social-card.svg`-kuvalla ja metadata viittasi siihen suoraan.
-   Uudelleenkaytettava malli tai saanto: Kun v1 tarvitsee vain perus-SEO:n ja share previewn, suosi staattista preview-kuvaa ennen runtime-kuvagenerointia; tuotantopolku pysyy yksinkertaisempana ja build ennustettavampana.
+   Uudelleenkäytettävä malli tai sääntö: Kun v1 tarvitsee vain perus-SEO:n ja share previewn, suosi staattista preview-kuvaa ennen runtime-kuvagenerointia; tuotantopolku pysyy yksinkertaisempana ja build ennustettavampana.
+8. Tilanne / virhe: UI voi näyttää keskeneräiseltä, vaikka data, build ja reitit olisivat teknisesti kunnossa, jos copy on ASCII-fallbackissa ja visuaalinen hierarkia muistuttaa geneeristä templatea.
+   Korjaus: Käyttöliittymä rakennettiin uudelleen finance/dashboard-logiikalla, näkyvät suomenkieliset tekstit palautettiin oikeille merkeille ja taulukon luettavuus nostettiin omaksi ensisijaiseksi suunnittelutavoitteeksi.
+   Uudelleenkäytettävä malli tai sääntö: V1-tuotedemossa copy, typografia ja taulukon hierarkia ovat osa tuotteen uskottavuutta, eivät viimeistelyä joka tehdään vasta lopuksi.

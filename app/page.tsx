@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { RankingTable } from "@/components/RankingTable";
-import { formatTimestamp } from "@/lib/formatters";
+import { formatPercent, formatTimestamp } from "@/lib/formatters";
 import { getRankingDataset, getValidationSummary } from "@/lib/rankingData";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: siteConfig.defaultTitle,
   description:
-    "Avaa Nasdaq Helsinki Main Market -yhtioiden v1-ranking yhdessa nakymassa. Mukana Magic Formula, EBIT/EV, laatupisteet ja datalaadun rajaukset.",
+    "Avaa Nasdaq Helsinki Main Market -yhtiöiden v1-ranking yhdessä näkymässä. Mukana Magic Formula, EBIT/EV, laatupisteet ja datalaadun rajaukset.",
   alternates: {
     canonical: "/"
   }
@@ -17,118 +17,123 @@ export const metadata: Metadata = {
 export default function Page() {
   const dataset = getRankingDataset();
   const summary = getValidationSummary(dataset);
+  const leadCompany = dataset.rows[0];
 
   return (
-    <main className="container pageStack">
-      <section className="hero panel">
-        <div className="heroCopy">
-          <p className="eyebrow">Magicformula-suomi v1-demo</p>
-          <h1>Nasdaq Helsinki Main Market -arvoseulonta yhdessa nakymassa</h1>
+    <main className="shellContainer pageStack pageOffset">
+      <section className="heroSurface">
+        <div className="heroMainCard">
+          <div className="eyebrowRow">
+            <p className="eyebrow">Tutkimusnäkymä</p>
+            <span className="softBadge">{dataset.methodologyVersion}</span>
+          </div>
+          <h1>Arvoseulonta, jonka voi oikeasti avata uudelleen myöhemmin.</h1>
           <p className="heroLead">
-            Sovellus yhdistaa Magic Formula -rankingin, EBIT/EV-luvun ja kevyen quality overlayn samaan
-            tutkimusnakymaan. Tavoite on nopea ensiseulonta, ei valmis sijoituspaatos.
+            Magicformula Suomi yhdistää Magic Formula -rankingin, EBIT/EV-luvun ja kevyen quality overlayn samaan
+            suomenkieliseen tutkimusnäkymään. Tavoite on auttaa ensimmäisessä seulonnassa, ei korvata omaa analyysiä.
           </p>
-          <div className="heroActions">
+          <div className="actionRow">
             <Link href="#ranking" className="buttonPrimary">
-              Siirry rankingiin
+              Avaa ranking
             </Link>
             <Link href="/metodologia" className="buttonSecondary">
-              Metodologia ja vastuuvapaus
+              Lue metodologia
             </Link>
           </div>
-        </div>
-
-        <div className="heroMeta panelMuted">
-          <div className="metricGrid compactMetrics">
-            <div>
-              <span className="metricLabel">Universumi</span>
-              <strong>{dataset.universe}</strong>
-            </div>
-            <div>
-              <span className="metricLabel">Paivitetty</span>
-              <strong>{formatTimestamp(dataset.generatedAt)}</strong>
-            </div>
-            <div>
-              <span className="metricLabel">Metodologia</span>
-              <strong>{dataset.methodologyVersion}</strong>
-            </div>
+          <div className="heroMetaStrip">
+            <span>Universumi: {dataset.universe}</span>
+            <span>Päivitetty: {formatTimestamp(dataset.generatedAt)}</span>
+            <span>Poissulut: {summary.excludedCount}</span>
           </div>
         </div>
-      </section>
 
-      <section className="metricGrid">
-        <article className="panel statCard">
-          <span className="metricLabel">Rankatut yhtiot</span>
-          <strong>{summary.rankedCount}</strong>
-          <p>Rivit, jotka lapaisivat minimivalidoinnit tassa exportissa.</p>
-        </article>
-        <article className="panel statCard">
-          <span className="metricLabel">Poissuljetut</span>
-          <strong>{summary.excludedCount}</strong>
-          <p>Yhtiot, joilta puuttui kriittista dataa tai joiden nimittajat eivat olleet mielekkaita.</p>
-        </article>
-        <article className="panel statCard">
-          <span className="metricLabel">Validointivaroitukset</span>
-          <strong>{summary.warningCount}</strong>
-          <p>Rankatut rivit, joilla on mukana huomioitavia datalaadun merkintoja.</p>
-        </article>
-      </section>
-
-      <section className="infoGrid">
-        <article className="panel panelMuted">
-          <p className="eyebrow">Selitettavyys</p>
-          <h2>Mista sijoitus syntyy?</h2>
-          <p>
-            Kokonaissijoitus muodostuu ROC:n ja Earnings Yieldin deterministisesta yhdistelmarankista.
-            Tasatilanteissa ticker toimii tie-breakerina.
-          </p>
-        </article>
-        <article className="panel panelMuted">
-          <p className="eyebrow">Datan laatu</p>
-          <h2>Mita julkaistaan?</h2>
-          <p>
-            Julkaistavaksi paatyvat vain rivit, joilla EV ja sijoitettu paaoma ovat positiivisia ja pakolliset
-            kentat loytyvat. Poissulut ja varoitukset naytetaan kayttoliittymassa, ei piiloteta.
-          </p>
-        </article>
-      </section>
-
-      <div id="ranking">
-        <RankingTable rows={dataset.rows} />
-      </div>
-
-      <section className="panel notesGrid">
-        <div>
-          <p className="eyebrow">Validation pass</p>
-          <h2>Poissulut ja rajaukset</h2>
-          {dataset.excluded.length === 0 ? (
+        <aside className="heroSideCard">
+          <div className="sideCardSection">
+            <p className="eyebrow">Tämän viennin kärki</p>
+            <h2>
+              {leadCompany.company} <span className="inlineTicker">({leadCompany.ticker})</span>
+            </h2>
             <p>
-              Nykyisessa `ranking-v1.json`-exportissa yksikaan yhtio ei pudonnut pois validoinnissa. Se on
-              nakyva tila, ei hiljainen fallback.
+              Kokonaissijoitus #{leadCompany.rank}, ROC {formatPercent(leadCompany.roc)} ja EBIT/EV
+              {" "}{formatPercent(leadCompany.ebitEv)}.
             </p>
-          ) : (
-            <ul className="plainList">
-              {dataset.excluded.map((company) => (
-                <li key={company.ticker}>
-                  <strong>{company.ticker}</strong>: {company.reasons.join(", ")}
-                </li>
-              ))}
+          </div>
+          <div className="sideCardSection sideCardDivider">
+            <p className="eyebrow">Mitä näkymä tarjoaa</p>
+            <ul className="plainList compactList">
+              <li>Deterministinen ranking samalla datasetillä joka ajossa.</li>
+              <li>Näkyvät datalaadun huomiot ja poissulut.</li>
+              <li>Suora polku metodologiaan ja yhtiönäkymään.</li>
             </ul>
-          )}
+          </div>
+        </aside>
+      </section>
+
+      <section className="summaryGrid">
+        <article className="summaryCard emphasisCard">
+          <span className="summaryLabel">Rankatut yhtiöt</span>
+          <strong>{summary.rankedCount}</strong>
+          <p>Rivit, jotka läpäisivät v1-minimivalidoinnit.</p>
+        </article>
+        <article className="summaryCard">
+          <span className="summaryLabel">Validointihuomiot</span>
+          <strong>{summary.warningCount}</strong>
+          <p>Rankatut rivit, joilla näkyy datalaadun huomio.</p>
+        </article>
+        <article className="summaryCard">
+          <span className="summaryLabel">Poissuljetut</span>
+          <strong>{summary.excludedCount}</strong>
+          <p>Yhtiöt, jotka jätettiin pois ennen julkaisua.</p>
+        </article>
+      </section>
+
+      <section className="workspaceLayout" id="ranking">
+        <div className="workspaceMain">
+          <RankingTable rows={dataset.rows} />
         </div>
-        <div>
-          <p className="eyebrow">Vastuuvapaus</p>
-          <h2>Tutkimusdemo, ei sijoitusneuvontaa</h2>
-          <p>
-            Tama v1-demo on tarkoitettu oman tutkimusprosessin tueksi. Sisalto ei ole henkilokohtainen
-            sijoitussuositus, eika se huomioi sijoittajan riskinsietoa, verotusta tai koko salkkua.
-          </p>
-          <p>
+
+        <aside className="workspaceSidebar">
+          <section className="sidePanel">
+            <p className="eyebrow">Tulosten lukutapa</p>
+            <h2>Mistä sijoitus syntyy?</h2>
+            <p>
+              Kokonaissijoitus muodostuu ROC:n ja Earnings Yieldin yhdistelmästä. Tasatilanteissa ticker toimii
+              vakioituna tie-breakerina.
+            </p>
+          </section>
+
+          <section className="sidePanel mutedPanel">
+            <p className="eyebrow">Datan laatu</p>
+            <h2>Mitä julkaistaan?</h2>
+            <p>
+              Julkaistavaksi päätyvät vain rivit, joilla EV ja sijoitettu pääoma ovat positiivisia ja pakolliset kentät
+              löytyvät. Poissulut ja varoitukset näytetään käyttöliittymässä avoimesti.
+            </p>
+            {dataset.excluded.length === 0 ? (
+              <p className="sideNote">Tässä viennissä yksikään yhtiö ei pudonnut pois validoinnissa.</p>
+            ) : (
+              <ul className="plainList compactList">
+                {dataset.excluded.map((company) => (
+                  <li key={company.ticker}>
+                    <strong>{company.ticker}</strong>: {company.reasons.join(", ")}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+
+          <section className="sidePanel cautionPanel">
+            <p className="eyebrow">Vastuuvapauslauseke</p>
+            <h2>Tutkimusdemo, ei sijoitusneuvontaa</h2>
+            <p>
+              Tämä v1-demo on tarkoitettu oman tutkimusprosessin tueksi. Sisältö ei ole henkilökohtainen
+              sijoitussuositus eikä huomioi sijoittajan riskejä, verotusta tai salkun kokonaisuutta.
+            </p>
             <Link href="/metodologia" className="textLink">
-              Avaa metodologia, poissulut ja disclaimerit
+              Avaa metodologia ja rajaukset
             </Link>
-          </p>
-        </div>
+          </section>
+        </aside>
       </section>
     </main>
   );

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Finance Research UI"
+  short_description: "Selkeä finance-UI v1-tuotteelle"
+  default_prompt: "Use $finance-research-ui to rebuild or audit a finance/dashboard-style v1 user interface with clear hierarchy, readable tables, and credible Finnish UI copy."

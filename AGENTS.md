@@ -1,4 +1,4 @@
-# AGENTS.md
+﻿# AGENTS.md
 
 ## Projektin missio
 Rakentaa suomenkielinen tutkimuspainotteinen verkkosovellus Nasdaq Helsinki Main Market -yhtiöiden arvosijoitusvertailuun (Magic Formula, EBIT/EV, laatu-overlay), läpinäkyvästi ja toistettavasti.
@@ -59,6 +59,7 @@ Käytä seuraavia taitoja tilanteen mukaan:
 - `magic-formula-ranking`: ROC + Earnings Yield -rankinglogiikka.
 - `value-quality-overlay`: arvon ja laadun yhdistetty pisteytys.
 - `nextjs-finance-table-ui`: taulukkopohjainen Next.js-näkymä.
+- `finance-research-ui`: finance/dashboard-tyylinen v1-käyttöliittymä, visuaalinen hierarkia, taulukoiden luettavuus, datan laadun esitys ja suomenkielinen UI-copy. Käytä kun tehtävä koskee laajempaa UI-auditointia, UI-uudistusta tai nykyisen näkymän uskottavuuden nostamista.
 - `finance-validation-and-disclaimer`: validointisäännöt ja riskitekstit.
 - `github-actions-data-refresh`: datapäivitysautomaation workflowt.
 

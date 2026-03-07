@@ -29,7 +29,7 @@ export function generateMetadata({ params }: Props): Metadata {
 
   if (!row) {
     return {
-      title: "Yhtiota ei loytynyt",
+      title: "Yhtiötä ei löytynyt",
       alternates: {
         canonical: `/yhtio/${params.ticker}`
       }
@@ -38,7 +38,7 @@ export function generateMetadata({ params }: Props): Metadata {
 
   return {
     title: `${row.company} (${row.ticker})`,
-    description: `${row.company} on mukana Magicformula-suomi v1-demossa sijoituksella ${row.rank}. Sivulla naytetaan ROC, EBIT/EV, laatupiste ja datalaadun status.`,
+    description: `${row.company} on mukana Magicformula-suomi v1-demossa sijoituksella ${row.rank}. Sivulla näytetään ROC, EBIT/EV, laatupiste ja datalaadun status.`,
     alternates: {
       canonical: `/yhtio/${row.ticker}`
     }
@@ -53,102 +53,132 @@ export default function CompanyPage({ params }: Props) {
   }
 
   const percentile = Math.round(((dataset.rows.length - row.rank) / Math.max(dataset.rows.length - 1, 1)) * 100);
+  const hasWarnings = row.validationWarnings.length > 0;
 
   return (
-    <main className="container pageStack">
-      <section className="panel heroSlim">
-        <p className="eyebrow">Yhtioprofiili</p>
-        <h1>
-          {row.company} ({row.ticker})
-        </h1>
-        <p className="heroLead">
-          Sama datasetti, sama rankinglogiikka ja sama disclaimer kuin etusivulla. Taman sivun tarkoitus on kertoa,
-          miksi rivi paatyi mukaan juuri talla sijoituksella.
-        </p>
-        <div className="inlineMeta">
-          <span>Paivitetty {formatTimestamp(dataset.generatedAt)}</span>
-          <span>Universumi: {dataset.universe}</span>
+    <main className="shellContainer pageStack pageOffset">
+      <section className="heroSurface heroSurfaceCompact">
+        <div className="heroMainCard">
+          <div className="eyebrowRow">
+            <p className="eyebrow">Yhtiönäkymä</p>
+            <span className={`softBadge ${hasWarnings ? "softBadgeWarn" : "softBadgeOk"}`}>
+              {hasWarnings ? "Validointihuomio" : "Läpäissyt validoinnin"}
+            </span>
+          </div>
+          <h1>
+            {row.company} <span className="inlineTicker">({row.ticker})</span>
+          </h1>
+          <p className="heroLead">
+            Tämä näkymä kokoaa saman viennin luvut yhtiökohtaisesti. Se kertoo miksi rivi päätyi mukaan, missä kohtaa
+            rankingia yhtiö on ja mitä käyttäjän kannattaa tarkistaa ennen pidemmälle menevää analyysiä.
+          </p>
+          <div className="heroMetaStrip">
+            <span>Päivitetty: {formatTimestamp(dataset.generatedAt)}</span>
+            <span>Universumi: {dataset.universe}</span>
+            <span>Sijoitus: #{row.rank}</span>
+          </div>
         </div>
+
+        <aside className="heroSideCard">
+          <div className="sideCardSection">
+            <p className="eyebrow">Sisäinen vertailuasema</p>
+            <h2>Percentiili {percentile}</h2>
+            <p>
+              Yhtiö sijoittuu tämän pienen v1-viennin sisällä percentiiliin {percentile}. Tarkoitus ei ole julistaa
+              voittajaa, vaan nostaa esiin jatkotutkimuksen arvoisia rivejä.
+            </p>
+          </div>
+          <div className="sideCardSection sideCardDivider">
+            <Link href="/" className="textLink">
+              Takaisin rankingiin
+            </Link>
+          </div>
+        </aside>
       </section>
 
-      <section className="metricGrid">
-        <article className="panel statCard">
-          <span className="metricLabel">Kokonaissijoitus</span>
-          <strong>#{row.rank}</strong>
-          <p>Magic Formula -jarjestys tassa exportissa.</p>
+      <section className="summaryGrid fourUpGrid">
+        <article className="summaryCard emphasisCard">
+          <span className="summaryLabel">Magic Formula -piste</span>
+          <strong>{row.magicFormulaScore}</strong>
+          <p>Pienempi yhteispiste tarkoittaa vahvempaa sijoitusta.</p>
         </article>
-        <article className="panel statCard">
-          <span className="metricLabel">ROC</span>
+        <article className="summaryCard">
+          <span className="summaryLabel">ROC</span>
           <strong>{formatPercent(row.roc)}</strong>
-          <p>Operatiivisen paoman tuotto nykyisen datan perusteella.</p>
+          <p>Operatiivisen pääoman tuotto nykyisen datan perusteella.</p>
         </article>
-        <article className="panel statCard">
-          <span className="metricLabel">EBIT/EV</span>
+        <article className="summaryCard">
+          <span className="summaryLabel">EBIT/EV</span>
           <strong>{formatPercent(row.ebitEv)}</strong>
           <p>Tulostuotto suhteessa yritysarvoon.</p>
         </article>
-        <article className="panel statCard">
-          <span className="metricLabel">Laatupiste</span>
+        <article className="summaryCard">
+          <span className="summaryLabel">Laatupiste</span>
           <strong>{formatScore(row.qualityScore)}</strong>
-          <p>Kevyt overlay, joka auttaa priorisoimaan jatkotutkimusta.</p>
+          <p>Kevyt overlay jatkotutkimuksen priorisointiin.</p>
         </article>
       </section>
 
-      <section className="infoGrid">
-        <article className="panel">
-          <p className="eyebrow">Miten tulkita</p>
-          <h2>Miksi taman rivin kannattaa kiinnostaa</h2>
+      <section className="contentGrid wideFirstGrid">
+        <article className="contentPanel">
+          <p className="eyebrow">Miten tätä kannattaa lukea</p>
+          <h2>Miksi tämä rivi on mukana rankingissa</h2>
           <p>
-            Yhtio sijoittuu percentiiliin {percentile} taman pienen v1-demon sisaisessa vertailussa. Tarkoitus ei ole
-            julistaa voittajaa, vaan nostaa esiin rivit, joissa kannattavuus ja arvostus kohtaavat samassa datasetissa.
+            Magic Formula -piste {row.magicFormulaScore} on yhdistelmä ROC- ja EBIT/EV-rankeista. Mitä pienempi piste,
+            sitä vahvempi yhdistelmäsijoitus nykyisessä datasetissä.
           </p>
           <p>
-            Magic Formula -piste {row.magicFormulaScore} on yhdistelma ROC- ja EBIT/EV-rankeista. Mita pienempi piste,
-            sita vahvempi yhdistelmasijoitus.
+            Yhtiö sijoittuu sisäisessä vertailussa sijalle #{row.rank}. Tulosta kannattaa tarkastella lähtökohtana,
+            jonka ympärille rakennetaan laadullinen analyysi, toimialaymmärrys ja mahdollisten kertaluonteisten erien
+            tarkistus.
           </p>
         </article>
-        <article className="panel">
+
+        <article className={`contentPanel ${hasWarnings ? "cautionPanel" : "mutedPanel"}`}>
           <p className="eyebrow">Datan laatu</p>
-          <h2>Lapaisiko rivi validoinnin puhtaasti?</h2>
-          {row.validationWarnings.length === 0 ? (
-            <p>
-              Kylla. Rivi lapaisi v1-minimivalidoinnit ilman huomautuksia: pakolliset kentat loytyivat, EV oli
-              positiivinen ja ROC:n nimittaja oli mielekas.
-            </p>
-          ) : (
-            <ul className="plainList">
+          <h2>Onko rivissä erityisiä huomioita?</h2>
+          {hasWarnings ? (
+            <ul className="plainList compactList">
               {row.validationWarnings.map((warning) => (
                 <li key={warning}>{warning}</li>
               ))}
             </ul>
+          ) : (
+            <p>
+              Kyllä. Rivi läpäisi v1-minimivalidoinnit ilman huomautuksia: pakolliset kentät löytyivät, EV oli
+              positiivinen ja ROC:n nimittäjä oli mielekäs.
+            </p>
           )}
         </article>
       </section>
 
-      <section className="panel notesGrid">
-        <div>
-          <p className="eyebrow">Seuraava askel analyysissa</p>
-          <h2>Mita taman jalkeen kannattaa tarkistaa</h2>
+      <section className="contentGrid">
+        <article className="contentPanel">
+          <p className="eyebrow">Seuraavat tarkistuskohdat</p>
+          <h2>Mitä tämän jälkeen kannattaa tutkia</h2>
           <ul className="plainList">
-            <li>Onko EBIT normalisoitu vai sisaltyyko siihen kertaluonteisia eria?</li>
-            <li>Miten velkaisuus, sykli ja sektorikohtaiset piirteet vaikuttavat tunnuslukuihin?</li>
-            <li>Tukeeko laadullinen analyysi sita tarinaa, jonka ranking antaa?</li>
+            <li>Onko EBIT normalisoitu vai sisältääkö se kertaluonteisia eriä?</li>
+            <li>Miten velkaisuus, sykli ja toimialan erityispiirteet vaikuttavat tunnuslukuihin?</li>
+            <li>Tukeeko laadullinen analyysi sitä tarinaa, jonka ranking antaa?</li>
           </ul>
-        </div>
-        <div>
+        </article>
+
+        <article className="contentPanel mutedPanel">
           <p className="eyebrow">Taustalinkit</p>
-          <h2>Siirry takaisin kokonaiskuvaan</h2>
+          <h2>Pidä kokonaiskuva mukana</h2>
           <p>
+            Tarkista aina yhtiösivun rinnalla koko ranking ja metodologiasivu. Näin yksittäinen luku ei irtoa siitä
+            kontekstista, jossa se on laskettu.
+          </p>
+          <div className="inlineLinkList">
             <Link href="/" className="textLink">
               Takaisin rankingiin
             </Link>
-          </p>
-          <p>
             <Link href="/metodologia" className="textLink">
-              Avaa metodologia ja vastuuvapaus
+              Avaa metodologia ja vastuuvapauslauseke
             </Link>
-          </p>
-        </div>
+          </div>
+        </article>
       </section>
     </main>
   );

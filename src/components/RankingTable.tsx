@@ -75,36 +75,36 @@ export function RankingTable({ rows }: Props) {
   const warningRows = rows.filter((row) => row.validationWarnings.length > 0).length;
 
   return (
-    <section className="panel panelSpacious">
-      <div className="sectionHeader">
+    <section className="tablePanel">
+      <div className="tablePanelHeader">
         <div>
           <p className="eyebrow">Ranking</p>
           <h2>Arvoseulonnan tulokset</h2>
           <p className="sectionLead">
-            Lajittele ja suodata riveja ilman sampledatan fallbackeja. Jokainen linkki avaa saman exportin pohjalta
-            rakennetun yhtionakyvan.
+            Suodata yhtiöitä nimen tai tickerin perusteella, järjestä rivejä halutun mittarin mukaan ja avaa
+            yhtiökohtainen näkymä yhdellä klikkauksella.
           </p>
         </div>
         <Link href="/metodologia" className="textLink">
-          Lue metodologia
+          Metodologia ja rajaukset
         </Link>
       </div>
 
-      <div className="toolbarCard">
-        <label className="fieldGroup fieldGrow">
-          <span>Hae yhtiota</span>
+      <div className="controlBar">
+        <label className="fieldGroup fieldGroupWide">
+          <span>Hae yhtiötä</span>
           <input
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Ticker tai nimi"
+            placeholder="Ticker tai yhtiön nimi"
             className="searchInput"
-            aria-label="Suodata yhtiota"
+            aria-label="Suodata yhtiöitä"
           />
         </label>
 
         <label className="fieldGroup">
-          <span>Jarjesta</span>
+          <span>Järjestä</span>
           <select value={sortKey} onChange={(event) => setSortKey(event.target.value as SortKey)}>
             {Object.entries(sortLabels).map(([value, label]) => (
               <option key={value} value={value}>
@@ -122,67 +122,68 @@ export function RankingTable({ rows }: Props) {
           >
             <option value="all">Kaikki rivit</option>
             <option value="clean">Vain puhtaat rivit</option>
-            <option value="warnings">Vain varoitukset</option>
+            <option value="warnings">Vain huomiorivit</option>
           </select>
         </label>
       </div>
 
-      <div className="inlineMeta">
-        <span>{visibleRows.length} / {rows.length} rivia nakyvilla</span>
-        <span>{warningRows} rivia sisaltaa validointivaroituksia</span>
+      <div className="tableMetaBar">
+        <span>{visibleRows.length} / {rows.length} riviä näkyvissä</span>
+        <span>{warningRows} rivillä on datalaadun huomio</span>
       </div>
 
       {visibleRows.length === 0 ? (
         <div className="emptyState">
-          <h3>Suodatus ei palauttanut riveja</h3>
-          <p>Tarkenna hakua tai palauta validointisuodatin kohtaan Kaikki rivit.</p>
+          <p className="eyebrow">Ei tuloksia</p>
+          <h3>Nykyinen suodatus ei palauttanut rivejä</h3>
+          <p>Laajenna hakua tai palauta validointisuodatin kohtaan Kaikki rivit.</p>
         </div>
       ) : (
-        <div className="tableWrap">
-          <table>
+        <div className="tableSurface">
+          <table className="rankingTable">
             <thead>
               <tr>
                 <th>Sijoitus</th>
-                <th>Ticker</th>
-                <th>Yhtio</th>
-                <th>MF-piste</th>
-                <th>ROC</th>
-                <th>EBIT/EV</th>
-                <th>Laatu</th>
+                <th>Yhtiö</th>
+                <th className="numberCell">MF-piste</th>
+                <th className="numberCell">ROC</th>
+                <th className="numberCell">EBIT/EV</th>
+                <th className="numberCell">Laatu</th>
                 <th>Datan laatu</th>
               </tr>
             </thead>
             <tbody>
-              {visibleRows.map((row) => (
-                <tr key={row.ticker}>
-                  <td>
-                    <span className="rankBadge">#{row.rank}</span>
-                  </td>
-                  <td>
-                    <Link href={`/yhtio/${row.ticker}`} className="tableLink">
-                      {row.ticker}
-                    </Link>
-                  </td>
-                  <td>
-                    <div className="cellTitle">{row.company}</div>
-                    <div className="cellSubtle">Avaa yhtion taustat ja datan laatu</div>
-                  </td>
-                  <td>{row.magicFormulaScore}</td>
-                  <td>{formatPercent(row.roc)}</td>
-                  <td>{formatPercent(row.ebitEv)}</td>
-                  <td>{formatScore(row.qualityScore)}</td>
-                  <td>
-                    {row.validationWarnings.length === 0 ? (
-                      <span className="statusBadge statusOk">Lapaisty</span>
-                    ) : (
-                      <div className="warningList">
-                        <span className="statusBadge statusWarn">Varoitus</span>
-                        <span>{row.validationWarnings.join(", ")}</span>
-                      </div>
-                    )}
-                  </td>
-                </tr>
-              ))}
+              {visibleRows.map((row) => {
+                const isClean = row.validationWarnings.length === 0;
+
+                return (
+                  <tr key={row.ticker} className={row.rank <= 3 ? "topRankRow" : undefined}>
+                    <td>
+                      <span className="rankPill">#{row.rank}</span>
+                    </td>
+                    <td>
+                      <Link href={`/yhtio/${row.ticker}`} className="companyLink">
+                        {row.company}
+                      </Link>
+                      <div className="tableSubline">{row.ticker}</div>
+                    </td>
+                    <td className="numberCell">{row.magicFormulaScore}</td>
+                    <td className="numberCell">{formatPercent(row.roc)}</td>
+                    <td className="numberCell">{formatPercent(row.ebitEv)}</td>
+                    <td className="numberCell">{formatScore(row.qualityScore)}</td>
+                    <td>
+                      {isClean ? (
+                        <span className="statusBadge statusBadgeOk">Läpäissyt</span>
+                      ) : (
+                        <div className="statusStack">
+                          <span className="statusBadge statusBadgeWarn">Huomio</span>
+                          <span>{row.validationWarnings.join(", ")}</span>
+                        </div>
+                      )}
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
@@ -190,5 +191,3 @@ export function RankingTable({ rows }: Props) {
     </section>
   );
 }
-
-
