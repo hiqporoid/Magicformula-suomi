@@ -463,6 +463,10 @@ button.buttonPrimary:hover {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.companySummaryGrid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .fourUpGrid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -555,7 +559,7 @@ button.buttonPrimary:hover {
 
 .controlBar {
   display: grid;
-  grid-template-columns: minmax(220px, 1.8fr) repeat(2, minmax(160px, 0.72fr));
+  grid-template-columns: minmax(220px, 1.8fr) repeat(3, minmax(150px, 0.7fr));
   gap: 12px;
   padding: 14px;
   border: 1px solid rgba(148, 174, 205, 0.12);
@@ -644,9 +648,14 @@ select:focus {
   width: 25%;
 }
 
-.rankingTable th:nth-child(7),
-.rankingTable td:nth-child(7) {
-  width: 24%;
+.rankingTable th:nth-child(3),
+.rankingTable td:nth-child(3) {
+  width: 120px;
+}
+
+.rankingTable th:nth-child(8),
+.rankingTable td:nth-child(8) {
+  width: 22%;
 }
 
 .rankingTable th {
@@ -708,6 +717,55 @@ select:focus {
   overflow-wrap: anywhere;
 }
 
+.definitionList {
+  display: grid;
+  gap: 14px;
+}
+
+.definitionList > div {
+  display: grid;
+  gap: 4px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+
+.definitionList > div:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.definitionList strong {
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.definitionList code {
+  color: var(--muted-strong);
+  font-size: 0.82rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  overflow-wrap: anywhere;
+}
+
+.definitionLabel {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.compactDefinitionList {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 18px;
+}
+
+.compactDefinitionList > div:nth-child(2) {
+  padding-top: 0;
+}
+
+.dataSourceGrid {
+  align-items: start;
+}
 .methodGrid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -816,8 +874,10 @@ select:focus {
   .wideFirstGrid,
   .methodGrid,
   .summaryGrid,
+  .companySummaryGrid,
   .fourUpGrid,
-  .workspaceSidebar {
+  .workspaceSidebar,
+  .compactDefinitionList {
     grid-template-columns: 1fr;
   }
 

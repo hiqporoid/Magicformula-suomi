@@ -1,13 +1,21 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { formatPercent, formatScore, formatTimestamp } from "@/lib/formatters";
+import {
+  formatDataQualityLabel,
+  formatMarketCap,
+  formatMillions,
+  formatPercent,
+  formatScore,
+  formatTimestamp
+} from "@/lib/formatters";
 import {
   getExcludedCompanyByTicker,
   getRankingDataset,
   getRankedRowByTicker,
-  getUniverseCompanyByTicker,
+  getUniverseCompanyByTicker
 } from "@/lib/rankingData";
+import type { FinancialSnapshot } from "@/lib/types";
 
 const dataset = getRankingDataset();
 
@@ -32,7 +40,7 @@ export function generateMetadata({ params }: Props): Metadata {
 
   if (!company) {
     return {
-      title: "Yhtiötä ei löytynyt",
+      title: "YhtiÃ¶tÃ¤ ei lÃ¶ytynyt",
       alternates: {
         canonical: `/yhtio/${params.ticker}`
       }
@@ -40,8 +48,8 @@ export function generateMetadata({ params }: Props): Metadata {
   }
 
   const description = row
-    ? `${company.company} on mukana Magicformula-suomi v1-aineistossa sijoituksella ${row.rank}. Sivulla näytetään ROC, EBIT/EV, laatupiste ja datan tila.`
-    : `${company.company} kuuluu Main Market -raakauniversumiin, mutta on suljettu pois Magic Formula -rankingista. Syy: ${excluded?.reasons[0] ?? "poissulkusyy näkyy sivulla"}`;
+    ? `${company.company} on mukana Magicformula-suomi-aineistossa sijoituksella ${row.rank}. Sivulla nÃ¤kyvÃ¤t ROC, EBIT/EV, markkina-arvo ja rankingin taustadata.`
+    : `${company.company} kuuluu Main Market -raakauniversumiin, mutta on suljettu pois Magic Formula -rankingista. Syy: ${excluded?.reasons[0] ?? "poissulkusyy nÃ¤kyy sivulla"}`;
 
   return {
     title: `${company.company} (${company.ticker})`,
@@ -50,6 +58,22 @@ export function generateMetadata({ params }: Props): Metadata {
       canonical: `/yhtio/${company.ticker}`
     }
   };
+}
+
+function buildFinancialRows(snapshot: FinancialSnapshot | null) {
+  if (!snapshot) {
+    return [];
+  }
+
+  return [
+    { label: "Tilinpäätöspäivä", value: snapshot.statementDate ?? "Ei saatavilla" },
+    { label: "LÃ¤hdetunnus", value: snapshot.sourceSymbol ?? "Ei saatavilla" },
+    { label: "Markkina-arvo", value: formatMarketCap(snapshot.marketCap) },
+    { label: "EBIT", value: formatMillions(snapshot.ebit) },
+    { label: "Yritysarvo", value: formatMillions(snapshot.enterpriseValue) },
+    { label: "Sijoitettu pÃ¤Ã¤oma", value: formatMillions(snapshot.investedCapital) },
+    { label: "EV-lÃ¤hde", value: snapshot.evSource ?? "Ei saatavilla" }
+  ];
 }
 
 export default function CompanyPage({ params }: Props) {
@@ -62,16 +86,16 @@ export default function CompanyPage({ params }: Props) {
   }
 
   const isRanked = Boolean(row);
-  const percentile = row
-    ? Math.round(((dataset.rows.length - row.rank) / Math.max(dataset.rows.length - 1, 1)) * 100)
-    : null;
+  const financialSnapshot = row?.financialSnapshot ?? excluded?.financialSnapshot ?? company.financialSnapshot;
+  const financialRows = buildFinancialRows(financialSnapshot);
+  const dataQualityText = row ? formatDataQualityLabel(row.validationWarnings) : "Ei rankattu";
 
   return (
     <main className="shellContainer pageStack pageOffset">
       <section className="heroSurface heroSurfaceCompact">
         <div className="heroMainCard">
           <div className="eyebrowRow">
-            <p className="eyebrow">Yhtiönäkymä</p>
+            <p className="eyebrow">Yrityssivu</p>
             <span className={`softBadge ${isRanked ? "softBadgeOk" : "softBadgeWarn"}`}>
               {isRanked ? "Rankattu" : "Poissuljettu"}
             </span>
@@ -80,24 +104,24 @@ export default function CompanyPage({ params }: Props) {
             {company.company} <span className="inlineTicker">({company.ticker})</span>
           </h1>
           <p className="heroLead">
-            Sivu näyttää, kuuluuko yhtiö raw-universeen, pääsikö se Magic Formula -rankingiiin ja millä perusteella.
-            Näin yhtiö ei katoa näkyvistä vain siksi, ettei sitä voida rankata nykyisellä metodologialla.
+            Sivulla nÃ¤kyvÃ¤t yrityksen perustiedot, rankingin pohjana oleva finanssidata sekÃ¤ mahdollinen poissulun syy
+            tai datalaatuhuomio.
           </p>
           <div className="heroMetaStrip">
-            <span>Päivitetty: {formatTimestamp(dataset.generatedAt)}</span>
-            <span>Universumi: {dataset.universe}</span>
+            <span>PÃ¤ivitetty: {formatTimestamp(dataset.generatedAt)}</span>
             <span>Sektori: {company.sector ?? "Ei tiedossa"}</span>
+            <span>Markkina-arvo: {formatMarketCap(financialSnapshot?.marketCap ?? null)}</span>
           </div>
         </div>
 
         <aside className="heroSideCard">
           <div className="sideCardSection">
-            <p className="eyebrow">Universestatus</p>
+            <p className="eyebrow">Yhteenveto</p>
             <h2>{isRanked ? `Sijoitus #${row?.rank}` : "Ei mukana rankingissa"}</h2>
             <p>
               {isRanked
-                ? `Yhtiö sijoittuu tämän viennin sisällä percentiiliin ${percentile}.`
-                : excluded?.reasons.join(" ") ?? "Poissulun syytä ei löytynyt aineistosta."}
+                ? `ROC ${formatPercent(row!.roc)}, EBIT/EV ${formatPercent(row!.ebitEv)} ja datan laatu ${dataQualityText.toLowerCase()}.`
+                : excluded?.reasons[0] ?? "Poissulun syytÃ¤ ei lÃ¶ytynyt aineistosta."}
             </p>
           </div>
           <div className="sideCardSection sideCardDivider">
@@ -108,112 +132,125 @@ export default function CompanyPage({ params }: Props) {
         </aside>
       </section>
 
-      {isRanked && row ? (
-        <>
-          <section className="summaryGrid fourUpGrid">
-            <article className="summaryCard emphasisCard">
-              <span className="summaryLabel">Magic Formula -piste</span>
-              <strong>{row.magicFormulaScore}</strong>
-              <p>Pienempi yhteispiste tarkoittaa vahvempaa sijoitusta.</p>
-            </article>
-            <article className="summaryCard">
-              <span className="summaryLabel">ROC</span>
-              <strong>{formatPercent(row.roc)}</strong>
-              <p>Operatiivisen pääoman tuotto nykyisen datan perusteella.</p>
-            </article>
-            <article className="summaryCard">
-              <span className="summaryLabel">EBIT/EV</span>
-              <strong>{formatPercent(row.ebitEv)}</strong>
-              <p>Tulostuotto suhteessa yritysarvoon.</p>
-            </article>
-            <article className="summaryCard">
-              <span className="summaryLabel">Laatupiste</span>
-              <strong>{formatScore(row.qualityScore)}</strong>
-              <p>Kevyt overlay jatkotutkimuksen priorisointiin.</p>
-            </article>
-          </section>
+      <section className="summaryGrid companySummaryGrid">
+        <article className="summaryCard emphasisCard">
+          <span className="summaryLabel">Status</span>
+          <strong>{isRanked ? `#${row?.rank}` : "Ulkona"}</strong>
+          <p>{isRanked ? "Magic Formula -sijoitus nykyisessÃ¤ viennissÃ¤." : "YhtiÃ¶tÃ¤ ei rankattu tÃ¤hÃ¤n vientiin."}</p>
+        </article>
+        <article className="summaryCard">
+          <span className="summaryLabel">Markkina-arvo</span>
+          <strong>{formatMarketCap(financialSnapshot?.marketCap ?? null)}</strong>
+          <p>NykyisessÃ¤ financials-exportissa mukana oleva markkina-arvo.</p>
+        </article>
+        <article className="summaryCard">
+          <span className="summaryLabel">EBIT/EV</span>
+          <strong>{isRanked && row ? formatPercent(row.ebitEv) : "-"}</strong>
+          <p>Tulostuotto suhteessa yritysarvoon.</p>
+        </article>
+        <article className="summaryCard">
+          <span className="summaryLabel">ROC</span>
+          <strong>{isRanked && row ? formatPercent(row.roc) : "-"}</strong>
+          <p>Operatiivisen pÃ¤Ã¤oman tuotto nykyisellÃ¤ datalla.</p>
+        </article>
+        <article className="summaryCard">
+          <span className="summaryLabel">Datan laatu</span>
+          <strong>{dataQualityText}</strong>
+          <p>{isRanked ? "Perustuu tÃ¤mÃ¤n rivin validointihuomioihin." : "Poissulku nÃ¤kyy erillisessÃ¤ osiossa."}</p>
+        </article>
+      </section>
 
-          <section className="contentGrid wideFirstGrid">
-            <article className="contentPanel">
-              <p className="eyebrow">Miten tätä kannattaa lukea</p>
-              <h2>Miksi tämä rivi on mukana rankingissa</h2>
-              <p>
-                Magic Formula -piste {row.magicFormulaScore} on yhdistelmä ROC- ja EBIT/EV-rankeista. Mitä pienempi
-                piste, sitä vahvempi yhdistelmäsijoitus nykyisessä datasetissä.
-              </p>
-              <p>
-                Yhtiö sijoittuu sisäisessä vertailussa sijalle #{row.rank}. Tulosta kannattaa tarkastella lähtökohtana,
-                jonka ympärille rakennetaan laadullinen analyysi, toimialaymmärrys ja mahdollisten kertaluonteisten erien
-                tarkistus.
-              </p>
-            </article>
-
-            <article className="contentPanel mutedPanel">
-              <p className="eyebrow">Datan laatu</p>
-              <h2>Onko rivissä erityisiä huomioita?</h2>
-              {row.validationWarnings.length > 0 ? (
-                <ul className="plainList compactList">
-                  {row.validationWarnings.map((warning) => (
-                    <li key={warning}>{warning}</li>
-                  ))}
-                </ul>
-              ) : (
-                <p>
-                  Rivi läpäisi nykyiset v1-kelpoisuussäännöt: yhtiö ei ole finanssisektorilla, pakolliset kentät
-                  löytyivät, EBIT ja EV olivat positiivisia ja sijoitettu pääoma oli mielekäs.
-                </p>
-              )}
-            </article>
-          </section>
-        </>
-      ) : (
-        <section className="contentGrid wideFirstGrid">
-          <article className="contentPanel cautionPanel">
-            <p className="eyebrow">Poissulun syyt</p>
-            <h2>Miksi yhtiö ei ole mukana Magic Formula -rankingissa</h2>
-            <ul className="plainList compactList">
-              {(excluded?.reasons ?? ["Poissulun syytä ei löytynyt aineistosta."]).map((reason) => (
-                <li key={reason}>{reason}</li>
-              ))}
-            </ul>
-          </article>
-
-          <article className="contentPanel mutedPanel">
-            <p className="eyebrow">Metodologinen tulkinta</p>
-            <h2>Mitä poissulku tarkoittaa käyttäjälle</h2>
-            <p>
-              Poissulku ei automaattisesti tarkoita, että yhtiössä olisi ongelma. Finanssiyhtiöiden kohdalla se kertoo
-              vain siitä, ettei v1-malli käsittele pankki- ja vakuutusliiketoimintaa samalla rakenteella kuin muita
-              sektoreita. Muissa tapauksissa poissulku kertoo, ettei nykyinen data riitä rehelliseen vertailuun.
-            </p>
-          </article>
-        </section>
-      )}
-
-      <section className="contentGrid">
+      <section className="contentGrid wideFirstGrid">
         <article className="contentPanel">
-          <p className="eyebrow">Seuraavat tarkistuskohdat</p>
-          <h2>Mitä tämän jälkeen kannattaa tutkia</h2>
-          <ul className="plainList">
-            <li>Onko yhtiöllä saatavilla puuttuvat statementit seuraavaan vientiin?</li>
-            <li>Jos kyse on finanssiyhtiöstä, tarvitaanko erillinen sektorikohtainen metodologia myöhempään versioon?</li>
-            <li>Tukeeko laadullinen analyysi sitä tarinaa, jonka ranking tai poissulku antaa?</li>
-          </ul>
+          <p className="eyebrow">1) Yrityksen tiedot</p>
+          <h2>Perustiedot</h2>
+          <div className="definitionList compactDefinitionList">
+            <div>
+              <span className="definitionLabel">Ticker</span>
+              <strong>{company.ticker}</strong>
+            </div>
+            <div>
+              <span className="definitionLabel">YhtiÃ¶</span>
+              <strong>{company.company}</strong>
+            </div>
+            <div>
+              <span className="definitionLabel">Sektori</span>
+              <strong>{company.sector ?? "Ei tiedossa"}</strong>
+            </div>
+            <div>
+              <span className="definitionLabel">Universe</span>
+              <strong>{dataset.universe}</strong>
+            </div>
+          </div>
         </article>
 
         <article className="contentPanel mutedPanel">
-          <p className="eyebrow">Taustalinkit</p>
-          <h2>Pidä kokonaiskuva mukana</h2>
-          <p>
-            Tarkista aina yhtiösivun rinnalla koko ranking ja metodologiasivu. Näin yksittäinen luku tai poissulku ei
-            irtoa siitä kontekstista, jossa se on laskettu.
-          </p>
+          <p className="eyebrow">2) Finanssidata</p>
+          <h2>Rankingin pohjana olevat luvut</h2>
+          {financialRows.length > 0 ? (
+            <div className="definitionList compactDefinitionList">
+              {financialRows.map((item) => (
+                <div key={item.label}>
+                  <span className="definitionLabel">{item.label}</span>
+                  <strong>{item.value}</strong>
+                </div>
+              ))}
+              {isRanked && row ? (
+                <>
+                  <div>
+                    <span className="definitionLabel">MF-piste</span>
+                    <strong>{row.magicFormulaScore}</strong>
+                  </div>
+                  <div>
+                    <span className="definitionLabel">Laatupiste</span>
+                    <strong>{formatScore(row.qualityScore)}</strong>
+                  </div>
+                </>
+              ) : null}
+            </div>
+          ) : (
+            <p>Financials-riviÃ¤ ei lÃ¶ytynyt tÃ¤hÃ¤n yhtiÃ¶Ã¶n nykyisestÃ¤ exportista.</p>
+          )}
+        </article>
+      </section>
+
+      <section className="contentGrid wideFirstGrid">
+        <article className={`contentPanel ${isRanked ? "mutedPanel" : "cautionPanel"}`}>
+          <p className="eyebrow">3) Status ja huomiot</p>
+          <h2>{isRanked ? "Datalaatu ja ranking-status" : "Poissulun syy"}</h2>
+          {isRanked && row ? (
+            row.validationWarnings.length > 0 ? (
+              <ul className="plainList compactList">
+                {row.validationWarnings.map((warning) => (
+                  <li key={warning}>{warning}</li>
+                ))}
+              </ul>
+            ) : (
+              <p>Rivi lÃ¤pÃ¤isi nykyiset kelpoisuussÃ¤Ã¤nnÃ¶t ilman erillisiÃ¤ validointihuomioita.</p>
+            )
+          ) : (
+            <ul className="plainList compactList">
+              {(excluded?.reasons ?? ["Poissulun syytÃ¤ ei lÃ¶ytynyt aineistosta."]).map((reason) => (
+                <li key={reason}>{reason}</li>
+              ))}
+            </ul>
+          )}
+        </article>
+
+        <article className="contentPanel">
+          <p className="eyebrow">4) LisÃ¤huomiot</p>
+          <h2>MitÃ¤ tÃ¤stÃ¤ kannattaa katsoa seuraavaksi</h2>
+          <ul className="plainList compactList">
+            <li>Tarkista yrityssivun luvut suhteessa koko ranking-taulukkoon.</li>
+            <li>Katso metodologiasivulta, miten ROC ja EBIT/EV lasketaan.</li>
+            <li>Jos yhtiÃ¶ on poissuljettu, tarkista johtuuko se metodologiasta vai puuttuvasta datasta.</li>
+          </ul>
           <div className="inlineLinkList">
             <Link href="/" className="textLink">
               Takaisin rankingiin
             </Link>
             <Link href="/metodologia" className="textLink">
-              Avaa metodologia ja vastuuvapauslauseke
+              Avaa metodologia
             </Link>
           </div>
         </article>

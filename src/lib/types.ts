@@ -1,3 +1,19 @@
+export type SourceInfo = {
+  label: string;
+  detail: string;
+  path: string;
+};
+
+export type FinancialSnapshot = {
+  statementDate: string | null;
+  sourceSymbol: string | null;
+  evSource: string | null;
+  marketCap: number | null;
+  ebit: number;
+  enterpriseValue: number;
+  investedCapital: number;
+};
+
 export type RankingRow = {
   rank: number;
   ticker: string;
@@ -9,6 +25,7 @@ export type RankingRow = {
   roc: number;
   qualityScore: number;
   validationWarnings: string[];
+  financialSnapshot: FinancialSnapshot;
 };
 
 export type UniverseCompany = {
@@ -18,6 +35,7 @@ export type UniverseCompany = {
   isFinancial: boolean;
   status: "ranked" | "excluded";
   exclusionReasons: string[];
+  financialSnapshot: FinancialSnapshot | null;
 };
 
 export type ExcludedCompany = {
@@ -26,6 +44,7 @@ export type ExcludedCompany = {
   sector: string | null;
   isFinancial: boolean;
   reasons: string[];
+  financialSnapshot: FinancialSnapshot | null;
 };
 
 export type RankingDataset = {
@@ -33,6 +52,11 @@ export type RankingDataset = {
   universe: string;
   methodologyVersion: string;
   universeSource: string;
+  financialsSource: string;
+  dataSources: {
+    universe: SourceInfo;
+    financials: SourceInfo;
+  };
   rawUniverse: UniverseCompany[];
   rows: RankingRow[];
   excluded: ExcludedCompany[];

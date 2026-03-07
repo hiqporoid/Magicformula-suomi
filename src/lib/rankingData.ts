@@ -1,5 +1,13 @@
 import rawDataset from "@/data/ranking-v1.json";
-import type { ExcludedCompany, RankingDataset, RankingRow, UniverseCompany, ValidationSummary } from "@/lib/types";
+import type {
+  ExcludedCompany,
+  FinancialSnapshot,
+  RankingDataset,
+  RankingRow,
+  SourceInfo,
+  UniverseCompany,
+  ValidationSummary
+} from "@/lib/types";
 
 type UnknownRecord = Record<string, unknown>;
 
@@ -39,6 +47,14 @@ function readNumber(value: unknown, field: string): number {
   return value;
 }
 
+function readNullableNumber(value: unknown, field: string): number | null {
+  if (value === null) {
+    return null;
+  }
+
+  return readNumber(value, field);
+}
+
 function readStringArray(value: unknown, field: string): string[] {
   if (!Array.isArray(value) || value.some((item) => typeof item !== "string")) {
     throw new Error(`Ranking JSON field ${field} must be a string array.`);
@@ -47,9 +63,46 @@ function readStringArray(value: unknown, field: string): string[] {
   return value;
 }
 
+function parseSourceInfo(value: unknown, field: string): SourceInfo {
+  if (!isRecord(value)) {
+    throw new Error(`Ranking JSON field ${field} must be an object.`);
+  }
+
+  return {
+    label: readString(value.label, `${field}.label`),
+    detail: readString(value.detail, `${field}.detail`),
+    path: readString(value.path, `${field}.path`)
+  };
+}
+
+function parseFinancialSnapshot(value: unknown, field: string): FinancialSnapshot | null {
+  if (value === null || value === undefined) {
+    return null;
+  }
+
+  if (!isRecord(value)) {
+    throw new Error(`Ranking JSON field ${field} must be an object.`);
+  }
+
+  return {
+    statementDate: readNullableString(value.statement_date ?? null, `${field}.statement_date`),
+    sourceSymbol: readNullableString(value.source_symbol ?? null, `${field}.source_symbol`),
+    evSource: readNullableString(value.ev_source ?? null, `${field}.ev_source`),
+    marketCap: readNullableNumber(value.market_cap ?? null, `${field}.market_cap`),
+    ebit: readNumber(value.ebit, `${field}.ebit`),
+    enterpriseValue: readNumber(value.enterprise_value, `${field}.enterprise_value`),
+    investedCapital: readNumber(value.invested_capital, `${field}.invested_capital`)
+  };
+}
+
 function parseRow(value: unknown, index: number): RankingRow {
   if (!isRecord(value)) {
     throw new Error(`Ranking JSON row ${index} must be an object.`);
+  }
+
+  const financialSnapshot = parseFinancialSnapshot(value.financial_snapshot, `rows[${index}].financial_snapshot`);
+  if (!financialSnapshot) {
+    throw new Error(`Ranking JSON row ${index} must contain financial_snapshot.`);
   }
 
   return {
@@ -62,7 +115,8 @@ function parseRow(value: unknown, index: number): RankingRow {
     ebitEv: readNumber(value.ebit_ev, `rows[${index}].ebit_ev`),
     roc: readNumber(value.roc, `rows[${index}].roc`),
     qualityScore: readNumber(value.quality_score, `rows[${index}].quality_score`),
-    validationWarnings: readStringArray(value.validation_warnings, `rows[${index}].validation_warnings`)
+    validationWarnings: readStringArray(value.validation_warnings, `rows[${index}].validation_warnings`),
+    financialSnapshot
   };
 }
 
@@ -76,7 +130,8 @@ function parseExcluded(value: unknown, index: number): ExcludedCompany {
     company: readString(value.company, `excluded[${index}].company`),
     sector: readNullableString(value.sector ?? null, `excluded[${index}].sector`),
     isFinancial: readBoolean(value.is_financial, `excluded[${index}].is_financial`),
-    reasons: readStringArray(value.reasons, `excluded[${index}].reasons`)
+    reasons: readStringArray(value.reasons, `excluded[${index}].reasons`),
+    financialSnapshot: parseFinancialSnapshot(value.financial_snapshot, `excluded[${index}].financial_snapshot`)
   };
 }
 
@@ -96,7 +151,8 @@ function parseRawUniverse(value: unknown, index: number): UniverseCompany {
     sector: readNullableString(value.sector ?? null, `raw_universe[${index}].sector`),
     isFinancial: readBoolean(value.is_financial, `raw_universe[${index}].is_financial`),
     status,
-    exclusionReasons: readStringArray(value.exclusion_reasons, `raw_universe[${index}].exclusion_reasons`)
+    exclusionReasons: readStringArray(value.exclusion_reasons, `raw_universe[${index}].exclusion_reasons`),
+    financialSnapshot: parseFinancialSnapshot(value.financial_snapshot, `raw_universe[${index}].financial_snapshot`)
   };
 }
 
@@ -108,6 +164,7 @@ function parseDataset(value: unknown): RankingDataset {
   const rows = value.rows;
   const excluded = value.excluded;
   const rawUniverse = value.raw_universe;
+  const dataSources = value.data_sources;
 
   if (!Array.isArray(rows)) {
     throw new Error("Ranking JSON field rows must be an array.");
@@ -121,11 +178,20 @@ function parseDataset(value: unknown): RankingDataset {
     throw new Error("Ranking JSON field raw_universe must be an array.");
   }
 
+  if (!isRecord(dataSources)) {
+    throw new Error("Ranking JSON field data_sources must be an object.");
+  }
+
   return {
     generatedAt: readString(value.generated_at, "generated_at"),
     universe: readString(value.universe, "universe"),
     methodologyVersion: readString(value.methodology_version, "methodology_version"),
     universeSource: readString(value.universe_source, "universe_source"),
+    financialsSource: readString(value.financials_source, "financials_source"),
+    dataSources: {
+      universe: parseSourceInfo(dataSources.universe, "data_sources.universe"),
+      financials: parseSourceInfo(dataSources.financials, "data_sources.financials")
+    },
     rawUniverse: rawUniverse.map(parseRawUniverse),
     rows: rows.map(parseRow),
     excluded: excluded.map(parseExcluded)

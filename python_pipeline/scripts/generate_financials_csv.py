@@ -46,6 +46,7 @@ class ExtractedFinancials:
     source_symbol: str
     statement_date: str | None
     ev_source: str
+    market_cap: float | None
     ebit: float
     enterprise_value: float
     current_assets: float
@@ -144,12 +145,15 @@ def extract_financials(ticker: str, company: str) -> ExtractedFinancials | None:
         statement_dates = [date for date in (ebit_date, current_assets_date, current_liabilities_date, net_ppe_date) if date]
         statement_date = max(statement_dates) if statement_dates else None
         ev_source = "reported_enterprise_value" if info.get("enterpriseValue") is not None else "market_cap_plus_net_debt"
+        market_cap = info.get("marketCap")
+        market_cap_value = round(float(market_cap), 6) if isinstance(market_cap, (int, float)) else None
 
         return ExtractedFinancials(
             ticker=ticker,
             source_symbol=symbol,
             statement_date=statement_date,
             ev_source=ev_source,
+            market_cap=market_cap_value,
             ebit=round(ebit, 6),
             enterprise_value=round(enterprise_value, 6),
             current_assets=round(current_assets, 6),
@@ -182,6 +186,7 @@ def main() -> None:
                 "source_symbol": extracted.source_symbol,
                 "statement_date": extracted.statement_date or "",
                 "ev_source": extracted.ev_source,
+                "market_cap": extracted.market_cap if extracted.market_cap is not None else "",
                 "ebit": extracted.ebit,
                 "enterprise_value": extracted.enterprise_value,
                 "current_assets": extracted.current_assets,
@@ -197,6 +202,7 @@ def main() -> None:
         "source_symbol",
         "statement_date",
         "ev_source",
+        "market_cap",
         "ebit",
         "enterprise_value",
         "current_assets",

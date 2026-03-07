@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ExclusionList } from "@/components/ExclusionList";
 import { RankingTable } from "@/components/RankingTable";
-import { formatPercent, formatTimestamp } from "@/lib/formatters";
+import { formatMarketCap, formatPercent, formatTimestamp } from "@/lib/formatters";
 import { getRankingDataset, getValidationSummary } from "@/lib/rankingData";
 import { siteConfig } from "@/lib/site";
 
@@ -28,11 +28,10 @@ export default function Page() {
             <p className="eyebrow">Tutkimusnäkymä</p>
             <span className="softBadge">{dataset.methodologyVersion}</span>
           </div>
-          <h1>Arvoseulonta, jossa universe, poissulut ja ranking erotetaan toisistaan.</h1>
+          <h1>Arvoseulonta Nasdaq Helsingin päälistalle.</h1>
           <p className="heroLead">
-            Magicformula Suomi näyttää nyt koko Nasdaq Helsinki Main Market -raakauniversen, siitä rankingiin
-            kelpaavat yhtiöt sekä poissulut syineen. Finanssiyhtiöiden poissulku näkyy metodologisena valintana,
-            ei datavirheenä.
+            Etusivu näyttää rankatut yhtiöt, poissulut ja datalähteet samassa näkymässä. Tavoite on nopea seulonta,
+            ei valmis sijoitusnäkemys.
           </p>
           <div className="actionRow">
             <Link href="#ranking" className="buttonPrimary">
@@ -57,16 +56,16 @@ export default function Page() {
               {leadCompany.company} <span className="inlineTicker">({leadCompany.ticker})</span>
             </h2>
             <p>
-              Kokonaissijoitus #{leadCompany.rank}, ROC {formatPercent(leadCompany.roc)} ja EBIT/EV {" "}
-              {formatPercent(leadCompany.ebitEv)}.
+              Sijoitus #{leadCompany.rank}, markkina-arvo {formatMarketCap(leadCompany.financialSnapshot.marketCap)}, ROC {" "}
+              {formatPercent(leadCompany.roc)} ja EBIT/EV {formatPercent(leadCompany.ebitEv)}.
             </p>
           </div>
           <div className="sideCardSection sideCardDivider">
-            <p className="eyebrow">Mitä näkymä tarjoaa</p>
+            <p className="eyebrow">Mitä näkymä näyttää</p>
             <ul className="plainList compactList">
-              <li>Koko Main Market -universen kattavuus samassa datasetissä.</li>
-              <li>Erillinen lista yhtiöistä, jotka rankattiin tai suljettiin pois.</li>
-              <li>Näkyvä metodologinen finanssipoissulku ja dataan liittyvät syyt.</li>
+              <li>Koko Main Market -universen yhdestä viennistä.</li>
+              <li>Markkina-arvo näkyy taulukossa ja toimii suodattimena.</li>
+              <li>Yrityssivu näyttää rankingin pohjana olevat talousluvut ilman ylimääräistä copya.</li>
             </ul>
           </div>
         </aside>
@@ -92,6 +91,44 @@ export default function Page() {
           <span className="summaryLabel">Finanssipoissulut</span>
           <strong>{summary.financeExcludedCount}</strong>
           <p>Metodologisesti pois rajatut finanssiyhtiöt.</p>
+        </article>
+      </section>
+
+      <section className="contentGrid dataSourceGrid">
+        <article className="contentPanel">
+          <p className="eyebrow">Data source / Päivitetty</p>
+          <h2>Mistä data tulee?</h2>
+          <div className="definitionList">
+            <div>
+              <span className="definitionLabel">Universe</span>
+              <strong>{dataset.dataSources.universe.label}</strong>
+              <p>{dataset.dataSources.universe.detail}</p>
+              <code>{dataset.dataSources.universe.path}</code>
+            </div>
+            <div>
+              <span className="definitionLabel">Financials</span>
+              <strong>{dataset.dataSources.financials.label}</strong>
+              <p>{dataset.dataSources.financials.detail}</p>
+              <code>{dataset.dataSources.financials.path}</code>
+            </div>
+            <div>
+              <span className="definitionLabel">Päivitetty</span>
+              <strong>{formatTimestamp(dataset.generatedAt)}</strong>
+              <p>Etusivu käyttää tämän exportin aikaleimaa ja samoja tietoja kuin yrityssivut.</p>
+            </div>
+          </div>
+        </article>
+
+        <article className="contentPanel mutedPanel">
+          <p className="eyebrow">Miten tätä käytetään</p>
+          <h2>Nopea seulonta, tarkempi tarkistus yrityssivulla</h2>
+          <p>
+            Aloita etusivun taulukosta, rajaa tarvittaessa markkina-arvon mukaan ja avaa yrityssivu, kun haluat nähdä
+            rankingin taustalla olevat luvut tai poissulun syyn.
+          </p>
+          <Link href="/metodologia" className="textLink">
+            Avaa metodologia ja rajaukset
+          </Link>
         </article>
       </section>
 
@@ -122,29 +159,6 @@ export default function Page() {
 
           <ExclusionList excluded={dataset.excluded} />
         </aside>
-      </section>
-
-      <section className="contentGrid">
-        <article className="contentPanel">
-          <p className="eyebrow">Universen lähde</p>
-          <h2>Mistä yhtiöjoukko tulee?</h2>
-          <p>
-            Universe ylläpidetään tiedostossa <code>{dataset.universeSource}</code> erillään talousluvuista. Tämä tekee
-            Main Market -listan päivityksestä läpinäkyvän ja pitää ranking-kelpoisuuden omana vaiheena.
-          </p>
-        </article>
-
-        <article className="contentPanel mutedPanel">
-          <p className="eyebrow">Vastuuvapauslauseke</p>
-          <h2>Tutkimusnäkymä, ei sijoitusneuvontaa</h2>
-          <p>
-            Tämä v1-julkaisu on tarkoitettu oman tutkimusprosessin tueksi. Sisältö ei ole henkilökohtainen
-            sijoitussuositus eikä huomioi sijoittajan riskejä, verotusta tai salkun kokonaisuutta.
-          </p>
-          <Link href="/metodologia" className="textLink">
-            Avaa metodologia ja rajaukset
-          </Link>
-        </article>
       </section>
     </main>
   );

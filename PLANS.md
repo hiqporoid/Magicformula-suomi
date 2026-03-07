@@ -52,5 +52,8 @@
    - Vercel-deployohjeet ja metadata lukittu v1-julkaisuun
    - Data-refresh generoi financials.csv:n ja ranking-v1.json:n seka commitoi muuttuneen datasetin hallitusti
 14. [x] AI/tech visual identity pass
-   - Dark-first research-tool design system, yhtenäiset pinnat, kontrollit ja status-tilat
-   - Hillitty motion, taulukoiden luettavuuden nosto ja state-sivujen visuaalinen yhtenäistäminen
+   - Dark-first research-tool design system, yhtenÃ¤iset pinnat, kontrollit ja status-tilat
+   - Hillitty motion, taulukoiden luettavuuden nosto ja state-sivujen visuaalinen yhtenÃ¤istÃ¤minen
+15. [x] Screener information pass
+   - Etusivulle datalähde- ja päivitysalue sekä markkina-arvo näkyväksi
+   - Yrityssivu yksinkertaistettu perustietoihin, finanssidataan ja poissulkuihin
