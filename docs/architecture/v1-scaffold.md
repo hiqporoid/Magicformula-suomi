@@ -20,3 +20,5 @@ Konsolidoinnin perusteella toteutettiin:
 ## NPM-asennuksen nykyinen blokkeri
 - Tässä ympäristössä `npm install` saa 403-vastauksen proxyn kautta (`CONNECT tunnel failed, response 403`), joten frontend-riippuvuuksia ei voitu asentaa tässä ajossa.
 - Repoon ei lisätty uutta package manageria; käytössä pysyy npm (`packageManager: npm@11.4.2`).
+- Juurisyy varmistettiin: `curl -v https://registry.npmjs.org/@types/node` kaatuu ennen TLS:ää kohtaan `CONNECT tunnel failed, response 403`, eli esto tapahtuu verkon/proxyn egress-säännöissä eikä projektin riippuvuusmäärittelyissä.
+- Minimikorjaus: säilytä npm, mutta aja ympäristössä jossa npm-registry on sallittu (proxy allowlist) tai määritä organisaation mirror (esim. `NPM_CONFIG_REGISTRY=https://<corporate-registry>/`).
