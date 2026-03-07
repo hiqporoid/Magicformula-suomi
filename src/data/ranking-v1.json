@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-03-07T13:17:04.080360+00:00",
+  "universe": "Nasdaq Helsinki Main Market",
+  "methodology_version": "v1-demo",
+  "rows": [
+    {
+      "rank": 1,
+      "ticker": "KNEBV",
+      "company": "KONE Oyj",
+      "magic_formula_score": 3,
+      "ebit_ev": 0.07619,
+      "roc": 0.533333,
+      "quality_score": 88.32,
+      "validation_warnings": []
+    },
+    {
+      "rank": 2,
+      "ticker": "NDA-FI",
+      "company": "Nordea Bank Abp",
+      "magic_formula_score": 4,
+      "ebit_ev": 0.107692,
+      "roc": 0.2,
+      "quality_score": 72.83,
+      "validation_warnings": []
+    },
+    {
+      "rank": 3,
+      "ticker": "UPM",
+      "company": "UPM-Kymmene Oyj",
+      "magic_formula_score": 5,
+      "ebit_ev": 0.075,
+      "roc": 0.202247,
+      "quality_score": 63.0,
+      "validation_warnings": []
+    }
+  ],
+  "excluded": []
+}

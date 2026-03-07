@@ -25,11 +25,11 @@
    - Kevyt laatupisteytys
    - Yhdistelmäpisteet ja painotus
 
-7. [ ] Frontend UI
+7. [x] Frontend UI
    - Ranking-taulukko, lajittelu, suodatus
    - Metodologia- ja disclaimer-linkit
 
-8. [ ] Methodology and disclaimers
+8. [x] Methodology and disclaimers
    - Kaavat, oletukset, datarajat
    - Riskit ja ei-sijoitussuositus -teksti
 
