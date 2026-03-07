@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: siteConfig.defaultTitle,
   description:
-    "Avaa Nasdaq Helsinki Main Market -yhtiöiden v1-ranking yhdessä näkymässä. Mukana Magic Formula, EBIT/EV, laatupisteet ja datalaadun rajaukset.",
+    "Avaa Nasdaq Helsinki Main Market -yhtiöiden ranking yhdessä näkymässä. Mukana Magic Formula, EBIT/EV, laatupisteet ja datalaadun rajaukset.",
   alternates: {
     canonical: "/"
   }
@@ -136,9 +136,9 @@ export default function Page() {
 
         <article className="contentPanel mutedPanel">
           <p className="eyebrow">Vastuuvapauslauseke</p>
-          <h2>Tutkimusdemo, ei sijoitusneuvontaa</h2>
+          <h2>Tutkimusnäkymä, ei sijoitusneuvontaa</h2>
           <p>
-            Tämä v1-demo on tarkoitettu oman tutkimusprosessin tueksi. Sisältö ei ole henkilökohtainen
+            Tämä v1-julkaisu on tarkoitettu oman tutkimusprosessin tueksi. Sisältö ei ole henkilökohtainen
             sijoitussuositus eikä huomioi sijoittajan riskejä, verotusta tai salkun kokonaisuutta.
           </p>
           <Link href="/metodologia" className="textLink">

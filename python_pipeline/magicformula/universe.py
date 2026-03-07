@@ -7,7 +7,6 @@ REASON_LABELS = {
     "missing_sector": "Sektoritieto puuttuu, joten metodologinen rajaus ei ole varmennettavissa.",
     "financial_sector_methodology": "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
     "missing_financial_statements": "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä.",
-    "invalid_financial_statements": "Yhtiön talousluvut ovat puutteellisia tai virheellisessä muodossa.",
     "ebit_non_positive": "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
     "enterprise_value_non_positive": "Enterprise value on nolla tai negatiivinen.",
     "invested_capital_non_positive": "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen.",

@@ -5,7 +5,7 @@ Muodostaa vakioitu joukko yhtiöitä, joille ranking-laskenta tehdään johdonmu
 
 ## Nykyinen rakenne
 - Koko ylläpidettävä universe on tiedostossa `python_pipeline/data/main_market_universe.csv`.
-- Talousluvut ylläpidetään erikseen tiedostossa `python_pipeline/data/financials.csv`.
+- Talousluvut generoidaan erikseen tiedostoon `python_pipeline/data/financials.csv` skriptillä `python_pipeline/scripts/generate_financials_csv.py`.
 - Export tuottaa samasta ajosta kolme näkymää: `raw_universe`, `rows` ja `excluded`.
 
 ## Sisäänottokriteerit
@@ -13,9 +13,14 @@ Muodostaa vakioitu joukko yhtiöitä, joille ranking-laskenta tehdään johdonmu
 2. First North jätetään kokonaan ulos tästä tiedostosta.
 3. Yhtiö säilytetään raw-universessa, vaikka se ei läpäisisi ranking-kelpoisuutta.
 
+## Financials-vaiheen periaate
+- Financials-generator hakee Yahoo Financesta vuosittaiset statementit ja enterprise valuen.
+- Skripti käyttää ensisijaisesti `.HE`-symbolia, mutta tuntee myös osan tickerimuutoksista alias-karttana.
+- `financials.csv`:hen kirjoitetaan vain rivit, joilta vaaditut minimikentät löytyvät luotettavasti.
+
 ## Ranking-kelpoisuuden poissulkukriteerit
 - Finanssisektori rajataan pois Magic Formula -rankkauksesta metodologisena v1-valintana.
-- Rankingiin tarvittavat statementit puuttuvat tai ovat virheellisessä muodossa.
+- Rankingiin tarvittavat statementit puuttuvat.
 - EBIT <= 0.
 - Enterprise Value <= 0.
 - Sijoitetun pääoman nimittäjä <= 0.
@@ -23,7 +28,7 @@ Muodostaa vakioitu joukko yhtiöitä, joille ranking-laskenta tehdään johdonmu
 
 ## Päivitysprosessi
 1. Päivitä universe tiedostoon `python_pipeline/data/main_market_universe.csv`.
-2. Päivitä saatavilla olevat talousluvut tiedostoon `python_pipeline/data/financials.csv`.
+2. Aja `python python_pipeline/scripts/generate_financials_csv.py`.
 3. Aja `python python_pipeline/scripts/export_ranking_json.py`.
 4. Tarkista poissulut syyteksteineen JSON:ssa ja UI:ssa.
 5. Aja `pytest`, `npm run lint` ja `npm run build` ennen mergeä.

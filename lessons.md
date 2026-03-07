@@ -42,3 +42,9 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 9. Tilanne / virhe: Kun universe ja ranking-kelpoisuus pidetaan samassa CSV:ssa, demo-otos naamioituu helposti koko markkinauniversumiksi ja poissulkujen syyt katoavat koodin sivuvaikutuksiksi.
    Korjaus: Universe erotettiin omaksi yhtiometadatalahteekseen ja talousluvut omaksi syotteekseen, jonka jalkeen export tuottaa eksplisiittisesti `raw_universe`, `rows` ja `excluded` samasta ajosta.
    Uudelleenkaytettava malli tai saanto: Markkinauniverse, kelpoisuussaannot ja laskettavat tunnusluvut kannattaa mallintaa erillisina kerroksina jo v1:ssa, jotta data-aukot ja metodologiset poissulut voidaan selittaa suoraan kayttajalle.
+10. Tilanne / virhe: Pelkka suora ticker + '.HE' -mapitus ei riita Helsinki-universessa, koska osa yhtiosta on Yahoo Financessa vanhalla tai muuttuneella symbolilla.
+   Korjaus: Financials-generatoriin lisattiin pieni alias-kartta tunnetuille tickerimuutoksille ja rajattu Yahoo-hakufallback, mutta kirjoitus financials.csv:hen sallitaan vasta kun kaikki rankingin minimikentat loytyvat.
+   Uudelleenkaytettava malli tai saanto: Kun ulkoinen datalahde ei ole taysin deterministinen, pidetaan symboliresoluutio eksplisiittisena ja erotetaan symboliongelmat puuttuvasta statement-datasta sen sijaan, etta peitetaan ne yleiseen scrape-logiikkaan.
+11. Tilanne / virhe: Staattisessa Vercel-julkaisussa data-refreshin kannattaa paivittaa koko datasetti, ei vain frontendin JSON-exporttia, koska muuten repo, artifactit ja tuotantodeploy voivat ajautua eri data-tiloihin.
+   Korjaus: Workflow muutettiin generoimaan ensin python_pipeline/data/financials.csv, sen jalkeen src/data/ranking-v1.json, validoimaan exportin ja commitoimaan molemmat tiedostot yhdessa vain main-branchissa.
+   Uudelleenkaytettava malli tai saanto: Kun staattinen sovellus deployaa suoraan Git-reposta, commitoi ja validoi aina koko julkaistava datasetti samassa CI-ajossa.

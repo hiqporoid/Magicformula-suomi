@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import math
+from collections.abc import Iterable
+
 from .models import FinancialRecord, UniverseCompany
 from .normalization import normalize_record, validate_record
 from .universe import dedupe_codes
@@ -10,8 +13,13 @@ def assess_company(company: UniverseCompany, financial_row: dict | None) -> tupl
 
     if company.sector is None:
         codes.append("missing_sector")
-    elif company.is_financial:
+        return None, dedupe_codes(codes)
+
+    # Finance names remain a methodological exclusion in v1. We do not label them as
+    # missing statements even when Yahoo's statement layout differs from industrial companies.
+    if company.is_financial:
         codes.append("financial_sector_methodology")
+        return None, dedupe_codes(codes)
 
     if financial_row is None:
         codes.append("missing_financial_statements")
@@ -27,7 +35,7 @@ def assess_company(company: UniverseCompany, financial_row: dict | None) -> tupl
             }
         )
     except ValueError:
-        codes.append("invalid_financial_statements")
+        codes.append("missing_financial_statements")
         return None, dedupe_codes(codes)
 
     codes.extend(validate_record(record))

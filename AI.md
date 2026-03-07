@@ -5,7 +5,7 @@ Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka kesk
 
 ## Liikeidea
 - Muodostetaan yhdenmukainen yhtiouniversumi (Helsingin paalista).
-- Yllapidetaan universe ja talousluvut erillisina lahteina.
+- Yllapidetaan universe ja generoitu financials-taulu erillisina lahteina.
 - Lasketaan rankingit (Magic Formula, EBIT/EV, quality overlay) vain kelpoisille riveille.
 - Esitetaan tulokset selkeassa taulukko-UI:ssa metodologian, datalaatuviestien ja disclaimerien kanssa.
 
@@ -31,13 +31,14 @@ Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka kesk
 
 ## Repon workflow
 1. Paivita suunnitelma (`PLANS.md`) ennen isompaa toteutusta.
-2. Paivita tarvittaessa `python_pipeline/data/main_market_universe.csv` ja `python_pipeline/data/financials.csv`.
-3. Aja JSON-export tarvittaessa ennen frontend-verifiointia.
-4. Aja tarkistukset: `pytest`, `npm run lint`, `npm run build`.
-5. Tarkista keskeiset reitit (`/`, `/metodologia`, `/yhtio/<ticker>`, `/robots.txt`, `/sitemap.xml`).
-6. Pushaa `main`-branchiin, jonka Vercel deployaa tuotantoon.
-7. Anna GitHub Actionsin paivittaa ranking-JSON ajastetusti tai kaynnista refresh manuaalisesti.
-8. Paivita `progress.md` ja `lessons.md`.
+2. Paivita tarvittaessa `python_pipeline/data/main_market_universe.csv`.
+3. Generoi financials-taulu komennolla `python python_pipeline/scripts/generate_financials_csv.py`.
+4. Aja JSON-export komennolla `python python_pipeline/scripts/export_ranking_json.py`.
+5. Aja tarkistukset: `pytest -q`, `npm run lint`, `npm run build`.
+6. Tarkista keskeiset reitit (`/`, `/metodologia`, `/yhtio/<ticker>`, `/robots.txt`, `/sitemap.xml`).
+7. Pushaa `main`-branchiin, jonka Vercel deployaa tuotantoon.
+8. GitHub Actionsin `data-refresh.yml` voi paivittaa `financials.csv`:n ja `ranking-v1.json`:n ajastetusti tai manuaalisesti suoraan `main`-branchiin.
+9. Paivita `progress.md` ja `lessons.md`.
 
 ## AGENTS.md:n rooli
 `AGENTS.md` on auktoritatiivinen Codex-ajonaikainen ohjaustiedosto (miten agentti toimii tassa repossa).

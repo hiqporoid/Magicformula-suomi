@@ -44,3 +44,11 @@
 11. [x] Full Main Market universe before deploy
    - Eroteltu raw universe, ranking-kelpoiset ja poissuljetut syineen
    - Finanssipoissulut tehty nakyviksi datassa, UI:ssa ja metodologiassa
+
+12. [x] Financials coverage expansion before deploy
+   - Yahoo-pohjainen financials-generator koko universelle
+   - Valtaosa yhtiosta siirtynyt missing-statements-tilasta oikeaan rankingiin tai perusteltuun poissulkuun
+13. [x] Static deploy and data refresh readiness
+   - Vercel-deployohjeet ja metadata lukittu v1-julkaisuun
+   - Data-refresh generoi financials.csv:n ja ranking-v1.json:n seka commitoi muuttuneen datasetin hallitusti
+

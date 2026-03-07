@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --no-cache",
-    "pipeline:export-json": "python python_pipeline/scripts/export_ranking_json.py"
+    "pipeline:export-json": "python python_pipeline/scripts/export_ranking_json.py",
+    "pipeline:generate-financials": "python python_pipeline/scripts/generate_financials_csv.py"
   },
   "dependencies": {
     "next": "14.2.5",
@@ -24,4 +25,3 @@
   },
   "packageManager": "npm@11.4.2"
 }
-

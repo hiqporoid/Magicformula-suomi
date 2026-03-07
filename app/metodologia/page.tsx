@@ -118,7 +118,7 @@ export default function MethodologyPage() {
           <p className="eyebrow">Vastuuvapauslauseke</p>
           <h2>Ei sijoitusneuvontaa</h2>
           <p>
-            Sovellus on henkilökohtaisen tutkimusprosessin demo. Sisältö ei ole sijoitusneuvontaa, kehotus ostaa tai
+            Sovellus on henkilökohtaisen tutkimusprosessin tutkimusnäkymä. Sisältö ei ole sijoitusneuvontaa, kehotus ostaa tai
             myydä arvopapereita eikä korvaa omaa analyysiä.
           </p>
           <p>

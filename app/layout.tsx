@@ -72,7 +72,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <Link href="/metodologia">Metodologia</Link>
               </nav>
 
-              <div className="headerBadge">v1-demo</div>
+              <div className="headerBadge">v1</div>
             </div>
           </header>
 
@@ -82,7 +82,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <div className="shellContainer siteFooterInner">
               <div>
                 <strong>Magicformula Suomi</strong>
-                <p>Suomenkielinen tutkimusdemo Nasdaq Helsinki Main Market -yhtiöiden arvoseulontaan.</p>
+                <p>Suomenkielinen tutkimusnäkymä Nasdaq Helsinki Main Market -yhtiöiden arvoseulontaan.</p>
               </div>
               <div>
                 <p>Tämä palvelu ei ole sijoitusneuvontaa. Käytä näkymää oman analyysin lähtöpisteenä.</p>

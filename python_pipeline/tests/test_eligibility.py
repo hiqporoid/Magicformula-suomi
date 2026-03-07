@@ -26,6 +26,19 @@ def test_assess_company_excludes_financials_for_methodology() -> None:
     assert translate_reasons(reasons)[0].startswith("Finanssiyhtiö")
 
 
+def test_assess_company_excludes_financials_without_data_error_label() -> None:
+    company = normalize_universe_company(
+        {
+            "ticker": "AKTIA",
+            "company": "Aktia Bank Abp",
+            "sector": "Financial and insurance activities",
+        }
+    )
+    record, reasons = assess_company(company, None)
+    assert record is None
+    assert reasons == ["financial_sector_methodology"]
+
+
 def test_assess_company_excludes_missing_statements() -> None:
     company = normalize_universe_company(
         {
