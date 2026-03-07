@@ -22,6 +22,8 @@ Perusrunko valmis, v1-demo thin slice toimii datasta UI:hin (riippuen npm-asennu
 10. Auditoitu v1-thin-slice paikallisesti: pipeline JSON-export ajettiin, dataset-rakenne validoitiin, Next.js build meni lapi, ja runtime-savussa sivut `/`, `/metodologia` ja `/yhtio/KNEBV` palauttivat HTTP 200. Samalla korjattiin buildia estanyt tyyppivirhe tiedostossa `src/lib/sampleData.ts` (puuttuneet kentat `roc` ja `validationWarnings`). Seuraava askel: lisaa Python-ymparistoon `pytest`, jotta pipeline-testit voidaan ajaa myos tassa koneessa.
 11. Korjattu Python-testien package discovery paikalliseen kehitykseen ilman manuaalista `PYTHONPATH`-asettamista: lisattiin repojuureen `pytest.ini` (`testpaths=python_pipeline/tests`, `pythonpath=.`), paivitettiin `python_pipeline/README.md` setup-ohjeilla ja varmistettiin ajamalla `.venv\Scripts\pytest.exe -q` tyhjalla `PYTHONPATH`:lla (8/8 testia lapi). Seuraava askel: peilaa sama testikomento CI:hin (`pytest -q`) yhtenaisen paikallinen=CI-kayttaytymisen varmistamiseksi.
 
+12. Asennettu projektille olennaiset Codex-skillit paikalliseen ymparistoon (`~/.codex/skills`): viralliset (`gh-fix-ci`, `gh-address-comments`, `playwright`, `security-best-practices`, `spreadsheet`) ja community-skillit (`webapp-testing`, `changelog-generator`, `support-ticket-triage`, `create-plan`). Tulos: skillit ovat kaytettavissa seuraavassa sessiossa Codex-uudelleenkaynnistyksen jalkeen. Seuraava askel: priorisoi aktiiviset skillit per tehtava, jotta konteksti pysyy tiiviina.
+
 ## Seuraavat toimet
 - Korjaa CI/ajoympariston npm-proxy/registry-politiikka niin, etta `npm install` onnistuu (nykyinen 403 blokkaa frontendin kaynnistyksen).
 - Lisaa pipelineen automaattinen JSON-export osaksi datapaivitysworkflowta.

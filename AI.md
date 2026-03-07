@@ -38,3 +38,17 @@ Magicformula-suomi on uusi sijoitustutkimuksen web-sovellus, joka keskittyy Nasd
 `AGENTS.md` on **auktoritatiivinen Codex-ajonaikainen ohjaustiedosto** (miten agentti toimii tässä repossa).
 
 `AI.md` on **ihmisille suunnattu projektikäsikirja**, joka tukee tulevia ylläpitäjiä ja kontribuoijia mutta ei ohita AGENTS.md:n toimintaohjeita.
+
+## Asennetut yleisskillit (Codex)
+Projektin paikalliseen Codex-ymparistoon on asennettu seuraavat yleisskillit:
+- `gh-fix-ci`
+- `gh-address-comments`
+- `playwright`
+- `security-best-practices`
+- `spreadsheet`
+- `webapp-testing`
+- `changelog-generator`
+- `support-ticket-triage`
+- `create-plan`
+
+Huom: Uusien skillien kayttoonotto vaatii Codexin uudelleenkaynnistyksen.

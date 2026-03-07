@@ -30,3 +30,6 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 5. Tilanne / virhe: Testien ajo repojuuresta vaati manuaalisen `PYTHONPATH=.`-muuttujan, muuten `python_pipeline`-importit epaonnistuivat joissain paikallisymparistoissa.
    Korjaus: Siirrettiin import-pathin oletus pytest-konfiguraatioon (`pytest.ini`: `pythonpath = .`) ja lukittiin testihakemisto `testpaths`-asetuksella.
    Uudelleenkaytettava malli tai saanto: Kun testit nojaavat repojuuren importteihin, tallenna path-oletus testikonfigiin eika shell-komentoon, jotta kehitys- ja CI-ajot pysyvat toistettavina.
+6. Tilanne / virhe: Community-skillien asennus kaatui installerin git-temp-kansioiden konfliktiin, kun useita asennuksia ajettiin rinnakkain.
+   Korjaus: Asennettiin community-skillit URL-pohjaisella install-komennolla yksi kerrallaan.
+   Uudelleenkaytettava malli tai saanto: Skill-installerin yhteydessa suosi sarja-ajoa tai URL-asennusta, jos git/fallback antaa temp-kansioihin liittyvia virheita.
