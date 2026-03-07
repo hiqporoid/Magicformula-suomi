@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { formatPercent, formatScore, formatTimestamp } from "@/lib/formatters";
 import { getRankingDataset } from "@/lib/rankingData";
+
+const dataset = getRankingDataset();
+
+function getCompanyRow(rawTicker: string) {
+  return dataset.rows.find((item) => item.ticker === rawTicker.toUpperCase());
+}
 
 type Props = {
   params: {
@@ -9,10 +16,37 @@ type Props = {
   };
 };
 
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return dataset.rows.map((row) => ({
+    ticker: row.ticker
+  }));
+}
+
+export function generateMetadata({ params }: Props): Metadata {
+  const row = getCompanyRow(params.ticker);
+
+  if (!row) {
+    return {
+      title: "Yhtiota ei loytynyt",
+      alternates: {
+        canonical: `/yhtio/${params.ticker}`
+      }
+    };
+  }
+
+  return {
+    title: `${row.company} (${row.ticker})`,
+    description: `${row.company} on mukana Magicformula-suomi v1-demossa sijoituksella ${row.rank}. Sivulla naytetaan ROC, EBIT/EV, laatupiste ja datalaadun status.`,
+    alternates: {
+      canonical: `/yhtio/${row.ticker}`
+    }
+  };
+}
+
 export default function CompanyPage({ params }: Props) {
-  const dataset = getRankingDataset();
-  const ticker = params.ticker.toUpperCase();
-  const row = dataset.rows.find((item) => item.ticker === ticker);
+  const row = getCompanyRow(params.ticker);
 
   if (!row) {
     notFound();
@@ -69,7 +103,7 @@ export default function CompanyPage({ params }: Props) {
             julistaa voittajaa, vaan nostaa esiin rivit, joissa kannattavuus ja arvostus kohtaavat samassa datasetissa.
           </p>
           <p>
-            Magic Formula -piste {row.magicFormulaScore} on yhdistelma ROC- ja EBIT/EV-rankeista. Mitä pienempi piste,
+            Magic Formula -piste {row.magicFormulaScore} on yhdistelma ROC- ja EBIT/EV-rankeista. Mita pienempi piste,
             sita vahvempi yhdistelmasijoitus.
           </p>
         </article>
@@ -78,7 +112,7 @@ export default function CompanyPage({ params }: Props) {
           <h2>Lapaisiko rivi validoinnin puhtaasti?</h2>
           {row.validationWarnings.length === 0 ? (
             <p>
-              Kyllä. Rivi lapaisi v1-minimivalidoinnit ilman huomautuksia: pakolliset kentat loytyivat, EV oli
+              Kylla. Rivi lapaisi v1-minimivalidoinnit ilman huomautuksia: pakolliset kentat loytyivat, EV oli
               positiivinen ja ROC:n nimittaja oli mielekas.
             </p>
           ) : (
@@ -119,4 +153,3 @@ export default function CompanyPage({ params }: Props) {
     </main>
   );
 }
-

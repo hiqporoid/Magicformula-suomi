@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Metodologia ja vastuuvapaus",
+  description:
+    "Lue miten Magic Formula, EBIT/EV, quality overlay, poissulut ja datalaadun kasittely on toteutettu Magicformula-suomi v1-demossa.",
+  alternates: {
+    canonical: "/metodologia"
+  }
+};
 
 const formulaRows = [
   {
@@ -105,5 +115,3 @@ export default function MethodologyPage() {
     </main>
   );
 }
-
-

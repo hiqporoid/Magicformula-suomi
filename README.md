@@ -10,6 +10,84 @@ Suomenkielinen v1-demo Nasdaq Helsinki Main Market -yhtioiden arvoseulontaan. Pr
 - exporttaa tulokset tiedostoon `src/data/ranking-v1.json`
 - renderoi ranking-, metodologia- ja yhtiosivut samasta datasetista
 
+## Suositeltu julkaisutapa v1:lle
+
+Yksinkertaisin ja vakain vaihtoehto talle repossa olevalle Next.js-demolle on Vercel.
+
+Miksi:
+- Next.js tunnistuu suoraan ilman omaa deploy-konfiguraatiota
+- `main`-branchin pushit voidaan julkaista automaattisesti
+- app router, metadata, sitemap ja OG-kuvat toimivat ilman erillista palvelin- tai CDN-rakennetta
+- projekti ei tarvitse tietokantaa, authia tai omaa backendia, joten lisainfra olisi turhaa
+
+## Vercel deploy vaihe vaiheelta
+
+### 1. Tuo repo Verceliin
+
+- kirjaudu Verceliin GitHub-tililla
+- valitse `New Project`
+- importoi repo `Magicformula-suomi`
+- anna frameworkin pysya valinnassa `Next.js`
+
+### 2. Aseta tuotanto-URL ymparistomuuttujaksi
+
+Lisaa Vercel-projektin Environment Variables -asetuksiin:
+
+```text
+NEXT_PUBLIC_SITE_URL=https://oma-domain.fi
+```
+
+Jos kaytat ensin Vercelin omaa domainia, voit asettaa sen muodossa:
+
+```text
+NEXT_PUBLIC_SITE_URL=https://magicformula-suomi.vercel.app
+```
+
+Tata arvoa kaytetaan canonical-URL:eihin, sitemapiin, robotsiin ja share-preview-metadatan pohjaksi.
+
+### 3. Build-asetukset
+
+Vercelin oletukset riittavat:
+
+- Install Command: `npm install`
+- Build Command: `npm run build`
+- Output: Next.js oletus
+
+### 4. Julkaisu
+
+- ensimmainen deploy syntyy importin yhteydessa
+- jatkossa jokainen push `main`-branchiin laukaisee uuden tuotantodeployn
+- halutessasi lisaa custom domain Vercelin Domain-asetuksista
+
+## Datan paivitys tuotannossa
+
+Repo sisaltaa workflow'n `.github/workflows/data-refresh.yml`, joka ajaa viikoittaisen datapaivityksen.
+
+Workflow tekee seuraavat asiat:
+- ajaa Python-testit
+- generoi `src/data/ranking-v1.json`-tiedoston uudelleen
+- ajaa frontendin lintin ja production buildin
+- tallentaa ranking-JSON:n artifactiksi
+- commitoi paivittyneen JSON:n suoraan `main`-branchiin vain jos data muuttui
+
+Koska Vercel deployaa `main`-branchin automaattisesti, paivittynyt ranking menee julkaisuun ilman live-backendia.
+
+### Manuaalinen datarefresh GitHubissa
+
+- avaa GitHubissa `Actions`
+- valitse `Data Refresh`
+- paina `Run workflow`
+
+### Ajastus
+
+Nykyinen cron:
+
+```text
+0 6 * * 1
+```
+
+Tama tarkoittaa joka maanantai klo 06:00 UTC.
+
 ## Windows-lokaalikehitys
 
 ### 1. Luo Python-virtuaaliymparisto
@@ -71,7 +149,7 @@ Avaa selaimessa `http://localhost:3000`.
 npm run lint
 ```
 
-Repo sisaltaa valmiin `.eslintrc.json`-konfiguraation, joten komento ei saa avata interaktiivista `next lint` -init-polkua.
+Repo sisaltaa valmiin `.eslintrc.json`-konfiguraation, joten komento ei avaa interaktiivista `next lint` -init-polkua.
 
 ### 9. Tee production build
 
@@ -86,6 +164,7 @@ npm run build
 3. Aja Python-testit.
 4. Aja `npm run lint` ja `npm run build`.
 5. Tarkista reitit `/`, `/metodologia` ja `/yhtio/<ticker>`.
+6. Pushaa `main`-branchiin, jolloin Vercel deployaa muutoksen.
 
 ## Ticker-universen paivitys nykyarkkitehtuurissa
 
@@ -93,6 +172,7 @@ npm run build
 - varmista, etta pakolliset kentat ovat saatavilla normalisointia varten
 - aja export uudelleen komennolla `python python_pipeline\scripts\export_ranking_json.py`
 - tarkista poissulut ja validointiviestit UI:ssa ja tarvittaessa JSON:ssa
+- jos haluat tuotantopaivityksen heti, kaynnista GitHubissa `Data Refresh` manuaalisesti tai pushaa paivitetty JSON `main`:iin
 
 ## Keskeiset komennot yhdessa paikassa
 
@@ -112,5 +192,3 @@ npm run build
 - ei live-backendia
 - ei sijoitusneuvontaa
 - ei sampledatan fallback-polkuja kaytossa
-
-

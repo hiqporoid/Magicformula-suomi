@@ -4,10 +4,10 @@
 Magicformula-suomi
 
 ## Nykyinen tavoite
-Pitaa v1-demo siistina, toistettavana ja helposti esiteltavana ilman scope creepia.
+Pit aa v1-tuote turvallisesti julkaistavana ja helposti paivitettavana ilman scope creepia.
 
 ## Status
-v1-demo on demokelpoinen: Python-export, pytest, lint, build ja keskeiset reitit on varmistettu samalla datasetilla ilman sampledatan fallbackia.
+v1 thin-slice on julkaisuvalmis: tuotantobuild, metadata, deploy-polku ja ajastettu JSON-datapaivitys on varmistettu ilman tietokantaa tai live-backendia.
 
 ## Edistymisloki
 1. Luotu repository governance -tiedostot: AGENTS.md, AI.md, progress.md, lessons.md, PLANS.md.
@@ -22,3 +22,4 @@ v1-demo on demokelpoinen: Python-export, pytest, lint, build ja keskeiset reitit
 10. Auditoitu v1-thin-slice paikallisesti: pipeline JSON-export ajettiin, dataset-rakenne validoitiin, Next.js build meni lapi, ja runtime-savussa sivut `/`, `/metodologia` ja `/yhtio/KNEBV` palauttivat HTTP 200. Samalla korjattiin buildia estanyt tyyppivirhe tiedostossa `src/lib/sampleData.ts` (puuttuneet kentat `roc` ja `validationWarnings`). Seuraava askel: lisaa Python-ymparistoon `pytest`, jotta pipeline-testit voidaan ajaa myos tassa koneessa.
 11. Korjattu Python-testien package discovery paikalliseen kehitykseen ilman manuaalista `PYTHONPATH`-asettamista: lisattiin repojuureen `pytest.ini` (`testpaths=python_pipeline/tests`, `pythonpath=.`), paivitettiin `python_pipeline/README.md` setup-ohjeilla ja varmistettiin ajamalla `.venv\Scripts\pytest.exe -q` tyhjalla `PYTHONPATH`:lla (8/8 testia lapi). Seuraava askel: peilaa sama testikomento CI:hin (`pytest -q`) yhtenaisen paikallinen=CI-kayttaytymisen varmistamiseksi.
 12. Viimeistelty v1-demo julkaisuvalmiiksi ilman scope creepia: ranking-, metodologia- ja yhtiosivut siistittiin, datalaatu ja poissulut tehtiin nakyviksi, root/error/loading/not-found -tilat lisattiin, README kirjoitettiin Windows-flowlle, lint-konfiguraatio lukittiin ei-interaktiiviseksi ja sampledatan fallback poistettiin. Varmennus: `.venv\Scripts\pytest.exe -q`, `npm run lint`, `npm run build` seka reittisavu (`/`, `/metodologia`, `/yhtio/KNEBV`) onnistuivat. Seuraava askel: viimeistele mahdollinen CI/npm-audit -kovennus ja GitHub Actions -datapaivityksen tuotantovalmius.
+13. Valmisteltu turvallisin ja yksinkertaisin julkaisuputki v1:lle: valittiin Vercel ensisijaiseksi deploy-alustaksi, lisattiin metadata/canonical/robots/sitemap/share-preview-peruspaketti, prerenderoitiin yhtioreitit staattisiksi, poistettiin `x-powered-by`-header ja viimeisteltiin `data-refresh.yml` ajamaan testit, export, lint, build ja ehdollinen JSON-commit `main`:iin. Varmennus: `pytest`, `npm run lint`, `npm run build` seka runtime-savu reiteille `/`, `/metodologia`, `/yhtio/KNEBV`, `/robots.txt` ja `/sitemap.xml`. Seuraava askel: kytke repo Verceliin, aseta `NEXT_PUBLIC_SITE_URL` ja tee ensimmainen tuotantodeploy.

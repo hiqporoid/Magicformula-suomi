@@ -33,3 +33,6 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 6. Tilanne / virhe: PowerShellin oletustallennus saattoi kirjoittaa muokatut Next.js-tiedostot UTF-16- tai BOM-muotoon, jolloin route-tiedostot ja `package.json` rikkoivat buildin vaikeasti tulkittavilla virheilla.
    Korjaus: Muokatut tekstitiedostot kirjoitettiin eksplisiittisesti UTF-8 no BOM -muotoon ennen build-verifiointia.
    Uudelleenkaytettava malli tai saanto: Kun kirjoitat Node/Next-repon lahetiedostoja PowerShellista, lukitse encoding aina UTF-8 no BOM -muotoon etenkin `package.json`- ja route-tiedostoille.
+7. Tilanne / virhe: Runtime-generoitu `next/og`-share image lisasi tarpeetonta deploy-riski a suhteessa v1-demoon, vaikka tavoite oli vain perustason share preview.
+   Korjaus: Dynaaminen OG-kuvagenerointi korvattiin staattisella `public/social-card.svg`-kuvalla ja metadata viittasi siihen suoraan.
+   Uudelleenkaytettava malli tai saanto: Kun v1 tarvitsee vain perus-SEO:n ja share previewn, suosi staattista preview-kuvaa ennen runtime-kuvagenerointia; tuotantopolku pysyy yksinkertaisempana ja build ennustettavampana.

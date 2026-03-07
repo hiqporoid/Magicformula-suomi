@@ -14,7 +14,7 @@ Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka kesk
 2. Deterministinen datanormalisointi ja ranking-laskenta.
 3. Siisti ja uskottava kayttoliittyma rankinglistoille.
 4. Dokumentoitu metodologia ja vastuuvapautus.
-5. Paikallinen kehitysflow, jossa export, lint, testit ja build ovat toistettavia.
+5. Julkaisupolku, jossa deploy ja datapaivitys toimivat ilman live-backendia.
 
 ## Menetelmalliset periaatteet
 - Kaikki kaavat dokumentoidaan (`docs/methodology`).
@@ -32,9 +32,10 @@ Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka kesk
 1. Paivita suunnitelma (`PLANS.md`) ennen isompaa toteutusta.
 2. Aja JSON-export tarvittaessa ennen frontend-verifiointia.
 3. Aja tarkistukset: `pytest`, `npm run lint`, `npm run build`.
-4. Tarkista keskeiset reitit (`/`, `/metodologia`, `/yhtio/<ticker>`).
-5. Paivita `progress.md` ja `lessons.md`.
-6. Tee commit ja push.
+4. Tarkista keskeiset reitit (`/`, `/metodologia`, `/yhtio/<ticker>`, `/robots.txt`, `/sitemap.xml`).
+5. Pushaa `main`-branchiin, jonka Vercel deployaa tuotantoon.
+6. Anna GitHub Actionsin paivittaa ranking-JSON ajastetusti tai kaynnista refresh manuaalisesti.
+7. Paivita `progress.md` ja `lessons.md`.
 
 ## AGENTS.md:n rooli
 `AGENTS.md` on auktoritatiivinen Codex-ajonaikainen ohjaustiedosto (miten agentti toimii tassa repossa).

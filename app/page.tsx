@@ -1,7 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { RankingTable } from "@/components/RankingTable";
 import { formatTimestamp } from "@/lib/formatters";
 import { getRankingDataset, getValidationSummary } from "@/lib/rankingData";
+import { siteConfig } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: siteConfig.defaultTitle,
+  description:
+    "Avaa Nasdaq Helsinki Main Market -yhtioiden v1-ranking yhdessa nakymassa. Mukana Magic Formula, EBIT/EV, laatupisteet ja datalaadun rajaukset.",
+  alternates: {
+    canonical: "/"
+  }
+};
 
 export default function Page() {
   const dataset = getRankingDataset();
@@ -122,5 +133,3 @@ export default function Page() {
     </main>
   );
 }
-
-

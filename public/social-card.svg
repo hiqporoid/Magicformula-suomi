@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#123b31"/>
+      <stop offset="55%" stop-color="#1f5c4d"/>
+      <stop offset="100%" stop-color="#d8b16a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="42" y="42" width="1116" height="546" rx="28" fill="rgba(18,26,23,0.18)" stroke="rgba(248,245,238,0.22)"/>
+  <text x="88" y="120" fill="#f8f5ee" font-family="Arial, sans-serif" font-size="26" letter-spacing="2">NASDAQ HELSINKI MAIN MARKET</text>
+  <text x="88" y="280" fill="#f8f5ee" font-family="Arial, sans-serif" font-size="76" font-weight="700">Magicformula Suomi</text>
+  <text x="88" y="360" fill="#f8f5ee" font-family="Arial, sans-serif" font-size="34">Magic Formula, EBIT/EV ja laatuvertailu samassa tutkimusnakymassa.</text>
+  <text x="88" y="520" fill="#f8f5ee" font-family="Arial, sans-serif" font-size="28">Selitettavat luvut  |  Deterministinen ranking  |  Ei sijoitusneuvontaa</text>
+</svg>

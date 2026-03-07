@@ -33,7 +33,7 @@
    - Kaavat, oletukset, datarajat
    - Riskit ja ei-sijoitussuositus -teksti
 
-9. [ ] GitHub automation
+9. [x] GitHub automation
    - Ajastettu datapaivitysworkflow
    - Perusvalidointi CI:ssa
 
