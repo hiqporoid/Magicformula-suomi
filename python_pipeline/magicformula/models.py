@@ -2,6 +2,17 @@ from dataclasses import dataclass
 
 
 @dataclass(frozen=True)
+class UniverseCompany:
+    ticker: str
+    company: str
+    sector: str | None = None
+
+    @property
+    def is_financial(self) -> bool:
+        return self.sector == "Financial and insurance activities"
+
+
+@dataclass(frozen=True)
 class FinancialRecord:
     ticker: str
     company: str
@@ -10,6 +21,7 @@ class FinancialRecord:
     current_assets: float
     current_liabilities: float
     net_ppe: float
+    sector: str | None = None
     roic: float | None = None
     debt_to_ebitda: float | None = None
 

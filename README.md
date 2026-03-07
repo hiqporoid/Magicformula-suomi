@@ -159,21 +159,21 @@ npm run build
 
 ## Tyypillinen paivitysflow
 
-1. Paivita tarvittaessa universedata tiedostossa `python_pipeline/data/universe.csv`.
+1. Paivita tarvittaessa Main Market -universe tiedostossa `python_pipeline/data/main_market_universe.csv` ja saatavilla olevat talousluvut tiedostossa `python_pipeline/data/financials.csv`.
 2. Aja JSON-export uudelleen.
 3. Aja Python-testit.
 4. Aja `npm run lint` ja `npm run build`.
 5. Tarkista reitit `/`, `/metodologia` ja `/yhtio/<ticker>`.
 6. Pushaa `main`-branchiin, jolloin Vercel deployaa muutoksen.
 
-## Ticker-universen paivitys nykyarkkitehtuurissa
+## Universen ja ranking-kelpoisuuden paivitys nykyarkkitehtuurissa
 
-- muokkaa tiedostoa `python_pipeline/data/universe.csv`
-- varmista, etta pakolliset kentat ovat saatavilla normalisointia varten
+- paivita raw universe tiedostossa `python_pipeline/data/main_market_universe.csv`
+- paivita saatavilla olevat talousluvut tiedostossa `python_pipeline/data/financials.csv`
 - aja export uudelleen komennolla `python python_pipeline\scripts\export_ranking_json.py`
-- tarkista poissulut ja validointiviestit UI:ssa ja tarvittaessa JSON:ssa
+- tarkista JSON:sta ja UI:sta erikseen `raw_universe`, `rows` ja `excluded`
+- huomioi, etta finanssiyhtiot nakyvat poissuljettuina metodologisesta syysta, eivat datavirheena
 - jos haluat tuotantopaivityksen heti, kaynnista GitHubissa `Data Refresh` manuaalisesti tai pushaa paivitetty JSON `main`:iin
-
 ## Keskeiset komennot yhdessa paikassa
 
 ```powershell

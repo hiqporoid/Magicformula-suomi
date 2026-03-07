@@ -634,3 +634,12 @@ select:focus {
     align-items: flex-start;
   }
 }
+.compactHeader {
+  margin-bottom: 12px;
+}
+
+.exclusionList {
+  max-height: 420px;
+  overflow: auto;
+  padding-right: 6px;
+}

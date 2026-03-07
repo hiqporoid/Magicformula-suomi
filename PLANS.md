@@ -40,3 +40,7 @@
 10. [x] Validation and launch readiness
    - End-to-end tarkistuslistat
    - Julkaisupaatoksen kriteerit
+
+11. [x] Full Main Market universe before deploy
+   - Eroteltu raw universe, ranking-kelpoiset ja poissuljetut syineen
+   - Finanssipoissulut tehty nakyviksi datassa, UI:ssa ja metodologiassa

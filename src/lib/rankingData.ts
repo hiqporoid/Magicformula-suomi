@@ -1,5 +1,5 @@
 import rawDataset from "@/data/ranking-v1.json";
-import type { ExcludedCompany, RankingDataset, RankingRow, ValidationSummary } from "@/lib/types";
+import type { ExcludedCompany, RankingDataset, RankingRow, UniverseCompany, ValidationSummary } from "@/lib/types";
 
 type UnknownRecord = Record<string, unknown>;
 
@@ -10,6 +10,22 @@ function isRecord(value: unknown): value is UnknownRecord {
 function readString(value: unknown, field: string): string {
   if (typeof value !== "string") {
     throw new Error(`Ranking JSON field ${field} must be a string.`);
+  }
+
+  return value;
+}
+
+function readNullableString(value: unknown, field: string): string | null {
+  if (value === null) {
+    return null;
+  }
+
+  return readString(value, field);
+}
+
+function readBoolean(value: unknown, field: string): boolean {
+  if (typeof value !== "boolean") {
+    throw new Error(`Ranking JSON field ${field} must be a boolean.`);
   }
 
   return value;
@@ -40,6 +56,8 @@ function parseRow(value: unknown, index: number): RankingRow {
     rank: readNumber(value.rank, `rows[${index}].rank`),
     ticker: readString(value.ticker, `rows[${index}].ticker`),
     company: readString(value.company, `rows[${index}].company`),
+    sector: readNullableString(value.sector ?? null, `rows[${index}].sector`),
+    isFinancial: readBoolean(value.is_financial, `rows[${index}].is_financial`),
     magicFormulaScore: readNumber(value.magic_formula_score, `rows[${index}].magic_formula_score`),
     ebitEv: readNumber(value.ebit_ev, `rows[${index}].ebit_ev`),
     roc: readNumber(value.roc, `rows[${index}].roc`),
@@ -55,7 +73,30 @@ function parseExcluded(value: unknown, index: number): ExcludedCompany {
 
   return {
     ticker: readString(value.ticker, `excluded[${index}].ticker`),
+    company: readString(value.company, `excluded[${index}].company`),
+    sector: readNullableString(value.sector ?? null, `excluded[${index}].sector`),
+    isFinancial: readBoolean(value.is_financial, `excluded[${index}].is_financial`),
     reasons: readStringArray(value.reasons, `excluded[${index}].reasons`)
+  };
+}
+
+function parseRawUniverse(value: unknown, index: number): UniverseCompany {
+  if (!isRecord(value)) {
+    throw new Error(`Ranking JSON raw universe row ${index} must be an object.`);
+  }
+
+  const status = readString(value.status, `raw_universe[${index}].status`);
+  if (status !== "ranked" && status !== "excluded") {
+    throw new Error(`Ranking JSON raw universe row ${index} has invalid status.`);
+  }
+
+  return {
+    ticker: readString(value.ticker, `raw_universe[${index}].ticker`),
+    company: readString(value.company, `raw_universe[${index}].company`),
+    sector: readNullableString(value.sector ?? null, `raw_universe[${index}].sector`),
+    isFinancial: readBoolean(value.is_financial, `raw_universe[${index}].is_financial`),
+    status,
+    exclusionReasons: readStringArray(value.exclusion_reasons, `raw_universe[${index}].exclusion_reasons`)
   };
 }
 
@@ -66,6 +107,7 @@ function parseDataset(value: unknown): RankingDataset {
 
   const rows = value.rows;
   const excluded = value.excluded;
+  const rawUniverse = value.raw_universe;
 
   if (!Array.isArray(rows)) {
     throw new Error("Ranking JSON field rows must be an array.");
@@ -75,16 +117,25 @@ function parseDataset(value: unknown): RankingDataset {
     throw new Error("Ranking JSON field excluded must be an array.");
   }
 
+  if (!Array.isArray(rawUniverse)) {
+    throw new Error("Ranking JSON field raw_universe must be an array.");
+  }
+
   return {
     generatedAt: readString(value.generated_at, "generated_at"),
     universe: readString(value.universe, "universe"),
     methodologyVersion: readString(value.methodology_version, "methodology_version"),
+    universeSource: readString(value.universe_source, "universe_source"),
+    rawUniverse: rawUniverse.map(parseRawUniverse),
     rows: rows.map(parseRow),
     excluded: excluded.map(parseExcluded)
   };
 }
 
 const dataset = parseDataset(rawDataset);
+const rowByTicker = new Map(dataset.rows.map((row) => [row.ticker, row]));
+const excludedByTicker = new Map(dataset.excluded.map((row) => [row.ticker, row]));
+const companyByTicker = new Map(dataset.rawUniverse.map((row) => [row.ticker, row]));
 
 export function getRankingDataset(): RankingDataset {
   return dataset;
@@ -92,9 +143,22 @@ export function getRankingDataset(): RankingDataset {
 
 export function getValidationSummary(input: RankingDataset): ValidationSummary {
   return {
+    rawUniverseCount: input.rawUniverse.length,
     rankedCount: input.rows.length,
     excludedCount: input.excluded.length,
+    financeExcludedCount: input.excluded.filter((company) => company.isFinancial).length,
     warningCount: input.rows.filter((row) => row.validationWarnings.length > 0).length
   };
 }
 
+export function getRankedRowByTicker(rawTicker: string): RankingRow | undefined {
+  return rowByTicker.get(rawTicker.toUpperCase());
+}
+
+export function getExcludedCompanyByTicker(rawTicker: string): ExcludedCompany | undefined {
+  return excludedByTicker.get(rawTicker.toUpperCase());
+}
+
+export function getUniverseCompanyByTicker(rawTicker: string): UniverseCompany | undefined {
+  return companyByTicker.get(rawTicker.toUpperCase());
+}

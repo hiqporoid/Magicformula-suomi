@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ExclusionList } from "@/components/ExclusionList";
 import { RankingTable } from "@/components/RankingTable";
 import { formatPercent, formatTimestamp } from "@/lib/formatters";
 import { getRankingDataset, getValidationSummary } from "@/lib/rankingData";
@@ -27,10 +28,11 @@ export default function Page() {
             <p className="eyebrow">Tutkimusnäkymä</p>
             <span className="softBadge">{dataset.methodologyVersion}</span>
           </div>
-          <h1>Arvoseulonta, jonka voi oikeasti avata uudelleen myöhemmin.</h1>
+          <h1>Arvoseulonta, jossa universe, poissulut ja ranking erotetaan toisistaan.</h1>
           <p className="heroLead">
-            Magicformula Suomi yhdistää Magic Formula -rankingin, EBIT/EV-luvun ja kevyen quality overlayn samaan
-            suomenkieliseen tutkimusnäkymään. Tavoite on auttaa ensimmäisessä seulonnassa, ei korvata omaa analyysiä.
+            Magicformula Suomi näyttää nyt koko Nasdaq Helsinki Main Market -raakauniversen, siitä rankingiin
+            kelpaavat yhtiöt sekä poissulut syineen. Finanssiyhtiöiden poissulku näkyy metodologisena valintana,
+            ei datavirheenä.
           </p>
           <div className="actionRow">
             <Link href="#ranking" className="buttonPrimary">
@@ -41,9 +43,10 @@ export default function Page() {
             </Link>
           </div>
           <div className="heroMetaStrip">
-            <span>Universumi: {dataset.universe}</span>
-            <span>Päivitetty: {formatTimestamp(dataset.generatedAt)}</span>
+            <span>Raakauniversumi: {summary.rawUniverseCount}</span>
+            <span>Rankatut: {summary.rankedCount}</span>
             <span>Poissulut: {summary.excludedCount}</span>
+            <span>Päivitetty: {formatTimestamp(dataset.generatedAt)}</span>
           </div>
         </div>
 
@@ -54,36 +57,41 @@ export default function Page() {
               {leadCompany.company} <span className="inlineTicker">({leadCompany.ticker})</span>
             </h2>
             <p>
-              Kokonaissijoitus #{leadCompany.rank}, ROC {formatPercent(leadCompany.roc)} ja EBIT/EV
-              {" "}{formatPercent(leadCompany.ebitEv)}.
+              Kokonaissijoitus #{leadCompany.rank}, ROC {formatPercent(leadCompany.roc)} ja EBIT/EV {" "}
+              {formatPercent(leadCompany.ebitEv)}.
             </p>
           </div>
           <div className="sideCardSection sideCardDivider">
             <p className="eyebrow">Mitä näkymä tarjoaa</p>
             <ul className="plainList compactList">
-              <li>Deterministinen ranking samalla datasetillä joka ajossa.</li>
-              <li>Näkyvät datalaadun huomiot ja poissulut.</li>
-              <li>Suora polku metodologiaan ja yhtiönäkymään.</li>
+              <li>Koko Main Market -universen kattavuus samassa datasetissä.</li>
+              <li>Erillinen lista yhtiöistä, jotka rankattiin tai suljettiin pois.</li>
+              <li>Näkyvä metodologinen finanssipoissulku ja dataan liittyvät syyt.</li>
             </ul>
           </div>
         </aside>
       </section>
 
-      <section className="summaryGrid">
+      <section className="summaryGrid fourUpGrid">
         <article className="summaryCard emphasisCard">
-          <span className="summaryLabel">Rankatut yhtiöt</span>
-          <strong>{summary.rankedCount}</strong>
-          <p>Rivit, jotka läpäisivät v1-minimivalidoinnit.</p>
+          <span className="summaryLabel">Raakauniversumi</span>
+          <strong>{summary.rawUniverseCount}</strong>
+          <p>Yhtiöt, jotka kuuluvat ylläpidettävään Main Market -lähteeseen.</p>
         </article>
         <article className="summaryCard">
-          <span className="summaryLabel">Validointihuomiot</span>
-          <strong>{summary.warningCount}</strong>
-          <p>Rankatut rivit, joilla näkyy datalaadun huomio.</p>
+          <span className="summaryLabel">Rankatut yhtiöt</span>
+          <strong>{summary.rankedCount}</strong>
+          <p>Rivit, jotka läpäisivät nykyiset Magic Formula -kelpoisuussäännöt.</p>
         </article>
         <article className="summaryCard">
           <span className="summaryLabel">Poissuljetut</span>
           <strong>{summary.excludedCount}</strong>
-          <p>Yhtiöt, jotka jätettiin pois ennen julkaisua.</p>
+          <p>Yhtiöt, jotka jäivät ulos ennen rankingia.</p>
+        </article>
+        <article className="summaryCard">
+          <span className="summaryLabel">Finanssipoissulut</span>
+          <strong>{summary.financeExcludedCount}</strong>
+          <p>Metodologisesti pois rajatut finanssiyhtiöt.</p>
         </article>
       </section>
 
@@ -102,38 +110,41 @@ export default function Page() {
             </p>
           </section>
 
-          <section className="sidePanel mutedPanel">
-            <p className="eyebrow">Datan laatu</p>
-            <h2>Mitä julkaistaan?</h2>
-            <p>
-              Julkaistavaksi päätyvät vain rivit, joilla EV ja sijoitettu pääoma ovat positiivisia ja pakolliset kentät
-              löytyvät. Poissulut ja varoitukset näytetään käyttöliittymässä avoimesti.
-            </p>
-            {dataset.excluded.length === 0 ? (
-              <p className="sideNote">Tässä viennissä yksikään yhtiö ei pudonnut pois validoinnissa.</p>
-            ) : (
-              <ul className="plainList compactList">
-                {dataset.excluded.map((company) => (
-                  <li key={company.ticker}>
-                    <strong>{company.ticker}</strong>: {company.reasons.join(", ")}
-                  </li>
-                ))}
-              </ul>
-            )}
+          <section className="sidePanel cautionPanel">
+            <p className="eyebrow">Kelpoisuusrajat</p>
+            <h2>Mikä sulkee yhtiön pois?</h2>
+            <ul className="plainList compactList">
+              <li>Finanssisektori rajataan pois v1-metodologian vuoksi.</li>
+              <li>Puuttuvat statementit estävät laskennan.</li>
+              <li>EBIT ≤ 0, EV ≤ 0 tai negatiivinen sijoitettu pääoma pudottavat rivin pois.</li>
+            </ul>
           </section>
 
-          <section className="sidePanel cautionPanel">
-            <p className="eyebrow">Vastuuvapauslauseke</p>
-            <h2>Tutkimusdemo, ei sijoitusneuvontaa</h2>
-            <p>
-              Tämä v1-demo on tarkoitettu oman tutkimusprosessin tueksi. Sisältö ei ole henkilökohtainen
-              sijoitussuositus eikä huomioi sijoittajan riskejä, verotusta tai salkun kokonaisuutta.
-            </p>
-            <Link href="/metodologia" className="textLink">
-              Avaa metodologia ja rajaukset
-            </Link>
-          </section>
+          <ExclusionList excluded={dataset.excluded} />
         </aside>
+      </section>
+
+      <section className="contentGrid">
+        <article className="contentPanel">
+          <p className="eyebrow">Universen lähde</p>
+          <h2>Mistä yhtiöjoukko tulee?</h2>
+          <p>
+            Universe ylläpidetään tiedostossa <code>{dataset.universeSource}</code> erillään talousluvuista. Tämä tekee
+            Main Market -listan päivityksestä läpinäkyvän ja pitää ranking-kelpoisuuden omana vaiheena.
+          </p>
+        </article>
+
+        <article className="contentPanel mutedPanel">
+          <p className="eyebrow">Vastuuvapauslauseke</p>
+          <h2>Tutkimusdemo, ei sijoitusneuvontaa</h2>
+          <p>
+            Tämä v1-demo on tarkoitettu oman tutkimusprosessin tueksi. Sisältö ei ole henkilökohtainen
+            sijoitussuositus eikä huomioi sijoittajan riskejä, verotusta tai salkun kokonaisuutta.
+          </p>
+          <Link href="/metodologia" className="textLink">
+            Avaa metodologia ja rajaukset
+          </Link>
+        </article>
       </section>
     </main>
   );

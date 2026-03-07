@@ -8,6 +8,7 @@ def test_normalize_record_uppercases_ticker() -> None:
         {
             "ticker": "upm",
             "company": "UPM-Kymmene Oyj",
+            "sector": "Manufacturing",
             "ebit": 100,
             "enterprise_value": 1000,
             "current_assets": 400,
@@ -18,11 +19,28 @@ def test_normalize_record_uppercases_ticker() -> None:
     assert record.ticker == "UPM"
 
 
+def test_validate_record_rejects_non_positive_ebit() -> None:
+    record = normalize_record(
+        {
+            "ticker": "AAA",
+            "company": "A Oyj",
+            "sector": "Manufacturing",
+            "ebit": 0,
+            "enterprise_value": 1000,
+            "current_assets": 300,
+            "current_liabilities": 100,
+            "net_ppe": 300,
+        }
+    )
+    assert "ebit_non_positive" in validate_record(record)
+
+
 def test_validate_record_rejects_non_positive_ev() -> None:
     record = normalize_record(
         {
             "ticker": "AAA",
             "company": "A Oyj",
+            "sector": "Manufacturing",
             "ebit": 100,
             "enterprise_value": 0,
             "current_assets": 300,
@@ -38,6 +56,7 @@ def test_validate_record_rejects_non_positive_invested_capital() -> None:
         {
             "ticker": "BBB",
             "company": "B Oyj",
+            "sector": "Manufacturing",
             "ebit": 100,
             "enterprise_value": 900,
             "current_assets": 100,

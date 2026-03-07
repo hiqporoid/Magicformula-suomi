@@ -1,13 +1,1387 @@
 {
-  "generated_at": "2026-03-07T16:13:07.634104+00:00",
+  "generated_at": "2026-03-07T16:53:51.811615+00:00",
   "universe": "Nasdaq Helsinki Main Market",
-  "methodology_version": "v1-demo",
+  "methodology_version": "v1-main-market",
+  "universe_source": "python_pipeline/data/main_market_universe.csv",
+  "raw_universe": [
+    {
+      "ticker": "KNEBV",
+      "company": "KONE Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "ranked",
+      "exclusion_reasons": []
+    },
+    {
+      "ticker": "NOKIA",
+      "company": "Nokia Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SAMPO",
+      "company": "Sampo Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "WRT1V",
+      "company": "Wärtsilä Oyj Abp",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "FORTUM",
+      "company": "Fortum Oyj",
+      "sector": "Electricity, gas, steam and air conditioning supply",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "NESTE",
+      "company": "Neste Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "UPM",
+      "company": "UPM-Kymmene Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "ranked",
+      "exclusion_reasons": []
+    },
+    {
+      "ticker": "ORNAV",
+      "company": "Orion Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KESKOA",
+      "company": "Kesko Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KCR",
+      "company": "Konecranes Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "STEAV",
+      "company": "Stora Enso Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ELISA",
+      "company": "Elisa Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "VALMT",
+      "company": "Valmet Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "MANTA",
+      "company": "Mandatum Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "HUH1V",
+      "company": "Huhtamäki Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KEMIRA",
+      "company": "Kemira Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "CGCBV",
+      "company": "Hiab Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KALMAR",
+      "company": "Kalmar Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KOJAMO",
+      "company": "Kojamo Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OUT1V",
+      "company": "Outokumpu Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TIETO",
+      "company": "TietoEVRY Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "LAT1V",
+      "company": "Lassila & Tikanoja Oyj",
+      "sector": "Water supply; sewerage, waste management and remediation activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "METSA",
+      "company": "Metsä Board Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SANOMA",
+      "company": "Sanoma Oyj",
+      "sector": "Publishing, broadcasting, and content production and distribution activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "VAIAS",
+      "company": "Vaisala Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TYRES",
+      "company": "Nokian Renkaat Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "BITTI",
+      "company": "Bittium Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TTALO",
+      "company": "Terveystalo Oyj",
+      "sector": "Human health and social work activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "PUUILO",
+      "company": "Puuilo Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ALMA",
+      "company": "Alma Media Oyj",
+      "sector": "Publishing, broadcasting, and content production and distribution activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "FSKRS",
+      "company": "Fiskars Oyj Abp",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "AKTIA",
+      "company": "Aktia Bank Abp",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ALBAV",
+      "company": "Ålandsbanken Abp",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "HARVIA",
+      "company": "Harvia Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "QTCOM",
+      "company": "Qt Group Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SCANFL",
+      "company": "Scanfil Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "PON1V",
+      "company": "Ponsse Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "YIT",
+      "company": "YIT Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "CTY1S",
+      "company": "Citycon Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OLVAS",
+      "company": "Olvi Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "MUSTI",
+      "company": "Musti Group Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "FIA1S",
+      "company": "Finnair Oyj",
+      "sector": "Transportation and storage",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "REG1V",
+      "company": "Revenio Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "GRK",
+      "company": "GRK Infra Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "MEKKO",
+      "company": "Marimekko Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TOKMAN",
+      "company": "Tokmanni Group Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "EQV1V",
+      "company": "eQ Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ATRAV",
+      "company": "Atria Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OMASP",
+      "company": "Oma Säästöpankki Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "RAIVV",
+      "company": "Raisio Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ENENTO",
+      "company": "Enento Group Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "VIK1V",
+      "company": "Viking Line Abp",
+      "sector": "Transportation and storage",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "FSECURE",
+      "company": "F-Secure Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "CAPMAN",
+      "company": "CapMan Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "PIHLIS",
+      "company": "Pihlajalinna Oyj",
+      "sector": "Human health and social work activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "RELAIS",
+      "company": "Relais Group Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "WITH",
+      "company": "WithSecure Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ANORA",
+      "company": "Anora Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ICP1V",
+      "company": "Incap Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ASPO",
+      "company": "Aspo Oyj",
+      "sector": "Transportation and storage",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ETTE",
+      "company": "Etteplan Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KOSKI",
+      "company": "Koskisen Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TAALA",
+      "company": "Taaleri Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "GOFORE",
+      "company": "Gofore Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "REMEDY",
+      "company": "Remedy Entertainment Oyj",
+      "sector": "Publishing, broadcasting, and content production and distribution activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "UNITED",
+      "company": "United Bankers Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OKDAV",
+      "company": "Oriola Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "NOHO",
+      "company": "NoHo Partners Oyj",
+      "sector": "Accommodation and food service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "VERK",
+      "company": "Verkkokauppa.com Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "DIGIA",
+      "company": "Digia Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SSH1V",
+      "company": "SSH Communications Security",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TNOM",
+      "company": "Talenom Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KREATE",
+      "company": "Kreate Group Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ILKKA2",
+      "company": "Ilkka Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TEM1V",
+      "company": "Tecnotree Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "CONSTI",
+      "company": "Consti Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "AFAGR",
+      "company": "Afarak Group",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SITOWS",
+      "company": "Sitowise Group Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KSLAV",
+      "company": "Keskisuomalainen Oyj",
+      "sector": "Publishing, broadcasting, and content production and distribution activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SRV1V",
+      "company": "SRV Yhtiöt Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SUY1V",
+      "company": "Suominen Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KAMUX",
+      "company": "Kamux Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "APETIT",
+      "company": "Apetit Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "RAUTE",
+      "company": "Raute Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ORTHEX",
+      "company": "Orthex Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OPTOMED",
+      "company": "Optomed Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ASUNTO",
+      "company": "Asuntosalkku Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "NLG1V",
+      "company": "Nurminen Logistics Oyj",
+      "sector": "Transportation and storage",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TLT1V",
+      "company": "Teleste Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ESENSE",
+      "company": "Enersense International Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "HKSAV",
+      "company": "HKScan Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "IFA1V",
+      "company": "Innofactor Plc",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "LAPWALL",
+      "company": "LapWall Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TOIVO",
+      "company": "Toivo Group Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "BIOBV",
+      "company": "Biohit Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "GLA1V",
+      "company": "Glaston Oyj Abp",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "RAP1V",
+      "company": "Rapala VMC Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "EXL1V",
+      "company": "Exel Composites Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "CTH1V",
+      "company": "Componenta Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ACG1V",
+      "company": "Aspocomp Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "BOREO",
+      "company": "Boreo Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SIILI",
+      "company": "Siili Solutions Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TULAV",
+      "company": "Tulikivi Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SAGCV",
+      "company": "Saga Furs Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "WETTERI",
+      "company": "Wetteri PLC",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "WUF1V",
+      "company": "Wulff-Yhtiöt Oyj",
+      "sector": "Administrative and support service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "LAMOR",
+      "company": "Lamor Corporation Oyj",
+      "sector": "Water supply; sewerage, waste management and remediation activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ROBIT",
+      "company": "Robit Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "REKA",
+      "company": "Reka Industrial Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OVARO",
+      "company": "Ovaro Kiinteistösijoitus Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "INVEST",
+      "company": "Investors House Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "PUMU",
+      "company": "Rebl Group Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "EEZY",
+      "company": "Eezy Oyj",
+      "sector": "Administrative and support service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "PNA1V",
+      "company": "Panostaja Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "QPR1V",
+      "company": "QPR Software Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "HONBS",
+      "company": "Honkarakenne Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "DOV1V",
+      "company": "Dovre Group Oyj",
+      "sector": "Electricity, gas, steam and air conditioning supply",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KELAS",
+      "company": "Kesla Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ELEAV",
+      "company": "Elecster Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SOLTEQ",
+      "company": "Solteq Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "DIGIGR",
+      "company": "Digitalist Group Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TRH1V",
+      "company": "Trainers' House Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "MARAS",
+      "company": "Martela Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "FELLOW",
+      "company": "Alisa Bank PLC",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ENEDO",
+      "company": "Enedo Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "EAB",
+      "company": "Evli Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "32BX",
+      "company": "Fingrid Oyj",
+      "sector": "Electricity, gas, steam and air conditioning supply",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SIEVI",
+      "company": "KH Group Plc",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "LEHTO",
+      "company": "Lehto Group Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "LIFAIR",
+      "company": "Lifa Air Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "STOCKA",
+      "company": "Lindex Group",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "MOCORP",
+      "company": "Metso Outotec Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "NDA",
+      "company": "Nordea Bank AB",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ]
+    },
+    {
+      "ticker": "NORDLIG",
+      "company": "Nordic Lights Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TMTR",
+      "company": "Tamtron Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "WITM",
+      "company": "Witted Megacorp Oy",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    }
+  ],
   "rows": [
     {
       "rank": 1,
       "ticker": "KNEBV",
       "company": "KONE Oyj",
-      "magic_formula_score": 3,
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 2,
       "ebit_ev": 0.07619,
       "roc": 0.533333,
       "quality_score": 88.32,
@@ -15,24 +1389,1236 @@
     },
     {
       "rank": 2,
-      "ticker": "NDA-FI",
-      "company": "Nordea Bank Abp",
-      "magic_formula_score": 4,
-      "ebit_ev": 0.107692,
-      "roc": 0.2,
-      "quality_score": 72.83,
-      "validation_warnings": []
-    },
-    {
-      "rank": 3,
       "ticker": "UPM",
       "company": "UPM-Kymmene Oyj",
-      "magic_formula_score": 5,
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 4,
       "ebit_ev": 0.075,
       "roc": 0.202247,
       "quality_score": 63.0,
       "validation_warnings": []
     }
   ],
-  "excluded": []
+  "excluded": [
+    {
+      "ticker": "NOKIA",
+      "company": "Nokia Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SAMPO",
+      "company": "Sampo Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "WRT1V",
+      "company": "Wärtsilä Oyj Abp",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "FORTUM",
+      "company": "Fortum Oyj",
+      "sector": "Electricity, gas, steam and air conditioning supply",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "NESTE",
+      "company": "Neste Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ORNAV",
+      "company": "Orion Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KESKOA",
+      "company": "Kesko Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KCR",
+      "company": "Konecranes Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "STEAV",
+      "company": "Stora Enso Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ELISA",
+      "company": "Elisa Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "VALMT",
+      "company": "Valmet Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "MANTA",
+      "company": "Mandatum Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "HUH1V",
+      "company": "Huhtamäki Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KEMIRA",
+      "company": "Kemira Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "CGCBV",
+      "company": "Hiab Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KALMAR",
+      "company": "Kalmar Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KOJAMO",
+      "company": "Kojamo Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OUT1V",
+      "company": "Outokumpu Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TIETO",
+      "company": "TietoEVRY Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "LAT1V",
+      "company": "Lassila & Tikanoja Oyj",
+      "sector": "Water supply; sewerage, waste management and remediation activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "METSA",
+      "company": "Metsä Board Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SANOMA",
+      "company": "Sanoma Oyj",
+      "sector": "Publishing, broadcasting, and content production and distribution activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "VAIAS",
+      "company": "Vaisala Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TYRES",
+      "company": "Nokian Renkaat Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "BITTI",
+      "company": "Bittium Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TTALO",
+      "company": "Terveystalo Oyj",
+      "sector": "Human health and social work activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "PUUILO",
+      "company": "Puuilo Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ALMA",
+      "company": "Alma Media Oyj",
+      "sector": "Publishing, broadcasting, and content production and distribution activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "FSKRS",
+      "company": "Fiskars Oyj Abp",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "AKTIA",
+      "company": "Aktia Bank Abp",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ALBAV",
+      "company": "Ålandsbanken Abp",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "HARVIA",
+      "company": "Harvia Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "QTCOM",
+      "company": "Qt Group Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SCANFL",
+      "company": "Scanfil Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "PON1V",
+      "company": "Ponsse Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "YIT",
+      "company": "YIT Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "CTY1S",
+      "company": "Citycon Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OLVAS",
+      "company": "Olvi Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "MUSTI",
+      "company": "Musti Group Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "FIA1S",
+      "company": "Finnair Oyj",
+      "sector": "Transportation and storage",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "REG1V",
+      "company": "Revenio Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "GRK",
+      "company": "GRK Infra Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "MEKKO",
+      "company": "Marimekko Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TOKMAN",
+      "company": "Tokmanni Group Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "EQV1V",
+      "company": "eQ Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ATRAV",
+      "company": "Atria Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OMASP",
+      "company": "Oma Säästöpankki Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "RAIVV",
+      "company": "Raisio Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ENENTO",
+      "company": "Enento Group Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "VIK1V",
+      "company": "Viking Line Abp",
+      "sector": "Transportation and storage",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "FSECURE",
+      "company": "F-Secure Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "CAPMAN",
+      "company": "CapMan Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "PIHLIS",
+      "company": "Pihlajalinna Oyj",
+      "sector": "Human health and social work activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "RELAIS",
+      "company": "Relais Group Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "WITH",
+      "company": "WithSecure Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ANORA",
+      "company": "Anora Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ICP1V",
+      "company": "Incap Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ASPO",
+      "company": "Aspo Oyj",
+      "sector": "Transportation and storage",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ETTE",
+      "company": "Etteplan Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KOSKI",
+      "company": "Koskisen Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TAALA",
+      "company": "Taaleri Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "GOFORE",
+      "company": "Gofore Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "REMEDY",
+      "company": "Remedy Entertainment Oyj",
+      "sector": "Publishing, broadcasting, and content production and distribution activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "UNITED",
+      "company": "United Bankers Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OKDAV",
+      "company": "Oriola Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "NOHO",
+      "company": "NoHo Partners Oyj",
+      "sector": "Accommodation and food service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "VERK",
+      "company": "Verkkokauppa.com Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "DIGIA",
+      "company": "Digia Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SSH1V",
+      "company": "SSH Communications Security",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TNOM",
+      "company": "Talenom Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KREATE",
+      "company": "Kreate Group Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ILKKA2",
+      "company": "Ilkka Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TEM1V",
+      "company": "Tecnotree Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "CONSTI",
+      "company": "Consti Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "AFAGR",
+      "company": "Afarak Group",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SITOWS",
+      "company": "Sitowise Group Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KSLAV",
+      "company": "Keskisuomalainen Oyj",
+      "sector": "Publishing, broadcasting, and content production and distribution activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SRV1V",
+      "company": "SRV Yhtiöt Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SUY1V",
+      "company": "Suominen Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KAMUX",
+      "company": "Kamux Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "APETIT",
+      "company": "Apetit Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "RAUTE",
+      "company": "Raute Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ORTHEX",
+      "company": "Orthex Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OPTOMED",
+      "company": "Optomed Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ASUNTO",
+      "company": "Asuntosalkku Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "NLG1V",
+      "company": "Nurminen Logistics Oyj",
+      "sector": "Transportation and storage",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TLT1V",
+      "company": "Teleste Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ESENSE",
+      "company": "Enersense International Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "HKSAV",
+      "company": "HKScan Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "IFA1V",
+      "company": "Innofactor Plc",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "LAPWALL",
+      "company": "LapWall Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TOIVO",
+      "company": "Toivo Group Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "BIOBV",
+      "company": "Biohit Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "GLA1V",
+      "company": "Glaston Oyj Abp",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "RAP1V",
+      "company": "Rapala VMC Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "EXL1V",
+      "company": "Exel Composites Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "CTH1V",
+      "company": "Componenta Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ACG1V",
+      "company": "Aspocomp Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "BOREO",
+      "company": "Boreo Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SIILI",
+      "company": "Siili Solutions Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TULAV",
+      "company": "Tulikivi Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SAGCV",
+      "company": "Saga Furs Oyj",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "WETTERI",
+      "company": "Wetteri PLC",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "WUF1V",
+      "company": "Wulff-Yhtiöt Oyj",
+      "sector": "Administrative and support service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "LAMOR",
+      "company": "Lamor Corporation Oyj",
+      "sector": "Water supply; sewerage, waste management and remediation activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ROBIT",
+      "company": "Robit Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "REKA",
+      "company": "Reka Industrial Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "OVARO",
+      "company": "Ovaro Kiinteistösijoitus Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "INVEST",
+      "company": "Investors House Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "PUMU",
+      "company": "Rebl Group Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "EEZY",
+      "company": "Eezy Oyj",
+      "sector": "Administrative and support service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "PNA1V",
+      "company": "Panostaja Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "QPR1V",
+      "company": "QPR Software Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "HONBS",
+      "company": "Honkarakenne Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "DOV1V",
+      "company": "Dovre Group Oyj",
+      "sector": "Electricity, gas, steam and air conditioning supply",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "KELAS",
+      "company": "Kesla Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ELEAV",
+      "company": "Elecster Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SOLTEQ",
+      "company": "Solteq Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "DIGIGR",
+      "company": "Digitalist Group Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TRH1V",
+      "company": "Trainers' House Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "MARAS",
+      "company": "Martela Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "FELLOW",
+      "company": "Alisa Bank PLC",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "ENEDO",
+      "company": "Enedo Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "EAB",
+      "company": "Evli Oyj",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.",
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "32BX",
+      "company": "Fingrid Oyj",
+      "sector": "Electricity, gas, steam and air conditioning supply",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "SIEVI",
+      "company": "KH Group Plc",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "LEHTO",
+      "company": "Lehto Group Oyj",
+      "sector": "Construction",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "LIFAIR",
+      "company": "Lifa Air Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "STOCKA",
+      "company": "Lindex Group",
+      "sector": "Wholesale and retail trade",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "MOCORP",
+      "company": "Metso Outotec Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "NDA",
+      "company": "Nordea Bank AB",
+      "sector": "Financial and insurance activities",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ]
+    },
+    {
+      "ticker": "NORDLIG",
+      "company": "Nordic Lights Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "TMTR",
+      "company": "Tamtron Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    },
+    {
+      "ticker": "WITM",
+      "company": "Witted Megacorp Oy",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ]
+    }
+  ]
 }

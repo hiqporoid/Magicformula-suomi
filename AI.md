@@ -5,8 +5,8 @@ Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka kesk
 
 ## Liikeidea
 - Muodostetaan yhdenmukainen yhtiouniversumi (Helsingin paalista).
-- Normalisoidaan talousdata vertailukelpoiseksi.
-- Lasketaan rankingit (Magic Formula, EBIT/EV, quality overlay).
+- Yllapidetaan universe ja talousluvut erillisina lahteina.
+- Lasketaan rankingit (Magic Formula, EBIT/EV, quality overlay) vain kelpoisille riveille.
 - Esitetaan tulokset selkeassa taulukko-UI:ssa metodologian, datalaatuviestien ja disclaimerien kanssa.
 
 ## Tuotetavoitteet v1
@@ -20,6 +20,7 @@ Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka kesk
 - Kaikki kaavat dokumentoidaan (`docs/methodology`).
 - Rankingin tasatilanteet ratkaistaan eksplisiittisesti.
 - Puuttuvat tai poikkeavat arvot kasitellaan ennalta maaratetyilla saannoilla.
+- Raw-universe, ranking-kelpoisuus ja poissulut pidetaan erillisina kasitteina.
 - V1 ei tee sijoitussuosituksia, vaan tarjoaa tutkimusnakyman.
 
 ## Rajaukset
@@ -30,12 +31,13 @@ Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka kesk
 
 ## Repon workflow
 1. Paivita suunnitelma (`PLANS.md`) ennen isompaa toteutusta.
-2. Aja JSON-export tarvittaessa ennen frontend-verifiointia.
-3. Aja tarkistukset: `pytest`, `npm run lint`, `npm run build`.
-4. Tarkista keskeiset reitit (`/`, `/metodologia`, `/yhtio/<ticker>`, `/robots.txt`, `/sitemap.xml`).
-5. Pushaa `main`-branchiin, jonka Vercel deployaa tuotantoon.
-6. Anna GitHub Actionsin paivittaa ranking-JSON ajastetusti tai kaynnista refresh manuaalisesti.
-7. Paivita `progress.md` ja `lessons.md`.
+2. Paivita tarvittaessa `python_pipeline/data/main_market_universe.csv` ja `python_pipeline/data/financials.csv`.
+3. Aja JSON-export tarvittaessa ennen frontend-verifiointia.
+4. Aja tarkistukset: `pytest`, `npm run lint`, `npm run build`.
+5. Tarkista keskeiset reitit (`/`, `/metodologia`, `/yhtio/<ticker>`, `/robots.txt`, `/sitemap.xml`).
+6. Pushaa `main`-branchiin, jonka Vercel deployaa tuotantoon.
+7. Anna GitHub Actionsin paivittaa ranking-JSON ajastetusti tai kaynnista refresh manuaalisesti.
+8. Paivita `progress.md` ja `lessons.md`.
 
 ## AGENTS.md:n rooli
 `AGENTS.md` on auktoritatiivinen Codex-ajonaikainen ohjaustiedosto (miten agentti toimii tassa repossa).

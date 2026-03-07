@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Metodologia ja vastuuvapaus",
   description:
-    "Lue miten Magic Formula, EBIT/EV, quality overlay, poissulut ja datan laadun käsittely on toteutettu Magicformula-suomi v1-demossa.",
+    "Lue miten Magic Formula, EBIT/EV, quality overlay, poissulut ja datan laadun käsittely on toteutettu Magicformula-suomi v1-aineistossa.",
   alternates: {
     canonical: "/metodologia"
   }
@@ -19,7 +19,7 @@ const formulaRows = [
   {
     title: "Earnings Yield / EBIT/EV",
     formula: "EBIT / Enterprise Value",
-    note: "Arvioi tulostuottoa suhteessa yritysarvoon. EV ≤ 0 ei tuota mielekästä vertailulukua v1:ssä."
+    note: "Arvioi tulostuottoa suhteessa yritysarvoon. EV ≤ 0 tai EBIT ≤ 0 ei tuota mielekästä vertailulukua v1:ssä."
   },
   {
     title: "Magic Formula -piste",
@@ -42,10 +42,10 @@ export default function MethodologyPage() {
             <p className="eyebrow">Metodologia</p>
             <span className="softBadge">Selitettävä v1</span>
           </div>
-          <h1>Miten ranking muodostuu ja mitä tästä demosta saa tulkita?</h1>
+          <h1>Miten universe, kelpoisuus ja ranking liittyvät toisiinsa?</h1>
           <p className="heroLead">
             Tavoite ei ole piilottaa laskentaa siistin käyttöliittymän alle, vaan tehdä kaavat, poissulut, datan laatu
-            ja vastuuvapauslauseke helposti tarkistettaviksi samalla kun näkymä pysyy rauhallisena.
+            ja ylläpidettävä Main Market -universe helposti tarkistettaviksi samalla kun näkymä pysyy rauhallisena.
           </p>
         </div>
 
@@ -53,9 +53,9 @@ export default function MethodologyPage() {
           <div className="sideCardSection">
             <p className="eyebrow">Nopea yhteenveto</p>
             <ul className="plainList compactList">
-              <li>ROC ja EBIT/EV muodostavat perusrankingin.</li>
-              <li>Laatupiste auttaa priorisoimaan jatkotutkimusta.</li>
-              <li>Poissulut ja datalaatuviestit näytetään avoimesti.</li>
+              <li>Raakauniversessa säilytetään kaikki Main Market -yhtiöt.</li>
+              <li>Ranking käyttää vain kelpoiset ei-finanssiyhtiöt.</li>
+              <li>Poissulut ja syyt näytetään käyttöliittymässä avoimesti.</li>
             </ul>
           </div>
           <div className="sideCardSection sideCardDivider">
@@ -79,36 +79,38 @@ export default function MethodologyPage() {
 
       <section className="contentGrid">
         <article className="contentPanel">
-          <p className="eyebrow">Julkaisusäännöt</p>
-          <h2>Milloin rivi ei pääse mukaan</h2>
+          <p className="eyebrow">Universen hallinta</p>
+          <h2>Mitä kuuluu v1-raakauniversumiin</h2>
           <ul className="plainList">
-            <li>Pakollinen talouskenttä puuttuu tai ei ole numeerinen.</li>
-            <li>Enterprise Value on nolla tai negatiivinen.</li>
-            <li>Sijoitetun pääoman nimittäjä on nolla tai negatiivinen.</li>
-            <li>Rivi on muuten niin puutteellinen, ettei vertailu ole enää rehellinen.</li>
+            <li>Vain Nasdaq Helsinki Main Market -yhtiöt.</li>
+            <li>Universe ylläpidetään tiedostossa `python_pipeline/data/main_market_universe.csv`.</li>
+            <li>Talousluvut ylläpidetään erillisessä `python_pipeline/data/financials.csv`-tiedostossa.</li>
+            <li>Universe ja ranking-kelpoisuus erotetaan tarkoituksella eri vaiheisiin.</li>
           </ul>
         </article>
 
         <article className="contentPanel mutedPanel">
-          <p className="eyebrow">Datan laatu</p>
-          <h2>Mitä käyttäjän kannattaa huomioida</h2>
+          <p className="eyebrow">Julkaisusäännöt</p>
+          <h2>Milloin yhtiö ei pääse mukaan rankingiin</h2>
           <ul className="plainList">
-            <li>Talousdata voi olla viiveellistä ja myöhemmin korjattua.</li>
-            <li>Kertaluonteiset erät voivat vääristää tunnuslukuja hetkellisesti.</li>
-            <li>Finanssisektoria ei mallinneta erikseen v1:ssä, joten tulkinta vaatii harkintaa.</li>
-            <li>Laatupiste on tulkintaa tukeva overlay, ei itsenäinen sijoitussuositus.</li>
+            <li>Yhtiö on finanssisektorilla ja jää ulos metodologisesta syystä.</li>
+            <li>Rankingiin tarvittavat statementit puuttuvat tai ovat virheellisessä muodossa.</li>
+            <li>EBIT on nolla tai negatiivinen.</li>
+            <li>Enterprise Value on nolla tai negatiivinen.</li>
+            <li>Sijoitetun pääoman nimittäjä on nolla tai negatiivinen.</li>
+            <li>Sektoritieto puuttuu eikä metodologista rajaa voida varmistaa.</li>
           </ul>
         </article>
       </section>
 
       <section className="contentGrid">
         <article className="contentPanel">
-          <p className="eyebrow">Käyttöliittymässä näkyvä selitettävyys</p>
-          <h2>Miten luvut näkyvät tuotteen eri näkymissä</h2>
+          <p className="eyebrow">Miten poissulku näkyy tuotteessa</p>
+          <h2>Käyttäjän näkökulma</h2>
           <ul className="plainList">
-            <li>Ranking-sivulla näkyvät sijoitus, Magic Formula -piste, ROC, EBIT/EV ja laatupiste.</li>
-            <li>Yhtiösivu toistaa samat luvut ja kertoo, onko rivillä validointivaroituksia.</li>
-            <li>Datan laatu, poissulut ja vastuuvapauslauseke ovat helposti löydettävissä omissa osioissaan.</li>
+            <li>Etusivu näyttää raakauniversen, rankatut yhtiöt, poissulut ja finanssipoissulut erikseen.</li>
+            <li>Poissululista kertoo syyn selkeällä suomenkielisellä tekstillä.</li>
+            <li>Yhtiösivu aukeaa myös poissuljetuille riveille ja kertoo miksi yhtiö ei rankkaudu.</li>
           </ul>
         </article>
 
