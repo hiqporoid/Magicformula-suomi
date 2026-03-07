@@ -1,4 +1,4 @@
-﻿# progress.md
+# progress.md
 
 ## Projektin nimi
 Magicformula-suomi
@@ -20,6 +20,7 @@ Perusrunko valmis, v1-demo thin slice toimii datasta UI:hin (riippuen npm-asennu
 8. Toteutettu v1-demo thin slice: Python-export `src/data/ranking-v1.json`-muotoon, ranking-sivu suodatuksella/lajittelulla, metodologiasivu, yhtiodetailin shell seka nakyva datalaatu/disclaimer UI:ssa.
 9. Auditoitu frontendin install-blokkeri: `npm config`, ymparistomuuttujat ja proxy/registry-ketju; 403 tulee verkon envoy-proxyn CONNECT-estosta (ei package.json-riippuvuusvirhe). Tehtiin minimikorjaus dokumentointiin ja kayttoohjeeseen: frontendin asennus vaatii ymparistolta sallitun npm-registryn (esim. corporate mirror) tai proxy-allowlistin npm-registry-domaiineille. Seuraava askel: aseta CI/ajoymparistoon toimiva `NPM_CONFIG_REGISTRY`/mirror tai avaa proxyyn ulosmeneva npm-liikenne.
 10. Auditoitu v1-thin-slice paikallisesti: pipeline JSON-export ajettiin, dataset-rakenne validoitiin, Next.js build meni lapi, ja runtime-savussa sivut `/`, `/metodologia` ja `/yhtio/KNEBV` palauttivat HTTP 200. Samalla korjattiin buildia estanyt tyyppivirhe tiedostossa `src/lib/sampleData.ts` (puuttuneet kentat `roc` ja `validationWarnings`). Seuraava askel: lisaa Python-ymparistoon `pytest`, jotta pipeline-testit voidaan ajaa myos tassa koneessa.
+11. Korjattu Python-testien package discovery paikalliseen kehitykseen ilman manuaalista `PYTHONPATH`-asettamista: lisattiin repojuureen `pytest.ini` (`testpaths=python_pipeline/tests`, `pythonpath=.`), paivitettiin `python_pipeline/README.md` setup-ohjeilla ja varmistettiin ajamalla `.venv\Scripts\pytest.exe -q` tyhjalla `PYTHONPATH`:lla (8/8 testia lapi). Seuraava askel: peilaa sama testikomento CI:hin (`pytest -q`) yhtenaisen paikallinen=CI-kayttaytymisen varmistamiseksi.
 
 ## Seuraavat toimet
 - Korjaa CI/ajoympariston npm-proxy/registry-politiikka niin, etta `npm install` onnistuu (nykyinen 403 blokkaa frontendin kaynnistyksen).

@@ -27,3 +27,6 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 4. Tilanne / virhe: Next.js production build kaatui, vaikka runko vaikutti toimivalta, koska vanha `src/lib/sampleData.ts` ei enaa vastannut `RankingRow`-tyyppia.
    Korjaus: Paivitettiin sample-rivit vastaamaan nykyista skeemaa lisaamalla kentat `roc` ja `validationWarnings`, ja varmennettiin build + runtime-URLit savutestilla.
    Uudelleenkaytettava malli tai saanto: Aja aina production build osana v1-demo-verifiointia; se paljastaa staattisen datan ja tyyppimallien ajautumat, joita dev-tila ei valttamatta nayta.
+5. Tilanne / virhe: Testien ajo repojuuresta vaati manuaalisen `PYTHONPATH=.`-muuttujan, muuten `python_pipeline`-importit epaonnistuivat joissain paikallisymparistoissa.
+   Korjaus: Siirrettiin import-pathin oletus pytest-konfiguraatioon (`pytest.ini`: `pythonpath = .`) ja lukittiin testihakemisto `testpaths`-asetuksella.
+   Uudelleenkaytettava malli tai saanto: Kun testit nojaavat repojuuren importteihin, tallenna path-oletus testikonfigiin eika shell-komentoon, jotta kehitys- ja CI-ajot pysyvat toistettavina.
