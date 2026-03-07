@@ -4,10 +4,10 @@
 Magicformula-suomi
 
 ## Nykyinen tavoite
-Viimeistellä repo-natiivinen skill- ja sub-agent-malli, joka tukee ylläpidettävää Helsinki-ranking v1 -kehitystä ilman ylisuunnittelua.
+Saada v1 bootstrap + ensimmäinen tekninen scaffold valmiiksi (universe, pipeline, ranking, UI shell).
 
 ## Status
-Skill-arkkitehtuuri täsmennetty ja käyttöohjeistus yhdenmukaistettu.
+Perusrunko valmis, jatkokehitys käynnissä.
 
 ## Edistymisloki
 1. Luotu repository governance -tiedostot: AGENTS.md, AI.md, progress.md, lessons.md, PLANS.md.
@@ -17,11 +17,8 @@ Skill-arkkitehtuuri täsmennetty ja käyttöohjeistus yhdenmukaistettu.
 5. Scaffoldattu Python data pipeline: normalisointi, validointi, Magic Formula + EBIT/EV -ranking, quality overlay.
 6. Lisätty yksikkötestit normalisoinnille, rankingille ja quality scorelle; testit läpi.
 7. Lisätty GitHub Actions -workflow datapäivityksen testiajoa varten.
-8. Päivitetty AGENTS.md kurinalaisen finanssitutkimustuotteen periaatteilla (selitettävyys, datalaatu, v1-rajaus, closeout-checklist).
-9. Refaktoroitu repo-skilliarkkitehtuuri workstream-kohtaiseksi (data, metodologia, UI, validointi, CI) ja täsmennetty triggerit/tiedostokohdistus.
 
 ## Seuraavat toimet
 - Kytke oikea markkinadatalähde universe- ja talouslukuputkeen.
-- Lisää finanssiyhtiöiden poissulku käytännön datavirtaan Magic Formula -ajossa.
-- Toteuta UI:hin datalaatu- ja poissulkumerkinnät näkyvästi.
-- Karsi mahdolliset päällekkäiset skillit jatkossa, jos ylläpitokustannus kasvaa.
+- Toteuta UI:n lajittelu/suodatus oikealla datalla (ei sampledata).
+- Lisää metodologian yksityiskohtaiset kaavat ja sektorikohtaiset huomiot.

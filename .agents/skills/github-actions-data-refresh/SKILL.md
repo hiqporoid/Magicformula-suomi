@@ -1,18 +1,17 @@
 ---
 name: github-actions-data-refresh
-description: Ylläpidä ajastettua data refresh + testiautomaatio -workflown runkoa. Käytä kun tehtävä koskee workflow-aikatauluja, pipeline-vaiheita, testiajoja, artifacteja tai fail-fast validointia.
+description: Toteuta GitHub Actions -automaatiot datan päivitykseen ja validointiin. Käytä kun tehtävä koskee ajastettuja päivitysajoja, pipeline-ajojen orkestrointia, artefakteja tai CI-laatutarkistuksia.
 ---
 
 # github-actions-data-refresh
 
-## Triggerit
-- Muutokset `.github/workflows/data-refresh.yml`.
-
 ## Tee
-- Pidä workflow yksinkertaisena: setup -> testit -> raportointi.
-- Failaa ajo selkeästi datan validointivirheissä.
-- Julkaise artifactit, joista laatuongelmat voi auditoida.
+- Luo ajastettu workflow datan päivitykseen (`schedule` + manuaalinen `workflow_dispatch`).
+- Aja normalisointi, ranking ja validointivaiheet putkena.
+- Tallenna raportit/artifactsit tarkastusta varten.
+- Failaa workflow selkeästi validointivirheissä.
 
 ## Vältä
-- Yhteen jobiin kasattua vaikeasti ylläpidettävää putkea.
-- Salaisuuksien tai ympäristöasetusten kovakoodausta.
+- Salaisuuksien kovakoodausta workflowihin.
+- Yhtä massiivista jobia ilman vaiheistusta.
+- Päivitysautomaatiota ilman lokitettua tulosyhteenvetoa.

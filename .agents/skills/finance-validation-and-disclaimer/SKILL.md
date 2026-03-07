@@ -1,18 +1,17 @@
 ---
 name: finance-validation-and-disclaimer
-description: Ylläpidä julkaisuportit datan validoinnille ja vastuuvapausviestinnälle. Käytä kun tehtävä koskee validointikriteerejä, riskitekstejä, ei-sijoitussuositusviestejä tai laatuvaroitusten esitystapaa.
+description: Määritä rahoitusdatan validointi ja vastuuvapaustekstit. Käytä kun tehtävä koskee datan laadun tarkistuksia, varoituksia, metodologiarajoitteita tai ei-sijoitussuositus -viestejä.
 ---
 
 # finance-validation-and-disclaimer
 
-## Triggerit
-- Muutokset `docs/methodology/disclaimer.md` tai pipeline-validoinnin hyväksyntäsääntöihin.
-
 ## Tee
-- Määritä minimilaatuportit ennen rankingin julkaisemista.
-- Kirjaa dataan liittyvät epävarmuudet eksplisiittisesti.
+- Määritä minimivalidoinnit ennen rankingin julkaisua.
+- Kirjaa datan laaturiskit (puuttuva data, viive, kertaluonteiset erät).
+- Lisää selkeä ei-sijoitussuositus -disclaimer suomeksi.
 - Varmista, että disclaimer näkyy UI:ssa ja dokumentaatiossa.
 
 ## Vältä
-- Väitteitä virheettömästä datasta.
-- Validointivirheiden hiljaista ohitusta.
+- Ehdottomia väitteitä datan virheettömyydestä.
+- Disclaimereiden hautaamista vaikeasti löydettäväksi.
+- Validointivirheiden ohittamista ilman lokia.

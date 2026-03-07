@@ -1,18 +1,17 @@
 ---
 name: nextjs-finance-table-ui
-description: Toteuta Next.js UI ranking-taulukolle siten, että metodologia, poissulut ja datalaatu näkyvät käyttäjälle. Käytä kun tehtävä koskee taulukon rakennetta, sarakeselitteitä, datalaatubadgeja tai poissulkutiloja.
+description: Rakenna Next.js-pohjainen talousranking-taulukko käyttöliittymään. Käytä kun tehtävä koskee taulukkonäkymää, lajittelua, suodatusta, sarakkeiden selitteitä tai metodologialinkityksiä.
 ---
 
 # nextjs-finance-table-ui
 
-## Triggerit
-- Muutokset `app/*`, `src/components/*`, `src/lib/*`.
-
 ## Tee
-- Näytä ranking + osamittarit + selitteet selkeästi.
-- Lisää näkyvät indikaattorit puuttuvasta/matalan luottamuksen datasta.
-- Näytä poissulut (esim. finanssiyhtiöt Magic Formula -ajossa) perusteluineen.
+- Toteuta taulukko, jossa selkeät sarakkeet rankeille ja mittareille.
+- Lisää lajittelu ja perussuodatus ilman raskasta tilanhallintaa.
+- Säilytä komponentit presentaatio- ja datakerroksittain.
+- Lisää metodologian ja disclaimerin näkyvä linkki.
 
 ## Vältä
-- Raskasta UI-infrastruktuuria v1:ssä.
-- Datalaadun tai poissulkujen piilottamista dokumentaation taakse.
+- Ylisuunniteltua design systemiä v1:ssä.
+- Tarpeettomia animaatioita tai raskaita UI-kirjastoja.
+- Datafetching-logiikan sekoittamista puhtaaseen UI-komponenttiin.

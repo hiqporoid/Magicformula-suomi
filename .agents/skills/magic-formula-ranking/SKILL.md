@@ -1,20 +1,18 @@
 ---
 name: magic-formula-ranking
-description: Toteuta ja ylläpidä Magic Formula- sekä EBIT/EV-rankinglogiikkaa projektin metodologian mukaan. Käytä kun tehtävä koskee ROC/Earnings Yield -kaavoja, tie-breaker-sääntöjä, finanssiyhtiöiden poissulkua tai rankingin selitettävyyttä.
+description: Toteuta Magic Formula -ranking (ROC + Earnings Yield) projektiin. Käytä kun tehtävä koskee kaavojen implementointia, rankkien yhdistämistä, tasatilanteita tai siihen liittyviä testejä.
 ---
 
 # magic-formula-ranking
 
-## Triggerit
-- Muutokset `python_pipeline/magicformula/ranking.py`, `python_pipeline/tests/test_ranking.py`, `docs/methodology/*`.
-- Tarve muuttaa rankingin kaavaa tai järjestyssääntöjä.
-
 ## Tee
-- Pidä ROC ja Earnings Yield kaavat erillisinä ja dokumentoituina.
-- Käytä determinististä tie-breakeria (ticker aakkosjärjestys), ellei toisin dokumentoitu.
-- Sulje finanssiyhtiöt pois v1-ajosta, jos erillistä finanssimallia ei ole.
-- Tuota rankingin selitettävä ulostulo (osakomponentit + lopullinen sijoitus).
+- Laske ROC ja Earnings Yield dokumentoiduilla kaavoilla.
+- Rankkaa molemmat mittarit erikseen ja yhdistä summapisteiksi.
+- Ratkaise tasatilanteet deterministisesti (ticker aakkosjärjestys).
+- Erota laskenta, ranking ja serialisointi omiin funktioihin.
+- Lisää yksikkötestit sekä normaali- että reunatapauksille.
 
 ## Vältä
-- Epävakaita lajittelusääntöjä.
-- Kaavojen muuttamista ilman dokumenttipäivitystä ja testiä.
+- Epävakaita satunnaisia tie-breakereita.
+- Mittarien sekoittamista UI-logiikkaan.
+- “Mustia laatikoita” ilman kaavadokumentaatiota.

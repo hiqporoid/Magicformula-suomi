@@ -1,19 +1,18 @@
 ---
 name: helsinki-universe
-description: Hallitse Nasdaq Helsinki Main Market -universen rajaus tätä projektia varten. Käytä kun tehtävä koskee universelähdettä, sisään/ulos-sääntöjä, finanssiyhtiöiden poissulkua Magic Formula -ajossa tai universedatan versiopäivitystä.
+description: Muodosta ja ylläpidä Nasdaq Helsinki Main Market -yhtiöuniversumi tälle projektille. Käytä kun tehtävä koskee universen rajauskriteerejä, sisään/ulos-sääntöjä, listamuutoksia tai universedatan dokumentointia.
 ---
 
 # helsinki-universe
 
-## Triggerit
-- Muutokset `docs/methodology/universe.md` tai `python_pipeline/data/*`.
-- Tarve päivittää universelista ja poissulkusyyt.
-
 ## Tee
-- Rajaa universe v1:ssä vain Nasdaq Helsinki Main Marketiin.
-- Kirjaa sisäänottokriteerit, poissulkukriteerit ja poissulkujen syykoodit.
-- Erottele “universessa mukana” vs. “Magic Formulaan hyväksytty” (finanssiyhtiöt oletuksena pois).
+- Rajaa universe vain Nasdaq Helsinki Main Market -yhtiöihin.
+- Dokumentoi sisäänottokriteerit (listaussegmentti, kaupankäynnin aktiivisuus, datan saatavuus).
+- Dokumentoi poissulkusäännöt (puuttuva kriittinen data, ilmeinen datavirhe).
+- Tuota deterministinen ticker-lista ja päivitysprosessi.
+- Päivitä metodologia (`docs/methodology/universe.md`) ja progress-loki.
 
 ## Vältä
-- First Northin tai muiden markkinapaikkojen lisäämistä v1:een.
-- Manuaalisia poikkeuksia ilman dokumentoitua sääntöä.
+- First North- tai muiden markkinapaikkojen sisällyttämistä v1:een.
+- Ad hoc -poikkeuksia ilman kirjattua sääntöä.
+- Universen yhdistämistä ranking-logiikkaan samaan moduuliin.

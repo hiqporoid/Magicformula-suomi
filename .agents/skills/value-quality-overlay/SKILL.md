@@ -1,18 +1,17 @@
 ---
 name: value-quality-overlay
-description: Määritä ja ylläpidä v1 quality overlay -pisteytystä arvorankingin rinnalla. Käytä kun tehtävä koskee laatumittareita, painotuksia, fallbackeja tai yhdistelmärankingin selitettävyyttä.
+description: Yhdistä arvo- ja laatumittarit yhdeksi priorisointinäkymäksi. Käytä kun tehtävä koskee quality overlay -pisteytystä, painotuksia, tai yhdistelmärankingin läpinäkyvyyttä.
 ---
 
 # value-quality-overlay
 
-## Triggerit
-- Muutokset `python_pipeline/magicformula/quality.py` tai `python_pipeline/tests/test_quality.py`.
-
 ## Tee
+- Määritä laatumittarit v1:lle (esim. ROIC, velkaisuus, kassavirran vakaus).
+- Skaalaa pisteet vertailukelpoisiksi ja dokumentoi painot.
 - Tuota erikseen value-score, quality-score ja combined-score.
-- Dokumentoi jokainen paino ja fallback-sääntö.
-- Merkitse puuttuvat laatumittarit näkyvästi, älä oleta neutraaliksi ilman sääntöä.
+- Näytä pisteiden osatekijät UI:ssa selitettävinä kenttinä.
 
 ## Vältä
-- ML-pohjaisia tai vaikeasti selitettäviä malleja v1:ssä.
-- Piilotettuja normalisointeja, joita ei voi jäljittää.
+- Monimutkaista ML-mallia v1:ssä.
+- Painojen muuttamista ilman versionoitua dokumentointia.
+- Quality-overlayn käyttämistä poikkeussääntöjen piilottamiseen.

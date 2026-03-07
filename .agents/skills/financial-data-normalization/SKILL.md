@@ -1,20 +1,18 @@
 ---
 name: financial-data-normalization
-description: Yhtenäistä ja validoi talousdata ranking-laskentaan. Käytä kun tehtävä koskee syöteskeemaa, puuttuvien arvojen fallback-logiikkaa, datan luottamusluokitusta tai hylkäyssyiden kirjausta.
+description: Yhtenäistä talousdata ranking-laskentaa varten. Käytä kun tehtävä koskee skeemamäppäystä, puuttuvien arvojen käsittelyä, tilikausien harmonisointia tai data-validointeja.
 ---
 
 # financial-data-normalization
 
-## Triggerit
-- Muutokset `python_pipeline/magicformula/normalization.py` tai `python_pipeline/tests/test_normalization.py`.
-- Uusi datalähde tai skeemamuutos.
-
 ## Tee
-- Määritä pakolliset kentät eksplisiittisesti.
-- Lisää fallback vain dokumentoituna sääntönä (ei hiljaista oletusta).
-- Tuota hylkäyssyyt koneellisesti käsiteltävinä koodeina.
-- Testaa puuttuvat arvot, nollajakajat, negatiiviset/epäkelvot arvot.
+- Määritä syöteskeema ja kanoninen välitaulu (`python_pipeline/data`).
+- Harmonoi yksiköt (esim. tuhannet/miljoonat), valuutat ja periodit.
+- Lisää eksplisiittiset säännöt puuttuville arvoille ja nollajakajille.
+- Tuota validointiraportti hylätyistä riveistä syykoodeilla.
+- Lisää testit reunatapauksille.
 
 ## Vältä
-- Ranking-laskennan logiikan sekoittamista normalisointiin.
-- Puuttuvan datan käsittelyä validina ilman näkyvää merkintää.
+- Hiljaisia oletuksia ilman dokumentaatiota.
+- Datan “siivoamista” niin, että alkuperäinen arvo katoaa jäljitettävyydestä.
+- Ranking-kaavojen kovakoodausta normalisointivaiheeseen.
