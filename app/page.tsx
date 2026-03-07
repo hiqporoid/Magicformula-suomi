@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: siteConfig.defaultTitle,
   description:
-    "Avaa Nasdaq Helsinki Main Market -yhtiÃ¶iden ranking yhdessÃ¤ nÃ¤kymÃ¤ssÃ¤. Mukana Magic Formula, EBIT/EV, laatupisteet ja datalaadun rajaukset.",
+    "Avaa Nasdaq Helsinki Main Market -yhtiöiden ranking yhdessä näkymässä. Mukana Magic Formula, EBIT/EV, laatupisteet ja datalaadun rajaukset.",
   alternates: {
     canonical: "/"
   }
@@ -25,13 +25,13 @@ export default function Page() {
       <section className="heroSurface">
         <div className="heroMainCard">
           <div className="eyebrowRow">
-            <p className="eyebrow">TutkimusnÃ¤kymÃ¤</p>
+            <p className="eyebrow">Tutkimusnäkymä</p>
             <span className="softBadge">{dataset.methodologyVersion}</span>
           </div>
-          <h1>Magic Formula -screener Nasdaq Helsingin pÃ¤Ã¤listalle.</h1>
+          <h1>Magic Formula -screener Nasdaq Helsingin päälistalle.</h1>
           <p className="heroLead">
-            NÃ¤kymÃ¤ kokoaa rankatut yhtiÃ¶t, poissulut ja datalÃ¤hteet samaan tyÃ¶pÃ¶ytÃ¤Ã¤n. Tarkoitus on nopea seulonta ja
-            lÃ¤pinÃ¤kyvÃ¤ taustadata.
+            Näkymä kokoaa rankatut yhtiöt, poissulut ja datalähteet samaan työpöytään. Tarkoitus on nopea seulonta ja
+            läpinäkyvä taustadata.
           </p>
           <div className="actionRow">
             <Link href="#ranking" className="buttonPrimary">
@@ -45,13 +45,13 @@ export default function Page() {
             <span>Raakauniversumi: {summary.rawUniverseCount}</span>
             <span>Rankatut: {summary.rankedCount}</span>
             <span>Poissulut: {summary.excludedCount}</span>
-            <span>PÃ¤ivitetty: {formatTimestamp(dataset.generatedAt)}</span>
+            <span>Päivitetty: {formatTimestamp(dataset.generatedAt)}</span>
           </div>
         </div>
 
         <aside className="heroSideCard">
           <div className="sideCardSection">
-            <p className="eyebrow">TÃ¤mÃ¤n viennin kÃ¤rki</p>
+            <p className="eyebrow">Tämän viennin kärki</p>
             <h2>
               {leadCompany.company} <span className="inlineTicker">({leadCompany.ticker})</span>
             </h2>
@@ -61,11 +61,11 @@ export default function Page() {
             </p>
           </div>
           <div className="sideCardSection sideCardDivider">
-            <p className="eyebrow">MitÃ¤ tÃ¤stÃ¤ nÃ¤kee</p>
+            <p className="eyebrow">Mitä tästä näkee</p>
             <ul className="plainList compactList">
-              <li>Koko Main Market -universen yhdestÃ¤ viennistÃ¤.</li>
-              <li>Markkina-arvo nÃ¤kyy taulukossa ja toimii suodattimena.</li>
-              <li>Yrityssivu nÃ¤yttÃ¤Ã¤ rankingin taustalla olevat luvut ja poissulut.</li>
+              <li>Koko Main Market -universen yhdestä viennistä.</li>
+              <li>Markkina-arvo näkyy taulukossa ja toimii suodattimena.</li>
+              <li>Yrityssivu näyttää rankingin taustalla olevat luvut ja poissulut.</li>
             </ul>
           </div>
         </aside>
@@ -75,56 +75,54 @@ export default function Page() {
         <article className="summaryCard emphasisCard">
           <span className="summaryLabel">Raakauniversumi</span>
           <strong>{summary.rawUniverseCount}</strong>
-          <p>Main Market -yhtiÃ¶t nykyisessÃ¤ universessa.</p>
+          <p>Main Market -yhtiöt nykyisessä universessa.</p>
         </article>
         <article className="summaryCard">
           <span className="summaryLabel">Rankatut</span>
           <strong>{summary.rankedCount}</strong>
-          <p>YhtiÃ¶t, jotka lÃ¤pÃ¤isivÃ¤t kelpoisuussÃ¤Ã¤nnÃ¶t.</p>
+          <p>Yhtiöt, jotka läpäisivät kelpoisuussäännöt.</p>
         </article>
         <article className="summaryCard">
           <span className="summaryLabel">Poissuljetut</span>
           <strong>{summary.excludedCount}</strong>
-          <p>YhtiÃ¶t, jotka jÃ¤ivÃ¤t ulos ennen rankingia.</p>
+          <p>Yhtiöt, jotka jäivät ulos ennen rankingia.</p>
         </article>
         <article className="summaryCard">
           <span className="summaryLabel">Finanssipoissulut</span>
           <strong>{summary.financeExcludedCount}</strong>
-          <p>Metodologisesti erikseen rajatut finanssiyhtiÃ¶t.</p>
+          <p>Metodologisesti erikseen rajatut finanssiyhtiöt.</p>
         </article>
       </section>
 
       <section className="contentGrid dataSourceGrid">
         <article className="contentPanel">
-          <p className="eyebrow">Data source / PÃ¤ivitetty</p>
-          <h2>MistÃ¤ data tulee?</h2>
+          <p className="eyebrow">Data source / Päivitetty</p>
+          <h2>Mistä data tulee?</h2>
           <div className="definitionList">
             <div>
               <span className="definitionLabel">Universe</span>
               <strong>{dataset.dataSources.universe.label}</strong>
-              <p>{dataset.dataSources.universe.detail}</p>
-              <code>{dataset.dataSources.universe.path}</code>
+              <p>Universe kattaa Nasdaq Helsingin päälistan yhtiöt nykyisessä vientiajossa.</p>
             </div>
             <div>
               <span className="definitionLabel">Financials</span>
               <strong>{dataset.dataSources.financials.label}</strong>
-              <p>{dataset.dataSources.financials.detail}</p>
-              <code>{dataset.dataSources.financials.path}</code>
+              <p>Talousluvut haetaan financials-aineistosta ennen rankingin laskentaa.</p>
             </div>
             <div>
-              <span className="definitionLabel">PÃ¤ivitetty</span>
+              <span className="definitionLabel">Päivitetty</span>
               <strong>{formatTimestamp(dataset.generatedAt)}</strong>
-              <p>Sama exportti nÃ¤kyy etusivulla, metodologiassa ja yrityssivuilla.</p>
+              <p>Sama exportti näkyy etusivulla, metodologiassa ja yrityssivuilla.</p>
             </div>
           </div>
         </article>
 
         <article className="contentPanel mutedPanel">
-          <p className="eyebrow">KÃ¤yttÃ¶tapa</p>
-          <h2>Lyhyt tyÃ¶jÃ¤rjestys</h2>
+          <p className="eyebrow">Käyttötapa</p>
+          <h2>Lyhyt työjärjestys</h2>
           <ul className="plainList compactList">
             <li>Rajaa ensin taulukkoa haulla, markkina-arvolla ja datan laadulla.</li>
-            <li>Avaa yrityssivu, kun haluat nÃ¤hdÃ¤ rankingin pohjaluvut.</li>
+            <li>Avaa yrityssivu, kun haluat nähdä rankingin pohjaluvut.</li>
             <li>Tarkista metodologiasivulta poissulut ja laskentatapa ennen tulkintaa.</li>
           </ul>
           <Link href="/metodologia" className="textLink">
@@ -141,17 +139,17 @@ export default function Page() {
         <aside className="workspaceSidebar">
           <section className="sidePanel">
             <p className="eyebrow">Tulosten lukutapa</p>
-            <h2>MistÃ¤ sijoitus syntyy?</h2>
-            <p>Magic Formula -sijoitus muodostuu ROC:n ja EBIT/EV:n yhdistelmÃ¤stÃ¤. Tasatilanteissa ticker ratkaisee.</p>
+            <h2>Mistä sijoitus syntyy?</h2>
+            <p>Magic Formula -sijoitus muodostuu ROC:n ja EBIT/EV:n yhdistelmästä. Tasatilanteissa ticker ratkaisee.</p>
           </section>
 
           <section className="sidePanel cautionPanel">
             <p className="eyebrow">Kelpoisuusrajat</p>
-            <h2>MikÃ¤ sulkee yhtiÃ¶n pois?</h2>
+            <h2>Mikä sulkee yhtiön pois?</h2>
             <ul className="plainList compactList">
               <li>Finanssisektori rajataan pois v1-metodologian vuoksi.</li>
-              <li>Puuttuvat statementit estÃ¤vÃ¤t laskennan.</li>
-              <li>EBIT â‰¤ 0, EV â‰¤ 0 tai negatiivinen sijoitettu pÃ¤Ã¤oma pudottavat rivin pois.</li>
+              <li>Puuttuvat statementit estävät laskennan.</li>
+              <li>EBIT ≤ 0, EV ≤ 0 tai negatiivinen sijoitettu pääoma pudottavat rivin pois.</li>
             </ul>
           </section>
 

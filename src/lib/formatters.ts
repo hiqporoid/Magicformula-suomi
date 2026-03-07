@@ -1,4 +1,4 @@
-const percentFormatter = new Intl.NumberFormat("fi-FI", {
+﻿const percentFormatter = new Intl.NumberFormat("fi-FI", {
   style: "percent",
   minimumFractionDigits: 1,
   maximumFractionDigits: 1
