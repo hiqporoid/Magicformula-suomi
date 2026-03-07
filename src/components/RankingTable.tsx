@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
@@ -108,9 +108,7 @@ export function RankingTable({ rows }: Props) {
         <div>
           <p className="eyebrow">Ranking</p>
           <h2>Arvoseulonnan tulokset</h2>
-          <p className="sectionLead">
-            Hae yhtiöitä, rajaa markkina-arvon mukaan ja avaa tarkempi yrityssivu yhdellä klikkauksella.
-          </p>
+          <p className="sectionLead">Hae yhtiöitä, rajaa markkina-arvon mukaan ja avaa tarkempi yrityssivu.</p>
         </div>
         <Link href="/metodologia" className="textLink">
           Metodologia ja rajaukset

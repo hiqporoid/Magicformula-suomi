@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useMemo, useState } from "react";
 import type { ExcludedCompany } from "@/lib/types";
@@ -29,16 +29,13 @@ export function ExclusionList({ excluded }: Props) {
       <div className="tablePanelHeader compactHeader">
         <div>
           <p className="eyebrow">Poissulut</p>
-          <h2>Miksi kaikki universen yhtiöt eivät rankkaudu?</h2>
-          <p className="sectionLead">
-            Finanssiyhtiöt suljetaan pois metodologisena valintana. Muut poissulut liittyvät puuttuviin tai
-            vertailukelvottomiin talouslukuihin.
-          </p>
+          <h2>Miksi kaikki eivät rankkaudu?</h2>
+          <p className="sectionLead">Finanssiyhtiöt rajataan pois metodologisesti. Muut poissulut liittyvät puuttuviin tai vertailukelvottomiin lukuihin.</p>
         </div>
       </div>
 
       <label className="fieldGroup">
-        <span>Poissulkunäkymä</span>
+        <span>Näkymä</span>
         <select value={filter} onChange={(event) => setFilter(event.target.value as Filter)}>
           <option value="all">Kaikki poissuljetut</option>
           <option value="nonFinancial">Piilota finanssipoissulut</option>

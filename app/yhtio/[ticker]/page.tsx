@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -40,7 +40,7 @@ export function generateMetadata({ params }: Props): Metadata {
 
   if (!company) {
     return {
-      title: "YhtiÃ¶tÃ¤ ei lÃ¶ytynyt",
+      title: "Yhtiötä ei löytynyt",
       alternates: {
         canonical: `/yhtio/${params.ticker}`
       }
@@ -48,8 +48,8 @@ export function generateMetadata({ params }: Props): Metadata {
   }
 
   const description = row
-    ? `${company.company} on mukana Magicformula-suomi-aineistossa sijoituksella ${row.rank}. Sivulla nÃ¤kyvÃ¤t ROC, EBIT/EV, markkina-arvo ja rankingin taustadata.`
-    : `${company.company} kuuluu Main Market -raakauniversumiin, mutta on suljettu pois Magic Formula -rankingista. Syy: ${excluded?.reasons[0] ?? "poissulkusyy nÃ¤kyy sivulla"}`;
+    ? `${company.company} on mukana Magicformula-suomi-aineistossa sijoituksella ${row.rank}. Sivulla näkyvät ROC, EBIT/EV, markkina-arvo ja rankingin taustadata.`
+    : `${company.company} kuuluu Main Market -raakauniversumiin, mutta on suljettu pois Magic Formula -rankingista. Syy: ${excluded?.reasons[0] ?? "poissulkusyy näkyy sivulla"}`;
 
   return {
     title: `${company.company} (${company.ticker})`,
@@ -67,12 +67,12 @@ function buildFinancialRows(snapshot: FinancialSnapshot | null) {
 
   return [
     { label: "Tilinpäätöspäivä", value: snapshot.statementDate ?? "Ei saatavilla" },
-    { label: "LÃ¤hdetunnus", value: snapshot.sourceSymbol ?? "Ei saatavilla" },
+    { label: "Lähdetunnus", value: snapshot.sourceSymbol ?? "Ei saatavilla" },
     { label: "Markkina-arvo", value: formatMarketCap(snapshot.marketCap) },
     { label: "EBIT", value: formatMillions(snapshot.ebit) },
     { label: "Yritysarvo", value: formatMillions(snapshot.enterpriseValue) },
-    { label: "Sijoitettu pÃ¤Ã¤oma", value: formatMillions(snapshot.investedCapital) },
-    { label: "EV-lÃ¤hde", value: snapshot.evSource ?? "Ei saatavilla" }
+    { label: "Sijoitettu pääoma", value: formatMillions(snapshot.investedCapital) },
+    { label: "EV-lähde", value: snapshot.evSource ?? "Ei saatavilla" }
   ];
 }
 
@@ -103,12 +103,9 @@ export default function CompanyPage({ params }: Props) {
           <h1>
             {company.company} <span className="inlineTicker">({company.ticker})</span>
           </h1>
-          <p className="heroLead">
-            Sivulla nÃ¤kyvÃ¤t yrityksen perustiedot, rankingin pohjana oleva finanssidata sekÃ¤ mahdollinen poissulun syy
-            tai datalaatuhuomio.
-          </p>
+          <p className="heroLead">Perustiedot, rankingin pohjaluvut ja mahdollinen poissulun syy samassa näkymässä.</p>
           <div className="heroMetaStrip">
-            <span>PÃ¤ivitetty: {formatTimestamp(dataset.generatedAt)}</span>
+            <span>Päivitetty: {formatTimestamp(dataset.generatedAt)}</span>
             <span>Sektori: {company.sector ?? "Ei tiedossa"}</span>
             <span>Markkina-arvo: {formatMarketCap(financialSnapshot?.marketCap ?? null)}</span>
           </div>
@@ -121,7 +118,7 @@ export default function CompanyPage({ params }: Props) {
             <p>
               {isRanked
                 ? `ROC ${formatPercent(row!.roc)}, EBIT/EV ${formatPercent(row!.ebitEv)} ja datan laatu ${dataQualityText.toLowerCase()}.`
-                : excluded?.reasons[0] ?? "Poissulun syytÃ¤ ei lÃ¶ytynyt aineistosta."}
+                : excluded?.reasons[0] ?? "Poissulun syytä ei löytynyt aineistosta."}
             </p>
           </div>
           <div className="sideCardSection sideCardDivider">
@@ -136,12 +133,12 @@ export default function CompanyPage({ params }: Props) {
         <article className="summaryCard emphasisCard">
           <span className="summaryLabel">Status</span>
           <strong>{isRanked ? `#${row?.rank}` : "Ulkona"}</strong>
-          <p>{isRanked ? "Magic Formula -sijoitus nykyisessÃ¤ viennissÃ¤." : "YhtiÃ¶tÃ¤ ei rankattu tÃ¤hÃ¤n vientiin."}</p>
+          <p>{isRanked ? "Magic Formula -sijoitus nykyisessä viennissä." : "Yhtiö ei rankkaudu tähän vientiin."}</p>
         </article>
         <article className="summaryCard">
           <span className="summaryLabel">Markkina-arvo</span>
           <strong>{formatMarketCap(financialSnapshot?.marketCap ?? null)}</strong>
-          <p>NykyisessÃ¤ financials-exportissa mukana oleva markkina-arvo.</p>
+          <p>Financials-exportin markkina-arvo.</p>
         </article>
         <article className="summaryCard">
           <span className="summaryLabel">EBIT/EV</span>
@@ -151,26 +148,26 @@ export default function CompanyPage({ params }: Props) {
         <article className="summaryCard">
           <span className="summaryLabel">ROC</span>
           <strong>{isRanked && row ? formatPercent(row.roc) : "-"}</strong>
-          <p>Operatiivisen pÃ¤Ã¤oman tuotto nykyisellÃ¤ datalla.</p>
+          <p>Operatiivisen pääoman tuotto.</p>
         </article>
         <article className="summaryCard">
           <span className="summaryLabel">Datan laatu</span>
           <strong>{dataQualityText}</strong>
-          <p>{isRanked ? "Perustuu tÃ¤mÃ¤n rivin validointihuomioihin." : "Poissulku nÃ¤kyy erillisessÃ¤ osiossa."}</p>
+          <p>{isRanked ? "Mahdolliset validointihuomiot tällä rivillä." : "Poissulku näkyy alempana."}</p>
         </article>
       </section>
 
       <section className="contentGrid wideFirstGrid">
         <article className="contentPanel">
-          <p className="eyebrow">1) Yrityksen tiedot</p>
-          <h2>Perustiedot</h2>
+          <p className="eyebrow">1) Perustiedot</p>
+          <h2>Yhtiö</h2>
           <div className="definitionList compactDefinitionList">
             <div>
               <span className="definitionLabel">Ticker</span>
               <strong>{company.ticker}</strong>
             </div>
             <div>
-              <span className="definitionLabel">YhtiÃ¶</span>
+              <span className="definitionLabel">Yhtiö</span>
               <strong>{company.company}</strong>
             </div>
             <div>
@@ -186,7 +183,7 @@ export default function CompanyPage({ params }: Props) {
 
         <article className="contentPanel mutedPanel">
           <p className="eyebrow">2) Finanssidata</p>
-          <h2>Rankingin pohjana olevat luvut</h2>
+          <h2>Rankingin pohjaluvut</h2>
           {financialRows.length > 0 ? (
             <div className="definitionList compactDefinitionList">
               {financialRows.map((item) => (
@@ -209,15 +206,15 @@ export default function CompanyPage({ params }: Props) {
               ) : null}
             </div>
           ) : (
-            <p>Financials-riviÃ¤ ei lÃ¶ytynyt tÃ¤hÃ¤n yhtiÃ¶Ã¶n nykyisestÃ¤ exportista.</p>
+            <p>Tähän yhtiöön ei löytynyt financials-riviä nykyisestä exportista.</p>
           )}
         </article>
       </section>
 
       <section className="contentGrid wideFirstGrid">
         <article className={`contentPanel ${isRanked ? "mutedPanel" : "cautionPanel"}`}>
-          <p className="eyebrow">3) Status ja huomiot</p>
-          <h2>{isRanked ? "Datalaatu ja ranking-status" : "Poissulun syy"}</h2>
+          <p className="eyebrow">3) Status</p>
+          <h2>{isRanked ? "Datan laatu ja ranking" : "Poissulun syy"}</h2>
           {isRanked && row ? (
             row.validationWarnings.length > 0 ? (
               <ul className="plainList compactList">
@@ -226,11 +223,11 @@ export default function CompanyPage({ params }: Props) {
                 ))}
               </ul>
             ) : (
-              <p>Rivi lÃ¤pÃ¤isi nykyiset kelpoisuussÃ¤Ã¤nnÃ¶t ilman erillisiÃ¤ validointihuomioita.</p>
+              <p>Rivi läpäisi nykyiset kelpoisuussäännöt ilman erillisiä validointihuomioita.</p>
             )
           ) : (
             <ul className="plainList compactList">
-              {(excluded?.reasons ?? ["Poissulun syytÃ¤ ei lÃ¶ytynyt aineistosta."]).map((reason) => (
+              {(excluded?.reasons ?? ["Poissulun syytä ei löytynyt aineistosta."]).map((reason) => (
                 <li key={reason}>{reason}</li>
               ))}
             </ul>
@@ -238,12 +235,12 @@ export default function CompanyPage({ params }: Props) {
         </article>
 
         <article className="contentPanel">
-          <p className="eyebrow">4) LisÃ¤huomiot</p>
-          <h2>MitÃ¤ tÃ¤stÃ¤ kannattaa katsoa seuraavaksi</h2>
+          <p className="eyebrow">4) Seuraavaksi</p>
+          <h2>Mitä kannattaa tarkistaa</h2>
           <ul className="plainList compactList">
-            <li>Tarkista yrityssivun luvut suhteessa koko ranking-taulukkoon.</li>
-            <li>Katso metodologiasivulta, miten ROC ja EBIT/EV lasketaan.</li>
-            <li>Jos yhtiÃ¶ on poissuljettu, tarkista johtuuko se metodologiasta vai puuttuvasta datasta.</li>
+            <li>Vertaa yrityksen lukuja koko ranking-taulukkoon.</li>
+            <li>Tarkista metodologiasivulta, miten ROC ja EBIT/EV lasketaan.</li>
+            <li>Jos yhtiö on poissuljettu, katso johtuuko se datasta vai metodologiasta.</li>
           </ul>
           <div className="inlineLinkList">
             <Link href="/" className="textLink">

@@ -1,44 +1,44 @@
 # lessons.md
 
 ## Tiedoston tarkoitus
-Koota projektin aikana opitut asiat yhteen, jotta virheet eivÃ¤t toistu ja hyvÃ¤t kÃ¤ytÃ¤nnÃ¶t monistuvat.
+Koota projektin aikana opitut asiat yhteen, jotta virheet eivÃƒÂ¤t toistu ja hyvÃƒÂ¤t kÃƒÂ¤ytÃƒÂ¤nnÃƒÂ¶t monistuvat.
 
 ## Numeroitu formaatti
 Kirjaa opit juoksevasti numeroituna listana muodossa:
 1. Tilanne / virhe
 2. Korjaus
-3. UudelleenkÃ¤ytettÃ¤vÃ¤ malli tai sÃ¤Ã¤ntÃ¶
+3. UudelleenkÃƒÂ¤ytettÃƒÂ¤vÃƒÂ¤ malli tai sÃƒÂ¤ÃƒÂ¤ntÃƒÂ¶
 
 ## Kirjauskonventiot
-- Ole konkreettinen: viittaa pÃ¤Ã¤tÃ¶kseen, ei yleiseen tuntemukseen.
-- Kuvaa vaikutus: mitÃ¤ parani (laatu, nopeus, luotettavuus).
+- Ole konkreettinen: viittaa pÃƒÂ¤ÃƒÂ¤tÃƒÂ¶kseen, ei yleiseen tuntemukseen.
+- Kuvaa vaikutus: mitÃƒÂ¤ parani (laatu, nopeus, luotettavuus).
 - Kirjaa vain aidosti toistettavat mallit.
 
 ## Opit
-1. Tilanne / virhe: Rankinglogiikassa tasatilanteet jÃ¤isivÃ¤t helposti epÃ¤deterministisiksi, jos lajittelu tehdÃ¤Ã¤n vain pistemÃ¤Ã¤rÃ¤llÃ¤.
-   Korjaus: LisÃ¤ttiin vakioitu tie-breaker tickerin aakkosjÃ¤rjestyksellÃ¤ ja testattiin tapaus.
-   UudelleenkÃ¤ytettÃ¤vÃ¤ malli tai sÃ¤Ã¤ntÃ¶: Kaikissa ranking-funktioissa mÃ¤Ã¤ritÃ¤ eksplisiittinen toissijainen sort-kenttÃ¤.
-2. Tilanne / virhe: Frontend jÃ¤i sampledatan varaan, jolloin pipeline ja UI eivÃ¤t muodostaneet testattavaa kokonaisuutta.
-   Korjaus: LisÃ¤ttiin kevyt JSON-export pipelineen ja luettiin sama tiedosto suoraan Next.js:ssa tyyppimÃ¤ppÃ¤yksen kautta.
-   UudelleenkÃ¤ytettÃ¤vÃ¤ malli tai sÃ¤Ã¤ntÃ¶: v1-vaiheessa suosi staattista vÃ¤liformaattia (JSON) ennen tietokantaa, kun tavoite on nopeasti todennettava end-to-end thin slice.
-3. Tilanne / virhe: Frontendin `npm install` epÃ¤onnistui virheellÃ¤ 403, vaikka `registry` oli oikein (`https://registry.npmjs.org/`) eikÃ¤ repossa ollut virheellistÃ¤ `.npmrc`-ylikirjoitusta.
-   Korjaus: Juurisyyn varmistus tehtiin verkko-/proxytasolla (`curl -v`), joka nÃ¤ytti envoy-proxyn estÃ¤vÃ¤n jo `CONNECT registry.npmjs.org:443` -vaiheen. Repoon ei tehty turhia package manager -vaihtoja, vaan dokumentoitiin ympÃ¤ristÃ¶vaatimus (proxy allowlist tai corporate npm mirror).
-   UudelleenkÃ¤ytettÃ¤vÃ¤ malli tai sÃ¤Ã¤ntÃ¶: Kun npm antaa 403 kaikille paketeille heti metadatan haussa, varmista ensin proxy-tason CONNECT-estot ennen kuin muutat riippuvuuksia tai lockfilea.
-4. Tilanne / virhe: Next.js production build kaatui, vaikka runko vaikutti toimivalta, koska vanha `src/lib/sampleData.ts` ei enÃ¤Ã¤ vastannut `RankingRow`-tyyppiÃ¤.
-   Korjaus: PÃ¤ivitettiin sample-rivit vastaamaan nykyistÃ¤ skeemaa lisÃ¤Ã¤mÃ¤llÃ¤ kentÃ¤t `roc` ja `validationWarnings`, ja varmennettiin build + runtime-URLit savutestilla.
-   UudelleenkÃ¤ytettÃ¤vÃ¤ malli tai sÃ¤Ã¤ntÃ¶: Aja aina production build osana v1-demo-verifiointia; se paljastaa staattisen datan ja tyyppimallien ajautumat, joita dev-tila ei vÃ¤lttÃ¤mÃ¤ttÃ¤ nÃ¤ytÃ¤.
-5. Tilanne / virhe: Testien ajo repojuuresta vaati manuaalisen `PYTHONPATH=.`-muuttujan, muuten `python_pipeline`-importit epÃ¤onnistuivat joissain paikallisympÃ¤ristÃ¶issÃ¤.
+1. Tilanne / virhe: Rankinglogiikassa tasatilanteet jÃƒÂ¤isivÃƒÂ¤t helposti epÃƒÂ¤deterministisiksi, jos lajittelu tehdÃƒÂ¤ÃƒÂ¤n vain pistemÃƒÂ¤ÃƒÂ¤rÃƒÂ¤llÃƒÂ¤.
+   Korjaus: LisÃƒÂ¤ttiin vakioitu tie-breaker tickerin aakkosjÃƒÂ¤rjestyksellÃƒÂ¤ ja testattiin tapaus.
+   UudelleenkÃƒÂ¤ytettÃƒÂ¤vÃƒÂ¤ malli tai sÃƒÂ¤ÃƒÂ¤ntÃƒÂ¶: Kaikissa ranking-funktioissa mÃƒÂ¤ÃƒÂ¤ritÃƒÂ¤ eksplisiittinen toissijainen sort-kenttÃƒÂ¤.
+2. Tilanne / virhe: Frontend jÃƒÂ¤i sampledatan varaan, jolloin pipeline ja UI eivÃƒÂ¤t muodostaneet testattavaa kokonaisuutta.
+   Korjaus: LisÃƒÂ¤ttiin kevyt JSON-export pipelineen ja luettiin sama tiedosto suoraan Next.js:ssa tyyppimÃƒÂ¤ppÃƒÂ¤yksen kautta.
+   UudelleenkÃƒÂ¤ytettÃƒÂ¤vÃƒÂ¤ malli tai sÃƒÂ¤ÃƒÂ¤ntÃƒÂ¶: v1-vaiheessa suosi staattista vÃƒÂ¤liformaattia (JSON) ennen tietokantaa, kun tavoite on nopeasti todennettava end-to-end thin slice.
+3. Tilanne / virhe: Frontendin `npm install` epÃƒÂ¤onnistui virheellÃƒÂ¤ 403, vaikka `registry` oli oikein (`https://registry.npmjs.org/`) eikÃƒÂ¤ repossa ollut virheellistÃƒÂ¤ `.npmrc`-ylikirjoitusta.
+   Korjaus: Juurisyyn varmistus tehtiin verkko-/proxytasolla (`curl -v`), joka nÃƒÂ¤ytti envoy-proxyn estÃƒÂ¤vÃƒÂ¤n jo `CONNECT registry.npmjs.org:443` -vaiheen. Repoon ei tehty turhia package manager -vaihtoja, vaan dokumentoitiin ympÃƒÂ¤ristÃƒÂ¶vaatimus (proxy allowlist tai corporate npm mirror).
+   UudelleenkÃƒÂ¤ytettÃƒÂ¤vÃƒÂ¤ malli tai sÃƒÂ¤ÃƒÂ¤ntÃƒÂ¶: Kun npm antaa 403 kaikille paketeille heti metadatan haussa, varmista ensin proxy-tason CONNECT-estot ennen kuin muutat riippuvuuksia tai lockfilea.
+4. Tilanne / virhe: Next.js production build kaatui, vaikka runko vaikutti toimivalta, koska vanha `src/lib/sampleData.ts` ei enÃƒÂ¤ÃƒÂ¤ vastannut `RankingRow`-tyyppiÃƒÂ¤.
+   Korjaus: PÃƒÂ¤ivitettiin sample-rivit vastaamaan nykyistÃƒÂ¤ skeemaa lisÃƒÂ¤ÃƒÂ¤mÃƒÂ¤llÃƒÂ¤ kentÃƒÂ¤t `roc` ja `validationWarnings`, ja varmennettiin build + runtime-URLit savutestilla.
+   UudelleenkÃƒÂ¤ytettÃƒÂ¤vÃƒÂ¤ malli tai sÃƒÂ¤ÃƒÂ¤ntÃƒÂ¶: Aja aina production build osana v1-demo-verifiointia; se paljastaa staattisen datan ja tyyppimallien ajautumat, joita dev-tila ei vÃƒÂ¤lttÃƒÂ¤mÃƒÂ¤ttÃƒÂ¤ nÃƒÂ¤ytÃƒÂ¤.
+5. Tilanne / virhe: Testien ajo repojuuresta vaati manuaalisen `PYTHONPATH=.`-muuttujan, muuten `python_pipeline`-importit epÃƒÂ¤onnistuivat joissain paikallisympÃƒÂ¤ristÃƒÂ¶issÃƒÂ¤.
    Korjaus: Siirrettiin import-pathin oletus pytest-konfiguraatioon (`pytest.ini`: `pythonpath = .`) ja lukittiin testihakemisto `testpaths`-asetuksella.
-   UudelleenkÃ¤ytettÃ¤vÃ¤ malli tai sÃ¤Ã¤ntÃ¶: Kun testit nojaavat repojuuren importteihin, tallenna path-oletus testikonfigiin eikÃ¤ shell-komentoon, jotta kehitys- ja CI-ajot pysyvÃ¤t toistettavina.
-6. Tilanne / virhe: PowerShellin oletustallennus saattoi kirjoittaa muokatut Next.js-tiedostot UTF-16- tai BOM-muotoon, jolloin route-tiedostot ja `package.json` rikkoivat buildin vaikeasti tulkittavilla virheillÃ¤.
+   UudelleenkÃƒÂ¤ytettÃƒÂ¤vÃƒÂ¤ malli tai sÃƒÂ¤ÃƒÂ¤ntÃƒÂ¶: Kun testit nojaavat repojuuren importteihin, tallenna path-oletus testikonfigiin eikÃƒÂ¤ shell-komentoon, jotta kehitys- ja CI-ajot pysyvÃƒÂ¤t toistettavina.
+6. Tilanne / virhe: PowerShellin oletustallennus saattoi kirjoittaa muokatut Next.js-tiedostot UTF-16- tai BOM-muotoon, jolloin route-tiedostot ja `package.json` rikkoivat buildin vaikeasti tulkittavilla virheillÃƒÂ¤.
    Korjaus: Muokatut tekstitiedostot kirjoitettiin eksplisiittisesti UTF-8 no BOM -muotoon ennen build-verifiointia.
-   UudelleenkÃ¤ytettÃ¤vÃ¤ malli tai sÃ¤Ã¤ntÃ¶: Kun kirjoitat Node/Next-repon lÃ¤hdetiedostoja PowerShellista, lukitse encoding aina UTF-8 no BOM -muotoon etenkin `package.json`- ja route-tiedostoille.
-7. Tilanne / virhe: Runtime-generoitu `next/og`-share image lisÃ¤si tarpeetonta deploy-riskiÃ¤ suhteessa v1-demoon, vaikka tavoite oli vain perustason share preview.
+   UudelleenkÃƒÂ¤ytettÃƒÂ¤vÃƒÂ¤ malli tai sÃƒÂ¤ÃƒÂ¤ntÃƒÂ¶: Kun kirjoitat Node/Next-repon lÃƒÂ¤hdetiedostoja PowerShellista, lukitse encoding aina UTF-8 no BOM -muotoon etenkin `package.json`- ja route-tiedostoille.
+7. Tilanne / virhe: Runtime-generoitu `next/og`-share image lisÃƒÂ¤si tarpeetonta deploy-riskiÃƒÂ¤ suhteessa v1-demoon, vaikka tavoite oli vain perustason share preview.
    Korjaus: Dynaaminen OG-kuvagenerointi korvattiin staattisella `public/social-card.svg`-kuvalla ja metadata viittasi siihen suoraan.
-   UudelleenkÃ¤ytettÃ¤vÃ¤ malli tai sÃ¤Ã¤ntÃ¶: Kun v1 tarvitsee vain perus-SEO:n ja share previewn, suosi staattista preview-kuvaa ennen runtime-kuvagenerointia; tuotantopolku pysyy yksinkertaisempana ja build ennustettavampana.
-8. Tilanne / virhe: UI voi nÃ¤yttÃ¤Ã¤ keskenerÃ¤iseltÃ¤, vaikka data, build ja reitit olisivat teknisesti kunnossa, jos copy on ASCII-fallbackissa ja visuaalinen hierarkia muistuttaa geneeristÃ¤ templatea.
-   Korjaus: KÃ¤yttÃ¶liittymÃ¤ rakennettiin uudelleen finance/dashboard-logiikalla, nÃ¤kyvÃ¤t suomenkieliset tekstit palautettiin oikeille merkeille ja taulukon luettavuus nostettiin omaksi ensisijaiseksi suunnittelutavoitteeksi.
-   UudelleenkÃ¤ytettÃ¤vÃ¤ malli tai sÃ¤Ã¤ntÃ¶: V1-tuotedemossa copy, typografia ja taulukon hierarkia ovat osa tuotteen uskottavuutta, eivÃ¤t viimeistelyÃ¤ joka tehdÃ¤Ã¤n vasta lopuksi.
+   UudelleenkÃƒÂ¤ytettÃƒÂ¤vÃƒÂ¤ malli tai sÃƒÂ¤ÃƒÂ¤ntÃƒÂ¶: Kun v1 tarvitsee vain perus-SEO:n ja share previewn, suosi staattista preview-kuvaa ennen runtime-kuvagenerointia; tuotantopolku pysyy yksinkertaisempana ja build ennustettavampana.
+8. Tilanne / virhe: UI voi nÃƒÂ¤yttÃƒÂ¤ÃƒÂ¤ keskenerÃƒÂ¤iseltÃƒÂ¤, vaikka data, build ja reitit olisivat teknisesti kunnossa, jos copy on ASCII-fallbackissa ja visuaalinen hierarkia muistuttaa geneeristÃƒÂ¤ templatea.
+   Korjaus: KÃƒÂ¤yttÃƒÂ¶liittymÃƒÂ¤ rakennettiin uudelleen finance/dashboard-logiikalla, nÃƒÂ¤kyvÃƒÂ¤t suomenkieliset tekstit palautettiin oikeille merkeille ja taulukon luettavuus nostettiin omaksi ensisijaiseksi suunnittelutavoitteeksi.
+   UudelleenkÃƒÂ¤ytettÃƒÂ¤vÃƒÂ¤ malli tai sÃƒÂ¤ÃƒÂ¤ntÃƒÂ¶: V1-tuotedemossa copy, typografia ja taulukon hierarkia ovat osa tuotteen uskottavuutta, eivÃƒÂ¤t viimeistelyÃƒÂ¤ joka tehdÃƒÂ¤ÃƒÂ¤n vasta lopuksi.
 9. Tilanne / virhe: Kun universe ja ranking-kelpoisuus pidetaan samassa CSV:ssa, demo-otos naamioituu helposti koko markkinauniversumiksi ja poissulkujen syyt katoavat koodin sivuvaikutuksiksi.
    Korjaus: Universe erotettiin omaksi yhtiometadatalahteekseen ja talousluvut omaksi syotteekseen, jonka jalkeen export tuottaa eksplisiittisesti `raw_universe`, `rows` ja `excluded` samasta ajosta.
    Uudelleenkaytettava malli tai saanto: Markkinauniverse, kelpoisuussaannot ja laskettavat tunnusluvut kannattaa mallintaa erillisina kerroksina jo v1:ssa, jotta data-aukot ja metodologiset poissulut voidaan selittaa suoraan kayttajalle.
@@ -54,6 +54,9 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 13. Tilanne / virhe: Dark-first AI/tech-ilme muuttuu helposti lapselliseksi, jos se rakennetaan suurilla pillerinapeilla, raskailla glow-efekteilla, leveilla korteilla ja liian nayttavalla herolla.
    Korjaus: Mittasuhteet kiristettiin finance/research-UI:n ehdoilla: kontrollit madallettiin, radiuset pienennettiin, efektit hillittiin, taulukolle annettiin etusijainen leveys ja sidebar siirrettiin taulukon jalkeiseen informaatiorooliin.
    Uudelleenkaytettava malli tai saanto: Kun rakennat teknista premium-UI:ta datatyokalulle, uskottavuus syntyy tiheydesta, rytmista ja kurinalaisista mittasuhteista eika visuaalisesta nayttavyydesta.
-14. Tilanne / virhe: Kun screener-UI näyttää vain rankit ja prosenttimittarit, käyttäjän on vaikea arvioida tuloksia nopeasti eikä yrityssivu kerro, mihin taustadataan ranking nojaa.
-   Korjaus: Exportiin lisättiin pieni mutta eksplisiittinen `financial_snapshot`-rakenne ja datalähde-metadata, jolloin sama staattinen datasetti riittää sekä etusivun markkina-arvo-/lähdenäyttöön että yrityssivun talouslukujen esittämiseen.
-   Uudelleenkäytettävä malli tai sääntö: Kun staattinen research-sovellus tarvitsee lisää läpinäkyvyyttä, laajenna ensisijaisesti exporttia pienellä metadata- ja snapshot-kerroksella sen sijaan, että rakennat erillisen fetch-polun tai uuden feature-arkkitehtuurin.
+14. Tilanne / virhe: Kun screener-UI nÃ¤yttÃ¤Ã¤ vain rankit ja prosenttimittarit, kÃ¤yttÃ¤jÃ¤n on vaikea arvioida tuloksia nopeasti eikÃ¤ yrityssivu kerro, mihin taustadataan ranking nojaa.
+   Korjaus: Exportiin lisÃ¤ttiin pieni mutta eksplisiittinen `financial_snapshot`-rakenne ja datalÃ¤hde-metadata, jolloin sama staattinen datasetti riittÃ¤Ã¤ sekÃ¤ etusivun markkina-arvo-/lÃ¤hdenÃ¤yttÃ¶Ã¶n ettÃ¤ yrityssivun talouslukujen esittÃ¤miseen.
+   UudelleenkÃ¤ytettÃ¤vÃ¤ malli tai sÃ¤Ã¤ntÃ¶: Kun staattinen research-sovellus tarvitsee lisÃ¤Ã¤ lÃ¤pinÃ¤kyvyyttÃ¤, laajenna ensisijaisesti exporttia pienellÃ¤ metadata- ja snapshot-kerroksella sen sijaan, ettÃ¤ rakennat erillisen fetch-polun tai uuden feature-arkkitehtuurin.
+15. Tilanne / virhe: Research-työkalun UI voi jäädä yhä liian raskaaksi, vaikka värit ja komponentit olisivat jo uskottavia, jos otsikot, rivivälit ja osioiden välit jäävät landing page -tasolle.
+   Korjaus: Tiivistettiin koko näkymän typografinen skaala ja pystysuuntainen rytmi yhtä aikaa sekä kirjoitettiin metodologiasivu uudelleen laskentaa palvelevaksi selosteeksi yleisen esittelytekstin sijaan.
+   Uudelleenkäytettävä malli tai sääntö: Kun sijoitustyökalun käyttöliittymä tuntuu liian "isolta", älä korjaa vain yksittäistä hero-otsikkoa vaan säädä samaan passiin otsikkohierarkia, line-height, korttipaddingit, section-gapit ja copyn pituus.
