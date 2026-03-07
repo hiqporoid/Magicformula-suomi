@@ -4,10 +4,10 @@
 Magicformula-suomi
 
 ## Nykyinen tavoite
-Tiukentaa repository-ohjausta niin, että toteutus vastaa kurinalaista sijoitustutkimustuotteen rakentamista.
+Saada v1 bootstrap + ensimmäinen tekninen scaffold valmiiksi (universe, pipeline, ranking, UI shell).
 
 ## Status
-Governance täsmennetty, toteutusvalmius parani.
+Perusrunko valmis, jatkokehitys käynnissä.
 
 ## Edistymisloki
 1. Luotu repository governance -tiedostot: AGENTS.md, AI.md, progress.md, lessons.md, PLANS.md.
@@ -17,9 +17,8 @@ Governance täsmennetty, toteutusvalmius parani.
 5. Scaffoldattu Python data pipeline: normalisointi, validointi, Magic Formula + EBIT/EV -ranking, quality overlay.
 6. Lisätty yksikkötestit normalisoinnille, rankingille ja quality scorelle; testit läpi.
 7. Lisätty GitHub Actions -workflow datapäivityksen testiajoa varten.
-8. Päivitetty AGENTS.md kurinalaisen finanssitutkimustuotteen periaatteilla (selitettävyys, datalaatu, v1-rajaus, closeout-checklist).
 
 ## Seuraavat toimet
 - Kytke oikea markkinadatalähde universe- ja talouslukuputkeen.
-- Lisää finanssiyhtiöiden poissulku käytännön datavirtaan Magic Formula -ajossa.
-- Toteuta UI:hin datalaatu- ja poissulkumerkinnät näkyvästi.
+- Toteuta UI:n lajittelu/suodatus oikealla datalla (ei sampledata).
+- Lisää metodologian yksityiskohtaiset kaavat ja sektorikohtaiset huomiot.

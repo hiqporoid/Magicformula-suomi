@@ -3,14 +3,9 @@
 ## Projektin missio
 Rakentaa suomenkielinen tutkimuspainotteinen verkkosovellus Nasdaq Helsinki Main Market -yhtiöiden arvosijoitusvertailuun (Magic Formula, EBIT/EV, laatu-overlay), läpinäkyvästi ja toistettavasti.
 
-## Tuotteen luonne
-- Tämä repository rakentaa **henkilökohtaista sijoitustutkimussovellusta**, ei sijoitusneuvontaohjelmistoa.
-- Kaikki tuotokset on esitettävä tutkimuksellisina, ei sijoitussuosituksina.
-
 ## Työskentelysäännöt
 - Tee kaikki tuotokset ensisijaisesti suomeksi.
 - Pidä scope tiukkana: toteuta vain nykyisen tehtävän kannalta välttämätön.
-- Pidä diffit rajattuina ja vältä tehtävään liittymättömiä refaktorointeja.
 - Suosi yksinkertaisia ratkaisuja ennen abstrahointia.
 - Älä lisää uusia riippuvuuksia ilman selkeää hyötyä.
 - Erottele data/pipeline, laskenta ja UI selkeisiin kerroksiin.
@@ -20,8 +15,6 @@ Rakentaa suomenkielinen tutkimuspainotteinen verkkosovellus Nasdaq Helsinki Main
 - Pidä funktiot pieninä ja testattavina.
 - Dokumentoi ei-ilmeinen rahoituslogiikka heti koodin yhteydessä.
 - Noudata determinististä lajittelua rankingissa (tasatilanteet ratkaistaan vakioidusti).
-- Jokaisen tärkeän talousmittarin kaava ja fallback-logiikka on dokumentoitava.
-- Puuttuvaa tai matalan luottamuksen dataa ei saa koskaan käsitellä hiljaisesti validina.
 
 ## Testausodotukset
 - Lisää vähintään yksikkötestit ranking-laskennalle.
@@ -33,15 +26,8 @@ Rakentaa suomenkielinen tutkimuspainotteinen verkkosovellus Nasdaq Helsinki Main
 - Universe: vain Nasdaq Helsinki Main Market.
 - Datalähteet: metadata + talousluvut yhtenäistettyyn välitauluun.
 - Ranking-moottorit: Magic Formula ja EBIT/EV erillisinä moduuleina.
-- Magic Formula v1: **sulje finanssiyhtiöt pois**, ellei niitä varten ole erillinen eksplisiittinen malli.
 - Quality overlay: kevyt pistemalli, ei ML:ää v1:ssä.
 - UI: listaus- ja suodatusnäkymä, ei käyttäjätunnuksia v1:ssä.
-- v1 pidetään yksinkertaisena: ei authia, ei billingiä, ei tietokantaa ilman selkeää välttämättömyyttä.
-- Suosi staattisia tai generoituja JSON-tuotoksia live-backendin sijaan.
-
-## Selitettävyys ja näkyvyys
-- Jokainen ranking-ulostulo on oltava selitettävissä (mittarit, pisteytys, tie-breakerit).
-- UI:n on näytettävä datan laatu, puuttuvat tiedot ja poissulut näkyvästi.
 
 ## Dokumentaation päivityssäännöt
 - Päivitä AI.md kun tavoitteet, menetelmä tai workflow muuttuu.
@@ -64,8 +50,6 @@ Luo alitehtävä/sub-agentti kun:
 - tehtävä voidaan tehdä rinnakkain ilman päällekkäisiä tiedostomuutoksia,
 - tai epäselvä alue hyötyy erillisestä vaihtoehtovertailusta.
 
-Jos työ ulottuu useaan komponenttiin (esim. pipeline + ranking + UI + dokumentaatio), käytä sub-agentteja ja konsolidoi tulokset yhteen yhtenäiseen toteutukseen.
-
 Sub-agentin jälkeen: konsolidoi tuotokset yhteen päätoteutukseen, poista ristiriidat, varmista yhteinen terminologia.
 
 ## Projektikohtaiset skillit (.agents/skills)
@@ -82,12 +66,3 @@ Käytä seuraavia taitoja tilanteen mukaan:
 - Toteuta v1:een vain pakolliset ominaisuudet, kirjaa ideat myöhempään backlogiin.
 - Vältä geneeristä framework-kerrosta, jos yksinkertainen moduuli riittää.
 - Lisää laajennuspiste vasta, kun vähintään kaksi todellista käyttötarvetta on olemassa.
-
-## Task closeout checklist
-Ennen työsession päättämistä Codexin tulee varmistaa:
-1. Tehtävän scope on täytetty ilman sivuvaikutteisia muutoksia.
-2. Kaikki muuttuneet kaavat/fallbackit on dokumentoitu.
-3. Testit/tarkistukset on ajettu tai ympäristörajoite raportoitu.
-4. `progress.md` on päivitetty uudella numeroidulla kirjauksella.
-5. `lessons.md` sisältää vähintään yhden konkreettisen opin.
-6. Commit-viesti kuvaa muutoksen tarkoituksen selkeästi.
