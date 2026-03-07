@@ -1,17 +1,28 @@
+import Link from "next/link";
 import { RankingTable } from "@/components/RankingTable";
-import { sampleRows } from "@/lib/sampleData";
+import { getRankingDataset } from "@/lib/rankingData";
 
 export default function Page() {
+  const dataset = getRankingDataset();
+
   return (
     <main className="container">
       <h1>Magic Formula -tutkimusnäkymä</h1>
-      <p className="subtitle">Nasdaq Helsinki Main Market (v1 shell)</p>
-      <RankingTable rows={sampleRows} />
+      <p className="subtitle">{dataset.universe}</p>
+      <p className="meta">
+        Päivitetty: {new Date(dataset.generatedAt).toLocaleString("fi-FI")} · Metodologia: {dataset.methodologyVersion}
+      </p>
+
+      <RankingTable rows={dataset.rows} />
+
       <section className="notes">
-        <h2>Metodologia ja vastuuvapaus</h2>
+        <h2>Datan laatu ja rajaukset</h2>
         <p>
-          Tämä näkymä on tutkimuskäyttöön eikä muodosta sijoitussuositusta.
-          Katso tarkempi metodologia dokumentaatiosta.
+          Ranking käyttää vain rivejä, joilla EV ja sijoitettu pääoma ovat positiivisia. Poissuljetut yhtiöt: {dataset.excluded.length}.
+        </p>
+        <p>
+          Tämä sovellus on tutkimuskäyttöön eikä muodosta sijoitussuositusta. Lue{" "}
+          <Link href="/metodologia">metodologia ja vastuuvapaus</Link>.
         </p>
       </section>
     </main>

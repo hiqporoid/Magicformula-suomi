@@ -24,6 +24,29 @@ h1 {
   color: #4f5f77;
 }
 
+.meta {
+  margin-top: 0;
+  color: #627286;
+  font-size: 0.95rem;
+}
+
+.toolbar {
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.searchInput,
+select {
+  font: inherit;
+  padding: 0.45rem 0.5rem;
+  border: 1px solid #c7d3e3;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
 .tableWrap {
   overflow-x: auto;
   background: white;
@@ -41,6 +64,7 @@ td {
   padding: 0.75rem;
   border-bottom: 1px solid #e4eaf2;
   text-align: left;
+  vertical-align: top;
 }
 
 th {
@@ -54,4 +78,8 @@ th {
   border: 1px solid #d8e0eb;
   border-radius: 0.75rem;
   padding: 1rem;
+}
+
+a {
+  color: #0b4aa7;
 }
