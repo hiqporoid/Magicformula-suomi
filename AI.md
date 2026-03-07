@@ -1,54 +1,42 @@
 # AI.md
 
-## Mikä projekti on?
-Magicformula-suomi on uusi sijoitustutkimuksen web-sovellus, joka keskittyy Nasdaq Helsinki Main Market -yhtiöihin. Tavoite on tarjota läpinäkyvä, toistettava ja suomenkielinen tapa vertailla yhtiöitä arvo- ja laatumittareilla.
+## Mika projekti on?
+Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka keskittyy Nasdaq Helsinki Main Market -yhtioihin. Tavoite on tarjota lapinakyva, toistettava ja helposti esiteltava tapa vertailla yhtioita arvo- ja laatumittareilla.
 
 ## Liikeidea
-- Muodostetaan yhdenmukainen yhtiöuniversumi (Helsingin päälista).
+- Muodostetaan yhdenmukainen yhtiouniversumi (Helsingin paalista).
 - Normalisoidaan talousdata vertailukelpoiseksi.
 - Lasketaan rankingit (Magic Formula, EBIT/EV, quality overlay).
-- Esitetään tulokset selkeässä taulukko-UI:ssa metodologian ja riskihuomioiden kanssa.
+- Esitetaan tulokset selkeassa taulukko-UI:ssa metodologian, datalaatuviestien ja disclaimerien kanssa.
 
 ## Tuotetavoitteet v1
 1. Toimiva universe-rajauksen prosessi.
 2. Deterministinen datanormalisointi ja ranking-laskenta.
-3. Selkeä käyttöliittymä rankinglistoille.
+3. Siisti ja uskottava kayttoliittyma rankinglistoille.
 4. Dokumentoitu metodologia ja vastuuvapautus.
-5. Automatisoitu datapäivityksen perusrunko GitHub Actionsilla.
+5. Paikallinen kehitysflow, jossa export, lint, testit ja build ovat toistettavia.
 
-## Menetelmälliset periaatteet
+## Menetelmalliset periaatteet
 - Kaikki kaavat dokumentoidaan (`docs/methodology`).
 - Rankingin tasatilanteet ratkaistaan eksplisiittisesti.
-- Puuttuvat/poikkeavat arvot käsitellään ennalta määritetyillä säännöillä.
-- V1 ei tee sijoitussuosituksia, vaan tarjoaa tutkimusnäkymän.
+- Puuttuvat tai poikkeavat arvot kasitellaan ennalta maaratetyilla saannoilla.
+- V1 ei tee sijoitussuosituksia, vaan tarjoaa tutkimusnakyman.
 
 ## Rajaukset
-- Vain Nasdaq Helsinki Main Market v1:ssä.
-- Ei reaaliaikaista kaupankäyntiä, ei broker-integraatioita.
-- Ei käyttäjäkohtaisia portfolioita v1:ssä.
+- Vain Nasdaq Helsinki Main Market v1:ssa.
+- Ei reaaliaikaista kaupankayntia, ei broker-integraatioita.
+- Ei kayttajakohtaisia portfolioita v1:ssa.
+- Ei tietokantaa, kirjautumista tai live-backendia.
 
 ## Repon workflow
-1. Päivitä suunnitelma (`PLANS.md`) ennen isompaa toteutusta.
-2. Toteuta pienissä, testattavissa paloissa.
-3. Aja testit/tarkistukset.
-4. Päivitä `progress.md` ja `lessons.md`.
-5. Tee commit ja PR.
+1. Paivita suunnitelma (`PLANS.md`) ennen isompaa toteutusta.
+2. Aja JSON-export tarvittaessa ennen frontend-verifiointia.
+3. Aja tarkistukset: `pytest`, `npm run lint`, `npm run build`.
+4. Tarkista keskeiset reitit (`/`, `/metodologia`, `/yhtio/<ticker>`).
+5. Paivita `progress.md` ja `lessons.md`.
+6. Tee commit ja push.
 
 ## AGENTS.md:n rooli
-`AGENTS.md` on **auktoritatiivinen Codex-ajonaikainen ohjaustiedosto** (miten agentti toimii tässä repossa).
+`AGENTS.md` on auktoritatiivinen Codex-ajonaikainen ohjaustiedosto (miten agentti toimii tassa repossa).
 
-`AI.md` on **ihmisille suunnattu projektikäsikirja**, joka tukee tulevia ylläpitäjiä ja kontribuoijia mutta ei ohita AGENTS.md:n toimintaohjeita.
-
-## Asennetut yleisskillit (Codex)
-Projektin paikalliseen Codex-ymparistoon on asennettu seuraavat yleisskillit:
-- `gh-fix-ci`
-- `gh-address-comments`
-- `playwright`
-- `security-best-practices`
-- `spreadsheet`
-- `webapp-testing`
-- `changelog-generator`
-- `support-ticket-triage`
-- `create-plan`
-
-Huom: Uusien skillien kayttoonotto vaatii Codexin uudelleenkaynnistyksen.
+`AI.md` on ihmisille suunnattu projektikasikirja, joka tukee tulevia yllapitajia ja kontribuoijia mutta ei ohita `AGENTS.md`:n toimintaohjeita.

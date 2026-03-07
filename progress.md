@@ -4,10 +4,10 @@
 Magicformula-suomi
 
 ## Nykyinen tavoite
-Saada v1 bootstrap + ensimmainen tekninen scaffold valmiiksi (universe, pipeline, ranking, UI shell).
+Pitaa v1-demo siistina, toistettavana ja helposti esiteltavana ilman scope creepia.
 
 ## Status
-Perusrunko valmis, v1-demo thin slice toimii datasta UI:hin (riippuen npm-asennuksen onnistumisesta ymparistossa).
+v1-demo on demokelpoinen: Python-export, pytest, lint, build ja keskeiset reitit on varmistettu samalla datasetilla ilman sampledatan fallbackia.
 
 ## Edistymisloki
 1. Luotu repository governance -tiedostot: AGENTS.md, AI.md, progress.md, lessons.md, PLANS.md.
@@ -21,10 +21,4 @@ Perusrunko valmis, v1-demo thin slice toimii datasta UI:hin (riippuen npm-asennu
 9. Auditoitu frontendin install-blokkeri: `npm config`, ymparistomuuttujat ja proxy/registry-ketju; 403 tulee verkon envoy-proxyn CONNECT-estosta (ei package.json-riippuvuusvirhe). Tehtiin minimikorjaus dokumentointiin ja kayttoohjeeseen: frontendin asennus vaatii ymparistolta sallitun npm-registryn (esim. corporate mirror) tai proxy-allowlistin npm-registry-domaiineille. Seuraava askel: aseta CI/ajoymparistoon toimiva `NPM_CONFIG_REGISTRY`/mirror tai avaa proxyyn ulosmeneva npm-liikenne.
 10. Auditoitu v1-thin-slice paikallisesti: pipeline JSON-export ajettiin, dataset-rakenne validoitiin, Next.js build meni lapi, ja runtime-savussa sivut `/`, `/metodologia` ja `/yhtio/KNEBV` palauttivat HTTP 200. Samalla korjattiin buildia estanyt tyyppivirhe tiedostossa `src/lib/sampleData.ts` (puuttuneet kentat `roc` ja `validationWarnings`). Seuraava askel: lisaa Python-ymparistoon `pytest`, jotta pipeline-testit voidaan ajaa myos tassa koneessa.
 11. Korjattu Python-testien package discovery paikalliseen kehitykseen ilman manuaalista `PYTHONPATH`-asettamista: lisattiin repojuureen `pytest.ini` (`testpaths=python_pipeline/tests`, `pythonpath=.`), paivitettiin `python_pipeline/README.md` setup-ohjeilla ja varmistettiin ajamalla `.venv\Scripts\pytest.exe -q` tyhjalla `PYTHONPATH`:lla (8/8 testia lapi). Seuraava askel: peilaa sama testikomento CI:hin (`pytest -q`) yhtenaisen paikallinen=CI-kayttaytymisen varmistamiseksi.
-
-12. Asennettu projektille olennaiset Codex-skillit paikalliseen ymparistoon (`~/.codex/skills`): viralliset (`gh-fix-ci`, `gh-address-comments`, `playwright`, `security-best-practices`, `spreadsheet`) ja community-skillit (`webapp-testing`, `changelog-generator`, `support-ticket-triage`, `create-plan`). Tulos: skillit ovat kaytettavissa seuraavassa sessiossa Codex-uudelleenkaynnistyksen jalkeen. Seuraava askel: priorisoi aktiiviset skillit per tehtava, jotta konteksti pysyy tiiviina.
-
-## Seuraavat toimet
-- Korjaa CI/ajoympariston npm-proxy/registry-politiikka niin, etta `npm install` onnistuu (nykyinen 403 blokkaa frontendin kaynnistyksen).
-- Lisaa pipelineen automaattinen JSON-export osaksi datapaivitysworkflowta.
-- Laajenna yhtiodetaili nayttamaan myos poissulku- ja validointiperusteet historiassa.
+12. Viimeistelty v1-demo julkaisuvalmiiksi ilman scope creepia: ranking-, metodologia- ja yhtiosivut siistittiin, datalaatu ja poissulut tehtiin nakyviksi, root/error/loading/not-found -tilat lisattiin, README kirjoitettiin Windows-flowlle, lint-konfiguraatio lukittiin ei-interaktiiviseksi ja sampledatan fallback poistettiin. Varmennus: `.venv\Scripts\pytest.exe -q`, `npm run lint`, `npm run build` seka reittisavu (`/`, `/metodologia`, `/yhtio/KNEBV`) onnistuivat. Seuraava askel: viimeistele mahdollinen CI/npm-audit -kovennus ja GitHub Actions -datapaivityksen tuotantovalmius.

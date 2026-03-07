@@ -21,3 +21,10 @@ export type RankingDataset = {
   rows: RankingRow[];
   excluded: ExcludedCompany[];
 };
+
+export type ValidationSummary = {
+  rankedCount: number;
+  excludedCount: number;
+  warningCount: number;
+};
+

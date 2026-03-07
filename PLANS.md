@@ -6,24 +6,24 @@
    - AGENTS.md, AI.md, progress.md, lessons.md, PLANS.md
    - Repo-skillien runko
 
-2. [ ] Market universe data source
-   - Helsingin päälistan universe-strategia
-   - Sisään/ulos-kriteerit dokumentoituna
+2. [x] Market universe data source
+   - Helsingin paalistan universe-strategia
+   - Sisaan/ulos-kriteerit dokumentoituna
 
-3. [ ] Financial normalization pipeline
-   - Syötedatan skeema
-   - Normalisointisäännöt ja validoinnit
+3. [x] Financial normalization pipeline
+   - Syotedatan skeema
+   - Normalisointisaannot ja validoinnit
 
-4. [ ] Magic Formula ranking engine
+4. [x] Magic Formula ranking engine
    - ROC + Earnings Yield
    - Deterministinen ranking ja testit
 
-5. [ ] EBIT/EV ranking engine
+5. [x] EBIT/EV ranking engine
    - EBIT/EV laskenta ja testit
 
-6. [ ] Quality overlay
+6. [x] Quality overlay
    - Kevyt laatupisteytys
-   - Yhdistelmäpisteet ja painotus
+   - Yhdistelmapisteet ja painotus
 
 7. [x] Frontend UI
    - Ranking-taulukko, lajittelu, suodatus
@@ -34,9 +34,9 @@
    - Riskit ja ei-sijoitussuositus -teksti
 
 9. [ ] GitHub automation
-   - Ajastettu datapäivitysworkflow
-   - Perusvalidointi CI:ssä
+   - Ajastettu datapaivitysworkflow
+   - Perusvalidointi CI:ssa
 
-10. [ ] Validation and launch readiness
+10. [x] Validation and launch readiness
    - End-to-end tarkistuslistat
-   - Julkaisupäätöksen kriteerit
+   - Julkaisupaatoksen kriteerit

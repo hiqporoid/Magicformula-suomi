@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --no-cache",
     "pipeline:export-json": "python python_pipeline/scripts/export_ranking_json.py"
   },
   "dependencies": {
@@ -15,10 +15,13 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "typescript": "5.5.4",
     "@types/node": "20.14.12",
     "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0"
+    "@types/react-dom": "18.3.0",
+    "eslint": "8.57.1",
+    "eslint-config-next": "14.2.5",
+    "typescript": "5.5.4"
   },
   "packageManager": "npm@11.4.2"
 }
+

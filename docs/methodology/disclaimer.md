@@ -1,9 +1,16 @@
 # Vastuuvapaus ja riskit
 
-Tämä sovellus on tarkoitettu tutkimukseen ja koulutukselliseen käyttöön.
-Sisältö ei ole sijoitusneuvontaa eikä henkilökohtainen sijoitussuositus.
+Tama sovellus on tarkoitettu tutkimus- ja koulutuskayttoon.
+Sisalto ei ole sijoitusneuvontaa, sijoitussuositus eika kehotus ostaa tai myyda arvopapereita.
+
+## Mita demossa luvataan
+- Ranking muodostetaan dokumentoiduilla kaavoilla samalla tavalla joka ajossa.
+- Poissulut ja validointivaroitukset pidetaan nakyvina UI:ssa.
+- Datasetti on staattinen export, ei reaaliaikainen markkinadata.
 
 ## Keskeiset riskit
-- Talousdata voi sisältää viivettä tai korjauksia.
-- Yhtiöiden kertaluonteiset erät voivat vääristää tunnuslukuja.
-- Historiallinen menestys ei takaa tulevaa tuottoa.
+- Talousdata voi sisaltaa viivetta, oikaisuja tai kertaluonteisia eria.
+- Sektorierot voivat tehda tunnuslukujen suorasta vertailusta harhaanjohtavaa.
+- Historiallinen tai pistepohjainen ranking ei takaa tulevaa tuottoa.
+- Kayttajan tulee tehda oma jatkoanalyysinsa ennen mahdollisia sijoituspaatoksia.
+

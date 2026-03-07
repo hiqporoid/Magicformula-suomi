@@ -1,4 +1,4 @@
-﻿# lessons.md
+# lessons.md
 
 ## Tiedoston tarkoitus
 Koota projektin aikana opitut asiat yhteen, jotta virheet eivat toistu ja hyvat kaytannot monistuvat.
@@ -30,6 +30,6 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 5. Tilanne / virhe: Testien ajo repojuuresta vaati manuaalisen `PYTHONPATH=.`-muuttujan, muuten `python_pipeline`-importit epaonnistuivat joissain paikallisymparistoissa.
    Korjaus: Siirrettiin import-pathin oletus pytest-konfiguraatioon (`pytest.ini`: `pythonpath = .`) ja lukittiin testihakemisto `testpaths`-asetuksella.
    Uudelleenkaytettava malli tai saanto: Kun testit nojaavat repojuuren importteihin, tallenna path-oletus testikonfigiin eika shell-komentoon, jotta kehitys- ja CI-ajot pysyvat toistettavina.
-6. Tilanne / virhe: Community-skillien asennus kaatui installerin git-temp-kansioiden konfliktiin, kun useita asennuksia ajettiin rinnakkain.
-   Korjaus: Asennettiin community-skillit URL-pohjaisella install-komennolla yksi kerrallaan.
-   Uudelleenkaytettava malli tai saanto: Skill-installerin yhteydessa suosi sarja-ajoa tai URL-asennusta, jos git/fallback antaa temp-kansioihin liittyvia virheita.
+6. Tilanne / virhe: PowerShellin oletustallennus saattoi kirjoittaa muokatut Next.js-tiedostot UTF-16- tai BOM-muotoon, jolloin route-tiedostot ja `package.json` rikkoivat buildin vaikeasti tulkittavilla virheilla.
+   Korjaus: Muokatut tekstitiedostot kirjoitettiin eksplisiittisesti UTF-8 no BOM -muotoon ennen build-verifiointia.
+   Uudelleenkaytettava malli tai saanto: Kun kirjoitat Node/Next-repon lahetiedostoja PowerShellista, lukitse encoding aina UTF-8 no BOM -muotoon etenkin `package.json`- ja route-tiedostoille.

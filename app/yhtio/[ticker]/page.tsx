@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { formatPercent, formatScore, formatTimestamp } from "@/lib/formatters";
 import { getRankingDataset } from "@/lib/rankingData";
 
 type Props = {
@@ -17,32 +18,105 @@ export default function CompanyPage({ params }: Props) {
     notFound();
   }
 
+  const percentile = Math.round(((dataset.rows.length - row.rank) / Math.max(dataset.rows.length - 1, 1)) * 100);
+
   return (
-    <main className="container">
-      <h1>
-        {row.company} ({row.ticker})
-      </h1>
-      <p className="subtitle">Yhtiödetailin v1-shell nykyisellä dataset-muodolla.</p>
-
-      <section className="notes">
-        <h2>Rankingmittarit</h2>
-        <ul>
-          <li>Kokonaissijoitus: {row.rank}</li>
-          <li>Magic Formula -piste: {row.magicFormulaScore}</li>
-          <li>ROC: {row.roc.toFixed(4)}</li>
-          <li>EBIT/EV: {row.ebitEv.toFixed(4)}</li>
-          <li>Laatupiste: {row.qualityScore.toFixed(2)}</li>
-        </ul>
+    <main className="container pageStack">
+      <section className="panel heroSlim">
+        <p className="eyebrow">Yhtioprofiili</p>
+        <h1>
+          {row.company} ({row.ticker})
+        </h1>
+        <p className="heroLead">
+          Sama datasetti, sama rankinglogiikka ja sama disclaimer kuin etusivulla. Taman sivun tarkoitus on kertoa,
+          miksi rivi paatyi mukaan juuri talla sijoituksella.
+        </p>
+        <div className="inlineMeta">
+          <span>Paivitetty {formatTimestamp(dataset.generatedAt)}</span>
+          <span>Universumi: {dataset.universe}</span>
+        </div>
       </section>
 
-      <section className="notes">
-        <h2>Datan laatu</h2>
-        <p>{row.validationWarnings.length === 0 ? "Ei validointivaroituksia tälle riville." : row.validationWarnings.join(", ")}</p>
+      <section className="metricGrid">
+        <article className="panel statCard">
+          <span className="metricLabel">Kokonaissijoitus</span>
+          <strong>#{row.rank}</strong>
+          <p>Magic Formula -jarjestys tassa exportissa.</p>
+        </article>
+        <article className="panel statCard">
+          <span className="metricLabel">ROC</span>
+          <strong>{formatPercent(row.roc)}</strong>
+          <p>Operatiivisen paoman tuotto nykyisen datan perusteella.</p>
+        </article>
+        <article className="panel statCard">
+          <span className="metricLabel">EBIT/EV</span>
+          <strong>{formatPercent(row.ebitEv)}</strong>
+          <p>Tulostuotto suhteessa yritysarvoon.</p>
+        </article>
+        <article className="panel statCard">
+          <span className="metricLabel">Laatupiste</span>
+          <strong>{formatScore(row.qualityScore)}</strong>
+          <p>Kevyt overlay, joka auttaa priorisoimaan jatkotutkimusta.</p>
+        </article>
       </section>
 
-      <p>
-        <Link href="/">← Takaisin rankingiin</Link>
-      </p>
+      <section className="infoGrid">
+        <article className="panel">
+          <p className="eyebrow">Miten tulkita</p>
+          <h2>Miksi taman rivin kannattaa kiinnostaa</h2>
+          <p>
+            Yhtio sijoittuu percentiiliin {percentile} taman pienen v1-demon sisaisessa vertailussa. Tarkoitus ei ole
+            julistaa voittajaa, vaan nostaa esiin rivit, joissa kannattavuus ja arvostus kohtaavat samassa datasetissa.
+          </p>
+          <p>
+            Magic Formula -piste {row.magicFormulaScore} on yhdistelma ROC- ja EBIT/EV-rankeista. Mitä pienempi piste,
+            sita vahvempi yhdistelmasijoitus.
+          </p>
+        </article>
+        <article className="panel">
+          <p className="eyebrow">Datan laatu</p>
+          <h2>Lapaisiko rivi validoinnin puhtaasti?</h2>
+          {row.validationWarnings.length === 0 ? (
+            <p>
+              Kyllä. Rivi lapaisi v1-minimivalidoinnit ilman huomautuksia: pakolliset kentat loytyivat, EV oli
+              positiivinen ja ROC:n nimittaja oli mielekas.
+            </p>
+          ) : (
+            <ul className="plainList">
+              {row.validationWarnings.map((warning) => (
+                <li key={warning}>{warning}</li>
+              ))}
+            </ul>
+          )}
+        </article>
+      </section>
+
+      <section className="panel notesGrid">
+        <div>
+          <p className="eyebrow">Seuraava askel analyysissa</p>
+          <h2>Mita taman jalkeen kannattaa tarkistaa</h2>
+          <ul className="plainList">
+            <li>Onko EBIT normalisoitu vai sisaltyyko siihen kertaluonteisia eria?</li>
+            <li>Miten velkaisuus, sykli ja sektorikohtaiset piirteet vaikuttavat tunnuslukuihin?</li>
+            <li>Tukeeko laadullinen analyysi sita tarinaa, jonka ranking antaa?</li>
+          </ul>
+        </div>
+        <div>
+          <p className="eyebrow">Taustalinkit</p>
+          <h2>Siirry takaisin kokonaiskuvaan</h2>
+          <p>
+            <Link href="/" className="textLink">
+              Takaisin rankingiin
+            </Link>
+          </p>
+          <p>
+            <Link href="/metodologia" className="textLink">
+              Avaa metodologia ja vastuuvapaus
+            </Link>
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
+
