@@ -1,4 +1,5 @@
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 
-// Tämä tiedosto on Next.js:n generoima.
+// NOTE: This file should not be edited
+// see https://nextjs.org/docs/basic-features/typescript for more information.

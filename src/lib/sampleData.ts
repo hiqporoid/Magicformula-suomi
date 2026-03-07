@@ -6,15 +6,19 @@ export const sampleRows: RankingRow[] = [
     ticker: "NDA-FI",
     company: "Nordea Bank Abp",
     magicFormulaScore: 3,
+    roc: 0.142,
     ebitEv: 0.1032,
-    qualityScore: 81
+    qualityScore: 81,
+    validationWarnings: []
   },
   {
     rank: 2,
     ticker: "KNEBV",
     company: "KONE Oyj",
     magicFormulaScore: 5,
+    roc: 0.118,
     ebitEv: 0.0841,
-    qualityScore: 88
+    qualityScore: 88,
+    validationWarnings: []
   }
 ];
