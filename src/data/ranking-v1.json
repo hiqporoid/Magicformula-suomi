@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-09T07:01:50.169440+00:00",
+  "generated_at": "2026-03-16T07:16:48.022496+00:00",
   "universe": "Nasdaq Helsinki Main Market",
   "methodology_version": "v1-main-market",
   "universe_source": "Nasdaq Helsinki Main Market -universe",
@@ -28,9 +28,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KNEBV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 30007617536.0,
+        "market_cap": 28929624064.0,
         "ebit": 1367200000.0,
-        "enterprise_value": 29184215040.0,
+        "enterprise_value": 28107067392.0,
         "invested_capital": 1350800000.0
       }
     },
@@ -42,13 +42,13 @@
       "status": "ranked",
       "exclusion_reasons": [],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
+        "statement_date": "2025-12-31",
         "source_symbol": "NOKIA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 37425307648.0,
-        "ebit": 2418000000.0,
-        "enterprise_value": 35487309824.0,
-        "invested_capital": 8713000000.0
+        "market_cap": 40216576000.0,
+        "ebit": 1134000000.0,
+        "enterprise_value": 38278578176.0,
+        "invested_capital": 8278000000.0
       }
     },
     {
@@ -73,9 +73,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "WRT1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 19465496576.0,
+        "market_cap": 18735833088.0,
         "ebit": 892000000.0,
-        "enterprise_value": 17463494656.0,
+        "enterprise_value": 16733833216.0,
         "invested_capital": 1978000000.0
       }
     },
@@ -90,9 +90,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "FORTUM.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 17711998976.0,
+        "market_cap": 18851526656.0,
         "ebit": 1124000000.0,
-        "enterprise_value": 19760001024.0,
+        "enterprise_value": 20899526656.0,
         "invested_capital": 9316000000.0
       }
     },
@@ -107,10 +107,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "NESTE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 19252946944.0,
+        "market_cap": 20897054720.0,
         "ebit": 350000000.0,
-        "enterprise_value": 23068948480.0,
-        "invested_capital": 11642000000.0
+        "enterprise_value": 24713054208.0,
+        "invested_capital": 11643000000.0
       }
     },
     {
@@ -124,10 +124,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "UPM.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 13926627328.0,
-        "ebit": 792000000.0,
-        "enterprise_value": 17337628672.0,
-        "invested_capital": 9196000000.0
+        "market_cap": 13800070144.0,
+        "ebit": 794000000.0,
+        "enterprise_value": 17211070464.0,
+        "invested_capital": 9197000000.0
       }
     },
     {
@@ -141,9 +141,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ORNAV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 9526791168.0,
+        "market_cap": 9809484800.0,
         "ebit": 636000000.0,
-        "enterprise_value": 9627230208.0,
+        "enterprise_value": 9908617216.0,
         "invested_capital": 1241400000.0
       }
     },
@@ -158,9 +158,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KESKOA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 7956275712.0,
+        "market_cap": 7972300288.0,
         "ebit": 647800000.0,
-        "enterprise_value": 11342140416.0,
+        "enterprise_value": 11358064640.0,
         "invested_capital": 4583900000.0
       }
     },
@@ -175,10 +175,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KCR.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 7370888192.0,
-        "ebit": 580200000.0,
-        "enterprise_value": 7208887808.0,
-        "invested_capital": 1231300000.0
+        "market_cap": 7137205760.0,
+        "ebit": 552800000.0,
+        "enterprise_value": 6975205888.0,
+        "invested_capital": 1231400000.0
       }
     },
     {
@@ -192,9 +192,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "STEAV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 8595957760.0,
+        "market_cap": 8122785792.0,
         "ebit": 985000000.0,
-        "enterprise_value": 11710957568.0,
+        "enterprise_value": 11237785600.0,
         "invested_capital": 7825000000.0
       }
     },
@@ -209,9 +209,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ELISA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 7077941248.0,
-        "ebit": 474700000.0,
-        "enterprise_value": 8590436352.0,
+        "market_cap": 7129324032.0,
+        "ebit": 467100000.0,
+        "enterprise_value": 8641801216.0,
         "invested_capital": 1075500000.0
       }
     },
@@ -226,9 +226,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "VALMT.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 4976118272.0,
+        "market_cap": 4847155200.0,
         "ebit": 433000000.0,
-        "enterprise_value": 5883118080.0,
+        "enterprise_value": 5754155008.0,
         "invested_capital": 1258000000.0
       }
     },
@@ -254,10 +254,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "HUH1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 3130155008.0,
-        "ebit": 338200000.0,
-        "enterprise_value": 4417654784.0,
-        "invested_capital": 2369900000.0
+        "market_cap": 2997894912.0,
+        "ebit": 334800000.0,
+        "enterprise_value": 4285394944.0,
+        "invested_capital": 2370000000.0
       }
     },
     {
@@ -271,9 +271,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KEMIRA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2908387584.0,
+        "market_cap": 2881568512.0,
         "ebit": 283900000.0,
-        "enterprise_value": 3441396736.0,
+        "enterprise_value": 3414496256.0,
         "invested_capital": 1516000000.0
       }
     },
@@ -288,9 +288,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "HIAB.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2921404416.0,
+        "market_cap": 2767850240.0,
         "ebit": 211300000.0,
-        "enterprise_value": 2712504576.0,
+        "enterprise_value": 2558950144.0,
         "invested_capital": 737900000.0
       }
     },
@@ -305,9 +305,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KALMAR.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2914645504.0,
+        "market_cap": 2776924416.0,
         "ebit": 225800000.0,
-        "enterprise_value": 2922745600.0,
+        "enterprise_value": 2782914560.0,
         "invested_capital": 743300000.0
       }
     },
@@ -324,9 +324,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KOJAMO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2233342976.0,
+        "market_cap": 2092858496.0,
         "ebit": 148000000.0,
-        "enterprise_value": 5468863488.0,
+        "enterprise_value": 5327685632.0,
         "invested_capital": -49600000.0
       }
     },
@@ -343,9 +343,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "OUT1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2432308992.0,
+        "market_cap": 2224902656.0,
         "ebit": -120000000.0,
-        "enterprise_value": 2708435456.0,
+        "enterprise_value": 2501103872.0,
         "invested_capital": 2992000000.0
       }
     },
@@ -360,9 +360,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TIETO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2247366144.0,
+        "market_cap": 2182685184.0,
         "ebit": 76000000.0,
-        "enterprise_value": 2809454080.0,
+        "enterprise_value": 2744333312.0,
         "invested_capital": 225200000.0
       }
     },
@@ -390,9 +390,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "METSA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1697626368.0,
+        "market_cap": 1694074752.0,
         "ebit": -166900000.0,
-        "enterprise_value": 2140387968.0,
+        "enterprise_value": 2136792064.0,
         "invested_capital": 1631400000.0
       }
     },
@@ -409,9 +409,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SANOMA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1470910208.0,
+        "market_cap": 1483941504.0,
         "ebit": 54600000.0,
-        "enterprise_value": 1956940032.0,
+        "enterprise_value": 1969961856.0,
         "invested_capital": -164600000.0
       }
     },
@@ -426,9 +426,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "VAIAS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1722180864.0,
+        "market_cap": 1649667968.0,
         "ebit": 81300000.0,
-        "enterprise_value": 1736380800.0,
+        "enterprise_value": 1663867904.0,
         "invested_capital": 279600000.0
       }
     },
@@ -443,10 +443,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TYRES.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1391161216.0,
-        "ebit": 35800000.0,
-        "enterprise_value": 2055161216.0,
-        "invested_capital": 1713600000.0
+        "market_cap": 1291201664.0,
+        "ebit": 21700000.0,
+        "enterprise_value": 1955201664.0,
+        "invested_capital": 1713200000.0
       }
     },
     {
@@ -460,9 +460,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "BITTI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 989121088.0,
+        "market_cap": 1175580032.0,
         "ebit": 19900000.0,
-        "enterprise_value": 988121024.0,
+        "enterprise_value": 1174580096.0,
         "invested_capital": 83500000.0
       }
     },
@@ -477,9 +477,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TTALO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1204490496.0,
+        "market_cap": 1186758656.0,
         "ebit": 136800000.0,
-        "enterprise_value": 1710490368.0,
+        "enterprise_value": 1692758656.0,
         "invested_capital": 179000000.0
       }
     },
@@ -494,9 +494,9 @@
         "statement_date": "2025-01-31",
         "source_symbol": "PUUILO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 987720128.0,
+        "market_cap": 1004589824.0,
         "ebit": 65300000.0,
-        "enterprise_value": 1094520192.0,
+        "enterprise_value": 1111389824.0,
         "invested_capital": 172700000.0
       }
     },
@@ -511,9 +511,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ALMA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1083335040.0,
+        "market_cap": 1120407424.0,
         "ebit": 79400000.0,
-        "enterprise_value": 1207684352.0,
+        "enterprise_value": 1244662528.0,
         "invested_capital": 5300000.0
       }
     },
@@ -528,9 +528,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "FSKRS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1046437888.0,
+        "market_cap": 1007740672.0,
         "ebit": 42400000.0,
-        "enterprise_value": 1564075392.0,
+        "enterprise_value": 1525376768.0,
         "invested_capital": 471500000.0
       }
     },
@@ -567,9 +567,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "HARVIA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 680646784.0,
+        "market_cap": 658238592.0,
         "ebit": 38867000.0,
-        "enterprise_value": 740144384.0,
+        "enterprise_value": 717715840.0,
         "invested_capital": 127859000.0
       }
     },
@@ -584,9 +584,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "QTCOM.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 516457248.0,
+        "market_cap": 510363360.0,
         "ebit": 42537000.0,
-        "enterprise_value": 619557248.0,
+        "enterprise_value": 613463360.0,
         "invested_capital": 53296000.0
       }
     },
@@ -601,9 +601,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SCANFL.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 788665216.0,
+        "market_cap": 779494656.0,
         "ebit": 54400000.0,
-        "enterprise_value": 798165184.0,
+        "enterprise_value": 788994688.0,
         "invested_capital": 308800000.0
       }
     },
@@ -618,9 +618,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "PON1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 674678400.0,
+        "market_cap": 666279872.0,
         "ebit": 41632000.0,
-        "enterprise_value": 695227392.0,
+        "enterprise_value": 686828928.0,
         "invested_capital": 345549000.0
       }
     },
@@ -635,9 +635,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "YIT.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 625973440.0,
+        "market_cap": 608444288.0,
         "ebit": 50000000.0,
-        "enterprise_value": 1273973376.0,
+        "enterprise_value": 1256444288.0,
         "invested_capital": 817000000.0
       }
     },
@@ -652,9 +652,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "CTY1S.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 696093696.0,
+        "market_cap": 690219456.0,
         "ebit": 208300000.0,
-        "enterprise_value": 2408493568.0,
+        "enterprise_value": 2402619392.0,
         "invested_capital": 413500000.0
       }
     },
@@ -686,9 +686,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "MUSTI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 602985216.0,
+        "market_cap": 587626816.0,
         "ebit": 7058000.0,
-        "enterprise_value": 809897216.0,
+        "enterprise_value": 794538816.0,
         "invested_capital": 112836000.0
       }
     },
@@ -703,9 +703,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "FIA1S.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 600855488.0,
+        "market_cap": 599217216.0,
         "ebit": 99000000.0,
-        "enterprise_value": 1329055488.0,
+        "enterprise_value": 1327417216.0,
         "invested_capital": 1948500000.0
       }
     },
@@ -720,9 +720,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "REG1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 481521984.0,
+        "market_cap": 469284384.0,
         "ebit": 25400000.0,
-        "enterprise_value": 467621984.0,
+        "enterprise_value": 455384416.0,
         "invested_capital": 34100000.0
       }
     },
@@ -737,9 +737,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "GRK.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 521866080.0,
-        "ebit": 57517000.0,
-        "enterprise_value": 275164064.0,
+        "market_cap": 513344480.0,
+        "ebit": 54174000.0,
+        "enterprise_value": 266642464.0,
         "invested_capital": 215859000.0
       }
     },
@@ -754,9 +754,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "MEKKO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 438347872.0,
+        "market_cap": 429102656.0,
         "ebit": 32300000.0,
-        "enterprise_value": 432082336.0,
+        "enterprise_value": 423156640.0,
         "invested_capital": 91400000.0
       }
     },
@@ -768,13 +768,13 @@
       "status": "ranked",
       "exclusion_reasons": [],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
+        "statement_date": "2025-12-31",
         "source_symbol": "TOKMAN.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 415066464.0,
-        "ebit": 101127000.0,
-        "enterprise_value": 1402669440.0,
-        "invested_capital": 717868000.0
+        "market_cap": 423262400.0,
+        "ebit": 89000000.0,
+        "enterprise_value": 1313062400.0,
+        "invested_capital": 846000000.0
       }
     },
     {
@@ -790,10 +790,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "EQV1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 432705248.0,
+        "market_cap": 430634880.0,
         "ebit": 27519000.0,
-        "enterprise_value": 414708224.0,
-        "invested_capital": 5075000.0
+        "enterprise_value": 412637856.0,
+        "invested_capital": 20128000.0
       }
     },
     {
@@ -807,9 +807,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ATRAV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 503440576.0,
+        "market_cap": 527413952.0,
         "ebit": 64000000.0,
-        "enterprise_value": 744940608.0,
+        "enterprise_value": 768913920.0,
         "invested_capital": 558600000.0
       }
     },
@@ -835,9 +835,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "RAIVV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 436097536.0,
+        "market_cap": 418716832.0,
         "ebit": 31800000.0,
-        "enterprise_value": 365500000.0,
+        "enterprise_value": 347900000.0,
         "invested_capital": 203100000.0
       }
     },
@@ -852,9 +852,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ENENTO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 350305536.0,
+        "market_cap": 344151520.0,
         "ebit": 23814000.0,
-        "enterprise_value": 493564480.0,
+        "enterprise_value": 487410464.0,
         "invested_capital": 12773000.0
       }
     },
@@ -869,9 +869,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "VIK1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 362880000.0,
+        "market_cap": 359424000.0,
         "ebit": 25500000.0,
-        "enterprise_value": 443449984.0,
+        "enterprise_value": 440033312.0,
         "invested_capital": 407800000.0
       }
     },
@@ -888,10 +888,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "FSECURE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 281278400.0,
-        "ebit": 36833000.0,
-        "enterprise_value": 426908384.0,
-        "invested_capital": -14714000.0
+        "market_cap": 295953792.0,
+        "ebit": 34969000.0,
+        "enterprise_value": 441583776.0,
+        "invested_capital": -14715000.0
       }
     },
     {
@@ -907,9 +907,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "CAPMAN.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 323638976.0,
+        "market_cap": 321870464.0,
         "ebit": 23238000.0,
-        "enterprise_value": 371588000.0,
+        "enterprise_value": 369819488.0,
         "invested_capital": 74881000.0
       }
     },
@@ -924,9 +924,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "PIHLIS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 294488864.0,
+        "market_cap": 289992832.0,
         "ebit": 53300000.0,
-        "enterprise_value": 568088896.0,
+        "enterprise_value": 563667840.0,
         "invested_capital": 192600000.0
       }
     },
@@ -941,9 +941,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "RELAIS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 286705472.0,
+        "market_cap": 274682368.0,
         "ebit": 29156000.0,
-        "enterprise_value": 491465600.0,
+        "enterprise_value": 480397344.0,
         "invested_capital": 204186000.0
       }
     },
@@ -977,9 +977,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ANORA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 273254400.0,
+        "market_cap": 266836816.0,
         "ebit": 33200000.0,
-        "enterprise_value": 375054400.0,
+        "enterprise_value": 368636800.0,
         "invested_capital": 192100000.0
       }
     },
@@ -991,13 +991,13 @@
       "status": "ranked",
       "exclusion_reasons": [],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
+        "statement_date": "2025-12-31",
         "source_symbol": "ICP1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 304488480.0,
-        "ebit": 32108000.0,
-        "enterprise_value": 251185456.0,
-        "invested_capital": 147415000.0
+        "market_cap": 295065248.0,
+        "ebit": 28667000.0,
+        "enterprise_value": 241762224.0,
+        "invested_capital": 149186000.0
       }
     },
     {
@@ -1011,9 +1011,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ASPO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 212755088.0,
+        "market_cap": 209000576.0,
         "ebit": 32900000.0,
-        "enterprise_value": 434171808.0,
+        "enterprise_value": 430413504.0,
         "invested_capital": 294900000.0
       }
     },
@@ -1028,9 +1028,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ETTE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 212098912.0,
+        "market_cap": 208058944.0,
         "ebit": 18220000.0,
-        "enterprise_value": 283808928.0,
+        "enterprise_value": 279768960.0,
         "invested_capital": 23155000.0
       }
     },
@@ -1045,9 +1045,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KOSKI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 215886256.0,
+        "market_cap": 216368128.0,
         "ebit": 15008000.0,
-        "enterprise_value": 258774256.0,
+        "enterprise_value": 259256160.0,
         "invested_capital": 241572000.0
       }
     },
@@ -1064,9 +1064,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TAALA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 202535088.0,
+        "market_cap": 201971696.0,
         "ebit": 26043000.0,
-        "enterprise_value": 200594064.0,
+        "enterprise_value": 201170128.0,
         "invested_capital": 47551000.0
       }
     },
@@ -1081,9 +1081,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "GOFORE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 211592368.0,
+        "market_cap": 209043056.0,
         "ebit": 12718000.0,
-        "enterprise_value": 223214368.0,
+        "enterprise_value": 220665056.0,
         "invested_capital": 36135000.0
       }
     },
@@ -1100,9 +1100,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "REMEDY.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 184830144.0,
+        "market_cap": 176947680.0,
         "ebit": -13712000.0,
-        "enterprise_value": 173702128.0,
+        "enterprise_value": 165819680.0,
         "invested_capital": 36759000.0
       }
     },
@@ -1124,16 +1124,17 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
+        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
         "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "ORIOLA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 191172960.0,
-        "ebit": 2500000.0,
-        "enterprise_value": 108972960.0,
-        "invested_capital": -89900000.0
+        "market_cap": 186727088.0,
+        "ebit": -23700000.0,
+        "enterprise_value": 104927080.0,
+        "invested_capital": -90100000.0
       }
     },
     {
@@ -1147,9 +1148,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "NOHO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 162462800.0,
+        "market_cap": 158674800.0,
         "ebit": 30900000.0,
-        "enterprise_value": 493762816.0,
+        "enterprise_value": 489974816.0,
         "invested_capital": 129300000.0
       }
     },
@@ -1164,9 +1165,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "VERK.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 158143744.0,
+        "market_cap": 157242640.0,
         "ebit": 17869000.0,
-        "enterprise_value": 152063744.0,
+        "enterprise_value": 151162640.0,
         "invested_capital": 65592000.0
       }
     },
@@ -1181,9 +1182,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "DIGIA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 159630832.0,
+        "market_cap": 160698608.0,
         "ebit": 18128000.0,
-        "enterprise_value": 183352832.0,
+        "enterprise_value": 184420592.0,
         "invested_capital": 18587000.0
       }
     },
@@ -1200,10 +1201,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SSH1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 126058736.0,
-        "ebit": -2200000.0,
-        "enterprise_value": 122790800.0,
-        "invested_capital": 14600000.0
+        "market_cap": 117327408.0,
+        "ebit": -2432535.0,
+        "enterprise_value": 104188704.0,
+        "invested_capital": 14911653.0
       }
     },
     {
@@ -1217,9 +1218,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "TNOM.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 104980856.0,
+        "market_cap": 95972600.0,
         "ebit": 11492000.0,
-        "enterprise_value": 160248128.0,
+        "enterprise_value": 160691984.0,
         "invested_capital": 13682000.0
       }
     },
@@ -1234,9 +1235,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KREATE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 120673808.0,
+        "market_cap": 115464872.0,
         "ebit": 10235000.0,
-        "enterprise_value": 157273808.0,
+        "enterprise_value": 152064864.0,
         "invested_capital": 15057000.0
       }
     },
@@ -1251,9 +1252,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ILKKA2.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 114592392.0,
+        "market_cap": 111927440.0,
         "ebit": 4531000.0,
-        "enterprise_value": 95322440.0,
+        "enterprise_value": 92786432.0,
         "invested_capital": 20275000.0
       }
     },
@@ -1268,9 +1269,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TEM1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 126986064.0,
+        "market_cap": 125618176.0,
         "ebit": 16200000.0,
-        "enterprise_value": 102076480.0,
+        "enterprise_value": 101082480.0,
         "invested_capital": 79800000.0
       }
     },
@@ -1285,9 +1286,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "CONSTI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 91018992.0,
+        "market_cap": 92608840.0,
         "ebit": 9584000.0,
-        "enterprise_value": 86085992.0,
+        "enterprise_value": 87326344.0,
         "invested_capital": 5032000.0
       }
     },
@@ -1304,9 +1305,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "AFAGR.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 69009680.0,
+        "market_cap": 66134276.0,
         "ebit": -2612000.0,
-        "enterprise_value": 65074680.0,
+        "enterprise_value": 62199276.0,
         "invested_capital": 67809000.0
       }
     },
@@ -1323,10 +1324,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SITOWS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 83878848.0,
-        "ebit": -37015000.0,
-        "enterprise_value": 156463856.0,
-        "invested_capital": 32435000.0
+        "market_cap": 87821880.0,
+        "ebit": -37339000.0,
+        "enterprise_value": 160589872.0,
+        "invested_capital": 32434000.0
       }
     },
     {
@@ -1340,9 +1341,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KSL.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 111769368.0,
+        "market_cap": 110673592.0,
         "ebit": 11800000.0,
-        "enterprise_value": 161569360.0,
+        "enterprise_value": 160473584.0,
         "invested_capital": 27400000.0
       }
     },
@@ -1357,9 +1358,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SRV1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 86418040.0,
+        "market_cap": 87434720.0,
         "ebit": 25204000.0,
-        "enterprise_value": 143310128.0,
+        "enterprise_value": 144369904.0,
         "invested_capital": 284504000.0
       }
     },
@@ -1376,9 +1377,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SUY1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 86369848.0,
+        "market_cap": 73948768.0,
         "ebit": -5903000.0,
-        "enterprise_value": 163561856.0,
+        "enterprise_value": 151140768.0,
         "invested_capital": 186603000.0
       }
     },
@@ -1393,9 +1394,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KAMUX.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 67488856.0,
+        "market_cap": 66943964.0,
         "ebit": 500000.0,
-        "enterprise_value": 102012304.0,
+        "enterprise_value": 101460760.0,
         "invested_capital": 126100000.0
       }
     },
@@ -1410,9 +1411,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "APETIT.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 87989000.0,
+        "market_cap": 87056256.0,
         "ebit": 11000000.0,
-        "enterprise_value": 103588984.0,
+        "enterprise_value": 102656240.0,
         "invested_capital": 96100000.0
       }
     },
@@ -1427,9 +1428,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "RAUTE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 84961320.0,
+        "market_cap": 85557544.0,
         "ebit": 18784000.0,
-        "enterprise_value": 47067080.0,
+        "enterprise_value": 47663852.0,
         "invested_capital": 48563000.0
       }
     },
@@ -1441,13 +1442,13 @@
       "status": "ranked",
       "exclusion_reasons": [],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
+        "statement_date": "2025-12-31",
         "source_symbol": "ORTHEX.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 83466608.0,
-        "ebit": 9555000.0,
-        "enterprise_value": 95244144.0,
-        "invested_capital": 40324000.0
+        "market_cap": 79026896.0,
+        "ebit": 9783000.0,
+        "enterprise_value": 91744904.0,
+        "invested_capital": 41135000.0
       }
     },
     {
@@ -1463,9 +1464,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "OPTOMED.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 55721264.0,
+        "market_cap": 53899612.0,
         "ebit": -6606000.0,
-        "enterprise_value": 48523264.0,
+        "enterprise_value": 46701608.0,
         "invested_capital": 11278000.0
       }
     },
@@ -1494,13 +1495,13 @@
       "status": "ranked",
       "exclusion_reasons": [],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
+        "statement_date": "2025-12-31",
         "source_symbol": "NLG1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 70285528.0,
-        "ebit": 19282000.0,
-        "enterprise_value": 96977528.0,
-        "invested_capital": 58798000.0
+        "market_cap": 66573544.0,
+        "ebit": 14800000.0,
+        "enterprise_value": 93265552.0,
+        "invested_capital": 59163000.0
       }
     },
     {
@@ -1514,9 +1515,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TLT1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 66794952.0,
+        "market_cap": 65696948.0,
         "ebit": 7734000.0,
-        "enterprise_value": 86404952.0,
+        "enterprise_value": 85306952.0,
         "invested_capital": 35133000.0
       }
     },
@@ -1533,9 +1534,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ESENSE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 59349528.0,
+        "market_cap": 61632200.0,
         "ebit": 19645000.0,
-        "enterprise_value": 62744524.0,
+        "enterprise_value": 65027196.0,
         "invested_capital": -886000.0
       }
     },
@@ -1550,9 +1551,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "HKFOODS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 162574880.0,
+        "market_cap": 167065904.0,
         "ebit": 38100000.0,
-        "enterprise_value": 335937760.0,
+        "enterprise_value": 340433280.0,
         "invested_capital": 278400000.0
       }
     },
@@ -1578,9 +1579,9 @@
         "statement_date": "2023-12-31",
         "source_symbol": "LAPWALL.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 57375796.0,
+        "market_cap": 57230540.0,
         "ebit": 3323775.97,
-        "enterprise_value": 69212064.0,
+        "enterprise_value": 69066808.0,
         "invested_capital": 11515590.5
       }
     },
@@ -1595,9 +1596,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TOIVO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 57763020.0,
+        "market_cap": 58464596.0,
         "ebit": 8370000.0,
-        "enterprise_value": 113605808.0,
+        "enterprise_value": 114065816.0,
         "invested_capital": 28334000.0
       }
     },
@@ -1612,9 +1613,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "BIOBV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 37234104.0,
+        "market_cap": 36474224.0,
         "ebit": 3000000.0,
-        "enterprise_value": 34034104.0,
+        "enterprise_value": 33274224.0,
         "invested_capital": 7400000.0
       }
     },
@@ -1629,9 +1630,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "GLA1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 45230876.0,
+        "market_cap": 43410176.0,
         "ebit": 2200000.0,
-        "enterprise_value": 73022696.0,
+        "enterprise_value": 71206352.0,
         "invested_capital": 27900000.0
       }
     },
@@ -1646,9 +1647,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "RAP1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 47428852.0,
+        "market_cap": 40042392.0,
         "ebit": 8500000.0,
-        "enterprise_value": 106828856.0,
+        "enterprise_value": 112973736.0,
         "invested_capital": 103000000.0
       }
     },
@@ -1663,9 +1664,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "EXL1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 51408140.0,
+        "market_cap": 55525016.0,
         "ebit": 2674000.0,
-        "enterprise_value": 73979144.0,
+        "enterprise_value": 78096016.0,
         "invested_capital": 25117000.0
       }
     },
@@ -1680,9 +1681,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "CTH1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 44787840.0,
+        "market_cap": 43409748.0,
         "ebit": 2469000.0,
-        "enterprise_value": 48031324.0,
+        "enterprise_value": 45595752.0,
         "invested_capital": 32337000.0
       }
     },
@@ -1697,9 +1698,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ACG1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 34003608.0,
+        "market_cap": 36561400.0,
         "ebit": 905000.0,
-        "enterprise_value": 34901608.0,
+        "enterprise_value": 37459400.0,
         "invested_capital": 12975000.0
       }
     },
@@ -1716,9 +1717,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "BOREO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 47457572.0,
+        "market_cap": 46513816.0,
         "ebit": 6900000.0,
-        "enterprise_value": 79357576.0,
+        "enterprise_value": 78413816.0,
         "invested_capital": 25900000.0
       }
     },
@@ -1733,9 +1734,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SIILI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 31136888.0,
+        "market_cap": 30326034.0,
         "ebit": 1703000.0,
-        "enterprise_value": 34641888.0,
+        "enterprise_value": 33831032.0,
         "invested_capital": 6257000.0
       }
     },
@@ -1750,9 +1751,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "TULAV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 28618834.0,
+        "market_cap": 29634534.0,
         "ebit": 2097000.0,
-        "enterprise_value": 40177316.0,
+        "enterprise_value": 40834532.0,
         "invested_capital": 13852000.0
       }
     },
@@ -1769,9 +1770,9 @@
         "statement_date": "2025-10-31",
         "source_symbol": "SAGCV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 33423818.0,
+        "market_cap": 35722812.0,
         "ebit": 5628000.0,
-        "enterprise_value": -18314182.0,
+        "enterprise_value": -16015189.0,
         "invested_capital": 83106000.0
       }
     },
@@ -1788,9 +1789,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "WETTERI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 29594924.0,
+        "market_cap": 28715074.0,
         "ebit": -7132000.0,
-        "enterprise_value": 121667920.0,
+        "enterprise_value": 112314072.0,
         "invested_capital": 32843000.0
       }
     },
@@ -1805,9 +1806,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "WUF1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 25485016.0,
+        "market_cap": 22494772.0,
         "ebit": 4900000.0,
-        "enterprise_value": 41017016.0,
+        "enterprise_value": 38026772.0,
         "invested_capital": 16927000.0
       }
     },
@@ -1822,9 +1823,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "LAMOR.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 29251574.0,
+        "market_cap": 32756370.0,
         "ebit": 3882000.0,
-        "enterprise_value": 78974568.0,
+        "enterprise_value": 82479368.0,
         "invested_capital": 82867000.0
       }
     },
@@ -1839,9 +1840,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ROBIT.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 21775790.0,
+        "market_cap": 22198620.0,
         "ebit": 1920000.0,
-        "enterprise_value": 37223788.0,
+        "enterprise_value": 37646620.0,
         "invested_capital": 53583000.0
       }
     },
@@ -1856,9 +1857,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "REKA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 25542258.0,
+        "market_cap": 25482298.0,
         "ebit": 1365000.0,
-        "enterprise_value": 6717257.0,
+        "enterprise_value": 6657299.0,
         "invested_capital": 33147000.0
       }
     },
@@ -1867,18 +1868,16 @@
       "company": "Ovaro Kiinteistösijoitus Oyj",
       "sector": "Real estate activities",
       "is_financial": false,
-      "status": "excluded",
-      "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
-      ],
+      "status": "ranked",
+      "exclusion_reasons": [],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
+        "statement_date": "2025-12-31",
         "source_symbol": "OVARO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 25620476.0,
-        "ebit": -242000.0,
-        "enterprise_value": 36248476.0,
-        "invested_capital": 3520000.0
+        "market_cap": 25945814.0,
+        "ebit": 4963000.0,
+        "enterprise_value": 36573812.0,
+        "invested_capital": 4488000.0
       }
     },
     {
@@ -1892,9 +1891,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "INVEST.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 26817030.0,
+        "market_cap": 27008124.0,
         "ebit": 5409000.0,
-        "enterprise_value": 36388032.0,
+        "enterprise_value": 36579124.0,
         "invested_capital": 2726000.0
       }
     },
@@ -1911,9 +1910,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "REBL.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 14144617.0,
+        "market_cap": 12892880.0,
         "ebit": -1340355.07,
-        "enterprise_value": 26743922.0,
+        "enterprise_value": 22992880.0,
         "invested_capital": 38665326.99
       }
     },
@@ -1930,10 +1929,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "EEZY.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 13775749.0,
-        "ebit": 369000.0,
-        "enterprise_value": 62634748.0,
-        "invested_capital": -9208000.0
+        "market_cap": 10995552.0,
+        "ebit": 108000.0,
+        "enterprise_value": 59854552.0,
+        "invested_capital": -9209000.0
       }
     },
     {
@@ -1949,9 +1948,9 @@
         "statement_date": "2025-10-31",
         "source_symbol": "PNA1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 18309806.0,
+        "market_cap": 16399218.0,
         "ebit": 1916000.0,
-        "enterprise_value": 79966456.0,
+        "enterprise_value": 79064744.0,
         "invested_capital": 26114000.0
       }
     },
@@ -1969,9 +1968,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "QPR1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 10970095.0,
+        "market_cap": 10694860.0,
         "ebit": -813000.0,
-        "enterprise_value": 11217094.0,
+        "enterprise_value": 10941859.0,
         "invested_capital": -301000.0
       }
     },
@@ -1988,9 +1987,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "HONBS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 15020436.0,
+        "market_cap": 14843725.0,
         "ebit": -4000000.0,
-        "enterprise_value": 15920436.0,
+        "enterprise_value": 15743725.0,
         "invested_capital": 9500000.0
       }
     },
@@ -2001,16 +2000,17 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
+        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
       ],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
+        "statement_date": "2025-12-31",
         "source_symbol": "DOV1V.HE",
         "ev_source": "reported_enterprise_value",
         "market_cap": 7891239.0,
-        "ebit": -21835000.0,
+        "ebit": -64323000.0,
         "enterprise_value": 1291238.0,
-        "invested_capital": 12938000.0
+        "invested_capital": -59489000.0
       }
     },
     {
@@ -2026,9 +2026,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "KELAS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 8966592.0,
+        "market_cap": 9371099.0,
         "ebit": -12000.0,
-        "enterprise_value": 20560588.0,
+        "enterprise_value": 20965096.0,
         "invested_capital": 17467000.0
       }
     },
@@ -2043,9 +2043,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "ELEAV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 10119913.0,
+        "market_cap": 9670139.0,
         "ebit": 3821000.0,
-        "enterprise_value": 14745913.0,
+        "enterprise_value": 14296139.0,
         "invested_capital": 27577000.0
       }
     },
@@ -2062,9 +2062,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SOLTEQ.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 7331877.0,
-        "ebit": 901000.0,
-        "enterprise_value": 30638878.0,
+        "market_cap": 7933168.0,
+        "ebit": 663000.0,
+        "enterprise_value": 31240168.0,
         "invested_capital": -25412000.0
       }
     },
@@ -2079,13 +2079,13 @@
         "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
       ],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
+        "statement_date": "2025-12-31",
         "source_symbol": "DIGIGR.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 6033365.0,
-        "ebit": -2676000.0,
-        "enterprise_value": 49451964.0,
-        "invested_capital": -17883000.0
+        "market_cap": 5661441.0,
+        "ebit": -1369000.0,
+        "enterprise_value": 49074440.0,
+        "invested_capital": -42932000.0
       }
     },
     {
@@ -2099,10 +2099,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TRH1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 5068869.0,
-        "ebit": 483000.0,
-        "enterprise_value": 3603869.0,
-        "invested_capital": 1110000.0
+        "market_cap": 5111826.0,
+        "ebit": 461612.46,
+        "enterprise_value": 3646826.0,
+        "invested_capital": 1109347.15
       }
     },
     {
@@ -2118,9 +2118,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "MARAS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 3014561.0,
+        "market_cap": 2958908.0,
         "ebit": -1057000.0,
-        "enterprise_value": 21118538.0,
+        "enterprise_value": 21063532.0,
         "invested_capital": 6016000.0
       }
     },
@@ -2159,9 +2159,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "EVLI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 630340608.0,
+        "market_cap": 625043648.0,
         "ebit": 59100000.0,
-        "enterprise_value": 752040576.0,
+        "enterprise_value": 746743616.0,
         "invested_capital": 182400000.0
       }
     },
@@ -2187,9 +2187,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "KHG.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 30665656.0,
+        "market_cap": 31827234.0,
         "ebit": 7008000.0,
-        "enterprise_value": 109665712.0,
+        "enterprise_value": 110827296.0,
         "invested_capital": 84517000.0
       }
     },
@@ -2229,7 +2229,7 @@
         "market_cap": 395339776.0,
         "ebit": 67400000.0,
         "enterprise_value": 937039744.0,
-        "invested_capital": 584900000.0
+        "invested_capital": 587100000.0
       }
     },
     {
@@ -2243,10 +2243,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "METSO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 13314531328.0,
-        "ebit": 743000000.0,
-        "enterprise_value": 14430531584.0,
-        "invested_capital": 2104000000.0
+        "market_cap": 12793042944.0,
+        "ebit": 722000000.0,
+        "enterprise_value": 13909042176.0,
+        "invested_capital": 2105000000.0
       }
     },
     {
@@ -2282,9 +2282,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "TAMTRON.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 40074228.0,
+        "market_cap": 40527900.0,
         "ebit": 2046000.0,
-        "enterprise_value": 45402968.0,
+        "enterprise_value": 45853952.0,
         "invested_capital": 9812000.0
       }
     },
@@ -2301,9 +2301,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "WITTED.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 20275674.0,
+        "market_cap": 21262880.0,
         "ebit": -54137.04,
-        "enterprise_value": 15839667.0,
+        "enterprise_value": 16844984.0,
         "invested_capital": 6394661.05
       }
     }
@@ -2316,7 +2316,7 @@
       "sector": "Real estate activities",
       "is_financial": false,
       "magic_formula_score": 10,
-      "ebit_ev": 0.148648,
+      "ebit_ev": 0.147871,
       "roc": 1.984226,
       "quality_score": 36.13,
       "validation_warnings": [],
@@ -2324,20 +2324,41 @@
         "statement_date": "2025-12-31",
         "source_symbol": "INVEST.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 26817030.0,
+        "market_cap": 27008124.0,
         "ebit": 5409000.0,
-        "enterprise_value": 36388032.0,
+        "enterprise_value": 36579124.0,
         "invested_capital": 2726000.0
       }
     },
     {
       "rank": 2,
+      "ticker": "OVARO",
+      "company": "Ovaro Kiinteistösijoitus Oyj",
+      "sector": "Real estate activities",
+      "is_financial": false,
+      "magic_formula_score": 14,
+      "ebit_ev": 0.135698,
+      "roc": 1.105838,
+      "quality_score": 39.87,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "OVARO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 25945814.0,
+        "ebit": 4963000.0,
+        "enterprise_value": 36573812.0,
+        "invested_capital": 4488000.0
+      }
+    },
+    {
+      "rank": 3,
       "ticker": "CONSTI",
       "company": "Consti Oyj",
       "sector": "Construction",
       "is_financial": false,
-      "magic_formula_score": 18,
-      "ebit_ev": 0.111331,
+      "magic_formula_score": 19,
+      "ebit_ev": 0.109749,
       "roc": 1.90461,
       "quality_score": 49.39,
       "validation_warnings": [],
@@ -2345,20 +2366,20 @@
         "statement_date": "2025-12-31",
         "source_symbol": "CONSTI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 91018992.0,
+        "market_cap": 92608840.0,
         "ebit": 9584000.0,
-        "enterprise_value": 86085992.0,
+        "enterprise_value": 87326344.0,
         "invested_capital": 5032000.0
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "ticker": "RAUTE",
       "company": "Raute Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 23,
-      "ebit_ev": 0.39909,
+      "magic_formula_score": 24,
+      "ebit_ev": 0.394093,
       "roc": 0.386797,
       "quality_score": 50.0,
       "validation_warnings": [],
@@ -2366,20 +2387,20 @@
         "statement_date": "2025-12-31",
         "source_symbol": "RAUTE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 84961320.0,
+        "market_cap": 85557544.0,
         "ebit": 18784000.0,
-        "enterprise_value": 47067080.0,
+        "enterprise_value": 47663852.0,
         "invested_capital": 48563000.0
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "ticker": "DIGIA",
       "company": "Digia Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "is_financial": false,
-      "magic_formula_score": 25,
-      "ebit_ev": 0.098869,
+      "magic_formula_score": 27,
+      "ebit_ev": 0.098297,
       "roc": 0.975305,
       "quality_score": 42.57,
       "validation_warnings": [],
@@ -2387,52 +2408,31 @@
         "statement_date": "2025-12-31",
         "source_symbol": "DIGIA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 159630832.0,
+        "market_cap": 160698608.0,
         "ebit": 18128000.0,
-        "enterprise_value": 183352832.0,
+        "enterprise_value": 184420592.0,
         "invested_capital": 18587000.0
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "ticker": "TRH1V",
       "company": "Trainers' House Oyj",
       "sector": "Professional, scientific and technical activities",
       "is_financial": false,
-      "magic_formula_score": 28,
-      "ebit_ev": 0.134023,
-      "roc": 0.435135,
+      "magic_formula_score": 32,
+      "ebit_ev": 0.126579,
+      "roc": 0.416112,
       "quality_score": 50.0,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "TRH1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 5068869.0,
-        "ebit": 483000.0,
-        "enterprise_value": 3603869.0,
-        "invested_capital": 1110000.0
-      }
-    },
-    {
-      "rank": 6,
-      "ticker": "NLG1V",
-      "company": "Nurminen Logistics Oyj",
-      "sector": "Transportation and storage",
-      "is_financial": false,
-      "magic_formula_score": 34,
-      "ebit_ev": 0.19883,
-      "roc": 0.327936,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2024-12-31",
-        "source_symbol": "NLG1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 70285528.0,
-        "ebit": 19282000.0,
-        "enterprise_value": 96977528.0,
-        "invested_capital": 58798000.0
+        "market_cap": 5111826.0,
+        "ebit": 461612.46,
+        "enterprise_value": 3646826.0,
+        "invested_capital": 1109347.15
       }
     },
     {
@@ -2441,8 +2441,8 @@
       "company": "Citycon Oyj",
       "sector": "Real estate activities",
       "is_financial": false,
-      "magic_formula_score": 39,
-      "ebit_ev": 0.086486,
+      "magic_formula_score": 42,
+      "ebit_ev": 0.086697,
       "roc": 0.503748,
       "quality_score": 25.0,
       "validation_warnings": [],
@@ -2450,9 +2450,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "CTY1S.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 696093696.0,
+        "market_cap": 690219456.0,
         "ebit": 208300000.0,
-        "enterprise_value": 2408493568.0,
+        "enterprise_value": 2402619392.0,
         "invested_capital": 413500000.0
       }
     },
@@ -2462,8 +2462,8 @@
       "company": "Terveystalo Oyj",
       "sector": "Human health and social work activities",
       "is_financial": false,
-      "magic_formula_score": 40,
-      "ebit_ev": 0.079977,
+      "magic_formula_score": 43,
+      "ebit_ev": 0.080815,
       "roc": 0.764246,
       "quality_score": 37.53,
       "validation_warnings": [],
@@ -2471,83 +2471,41 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TTALO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1204490496.0,
+        "market_cap": 1186758656.0,
         "ebit": 136800000.0,
-        "enterprise_value": 1710490368.0,
+        "enterprise_value": 1692758656.0,
         "invested_capital": 179000000.0
       }
     },
     {
       "rank": 9,
-      "ticker": "BIOBV",
-      "company": "Biohit Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 43,
-      "ebit_ev": 0.088147,
-      "roc": 0.405405,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "BIOBV.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 37234104.0,
-        "ebit": 3000000.0,
-        "enterprise_value": 34034104.0,
-        "invested_capital": 7400000.0
-      }
-    },
-    {
-      "rank": 10,
       "ticker": "GRK",
       "company": "GRK Infra Oyj",
       "sector": "Construction",
       "is_financial": false,
       "magic_formula_score": 44,
-      "ebit_ev": 0.209028,
-      "roc": 0.266456,
+      "ebit_ev": 0.203171,
+      "roc": 0.250969,
       "quality_score": 50.0,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "GRK.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 521866080.0,
-        "ebit": 57517000.0,
-        "enterprise_value": 275164064.0,
+        "market_cap": 513344480.0,
+        "ebit": 54174000.0,
+        "enterprise_value": 266642464.0,
         "invested_capital": 215859000.0
       }
     },
     {
-      "rank": 11,
-      "ticker": "KCR",
-      "company": "Konecranes Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 44,
-      "ebit_ev": 0.080484,
-      "roc": 0.471209,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "KCR.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 7370888192.0,
-        "ebit": 580200000.0,
-        "enterprise_value": 7208887808.0,
-        "invested_capital": 1231300000.0
-      }
-    },
-    {
-      "rank": 12,
+      "rank": 10,
       "ticker": "WUF1V",
       "company": "Wulff-Yhtiöt Oyj",
       "sector": "Administrative and support service activities",
       "is_financial": false,
-      "magic_formula_score": 46,
-      "ebit_ev": 0.119463,
+      "magic_formula_score": 44,
+      "ebit_ev": 0.128857,
       "roc": 0.289478,
       "quality_score": 40.78,
       "validation_warnings": [],
@@ -2555,10 +2513,52 @@
         "statement_date": "2025-12-31",
         "source_symbol": "WUF1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 25485016.0,
+        "market_cap": 22494772.0,
         "ebit": 4900000.0,
-        "enterprise_value": 41017016.0,
+        "enterprise_value": 38026772.0,
         "invested_capital": 16927000.0
+      }
+    },
+    {
+      "rank": 11,
+      "ticker": "BIOBV",
+      "company": "Biohit Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 45,
+      "ebit_ev": 0.09016,
+      "roc": 0.405405,
+      "quality_score": 50.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "BIOBV.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 36474224.0,
+        "ebit": 3000000.0,
+        "enterprise_value": 33274224.0,
+        "invested_capital": 7400000.0
+      }
+    },
+    {
+      "rank": 12,
+      "ticker": "NLG1V",
+      "company": "Nurminen Logistics Oyj",
+      "sector": "Transportation and storage",
+      "is_financial": false,
+      "magic_formula_score": 48,
+      "ebit_ev": 0.158687,
+      "roc": 0.250156,
+      "quality_score": 49.62,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "NLG1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 66573544.0,
+        "ebit": 14800000.0,
+        "enterprise_value": 93265552.0,
+        "invested_capital": 59163000.0
       }
     },
     {
@@ -2567,8 +2567,8 @@
       "company": "Alma Media Oyj",
       "sector": "Publishing, broadcasting, and content production and distribution activities",
       "is_financial": false,
-      "magic_formula_score": 48,
-      "ebit_ev": 0.065746,
+      "magic_formula_score": 50,
+      "ebit_ev": 0.063792,
       "roc": 14.981132,
       "quality_score": 44.89,
       "validation_warnings": [],
@@ -2576,20 +2576,41 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ALMA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1083335040.0,
+        "market_cap": 1120407424.0,
         "ebit": 79400000.0,
-        "enterprise_value": 1207684352.0,
+        "enterprise_value": 1244662528.0,
         "invested_capital": 5300000.0
       }
     },
     {
       "rank": 14,
+      "ticker": "KCR",
+      "company": "Konecranes Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 50,
+      "ebit_ev": 0.079252,
+      "roc": 0.44892,
+      "quality_score": 50.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "KCR.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 7137205760.0,
+        "ebit": 552800000.0,
+        "enterprise_value": 6975205888.0,
+        "invested_capital": 1231400000.0
+      }
+    },
+    {
+      "rank": 15,
       "ticker": "TNOM",
       "company": "Talenom Oyj",
       "sector": "Professional, scientific and technical activities",
       "is_financial": false,
-      "magic_formula_score": 50,
-      "ebit_ev": 0.071714,
+      "magic_formula_score": 51,
+      "ebit_ev": 0.071516,
       "roc": 0.839936,
       "quality_score": 34.34,
       "validation_warnings": [],
@@ -2597,31 +2618,10 @@
         "statement_date": "2024-12-31",
         "source_symbol": "TNOM.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 104980856.0,
+        "market_cap": 95972600.0,
         "ebit": 11492000.0,
-        "enterprise_value": 160248128.0,
+        "enterprise_value": 160691984.0,
         "invested_capital": 13682000.0
-      }
-    },
-    {
-      "rank": 15,
-      "ticker": "QTCOM",
-      "company": "Qt Group Oyj",
-      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
-      "is_financial": false,
-      "magic_formula_score": 52,
-      "ebit_ev": 0.068657,
-      "roc": 0.798127,
-      "quality_score": 36.96,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "QTCOM.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 516457248.0,
-        "ebit": 42537000.0,
-        "enterprise_value": 619557248.0,
-        "invested_capital": 53296000.0
       }
     },
     {
@@ -2631,7 +2631,7 @@
       "sector": "Wholesale and retail trade",
       "is_financial": false,
       "magic_formula_score": 52,
-      "ebit_ev": 0.11751,
+      "ebit_ev": 0.11821,
       "roc": 0.272427,
       "quality_score": 44.43,
       "validation_warnings": [],
@@ -2639,19 +2639,61 @@
         "statement_date": "2025-12-31",
         "source_symbol": "VERK.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 158143744.0,
+        "market_cap": 157242640.0,
         "ebit": 17869000.0,
-        "enterprise_value": 152063744.0,
+        "enterprise_value": 151162640.0,
         "invested_capital": 65592000.0
       }
     },
     {
       "rank": 17,
+      "ticker": "QTCOM",
+      "company": "Qt Group Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "magic_formula_score": 53,
+      "ebit_ev": 0.069339,
+      "roc": 0.798127,
+      "quality_score": 36.96,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "QTCOM.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 510363360.0,
+        "ebit": 42537000.0,
+        "enterprise_value": 613463360.0,
+        "invested_capital": 53296000.0
+      }
+    },
+    {
+      "rank": 18,
+      "ticker": "TEM1V",
+      "company": "Tecnotree Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "magic_formula_score": 55,
+      "ebit_ev": 0.160265,
+      "roc": 0.203008,
+      "quality_score": 47.72,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "TEM1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 125618176.0,
+        "ebit": 16200000.0,
+        "enterprise_value": 101082480.0,
+        "invested_capital": 79800000.0
+      }
+    },
+    {
+      "rank": 19,
       "ticker": "OLVAS",
       "company": "Olvi Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 56,
+      "magic_formula_score": 57,
       "ebit_ev": 0.122942,
       "roc": 0.236913,
       "quality_score": 50.0,
@@ -2667,13 +2709,13 @@
       }
     },
     {
-      "rank": 18,
+      "rank": 20,
       "ticker": "PIHLIS",
       "company": "Pihlajalinna Oyj",
       "sector": "Human health and social work activities",
       "is_financial": false,
       "magic_formula_score": 57,
-      "ebit_ev": 0.093823,
+      "ebit_ev": 0.094559,
       "roc": 0.276739,
       "quality_score": 42.39,
       "validation_warnings": [],
@@ -2681,52 +2723,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "PIHLIS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 294488864.0,
+        "market_cap": 289992832.0,
         "ebit": 53300000.0,
-        "enterprise_value": 568088896.0,
+        "enterprise_value": 563667840.0,
         "invested_capital": 192600000.0
-      }
-    },
-    {
-      "rank": 19,
-      "ticker": "TEM1V",
-      "company": "Tecnotree Oyj",
-      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
-      "is_financial": false,
-      "magic_formula_score": 57,
-      "ebit_ev": 0.158705,
-      "roc": 0.203008,
-      "quality_score": 47.72,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "TEM1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 126986064.0,
-        "ebit": 16200000.0,
-        "enterprise_value": 102076480.0,
-        "invested_capital": 79800000.0
-      }
-    },
-    {
-      "rank": 20,
-      "ticker": "ICP1V",
-      "company": "Incap Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 58,
-      "ebit_ev": 0.127826,
-      "roc": 0.217807,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2024-12-31",
-        "source_symbol": "ICP1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 304488480.0,
-        "ebit": 32108000.0,
-        "enterprise_value": 251185456.0,
-        "invested_capital": 147415000.0
       }
     },
     {
@@ -2735,8 +2735,8 @@
       "company": "Etteplan Oyj",
       "sector": "Professional, scientific and technical activities",
       "is_financial": false,
-      "magic_formula_score": 59,
-      "ebit_ev": 0.064198,
+      "magic_formula_score": 58,
+      "ebit_ev": 0.065125,
       "roc": 0.786871,
       "quality_score": 35.23,
       "validation_warnings": [],
@@ -2744,9 +2744,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ETTE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 212098912.0,
+        "market_cap": 208058944.0,
         "ebit": 18220000.0,
-        "enterprise_value": 283808928.0,
+        "enterprise_value": 279768960.0,
         "invested_capital": 23155000.0
       }
     },
@@ -2757,7 +2757,7 @@
       "sector": "Publishing, broadcasting, and content production and distribution activities",
       "is_financial": false,
       "magic_formula_score": 59,
-      "ebit_ev": 0.073034,
+      "ebit_ev": 0.073532,
       "roc": 0.430657,
       "quality_score": 25.0,
       "validation_warnings": [],
@@ -2765,62 +2765,20 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KSL.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 111769368.0,
+        "market_cap": 110673592.0,
         "ebit": 11800000.0,
-        "enterprise_value": 161569360.0,
+        "enterprise_value": 160473584.0,
         "invested_capital": 27400000.0
       }
     },
     {
       "rank": 23,
-      "ticker": "MEKKO",
-      "company": "Marimekko Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 59,
-      "ebit_ev": 0.074754,
-      "roc": 0.353392,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "MEKKO.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 438347872.0,
-        "ebit": 32300000.0,
-        "enterprise_value": 432082336.0,
-        "invested_capital": 91400000.0
-      }
-    },
-    {
-      "rank": 24,
-      "ticker": "ORNAV",
-      "company": "Orion Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 60,
-      "ebit_ev": 0.066063,
-      "roc": 0.512325,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ORNAV.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 9526791168.0,
-        "ebit": 636000000.0,
-        "enterprise_value": 9627230208.0,
-        "invested_capital": 1241400000.0
-      }
-    },
-    {
-      "rank": 25,
       "ticker": "KREATE",
       "company": "Kreate Group Oyj",
       "sector": "Construction",
       "is_financial": false,
-      "magic_formula_score": 61,
-      "ebit_ev": 0.065078,
+      "magic_formula_score": 60,
+      "ebit_ev": 0.067307,
       "roc": 0.67975,
       "quality_score": 33.22,
       "validation_warnings": [],
@@ -2828,41 +2786,41 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KREATE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 120673808.0,
+        "market_cap": 115464872.0,
         "ebit": 10235000.0,
-        "enterprise_value": 157273808.0,
+        "enterprise_value": 152064864.0,
         "invested_capital": 15057000.0
       }
     },
     {
-      "rank": 26,
-      "ticker": "ORTHEX",
-      "company": "Orthex Oyj",
+      "rank": 24,
+      "ticker": "MEKKO",
+      "company": "Marimekko Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 61,
-      "ebit_ev": 0.100321,
-      "roc": 0.236956,
-      "quality_score": 42.17,
+      "magic_formula_score": 60,
+      "ebit_ev": 0.076331,
+      "roc": 0.353392,
+      "quality_score": 50.0,
       "validation_warnings": [],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
-        "source_symbol": "ORTHEX.HE",
+        "statement_date": "2025-12-31",
+        "source_symbol": "MEKKO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 83466608.0,
-        "ebit": 9555000.0,
-        "enterprise_value": 95244144.0,
-        "invested_capital": 40324000.0
+        "market_cap": 429102656.0,
+        "ebit": 32300000.0,
+        "enterprise_value": 423156640.0,
+        "invested_capital": 91400000.0
       }
     },
     {
-      "rank": 27,
+      "rank": 25,
       "ticker": "ELEAV",
       "company": "Elecster Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 62,
-      "ebit_ev": 0.259123,
+      "magic_formula_score": 61,
+      "ebit_ev": 0.267275,
       "roc": 0.138557,
       "quality_score": 37.3,
       "validation_warnings": [],
@@ -2870,20 +2828,20 @@
         "statement_date": "2024-12-31",
         "source_symbol": "ELEAV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 10119913.0,
+        "market_cap": 9670139.0,
         "ebit": 3821000.0,
-        "enterprise_value": 14745913.0,
+        "enterprise_value": 14296139.0,
         "invested_capital": 27577000.0
       }
     },
     {
-      "rank": 28,
+      "rank": 26,
       "ticker": "KALMAR",
       "company": "Kalmar Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 63,
-      "ebit_ev": 0.077256,
+      "magic_formula_score": 61,
+      "ebit_ev": 0.081138,
       "roc": 0.30378,
       "quality_score": 49.87,
       "validation_warnings": [],
@@ -2891,20 +2849,83 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KALMAR.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2914645504.0,
+        "market_cap": 2776924416.0,
         "ebit": 225800000.0,
-        "enterprise_value": 2922745600.0,
+        "enterprise_value": 2782914560.0,
         "invested_capital": 743300000.0
       }
     },
     {
+      "rank": 27,
+      "ticker": "ORTHEX",
+      "company": "Orthex Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 62,
+      "ebit_ev": 0.106633,
+      "roc": 0.237827,
+      "quality_score": 44.39,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ORTHEX.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 79026896.0,
+        "ebit": 9783000.0,
+        "enterprise_value": 91744904.0,
+        "invested_capital": 41135000.0
+      }
+    },
+    {
+      "rank": 28,
+      "ticker": "ICP1V",
+      "company": "Incap Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 63,
+      "ebit_ev": 0.118575,
+      "roc": 0.192156,
+      "quality_score": 50.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ICP1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 295065248.0,
+        "ebit": 28667000.0,
+        "enterprise_value": 241762224.0,
+        "invested_capital": 149186000.0
+      }
+    },
+    {
       "rank": 29,
+      "ticker": "ORNAV",
+      "company": "Orion Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 63,
+      "ebit_ev": 0.064187,
+      "roc": 0.512325,
+      "quality_score": 50.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ORNAV.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 9809484800.0,
+        "ebit": 636000000.0,
+        "enterprise_value": 9908617216.0,
+        "invested_capital": 1241400000.0
+      }
+    },
+    {
+      "rank": 30,
       "ticker": "VALMT",
       "company": "Valmet Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 65,
-      "ebit_ev": 0.0736,
+      "magic_formula_score": 63,
+      "ebit_ev": 0.07525,
       "roc": 0.344197,
       "quality_score": 39.35,
       "validation_warnings": [],
@@ -2912,20 +2933,20 @@
         "statement_date": "2025-12-31",
         "source_symbol": "VALMT.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 4976118272.0,
+        "market_cap": 4847155200.0,
         "ebit": 433000000.0,
-        "enterprise_value": 5883118080.0,
+        "enterprise_value": 5754155008.0,
         "invested_capital": 1258000000.0
       }
     },
     {
-      "rank": 30,
+      "rank": 31,
       "ticker": "CGCBV",
       "company": "Hiab Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 67,
-      "ebit_ev": 0.077898,
+      "magic_formula_score": 65,
+      "ebit_ev": 0.082573,
       "roc": 0.286353,
       "quality_score": 50.0,
       "validation_warnings": [],
@@ -2933,20 +2954,20 @@
         "statement_date": "2025-12-31",
         "source_symbol": "HIAB.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2921404416.0,
+        "market_cap": 2767850240.0,
         "ebit": 211300000.0,
-        "enterprise_value": 2712504576.0,
+        "enterprise_value": 2558950144.0,
         "invested_capital": 737900000.0
       }
     },
     {
-      "rank": 31,
+      "rank": 32,
       "ticker": "TLT1V",
       "company": "Teleste Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "is_financial": false,
-      "magic_formula_score": 67,
-      "ebit_ev": 0.089509,
+      "magic_formula_score": 69,
+      "ebit_ev": 0.090661,
       "roc": 0.220135,
       "quality_score": 39.5,
       "validation_warnings": [],
@@ -2954,31 +2975,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TLT1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 66794952.0,
+        "market_cap": 65696948.0,
         "ebit": 7734000.0,
-        "enterprise_value": 86404952.0,
+        "enterprise_value": 85306952.0,
         "invested_capital": 35133000.0
-      }
-    },
-    {
-      "rank": 32,
-      "ticker": "TOIVO",
-      "company": "Toivo Group Oyj",
-      "sector": "Real estate activities",
-      "is_financial": false,
-      "magic_formula_score": 69,
-      "ebit_ev": 0.073676,
-      "roc": 0.295405,
-      "quality_score": 25.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "TOIVO.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 57763020.0,
-        "ebit": 8370000.0,
-        "enterprise_value": 113605808.0,
-        "invested_capital": 28334000.0
       }
     },
     {
@@ -2987,8 +2987,8 @@
       "company": "Revenio Group Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 73,
-      "ebit_ev": 0.054317,
+      "magic_formula_score": 72,
+      "ebit_ev": 0.055777,
       "roc": 0.744868,
       "quality_score": 50.0,
       "validation_warnings": [],
@@ -2996,31 +2996,31 @@
         "statement_date": "2025-12-31",
         "source_symbol": "REG1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 481521984.0,
+        "market_cap": 469284384.0,
         "ebit": 25400000.0,
-        "enterprise_value": 467621984.0,
+        "enterprise_value": 455384416.0,
         "invested_capital": 34100000.0
       }
     },
     {
       "rank": 34,
-      "ticker": "ANORA",
-      "company": "Anora Group Oyj",
-      "sector": "Manufacturing",
+      "ticker": "TOIVO",
+      "company": "Toivo Group Oyj",
+      "sector": "Real estate activities",
       "is_financial": false,
-      "magic_formula_score": 74,
-      "ebit_ev": 0.08852,
-      "roc": 0.172827,
+      "magic_formula_score": 72,
+      "ebit_ev": 0.073379,
+      "roc": 0.295405,
       "quality_score": 25.0,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
-        "source_symbol": "ANORA.HE",
+        "source_symbol": "TOIVO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 273254400.0,
-        "ebit": 33200000.0,
-        "enterprise_value": 375054400.0,
-        "invested_capital": 192100000.0
+        "market_cap": 58464596.0,
+        "ebit": 8370000.0,
+        "enterprise_value": 114065816.0,
+        "invested_capital": 28334000.0
       }
     },
     {
@@ -3030,7 +3030,7 @@
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "is_financial": false,
       "magic_formula_score": 74,
-      "ebit_ev": 0.048249,
+      "ebit_ev": 0.048858,
       "roc": 1.864401,
       "quality_score": 28.38,
       "validation_warnings": [],
@@ -3038,62 +3038,20 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ENENTO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 350305536.0,
+        "market_cap": 344151520.0,
         "ebit": 23814000.0,
-        "enterprise_value": 493564480.0,
+        "enterprise_value": 487410464.0,
         "invested_capital": 12773000.0
       }
     },
     {
       "rank": 36,
-      "ticker": "HKSAV",
-      "company": "HKScan Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 75,
-      "ebit_ev": 0.113414,
-      "roc": 0.136853,
-      "quality_score": 25.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "HKFOODS.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 162574880.0,
-        "ebit": 38100000.0,
-        "enterprise_value": 335937760.0,
-        "invested_capital": 278400000.0
-      }
-    },
-    {
-      "rank": 37,
-      "ticker": "PUUILO",
-      "company": "Puuilo Oyj",
-      "sector": "Wholesale and retail trade",
-      "is_financial": false,
-      "magic_formula_score": 76,
-      "ebit_ev": 0.059661,
-      "roc": 0.378112,
-      "quality_score": 45.18,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-01-31",
-        "source_symbol": "PUUILO.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 987720128.0,
-        "ebit": 65300000.0,
-        "enterprise_value": 1094520192.0,
-        "invested_capital": 172700000.0
-      }
-    },
-    {
-      "rank": 38,
       "ticker": "RAIVV",
       "company": "Raisio Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 77,
-      "ebit_ev": 0.087004,
+      "magic_formula_score": 75,
+      "ebit_ev": 0.091406,
       "roc": 0.156573,
       "quality_score": 50.0,
       "validation_warnings": [],
@@ -3101,10 +3059,52 @@
         "statement_date": "2025-12-31",
         "source_symbol": "RAIVV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 436097536.0,
+        "market_cap": 418716832.0,
         "ebit": 31800000.0,
-        "enterprise_value": 365500000.0,
+        "enterprise_value": 347900000.0,
         "invested_capital": 203100000.0
+      }
+    },
+    {
+      "rank": 37,
+      "ticker": "HKSAV",
+      "company": "HKScan Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 76,
+      "ebit_ev": 0.111916,
+      "roc": 0.136853,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "HKFOODS.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 167065904.0,
+        "ebit": 38100000.0,
+        "enterprise_value": 340433280.0,
+        "invested_capital": 278400000.0
+      }
+    },
+    {
+      "rank": 38,
+      "ticker": "ANORA",
+      "company": "Anora Group Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 77,
+      "ebit_ev": 0.090062,
+      "roc": 0.172827,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ANORA.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 266836816.0,
+        "ebit": 33200000.0,
+        "enterprise_value": 368636800.0,
+        "invested_capital": 192100000.0
       }
     },
     {
@@ -3114,7 +3114,7 @@
       "sector": "Construction",
       "is_financial": false,
       "magic_formula_score": 77,
-      "ebit_ev": 0.17587,
+      "ebit_ev": 0.174579,
       "roc": 0.088589,
       "quality_score": 25.0,
       "validation_warnings": [],
@@ -3122,31 +3122,31 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SRV1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 86418040.0,
+        "market_cap": 87434720.0,
         "ebit": 25204000.0,
-        "enterprise_value": 143310128.0,
+        "enterprise_value": 144369904.0,
         "invested_capital": 284504000.0
       }
     },
     {
       "rank": 40,
-      "ticker": "ELISA",
-      "company": "Elisa Oyj",
-      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "ticker": "PUUILO",
+      "company": "Puuilo Oyj",
+      "sector": "Wholesale and retail trade",
       "is_financial": false,
       "magic_formula_score": 78,
-      "ebit_ev": 0.055259,
-      "roc": 0.441376,
-      "quality_score": 40.02,
+      "ebit_ev": 0.058755,
+      "roc": 0.378112,
+      "quality_score": 45.18,
       "validation_warnings": [],
       "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ELISA.HE",
+        "statement_date": "2025-01-31",
+        "source_symbol": "PUUILO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 7077941248.0,
-        "ebit": 474700000.0,
-        "enterprise_value": 8590436352.0,
-        "invested_capital": 1075500000.0
+        "market_cap": 1004589824.0,
+        "ebit": 65300000.0,
+        "enterprise_value": 1111389824.0,
+        "invested_capital": 172700000.0
       }
     },
     {
@@ -3155,8 +3155,8 @@
       "company": "Kemira Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 78,
-      "ebit_ev": 0.082496,
+      "magic_formula_score": 79,
+      "ebit_ev": 0.083146,
       "roc": 0.187269,
       "quality_score": 45.45,
       "validation_warnings": [],
@@ -3164,9 +3164,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KEMIRA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2908387584.0,
+        "market_cap": 2881568512.0,
         "ebit": 283900000.0,
-        "enterprise_value": 3441396736.0,
+        "enterprise_value": 3414496256.0,
         "invested_capital": 1516000000.0
       }
     },
@@ -3177,7 +3177,7 @@
       "sector": "Manufacturing",
       "is_financial": false,
       "magic_formula_score": 79,
-      "ebit_ev": 0.046847,
+      "ebit_ev": 0.048643,
       "roc": 1.012141,
       "quality_score": 50.0,
       "validation_warnings": [],
@@ -3185,52 +3185,52 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KNEBV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 30007617536.0,
+        "market_cap": 28929624064.0,
         "ebit": 1367200000.0,
-        "enterprise_value": 29184215040.0,
+        "enterprise_value": 28107067392.0,
         "invested_capital": 1350800000.0
       }
     },
     {
       "rank": 43,
-      "ticker": "NOKIA",
-      "company": "Nokia Oyj",
+      "ticker": "ELISA",
+      "company": "Elisa Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "is_financial": false,
-      "magic_formula_score": 82,
-      "ebit_ev": 0.068137,
-      "roc": 0.277516,
-      "quality_score": 46.79,
+      "magic_formula_score": 81,
+      "ebit_ev": 0.054051,
+      "roc": 0.43431,
+      "quality_score": 39.84,
       "validation_warnings": [],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
-        "source_symbol": "NOKIA.HE",
+        "statement_date": "2025-12-31",
+        "source_symbol": "ELISA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 37425307648.0,
-        "ebit": 2418000000.0,
-        "enterprise_value": 35487309824.0,
-        "invested_capital": 8713000000.0
+        "market_cap": 7129324032.0,
+        "ebit": 467100000.0,
+        "enterprise_value": 8641801216.0,
+        "invested_capital": 1075500000.0
       }
     },
     {
       "rank": 44,
-      "ticker": "APETIT",
-      "company": "Apetit Oyj",
+      "ticker": "WRT1V",
+      "company": "Wärtsilä Oyj Abp",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 83,
-      "ebit_ev": 0.106189,
-      "roc": 0.114464,
-      "quality_score": 49.58,
+      "magic_formula_score": 81,
+      "ebit_ev": 0.053305,
+      "roc": 0.450961,
+      "quality_score": 50.0,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
-        "source_symbol": "APETIT.HE",
+        "source_symbol": "WRT1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 87989000.0,
-        "ebit": 11000000.0,
-        "enterprise_value": 103588984.0,
-        "invested_capital": 96100000.0
+        "market_cap": 18735833088.0,
+        "ebit": 892000000.0,
+        "enterprise_value": 16733833216.0,
+        "invested_capital": 1978000000.0
       }
     },
     {
@@ -3239,8 +3239,8 @@
       "company": "Gofore Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "is_financial": false,
-      "magic_formula_score": 84,
-      "ebit_ev": 0.056977,
+      "magic_formula_score": 83,
+      "ebit_ev": 0.057635,
       "roc": 0.351958,
       "quality_score": 37.31,
       "validation_warnings": [],
@@ -3248,40 +3248,82 @@
         "statement_date": "2025-12-31",
         "source_symbol": "GOFORE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 211592368.0,
+        "market_cap": 209043056.0,
         "ebit": 12718000.0,
-        "enterprise_value": 223214368.0,
+        "enterprise_value": 220665056.0,
         "invested_capital": 36135000.0
       }
     },
     {
       "rank": 46,
-      "ticker": "WRT1V",
-      "company": "Wärtsilä Oyj Abp",
+      "ticker": "APETIT",
+      "company": "Apetit Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
       "magic_formula_score": 84,
-      "ebit_ev": 0.051078,
-      "roc": 0.450961,
-      "quality_score": 50.0,
+      "ebit_ev": 0.107154,
+      "roc": 0.114464,
+      "quality_score": 49.58,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
-        "source_symbol": "WRT1V.HE",
+        "source_symbol": "APETIT.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 19465496576.0,
-        "ebit": 892000000.0,
-        "enterprise_value": 17463494656.0,
-        "invested_capital": 1978000000.0
+        "market_cap": 87056256.0,
+        "ebit": 11000000.0,
+        "enterprise_value": 102656240.0,
+        "invested_capital": 96100000.0
       }
     },
     {
       "rank": 47,
+      "ticker": "STEAV",
+      "company": "Stora Enso Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 87,
+      "ebit_ev": 0.087651,
+      "roc": 0.125879,
+      "quality_score": 32.94,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "STEAV.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 8122785792.0,
+        "ebit": 985000000.0,
+        "enterprise_value": 11237785600.0,
+        "invested_capital": 7825000000.0
+      }
+    },
+    {
+      "rank": 48,
+      "ticker": "REKA",
+      "company": "Reka Industrial Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 88,
+      "ebit_ev": 0.205038,
+      "roc": 0.04118,
+      "quality_score": 38.7,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2024-12-31",
+        "source_symbol": "REKA.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 25482298.0,
+        "ebit": 1365000.0,
+        "enterprise_value": 6657299.0,
+        "invested_capital": 33147000.0
+      }
+    },
+    {
+      "rank": 49,
       "ticker": "ASUNTO",
       "company": "Asuntosalkku Oyj",
       "sector": "Real estate activities",
       "is_financial": false,
-      "magic_formula_score": 88,
+      "magic_formula_score": 89,
       "ebit_ev": 0.025554,
       "roc": 1.058703,
       "quality_score": 25.0,
@@ -3297,87 +3339,45 @@
       }
     },
     {
-      "rank": 48,
-      "ticker": "REKA",
-      "company": "Reka Industrial Oyj",
+      "rank": 50,
+      "ticker": "HARVIA",
+      "company": "Harvia Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 88,
-      "ebit_ev": 0.203208,
-      "roc": 0.04118,
-      "quality_score": 38.7,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2024-12-31",
-        "source_symbol": "REKA.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 25542258.0,
-        "ebit": 1365000.0,
-        "enterprise_value": 6717257.0,
-        "invested_capital": 33147000.0
-      }
-    },
-    {
-      "rank": 49,
-      "ticker": "STEAV",
-      "company": "Stora Enso Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 88,
-      "ebit_ev": 0.084109,
-      "roc": 0.125879,
-      "quality_score": 32.94,
+      "magic_formula_score": 90,
+      "ebit_ev": 0.054154,
+      "roc": 0.303983,
+      "quality_score": 39.81,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
-        "source_symbol": "STEAV.HE",
+        "source_symbol": "HARVIA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 8595957760.0,
-        "ebit": 985000000.0,
-        "enterprise_value": 11710957568.0,
-        "invested_capital": 7825000000.0
+        "market_cap": 658238592.0,
+        "ebit": 38867000.0,
+        "enterprise_value": 717715840.0,
+        "invested_capital": 127859000.0
       }
     },
     {
-      "rank": 50,
+      "rank": 51,
       "ticker": "HUH1V",
       "company": "Huhtamäki Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 90,
-      "ebit_ev": 0.076556,
-      "roc": 0.142706,
-      "quality_score": 34.51,
+      "magic_formula_score": 91,
+      "ebit_ev": 0.078126,
+      "roc": 0.141266,
+      "quality_score": 34.36,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "HUH1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 3130155008.0,
-        "ebit": 338200000.0,
-        "enterprise_value": 4417654784.0,
-        "invested_capital": 2369900000.0
-      }
-    },
-    {
-      "rank": 51,
-      "ticker": "MOCORP",
-      "company": "Metso Outotec Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 90,
-      "ebit_ev": 0.051488,
-      "roc": 0.353137,
-      "quality_score": 44.03,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "METSO.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 13314531328.0,
-        "ebit": 743000000.0,
-        "enterprise_value": 14430531584.0,
-        "invested_capital": 2104000000.0
+        "market_cap": 2997894912.0,
+        "ebit": 334800000.0,
+        "enterprise_value": 4285394944.0,
+        "invested_capital": 2370000000.0
       }
     },
     {
@@ -3386,8 +3386,8 @@
       "company": "Atria Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 91,
-      "ebit_ev": 0.085913,
+      "magic_formula_score": 93,
+      "ebit_ev": 0.083234,
       "roc": 0.114572,
       "quality_score": 25.83,
       "validation_warnings": [],
@@ -3395,31 +3395,31 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ATRAV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 503440576.0,
+        "market_cap": 527413952.0,
         "ebit": 64000000.0,
-        "enterprise_value": 744940608.0,
+        "enterprise_value": 768913920.0,
         "invested_capital": 558600000.0
       }
     },
     {
       "rank": 53,
-      "ticker": "HARVIA",
-      "company": "Harvia Oyj",
+      "ticker": "MOCORP",
+      "company": "Metso Outotec Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 92,
-      "ebit_ev": 0.052513,
-      "roc": 0.303983,
-      "quality_score": 39.81,
+      "magic_formula_score": 93,
+      "ebit_ev": 0.051909,
+      "roc": 0.342993,
+      "quality_score": 43.7,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
-        "source_symbol": "HARVIA.HE",
+        "source_symbol": "METSO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 680646784.0,
-        "ebit": 38867000.0,
-        "enterprise_value": 740144384.0,
-        "invested_capital": 127859000.0
+        "market_cap": 12793042944.0,
+        "ebit": 722000000.0,
+        "enterprise_value": 13909042176.0,
+        "invested_capital": 2105000000.0
       }
     },
     {
@@ -3429,7 +3429,7 @@
       "sector": "Accommodation and food service activities",
       "is_financial": false,
       "magic_formula_score": 93,
-      "ebit_ev": 0.062581,
+      "ebit_ev": 0.063064,
       "roc": 0.238979,
       "quality_score": 39.38,
       "validation_warnings": [],
@@ -3437,9 +3437,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "NOHO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 162462800.0,
+        "market_cap": 158674800.0,
         "ebit": 30900000.0,
-        "enterprise_value": 493762816.0,
+        "enterprise_value": 489974816.0,
         "invested_capital": 129300000.0
       }
     },
@@ -3450,7 +3450,7 @@
       "sector": "Manufacturing",
       "is_financial": false,
       "magic_formula_score": 96,
-      "ebit_ev": 0.068156,
+      "ebit_ev": 0.068948,
       "roc": 0.176166,
       "quality_score": 49.33,
       "validation_warnings": [],
@@ -3458,41 +3458,20 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SCANFL.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 788665216.0,
+        "market_cap": 779494656.0,
         "ebit": 54400000.0,
-        "enterprise_value": 798165184.0,
+        "enterprise_value": 788994688.0,
         "invested_capital": 308800000.0
       }
     },
     {
       "rank": 56,
-      "ticker": "TOKMAN",
-      "company": "Tokmanni Group Oyj",
-      "sector": "Wholesale and retail trade",
-      "is_financial": false,
-      "magic_formula_score": 99,
-      "ebit_ev": 0.072096,
-      "roc": 0.140871,
-      "quality_score": 27.88,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2024-12-31",
-        "source_symbol": "TOKMAN.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 415066464.0,
-        "ebit": 101127000.0,
-        "enterprise_value": 1402669440.0,
-        "invested_capital": 717868000.0
-      }
-    },
-    {
-      "rank": 57,
       "ticker": "ASPO",
       "company": "Aspo Oyj",
       "sector": "Transportation and storage",
       "is_financial": false,
       "magic_formula_score": 102,
-      "ebit_ev": 0.075776,
+      "ebit_ev": 0.076438,
       "roc": 0.111563,
       "quality_score": 25.0,
       "validation_warnings": [],
@@ -3500,64 +3479,43 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ASPO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 212755088.0,
+        "market_cap": 209000576.0,
         "ebit": 32900000.0,
-        "enterprise_value": 434171808.0,
+        "enterprise_value": 430413504.0,
         "invested_capital": 294900000.0
       }
     },
     {
-      "rank": 58,
-      "ticker": "RAP1V",
-      "company": "Rapala VMC Oyj",
+      "rank": 57,
+      "ticker": "VAIAS",
+      "company": "Vaisala Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 104,
-      "ebit_ev": 0.079567,
-      "roc": 0.082524,
-      "quality_score": 25.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2024-12-31",
-        "source_symbol": "RAP1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 47428852.0,
-        "ebit": 8500000.0,
-        "enterprise_value": 106828856.0,
-        "invested_capital": 103000000.0
-      }
-    },
-    {
-      "rank": 59,
-      "ticker": "LAPWALL",
-      "company": "LapWall Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 106,
-      "ebit_ev": 0.048023,
-      "roc": 0.288633,
+      "magic_formula_score": 102,
+      "ebit_ev": 0.048862,
+      "roc": 0.290773,
       "quality_score": 50.0,
       "validation_warnings": [],
       "financial_snapshot": {
-        "statement_date": "2023-12-31",
-        "source_symbol": "LAPWALL.HE",
+        "statement_date": "2025-12-31",
+        "source_symbol": "VAIAS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 57375796.0,
-        "ebit": 3323775.97,
-        "enterprise_value": 69212064.0,
-        "invested_capital": 11515590.5
+        "market_cap": 1649667968.0,
+        "ebit": 81300000.0,
+        "enterprise_value": 1663867904.0,
+        "invested_capital": 279600000.0
       }
     },
     {
-      "rank": 60,
+      "rank": 58,
       "ticker": "STOCKA",
       "company": "Lindex Group",
       "sector": "Wholesale and retail trade",
       "is_financial": false,
       "magic_formula_score": 106,
       "ebit_ev": 0.071929,
-      "roc": 0.115233,
-      "quality_score": 25.52,
+      "roc": 0.114802,
+      "quality_score": 25.54,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -3566,38 +3524,17 @@
         "market_cap": 395339776.0,
         "ebit": 67400000.0,
         "enterprise_value": 937039744.0,
-        "invested_capital": 584900000.0
+        "invested_capital": 587100000.0
       }
     },
     {
-      "rank": 61,
-      "ticker": "VAIAS",
-      "company": "Vaisala Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 107,
-      "ebit_ev": 0.046822,
-      "roc": 0.290773,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "VAIAS.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 1722180864.0,
-        "ebit": 81300000.0,
-        "enterprise_value": 1736380800.0,
-        "invested_capital": 279600000.0
-      }
-    },
-    {
-      "rank": 62,
+      "rank": 59,
       "ticker": "SIILI",
       "company": "Siili Solutions Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "is_financial": false,
-      "magic_formula_score": 108,
-      "ebit_ev": 0.04916,
+      "magic_formula_score": 107,
+      "ebit_ev": 0.050338,
       "roc": 0.272175,
       "quality_score": 45.0,
       "validation_warnings": [],
@@ -3605,41 +3542,41 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SIILI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 31136888.0,
+        "market_cap": 30326034.0,
         "ebit": 1703000.0,
-        "enterprise_value": 34641888.0,
+        "enterprise_value": 33831032.0,
         "invested_capital": 6257000.0
       }
     },
     {
-      "rank": 63,
-      "ticker": "TIETO",
-      "company": "TietoEVRY Oyj",
-      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "rank": 60,
+      "ticker": "LAPWALL",
+      "company": "LapWall Oyj",
+      "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 109,
-      "ebit_ev": 0.027052,
-      "roc": 0.337478,
-      "quality_score": 42.75,
+      "magic_formula_score": 108,
+      "ebit_ev": 0.048124,
+      "roc": 0.288633,
+      "quality_score": 50.0,
       "validation_warnings": [],
       "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "TIETO.HE",
+        "statement_date": "2023-12-31",
+        "source_symbol": "LAPWALL.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2247366144.0,
-        "ebit": 76000000.0,
-        "enterprise_value": 2809454080.0,
-        "invested_capital": 225200000.0
+        "market_cap": 57230540.0,
+        "ebit": 3323775.97,
+        "enterprise_value": 69066808.0,
+        "invested_capital": 11515590.5
       }
     },
     {
-      "rank": 64,
+      "rank": 61,
       "ticker": "RELAIS",
       "company": "Relais Group Oyj",
       "sector": "Wholesale and retail trade",
       "is_financial": false,
-      "magic_formula_score": 110,
-      "ebit_ev": 0.059325,
+      "magic_formula_score": 108,
+      "ebit_ev": 0.060691,
       "roc": 0.142791,
       "quality_score": 25.0,
       "validation_warnings": [],
@@ -3647,20 +3584,62 @@
         "statement_date": "2025-12-31",
         "source_symbol": "RELAIS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 286705472.0,
+        "market_cap": 274682368.0,
         "ebit": 29156000.0,
-        "enterprise_value": 491465600.0,
+        "enterprise_value": 480397344.0,
         "invested_capital": 204186000.0
       }
     },
     {
-      "rank": 65,
+      "rank": 62,
+      "ticker": "TIETO",
+      "company": "TietoEVRY Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "magic_formula_score": 111,
+      "ebit_ev": 0.027693,
+      "roc": 0.337478,
+      "quality_score": 42.75,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "TIETO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 2182685184.0,
+        "ebit": 76000000.0,
+        "enterprise_value": 2744333312.0,
+        "invested_capital": 225200000.0
+      }
+    },
+    {
+      "rank": 63,
+      "ticker": "RAP1V",
+      "company": "Rapala VMC Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 112,
+      "ebit_ev": 0.075239,
+      "roc": 0.082524,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2024-12-31",
+        "source_symbol": "RAP1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 40042392.0,
+        "ebit": 8500000.0,
+        "enterprise_value": 112973736.0,
+        "invested_capital": 103000000.0
+      }
+    },
+    {
+      "rank": 64,
       "ticker": "KESKOA",
       "company": "Kesko Oyj",
       "sector": "Wholesale and retail trade",
       "is_financial": false,
       "magic_formula_score": 115,
-      "ebit_ev": 0.057114,
+      "ebit_ev": 0.057034,
       "roc": 0.141321,
       "quality_score": 34.44,
       "validation_warnings": [],
@@ -3668,62 +3647,41 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KESKOA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 7956275712.0,
+        "market_cap": 7972300288.0,
         "ebit": 647800000.0,
-        "enterprise_value": 11342140416.0,
+        "enterprise_value": 11358064640.0,
         "invested_capital": 4583900000.0
       }
     },
     {
-      "rank": 66,
-      "ticker": "PON1V",
-      "company": "Ponsse Oyj",
-      "sector": "Manufacturing",
+      "rank": 65,
+      "ticker": "TOKMAN",
+      "company": "Tokmanni Group Oyj",
+      "sector": "Wholesale and retail trade",
       "is_financial": false,
-      "magic_formula_score": 116,
-      "ebit_ev": 0.059883,
-      "roc": 0.120481,
-      "quality_score": 49.79,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "PON1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 674678400.0,
-        "ebit": 41632000.0,
-        "enterprise_value": 695227392.0,
-        "invested_capital": 345549000.0
-      }
-    },
-    {
-      "rank": 67,
-      "ticker": "FIA1S",
-      "company": "Finnair Oyj",
-      "sector": "Transportation and storage",
-      "is_financial": false,
-      "magic_formula_score": 118,
-      "ebit_ev": 0.074489,
-      "roc": 0.050808,
+      "magic_formula_score": 115,
+      "ebit_ev": 0.06778,
+      "roc": 0.105201,
       "quality_score": 25.0,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
-        "source_symbol": "FIA1S.HE",
+        "source_symbol": "TOKMAN.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 600855488.0,
-        "ebit": 99000000.0,
-        "enterprise_value": 1329055488.0,
-        "invested_capital": 1948500000.0
+        "market_cap": 423262400.0,
+        "ebit": 89000000.0,
+        "enterprise_value": 1313062400.0,
+        "invested_capital": 846000000.0
       }
     },
     {
-      "rank": 68,
+      "rank": 66,
       "ticker": "ILKKA2",
       "company": "Ilkka Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "is_financial": false,
-      "magic_formula_score": 118,
-      "ebit_ev": 0.047533,
+      "magic_formula_score": 117,
+      "ebit_ev": 0.048833,
       "roc": 0.223477,
       "quality_score": 48.8,
       "validation_warnings": [],
@@ -3731,10 +3689,52 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ILKKA2.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 114592392.0,
+        "market_cap": 111927440.0,
         "ebit": 4531000.0,
-        "enterprise_value": 95322440.0,
+        "enterprise_value": 92786432.0,
         "invested_capital": 20275000.0
+      }
+    },
+    {
+      "rank": 67,
+      "ticker": "PON1V",
+      "company": "Ponsse Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 117,
+      "ebit_ev": 0.060615,
+      "roc": 0.120481,
+      "quality_score": 49.79,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "PON1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 666279872.0,
+        "ebit": 41632000.0,
+        "enterprise_value": 686828928.0,
+        "invested_capital": 345549000.0
+      }
+    },
+    {
+      "rank": 68,
+      "ticker": "FIA1S",
+      "company": "Finnair Oyj",
+      "sector": "Transportation and storage",
+      "is_financial": false,
+      "magic_formula_score": 121,
+      "ebit_ev": 0.074581,
+      "roc": 0.050808,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "FIA1S.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 599217216.0,
+        "ebit": 99000000.0,
+        "enterprise_value": 1327417216.0,
+        "invested_capital": 1948500000.0
       }
     },
     {
@@ -3743,8 +3743,8 @@
       "company": "Tulikivi Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 118,
-      "ebit_ev": 0.052194,
+      "magic_formula_score": 121,
+      "ebit_ev": 0.051354,
       "roc": 0.151386,
       "quality_score": 38.54,
       "validation_warnings": [],
@@ -3752,41 +3752,20 @@
         "statement_date": "2024-12-31",
         "source_symbol": "TULAV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 28618834.0,
+        "market_cap": 29634534.0,
         "ebit": 2097000.0,
-        "enterprise_value": 40177316.0,
+        "enterprise_value": 40834532.0,
         "invested_capital": 13852000.0
       }
     },
     {
       "rank": 70,
-      "ticker": "FORTUM",
-      "company": "Fortum Oyj",
-      "sector": "Electricity, gas, steam and air conditioning supply",
-      "is_financial": false,
-      "magic_formula_score": 122,
-      "ebit_ev": 0.056883,
-      "roc": 0.120653,
-      "quality_score": 30.85,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "FORTUM.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 17711998976.0,
-        "ebit": 1124000000.0,
-        "enterprise_value": 19760001024.0,
-        "invested_capital": 9316000000.0
-      }
-    },
-    {
-      "rank": 71,
       "ticker": "SIEVI",
       "company": "KH Group Plc",
       "sector": "Wholesale and retail trade",
       "is_financial": false,
-      "magic_formula_score": 123,
-      "ebit_ev": 0.063903,
+      "magic_formula_score": 124,
+      "ebit_ev": 0.063234,
       "roc": 0.082918,
       "quality_score": 49.11,
       "validation_warnings": [],
@@ -3794,20 +3773,20 @@
         "statement_date": "2024-12-31",
         "source_symbol": "KHG.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 30665656.0,
+        "market_cap": 31827234.0,
         "ebit": 7008000.0,
-        "enterprise_value": 109665712.0,
+        "enterprise_value": 110827296.0,
         "invested_capital": 84517000.0
       }
     },
     {
-      "rank": 72,
+      "rank": 71,
       "ticker": "TMTR",
       "company": "Tamtron Group Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 125,
-      "ebit_ev": 0.045063,
+      "magic_formula_score": 124,
+      "ebit_ev": 0.04462,
       "roc": 0.20852,
       "quality_score": 44.84,
       "validation_warnings": [],
@@ -3815,10 +3794,31 @@
         "statement_date": "2024-12-31",
         "source_symbol": "TAMTRON.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 40074228.0,
+        "market_cap": 40527900.0,
         "ebit": 2046000.0,
-        "enterprise_value": 45402968.0,
+        "enterprise_value": 45853952.0,
         "invested_capital": 9812000.0
+      }
+    },
+    {
+      "rank": 72,
+      "ticker": "FORTUM",
+      "company": "Fortum Oyj",
+      "sector": "Electricity, gas, steam and air conditioning supply",
+      "is_financial": false,
+      "magic_formula_score": 126,
+      "ebit_ev": 0.053781,
+      "roc": 0.120653,
+      "quality_score": 30.85,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "FORTUM.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 18851526656.0,
+        "ebit": 1124000000.0,
+        "enterprise_value": 20899526656.0,
+        "invested_capital": 9316000000.0
       }
     },
     {
@@ -3827,8 +3827,8 @@
       "company": "Bittium Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 127,
-      "ebit_ev": 0.020139,
+      "magic_formula_score": 128,
+      "ebit_ev": 0.016942,
       "roc": 0.238323,
       "quality_score": 50.0,
       "validation_warnings": [],
@@ -3836,41 +3836,20 @@
         "statement_date": "2025-12-31",
         "source_symbol": "BITTI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 989121088.0,
+        "market_cap": 1175580032.0,
         "ebit": 19900000.0,
-        "enterprise_value": 988121024.0,
+        "enterprise_value": 1174580096.0,
         "invested_capital": 83500000.0
       }
     },
     {
       "rank": 74,
-      "ticker": "KOSKI",
-      "company": "Koskisen Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 135,
-      "ebit_ev": 0.057996,
-      "roc": 0.062126,
-      "quality_score": 35.99,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "KOSKI.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 215886256.0,
-        "ebit": 15008000.0,
-        "enterprise_value": 258774256.0,
-        "invested_capital": 241572000.0
-      }
-    },
-    {
-      "rank": 75,
       "ticker": "VIK1V",
       "company": "Viking Line Abp",
       "sector": "Transportation and storage",
       "is_financial": false,
       "magic_formula_score": 135,
-      "ebit_ev": 0.057504,
+      "ebit_ev": 0.05795,
       "roc": 0.062531,
       "quality_score": 38.92,
       "validation_warnings": [],
@@ -3878,10 +3857,31 @@
         "statement_date": "2025-12-31",
         "source_symbol": "VIK1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 362880000.0,
+        "market_cap": 359424000.0,
         "ebit": 25500000.0,
-        "enterprise_value": 443449984.0,
+        "enterprise_value": 440033312.0,
         "invested_capital": 407800000.0
+      }
+    },
+    {
+      "rank": 75,
+      "ticker": "KOSKI",
+      "company": "Koskisen Oyj",
+      "sector": "Manufacturing",
+      "is_financial": false,
+      "magic_formula_score": 137,
+      "ebit_ev": 0.057889,
+      "roc": 0.062126,
+      "quality_score": 35.99,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "KOSKI.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 216368128.0,
+        "ebit": 15008000.0,
+        "enterprise_value": 259256160.0,
+        "invested_capital": 241572000.0
       }
     },
     {
@@ -3890,8 +3890,8 @@
       "company": "Componenta Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 142,
-      "ebit_ev": 0.051404,
+      "magic_formula_score": 138,
+      "ebit_ev": 0.05415,
       "roc": 0.076352,
       "quality_score": 43.11,
       "validation_warnings": [],
@@ -3899,20 +3899,41 @@
         "statement_date": "2024-12-31",
         "source_symbol": "CTH1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 44787840.0,
+        "market_cap": 43409748.0,
         "ebit": 2469000.0,
-        "enterprise_value": 48031324.0,
+        "enterprise_value": 45595752.0,
         "invested_capital": 32337000.0
       }
     },
     {
       "rank": 77,
+      "ticker": "NOKIA",
+      "company": "Nokia Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "is_financial": false,
+      "magic_formula_score": 140,
+      "ebit_ev": 0.029625,
+      "roc": 0.13699,
+      "quality_score": 42.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "NOKIA.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 40216576000.0,
+        "ebit": 1134000000.0,
+        "enterprise_value": 38278578176.0,
+        "invested_capital": 8278000000.0
+      }
+    },
+    {
+      "rank": 78,
       "ticker": "EXL1V",
       "company": "Exel Composites Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
       "magic_formula_score": 147,
-      "ebit_ev": 0.036145,
+      "ebit_ev": 0.03424,
       "roc": 0.106462,
       "quality_score": 25.0,
       "validation_warnings": [],
@@ -3920,52 +3941,31 @@
         "statement_date": "2025-12-31",
         "source_symbol": "EXL1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 51408140.0,
+        "market_cap": 55525016.0,
         "ebit": 2674000.0,
-        "enterprise_value": 73979144.0,
+        "enterprise_value": 78096016.0,
         "invested_capital": 25117000.0
       }
     },
     {
-      "rank": 78,
+      "rank": 79,
       "ticker": "UPM",
       "company": "UPM-Kymmene Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 147,
-      "ebit_ev": 0.045681,
-      "roc": 0.086124,
-      "quality_score": 35.52,
+      "magic_formula_score": 148,
+      "ebit_ev": 0.046133,
+      "roc": 0.086332,
+      "quality_score": 36.24,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "UPM.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 13926627328.0,
-        "ebit": 792000000.0,
-        "enterprise_value": 17337628672.0,
-        "invested_capital": 9196000000.0
-      }
-    },
-    {
-      "rank": 79,
-      "ticker": "ROBIT",
-      "company": "Robit Oyj",
-      "sector": "Manufacturing",
-      "is_financial": false,
-      "magic_formula_score": 149,
-      "ebit_ev": 0.05158,
-      "roc": 0.035832,
-      "quality_score": 25.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ROBIT.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 21775790.0,
-        "ebit": 1920000.0,
-        "enterprise_value": 37223788.0,
-        "invested_capital": 53583000.0
+        "market_cap": 13800070144.0,
+        "ebit": 794000000.0,
+        "enterprise_value": 17211070464.0,
+        "invested_capital": 9197000000.0
       }
     },
     {
@@ -3974,8 +3974,8 @@
       "company": "Fiskars Oyj Abp",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 150,
-      "ebit_ev": 0.027109,
+      "magic_formula_score": 152,
+      "ebit_ev": 0.027796,
       "roc": 0.089926,
       "quality_score": 25.0,
       "validation_warnings": [],
@@ -3983,31 +3983,31 @@
         "statement_date": "2025-12-31",
         "source_symbol": "FSKRS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1046437888.0,
+        "market_cap": 1007740672.0,
         "ebit": 42400000.0,
-        "enterprise_value": 1564075392.0,
+        "enterprise_value": 1525376768.0,
         "invested_capital": 471500000.0
       }
     },
     {
       "rank": 81,
-      "ticker": "LAMOR",
-      "company": "Lamor Corporation Oyj",
-      "sector": "Water supply; sewerage, waste management and remediation activities",
+      "ticker": "ROBIT",
+      "company": "Robit Oyj",
+      "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 152,
-      "ebit_ev": 0.049155,
-      "roc": 0.046846,
+      "magic_formula_score": 153,
+      "ebit_ev": 0.051001,
+      "roc": 0.035832,
       "quality_score": 25.0,
       "validation_warnings": [],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
-        "source_symbol": "LAMOR.HE",
+        "statement_date": "2025-12-31",
+        "source_symbol": "ROBIT.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 29251574.0,
-        "ebit": 3882000.0,
-        "enterprise_value": 78974568.0,
-        "invested_capital": 82867000.0
+        "market_cap": 22198620.0,
+        "ebit": 1920000.0,
+        "enterprise_value": 37646620.0,
+        "invested_capital": 53583000.0
       }
     },
     {
@@ -4016,8 +4016,8 @@
       "company": "Glaston Oyj Abp",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 154,
-      "ebit_ev": 0.030128,
+      "magic_formula_score": 155,
+      "ebit_ev": 0.030896,
       "roc": 0.078853,
       "quality_score": 31.89,
       "validation_warnings": [],
@@ -4025,20 +4025,41 @@
         "statement_date": "2025-12-31",
         "source_symbol": "GLA1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 45230876.0,
+        "market_cap": 43410176.0,
         "ebit": 2200000.0,
-        "enterprise_value": 73022696.0,
+        "enterprise_value": 71206352.0,
         "invested_capital": 27900000.0
       }
     },
     {
       "rank": 83,
+      "ticker": "LAMOR",
+      "company": "Lamor Corporation Oyj",
+      "sector": "Water supply; sewerage, waste management and remediation activities",
+      "is_financial": false,
+      "magic_formula_score": 158,
+      "ebit_ev": 0.047066,
+      "roc": 0.046846,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2024-12-31",
+        "source_symbol": "LAMOR.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 32756370.0,
+        "ebit": 3882000.0,
+        "enterprise_value": 82479368.0,
+        "invested_capital": 82867000.0
+      }
+    },
+    {
+      "rank": 84,
       "ticker": "YIT",
       "company": "YIT Oyj",
       "sector": "Construction",
       "is_financial": false,
-      "magic_formula_score": 158,
-      "ebit_ev": 0.039247,
+      "magic_formula_score": 159,
+      "ebit_ev": 0.039795,
       "roc": 0.0612,
       "quality_score": 25.0,
       "validation_warnings": [],
@@ -4046,20 +4067,20 @@
         "statement_date": "2025-12-31",
         "source_symbol": "YIT.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 625973440.0,
+        "market_cap": 608444288.0,
         "ebit": 50000000.0,
-        "enterprise_value": 1273973376.0,
+        "enterprise_value": 1256444288.0,
         "invested_capital": 817000000.0
       }
     },
     {
-      "rank": 84,
+      "rank": 85,
       "ticker": "ACG1V",
       "company": "Aspocomp Group Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 159,
-      "ebit_ev": 0.02593,
+      "magic_formula_score": 162,
+      "ebit_ev": 0.024159,
       "roc": 0.06975,
       "quality_score": 48.71,
       "validation_warnings": [],
@@ -4067,20 +4088,20 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ACG1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 34003608.0,
+        "market_cap": 36561400.0,
         "ebit": 905000.0,
-        "enterprise_value": 34901608.0,
+        "enterprise_value": 37459400.0,
         "invested_capital": 12975000.0
       }
     },
     {
-      "rank": 85,
+      "rank": 86,
       "ticker": "MUSTI",
       "company": "Musti Group Oyj",
       "sector": "Wholesale and retail trade",
       "is_financial": false,
-      "magic_formula_score": 165,
-      "ebit_ev": 0.008715,
+      "magic_formula_score": 167,
+      "ebit_ev": 0.008883,
       "roc": 0.062551,
       "quality_score": 25.0,
       "validation_warnings": [],
@@ -4088,62 +4109,62 @@
         "statement_date": "2025-12-31",
         "source_symbol": "MUSTI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 602985216.0,
+        "market_cap": 587626816.0,
         "ebit": 7058000.0,
-        "enterprise_value": 809897216.0,
+        "enterprise_value": 794538816.0,
         "invested_capital": 112836000.0
       }
     },
     {
-      "rank": 86,
+      "rank": 87,
       "ticker": "NESTE",
       "company": "Neste Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 172,
-      "ebit_ev": 0.015172,
-      "roc": 0.030064,
+      "magic_formula_score": 173,
+      "ebit_ev": 0.014163,
+      "roc": 0.030061,
       "quality_score": 25.0,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "NESTE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 19252946944.0,
+        "market_cap": 20897054720.0,
         "ebit": 350000000.0,
-        "enterprise_value": 23068948480.0,
-        "invested_capital": 11642000000.0
+        "enterprise_value": 24713054208.0,
+        "invested_capital": 11643000000.0
       }
     },
     {
-      "rank": 87,
+      "rank": 88,
       "ticker": "TYRES",
       "company": "Nokian Renkaat Oyj",
       "sector": "Manufacturing",
       "is_financial": false,
-      "magic_formula_score": 172,
-      "ebit_ev": 0.01742,
-      "roc": 0.020892,
+      "magic_formula_score": 175,
+      "ebit_ev": 0.011099,
+      "roc": 0.012666,
       "quality_score": 25.0,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "TYRES.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1391161216.0,
-        "ebit": 35800000.0,
-        "enterprise_value": 2055161216.0,
-        "invested_capital": 1713600000.0
+        "market_cap": 1291201664.0,
+        "ebit": 21700000.0,
+        "enterprise_value": 1955201664.0,
+        "invested_capital": 1713200000.0
       }
     },
     {
-      "rank": 88,
+      "rank": 89,
       "ticker": "KAMUX",
       "company": "Kamux Oyj",
       "sector": "Wholesale and retail trade",
       "is_financial": false,
-      "magic_formula_score": 176,
-      "ebit_ev": 0.004901,
+      "magic_formula_score": 178,
+      "ebit_ev": 0.004928,
       "roc": 0.003965,
       "quality_score": 30.8,
       "validation_warnings": [],
@@ -4151,9 +4172,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KAMUX.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 67488856.0,
+        "market_cap": 66943964.0,
         "ebit": 500000.0,
-        "enterprise_value": 102012304.0,
+        "enterprise_value": 101460760.0,
         "invested_capital": 126100000.0
       }
     }
@@ -4191,9 +4212,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "KOJAMO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2233342976.0,
+        "market_cap": 2092858496.0,
         "ebit": 148000000.0,
-        "enterprise_value": 5468863488.0,
+        "enterprise_value": 5327685632.0,
         "invested_capital": -49600000.0
       }
     },
@@ -4209,9 +4230,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "OUT1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 2432308992.0,
+        "market_cap": 2224902656.0,
         "ebit": -120000000.0,
-        "enterprise_value": 2708435456.0,
+        "enterprise_value": 2501103872.0,
         "invested_capital": 2992000000.0
       }
     },
@@ -4237,9 +4258,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "METSA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1697626368.0,
+        "market_cap": 1694074752.0,
         "ebit": -166900000.0,
-        "enterprise_value": 2140387968.0,
+        "enterprise_value": 2136792064.0,
         "invested_capital": 1631400000.0
       }
     },
@@ -4255,9 +4276,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SANOMA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 1470910208.0,
+        "market_cap": 1483941504.0,
         "ebit": 54600000.0,
-        "enterprise_value": 1956940032.0,
+        "enterprise_value": 1969961856.0,
         "invested_capital": -164600000.0
       }
     },
@@ -4293,10 +4314,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "EQV1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 432705248.0,
+        "market_cap": 430634880.0,
         "ebit": 27519000.0,
-        "enterprise_value": 414708224.0,
-        "invested_capital": 5075000.0
+        "enterprise_value": 412637856.0,
+        "invested_capital": 20128000.0
       }
     },
     {
@@ -4321,10 +4342,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "FSECURE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 281278400.0,
-        "ebit": 36833000.0,
-        "enterprise_value": 426908384.0,
-        "invested_capital": -14714000.0
+        "market_cap": 295953792.0,
+        "ebit": 34969000.0,
+        "enterprise_value": 441583776.0,
+        "invested_capital": -14715000.0
       }
     },
     {
@@ -4339,9 +4360,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "CAPMAN.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 323638976.0,
+        "market_cap": 321870464.0,
         "ebit": 23238000.0,
-        "enterprise_value": 371588000.0,
+        "enterprise_value": 369819488.0,
         "invested_capital": 74881000.0
       }
     },
@@ -4375,9 +4396,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "TAALA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 202535088.0,
+        "market_cap": 201971696.0,
         "ebit": 26043000.0,
-        "enterprise_value": 200594064.0,
+        "enterprise_value": 201170128.0,
         "invested_capital": 47551000.0
       }
     },
@@ -4393,9 +4414,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "REMEDY.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 184830144.0,
+        "market_cap": 176947680.0,
         "ebit": -13712000.0,
-        "enterprise_value": 173702128.0,
+        "enterprise_value": 165819680.0,
         "invested_capital": 36759000.0
       }
     },
@@ -4415,16 +4436,17 @@
       "sector": "Wholesale and retail trade",
       "is_financial": false,
       "reasons": [
+        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
         "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "ORIOLA.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 191172960.0,
-        "ebit": 2500000.0,
-        "enterprise_value": 108972960.0,
-        "invested_capital": -89900000.0
+        "market_cap": 186727088.0,
+        "ebit": -23700000.0,
+        "enterprise_value": 104927080.0,
+        "invested_capital": -90100000.0
       }
     },
     {
@@ -4439,10 +4461,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SSH1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 126058736.0,
-        "ebit": -2200000.0,
-        "enterprise_value": 122790800.0,
-        "invested_capital": 14600000.0
+        "market_cap": 117327408.0,
+        "ebit": -2432535.0,
+        "enterprise_value": 104188704.0,
+        "invested_capital": 14911653.0
       }
     },
     {
@@ -4457,9 +4479,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "AFAGR.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 69009680.0,
+        "market_cap": 66134276.0,
         "ebit": -2612000.0,
-        "enterprise_value": 65074680.0,
+        "enterprise_value": 62199276.0,
         "invested_capital": 67809000.0
       }
     },
@@ -4475,10 +4497,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SITOWS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 83878848.0,
-        "ebit": -37015000.0,
-        "enterprise_value": 156463856.0,
-        "invested_capital": 32435000.0
+        "market_cap": 87821880.0,
+        "ebit": -37339000.0,
+        "enterprise_value": 160589872.0,
+        "invested_capital": 32434000.0
       }
     },
     {
@@ -4493,9 +4515,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SUY1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 86369848.0,
+        "market_cap": 73948768.0,
         "ebit": -5903000.0,
-        "enterprise_value": 163561856.0,
+        "enterprise_value": 151140768.0,
         "invested_capital": 186603000.0
       }
     },
@@ -4511,9 +4533,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "OPTOMED.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 55721264.0,
+        "market_cap": 53899612.0,
         "ebit": -6606000.0,
-        "enterprise_value": 48523264.0,
+        "enterprise_value": 46701608.0,
         "invested_capital": 11278000.0
       }
     },
@@ -4529,9 +4551,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "ESENSE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 59349528.0,
+        "market_cap": 61632200.0,
         "ebit": 19645000.0,
-        "enterprise_value": 62744524.0,
+        "enterprise_value": 65027196.0,
         "invested_capital": -886000.0
       }
     },
@@ -4557,9 +4579,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "BOREO.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 47457572.0,
+        "market_cap": 46513816.0,
         "ebit": 6900000.0,
-        "enterprise_value": 79357576.0,
+        "enterprise_value": 78413816.0,
         "invested_capital": 25900000.0
       }
     },
@@ -4575,9 +4597,9 @@
         "statement_date": "2025-10-31",
         "source_symbol": "SAGCV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 33423818.0,
+        "market_cap": 35722812.0,
         "ebit": 5628000.0,
-        "enterprise_value": -18314182.0,
+        "enterprise_value": -16015189.0,
         "invested_capital": 83106000.0
       }
     },
@@ -4593,28 +4615,10 @@
         "statement_date": "2024-12-31",
         "source_symbol": "WETTERI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 29594924.0,
+        "market_cap": 28715074.0,
         "ebit": -7132000.0,
-        "enterprise_value": 121667920.0,
+        "enterprise_value": 112314072.0,
         "invested_capital": 32843000.0
-      }
-    },
-    {
-      "ticker": "OVARO",
-      "company": "Ovaro Kiinteistösijoitus Oyj",
-      "sector": "Real estate activities",
-      "is_financial": false,
-      "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
-      ],
-      "financial_snapshot": {
-        "statement_date": "2024-12-31",
-        "source_symbol": "OVARO.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 25620476.0,
-        "ebit": -242000.0,
-        "enterprise_value": 36248476.0,
-        "invested_capital": 3520000.0
       }
     },
     {
@@ -4629,9 +4633,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "REBL.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 14144617.0,
+        "market_cap": 12892880.0,
         "ebit": -1340355.07,
-        "enterprise_value": 26743922.0,
+        "enterprise_value": 22992880.0,
         "invested_capital": 38665326.99
       }
     },
@@ -4647,10 +4651,10 @@
         "statement_date": "2025-12-31",
         "source_symbol": "EEZY.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 13775749.0,
-        "ebit": 369000.0,
-        "enterprise_value": 62634748.0,
-        "invested_capital": -9208000.0
+        "market_cap": 10995552.0,
+        "ebit": 108000.0,
+        "enterprise_value": 59854552.0,
+        "invested_capital": -9209000.0
       }
     },
     {
@@ -4665,9 +4669,9 @@
         "statement_date": "2025-10-31",
         "source_symbol": "PNA1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 18309806.0,
+        "market_cap": 16399218.0,
         "ebit": 1916000.0,
-        "enterprise_value": 79966456.0,
+        "enterprise_value": 79064744.0,
         "invested_capital": 26114000.0
       }
     },
@@ -4684,9 +4688,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "QPR1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 10970095.0,
+        "market_cap": 10694860.0,
         "ebit": -813000.0,
-        "enterprise_value": 11217094.0,
+        "enterprise_value": 10941859.0,
         "invested_capital": -301000.0
       }
     },
@@ -4702,9 +4706,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "HONBS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 15020436.0,
+        "market_cap": 14843725.0,
         "ebit": -4000000.0,
-        "enterprise_value": 15920436.0,
+        "enterprise_value": 15743725.0,
         "invested_capital": 9500000.0
       }
     },
@@ -4714,16 +4718,17 @@
       "sector": "Electricity, gas, steam and air conditioning supply",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
+        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
       ],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
+        "statement_date": "2025-12-31",
         "source_symbol": "DOV1V.HE",
         "ev_source": "reported_enterprise_value",
         "market_cap": 7891239.0,
-        "ebit": -21835000.0,
+        "ebit": -64323000.0,
         "enterprise_value": 1291238.0,
-        "invested_capital": 12938000.0
+        "invested_capital": -59489000.0
       }
     },
     {
@@ -4738,9 +4743,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "KELAS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 8966592.0,
+        "market_cap": 9371099.0,
         "ebit": -12000.0,
-        "enterprise_value": 20560588.0,
+        "enterprise_value": 20965096.0,
         "invested_capital": 17467000.0
       }
     },
@@ -4756,9 +4761,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "SOLTEQ.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 7331877.0,
-        "ebit": 901000.0,
-        "enterprise_value": 30638878.0,
+        "market_cap": 7933168.0,
+        "ebit": 663000.0,
+        "enterprise_value": 31240168.0,
         "invested_capital": -25412000.0
       }
     },
@@ -4772,13 +4777,13 @@
         "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
       ],
       "financial_snapshot": {
-        "statement_date": "2024-12-31",
+        "statement_date": "2025-12-31",
         "source_symbol": "DIGIGR.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 6033365.0,
-        "ebit": -2676000.0,
-        "enterprise_value": 49451964.0,
-        "invested_capital": -17883000.0
+        "market_cap": 5661441.0,
+        "ebit": -1369000.0,
+        "enterprise_value": 49074440.0,
+        "invested_capital": -42932000.0
       }
     },
     {
@@ -4793,9 +4798,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "MARAS.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 3014561.0,
+        "market_cap": 2958908.0,
         "ebit": -1057000.0,
-        "enterprise_value": 21118538.0,
+        "enterprise_value": 21063532.0,
         "invested_capital": 6016000.0
       }
     },
@@ -4831,9 +4836,9 @@
         "statement_date": "2025-12-31",
         "source_symbol": "EVLI.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 630340608.0,
+        "market_cap": 625043648.0,
         "ebit": 59100000.0,
-        "enterprise_value": 752040576.0,
+        "enterprise_value": 746743616.0,
         "invested_capital": 182400000.0
       }
     },
@@ -4899,9 +4904,9 @@
         "statement_date": "2024-12-31",
         "source_symbol": "WITTED.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 20275674.0,
+        "market_cap": 21262880.0,
         "ebit": -54137.04,
-        "enterprise_value": 15839667.0,
+        "enterprise_value": 16844984.0,
         "invested_capital": 6394661.05
       }
     }
