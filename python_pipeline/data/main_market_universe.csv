@@ -1,137 +1,137 @@
-ticker,company,sector
-KNEBV,KONE Oyj,Manufacturing
-NOKIA,Nokia Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-SAMPO,Sampo Oyj,Financial and insurance activities
-WRT1V,Wärtsilä Oyj Abp,Manufacturing
-FORTUM,Fortum Oyj,"Electricity, gas, steam and air conditioning supply"
-NESTE,Neste Oyj,Manufacturing
-UPM,UPM-Kymmene Oyj,Manufacturing
-ORNAV,Orion Oyj,Manufacturing
-KESKOA,Kesko Oyj,"Wholesale and retail trade"
-KCR,Konecranes Oyj,Manufacturing
-STEAV,Stora Enso Oyj,Manufacturing
-ELISA,Elisa Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-VALMT,Valmet Oyj,Manufacturing
-MANTA,Mandatum Oyj,Financial and insurance activities
-HUH1V,Huhtamäki Oyj,Manufacturing
-KEMIRA,Kemira Oyj,Manufacturing
-CGCBV,Hiab Oyj,Manufacturing
-KALMAR,Kalmar Oyj,Manufacturing
-KOJAMO,Kojamo Oyj,Real estate activities
-OUT1V,Outokumpu Oyj,Manufacturing
-TIETO,TietoEVRY Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-LAT1V,Lassila & Tikanoja Oyj,"Water supply; sewerage, waste management and remediation activities"
-METSA,Metsä Board Oyj,Manufacturing
-SANOMA,Sanoma Oyj,"Publishing, broadcasting, and content production and distribution activities"
-VAIAS,Vaisala Oyj,Manufacturing
-TYRES,Nokian Renkaat Oyj,Manufacturing
-BITTI,Bittium Oyj,Manufacturing
-TTALO,Terveystalo Oyj,"Human health and social work activities"
-PUUILO,Puuilo Oyj,"Wholesale and retail trade"
-ALMA,Alma Media Oyj,"Publishing, broadcasting, and content production and distribution activities"
-FSKRS,Fiskars Oyj Abp,Manufacturing
-AKTIA,Aktia Bank Abp,Financial and insurance activities
-ALBAV,Ålandsbanken Abp,Financial and insurance activities
-HARVIA,Harvia Oyj,Manufacturing
-QTCOM,Qt Group Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-SCANFL,Scanfil Oyj,Manufacturing
-PON1V,Ponsse Oyj,Manufacturing
-YIT,YIT Oyj,Construction
-CTY1S,Citycon Oyj,Real estate activities
-OLVAS,Olvi Oyj,Manufacturing
-MUSTI,Musti Group Oyj,"Wholesale and retail trade"
-FIA1S,Finnair Oyj,Transportation and storage
-REG1V,Revenio Group Oyj,Manufacturing
-GRK,GRK Infra Oyj,Construction
-MEKKO,Marimekko Oyj,Manufacturing
-TOKMAN,Tokmanni Group Oyj,"Wholesale and retail trade"
-EQV1V,eQ Oyj,Financial and insurance activities
-ATRAV,Atria Oyj,Manufacturing
-OMASP,Oma Säästöpankki Oyj,Financial and insurance activities
-RAIVV,Raisio Oyj,Manufacturing
-ENENTO,Enento Group Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-VIK1V,Viking Line Abp,Transportation and storage
-FSECURE,F-Secure Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-CAPMAN,CapMan Oyj,Financial and insurance activities
-PIHLIS,Pihlajalinna Oyj,"Human health and social work activities"
-RELAIS,Relais Group Oyj,"Wholesale and retail trade"
-WITH,WithSecure Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-ANORA,Anora Group Oyj,Manufacturing
-ICP1V,Incap Oyj,Manufacturing
-ASPO,Aspo Oyj,Transportation and storage
-ETTE,Etteplan Oyj,"Professional, scientific and technical activities"
-KOSKI,Koskisen Oyj,Manufacturing
-TAALA,Taaleri Oyj,Financial and insurance activities
-GOFORE,Gofore Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-REMEDY,Remedy Entertainment Oyj,"Publishing, broadcasting, and content production and distribution activities"
-UNITED,United Bankers Oyj,Financial and insurance activities
-OKDAV,Oriola Oyj,"Wholesale and retail trade"
-NOHO,NoHo Partners Oyj,"Accommodation and food service activities"
-VERK,Verkkokauppa.com Oyj,"Wholesale and retail trade"
-DIGIA,Digia Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-SSH1V,SSH Communications Security,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-TNOM,Talenom Oyj,"Professional, scientific and technical activities"
-KREATE,Kreate Group Oyj,Construction
-ILKKA2,Ilkka Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-TEM1V,Tecnotree Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-CONSTI,Consti Oyj,Construction
-AFAGR,Afarak Group,Manufacturing
-SITOWS,Sitowise Group Oyj,"Professional, scientific and technical activities"
-KSLAV,Keskisuomalainen Oyj,"Publishing, broadcasting, and content production and distribution activities"
-SRV1V,SRV Yhtiöt Oyj,Construction
-SUY1V,Suominen Oyj,Manufacturing
-KAMUX,Kamux Oyj,"Wholesale and retail trade"
-APETIT,Apetit Oyj,Manufacturing
-RAUTE,Raute Oyj,Manufacturing
-ORTHEX,Orthex Oyj,Manufacturing
-OPTOMED,Optomed Oyj,Manufacturing
-ASUNTO,Asuntosalkku Oyj,Real estate activities
-NLG1V,Nurminen Logistics Oyj,Transportation and storage
-TLT1V,Teleste Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-ESENSE,Enersense International Oyj,Construction
-HKSAV,HKScan Oyj,Manufacturing
-IFA1V,Innofactor Plc,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-LAPWALL,LapWall Oyj,Manufacturing
-TOIVO,Toivo Group Oyj,Real estate activities
-BIOBV,Biohit Oyj,Manufacturing
-GLA1V,Glaston Oyj Abp,Manufacturing
-RAP1V,Rapala VMC Oyj,Manufacturing
-EXL1V,Exel Composites Oyj,Manufacturing
-CTH1V,Componenta Oyj,Manufacturing
-ACG1V,Aspocomp Group Oyj,Manufacturing
-BOREO,Boreo Oyj,Financial and insurance activities
-SIILI,Siili Solutions Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-TULAV,Tulikivi Oyj,Manufacturing
-SAGCV,Saga Furs Oyj,"Wholesale and retail trade"
-WETTERI,Wetteri PLC,"Wholesale and retail trade"
-WUF1V,Wulff-Yhtiöt Oyj,"Administrative and support service activities"
-LAMOR,Lamor Corporation Oyj,"Water supply; sewerage, waste management and remediation activities"
-ROBIT,Robit Oyj,Manufacturing
-REKA,Reka Industrial Oyj,Manufacturing
-OVARO,Ovaro Kiinteistösijoitus Oyj,Real estate activities
-INVEST,Investors House Oyj,Real estate activities
-PUMU,Rebl Group Oyj,"Professional, scientific and technical activities"
-EEZY,Eezy Oyj,"Administrative and support service activities"
-PNA1V,Panostaja Oyj,Financial and insurance activities
-QPR1V,QPR Software Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-HONBS,Honkarakenne Oyj,Manufacturing
-DOV1V,Dovre Group Oyj,"Electricity, gas, steam and air conditioning supply"
-KELAS,Kesla Oyj,Manufacturing
-ELEAV,Elecster Oyj,Manufacturing
-SOLTEQ,Solteq Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-DIGIGR,Digitalist Group Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
-TRH1V,Trainers' House Oyj,"Professional, scientific and technical activities"
-MARAS,Martela Oyj,Manufacturing
-FELLOW,Alisa Bank PLC,Financial and insurance activities
-ENEDO,Enedo Oyj,Manufacturing
-EAB,Evli Oyj,Financial and insurance activities
-32BX,Fingrid Oyj,"Electricity, gas, steam and air conditioning supply"
-SIEVI,KH Group Plc,"Wholesale and retail trade"
-LEHTO,Lehto Group Oyj,Construction
-LIFAIR,Lifa Air Oyj,Manufacturing
-STOCKA,Lindex Group,"Wholesale and retail trade"
-MOCORP,Metso Outotec Oyj,Manufacturing
-NDA,Nordea Bank AB,Financial and insurance activities
-NORDLIG,Nordic Lights Group Oyj,Manufacturing
-TMTR,Tamtron Group Oyj,Manufacturing
-WITM,Witted Megacorp Oy,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities"
+ticker,company,sector,exchange
+KNEBV,KONE Oyj,Manufacturing,HEL
+NOKIA,Nokia Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+SAMPO,Sampo Oyj,Financial and insurance activities,HEL
+WRT1V,Wärtsilä Oyj Abp,Manufacturing,HEL
+FORTUM,Fortum Oyj,"Electricity, gas, steam and air conditioning supply",HEL
+NESTE,Neste Oyj,Manufacturing,HEL
+UPM,UPM-Kymmene Oyj,Manufacturing,HEL
+ORNAV,Orion Oyj,Manufacturing,HEL
+KESKOA,Kesko Oyj,Wholesale and retail trade,HEL
+KCR,Konecranes Oyj,Manufacturing,HEL
+STEAV,Stora Enso Oyj,Manufacturing,HEL
+ELISA,Elisa Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+VALMT,Valmet Oyj,Manufacturing,HEL
+MANTA,Mandatum Oyj,Financial and insurance activities,HEL
+HUH1V,Huhtamäki Oyj,Manufacturing,HEL
+KEMIRA,Kemira Oyj,Manufacturing,HEL
+CGCBV,Hiab Oyj,Manufacturing,HEL
+KALMAR,Kalmar Oyj,Manufacturing,HEL
+KOJAMO,Kojamo Oyj,Real estate activities,HEL
+OUT1V,Outokumpu Oyj,Manufacturing,HEL
+TIETO,TietoEVRY Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+LAT1V,Lassila & Tikanoja Oyj,"Water supply; sewerage, waste management and remediation activities",HEL
+METSA,Metsä Board Oyj,Manufacturing,HEL
+SANOMA,Sanoma Oyj,"Publishing, broadcasting, and content production and distribution activities",HEL
+VAIAS,Vaisala Oyj,Manufacturing,HEL
+TYRES,Nokian Renkaat Oyj,Manufacturing,HEL
+BITTI,Bittium Oyj,Manufacturing,HEL
+TTALO,Terveystalo Oyj,Human health and social work activities,HEL
+PUUILO,Puuilo Oyj,Wholesale and retail trade,HEL
+ALMA,Alma Media Oyj,"Publishing, broadcasting, and content production and distribution activities",HEL
+FSKRS,Fiskars Oyj Abp,Manufacturing,HEL
+AKTIA,Aktia Bank Abp,Financial and insurance activities,HEL
+ALBAV,Ålandsbanken Abp,Financial and insurance activities,HEL
+HARVIA,Harvia Oyj,Manufacturing,HEL
+QTCOM,Qt Group Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+SCANFL,Scanfil Oyj,Manufacturing,HEL
+PON1V,Ponsse Oyj,Manufacturing,HEL
+YIT,YIT Oyj,Construction,HEL
+CTY1S,Citycon Oyj,Real estate activities,HEL
+OLVAS,Olvi Oyj,Manufacturing,HEL
+MUSTI,Musti Group Oyj,Wholesale and retail trade,HEL
+FIA1S,Finnair Oyj,Transportation and storage,HEL
+REG1V,Revenio Group Oyj,Manufacturing,HEL
+GRK,GRK Infra Oyj,Construction,HEL
+MEKKO,Marimekko Oyj,Manufacturing,HEL
+TOKMAN,Tokmanni Group Oyj,Wholesale and retail trade,HEL
+EQV1V,eQ Oyj,Financial and insurance activities,HEL
+ATRAV,Atria Oyj,Manufacturing,HEL
+OMASP,Oma Säästöpankki Oyj,Financial and insurance activities,HEL
+RAIVV,Raisio Oyj,Manufacturing,HEL
+ENENTO,Enento Group Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+VIK1V,Viking Line Abp,Transportation and storage,HEL
+FSECURE,F-Secure Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+CAPMAN,CapMan Oyj,Financial and insurance activities,HEL
+PIHLIS,Pihlajalinna Oyj,Human health and social work activities,HEL
+RELAIS,Relais Group Oyj,Wholesale and retail trade,HEL
+WITH,WithSecure Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+ANORA,Anora Group Oyj,Manufacturing,HEL
+ICP1V,Incap Oyj,Manufacturing,HEL
+ASPO,Aspo Oyj,Transportation and storage,HEL
+ETTE,Etteplan Oyj,"Professional, scientific and technical activities",HEL
+KOSKI,Koskisen Oyj,Manufacturing,HEL
+TAALA,Taaleri Oyj,Financial and insurance activities,HEL
+GOFORE,Gofore Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+REMEDY,Remedy Entertainment Oyj,"Publishing, broadcasting, and content production and distribution activities",HEL
+UNITED,United Bankers Oyj,Financial and insurance activities,HEL
+OKDAV,Oriola Oyj,Wholesale and retail trade,HEL
+NOHO,NoHo Partners Oyj,Accommodation and food service activities,HEL
+VERK,Verkkokauppa.com Oyj,Wholesale and retail trade,HEL
+DIGIA,Digia Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+SSH1V,SSH Communications Security,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+TNOM,Talenom Oyj,"Professional, scientific and technical activities",HEL
+KREATE,Kreate Group Oyj,Construction,HEL
+ILKKA2,Ilkka Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+TEM1V,Tecnotree Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+CONSTI,Consti Oyj,Construction,HEL
+AFAGR,Afarak Group,Manufacturing,HEL
+SITOWS,Sitowise Group Oyj,"Professional, scientific and technical activities",HEL
+KSLAV,Keskisuomalainen Oyj,"Publishing, broadcasting, and content production and distribution activities",HEL
+SRV1V,SRV Yhtiöt Oyj,Construction,HEL
+SUY1V,Suominen Oyj,Manufacturing,HEL
+KAMUX,Kamux Oyj,Wholesale and retail trade,HEL
+APETIT,Apetit Oyj,Manufacturing,HEL
+RAUTE,Raute Oyj,Manufacturing,HEL
+ORTHEX,Orthex Oyj,Manufacturing,HEL
+OPTOMED,Optomed Oyj,Manufacturing,HEL
+ASUNTO,Asuntosalkku Oyj,Real estate activities,HEL
+NLG1V,Nurminen Logistics Oyj,Transportation and storage,HEL
+TLT1V,Teleste Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+ESENSE,Enersense International Oyj,Construction,HEL
+HKSAV,HKScan Oyj,Manufacturing,HEL
+IFA1V,Innofactor Plc,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+LAPWALL,LapWall Oyj,Manufacturing,HEL
+TOIVO,Toivo Group Oyj,Real estate activities,HEL
+BIOBV,Biohit Oyj,Manufacturing,HEL
+GLA1V,Glaston Oyj Abp,Manufacturing,HEL
+RAP1V,Rapala VMC Oyj,Manufacturing,HEL
+EXL1V,Exel Composites Oyj,Manufacturing,HEL
+CTH1V,Componenta Oyj,Manufacturing,HEL
+ACG1V,Aspocomp Group Oyj,Manufacturing,HEL
+BOREO,Boreo Oyj,Financial and insurance activities,HEL
+SIILI,Siili Solutions Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+TULAV,Tulikivi Oyj,Manufacturing,HEL
+SAGCV,Saga Furs Oyj,Wholesale and retail trade,HEL
+WETTERI,Wetteri PLC,Wholesale and retail trade,HEL
+WUF1V,Wulff-Yhtiöt Oyj,Administrative and support service activities,HEL
+LAMOR,Lamor Corporation Oyj,"Water supply; sewerage, waste management and remediation activities",HEL
+ROBIT,Robit Oyj,Manufacturing,HEL
+REKA,Reka Industrial Oyj,Manufacturing,HEL
+OVARO,Ovaro Kiinteistösijoitus Oyj,Real estate activities,HEL
+INVEST,Investors House Oyj,Real estate activities,HEL
+PUMU,Rebl Group Oyj,"Professional, scientific and technical activities",HEL
+EEZY,Eezy Oyj,Administrative and support service activities,HEL
+PNA1V,Panostaja Oyj,Financial and insurance activities,HEL
+QPR1V,QPR Software Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+HONBS,Honkarakenne Oyj,Manufacturing,HEL
+DOV1V,Dovre Group Oyj,"Electricity, gas, steam and air conditioning supply",HEL
+KELAS,Kesla Oyj,Manufacturing,HEL
+ELEAV,Elecster Oyj,Manufacturing,HEL
+SOLTEQ,Solteq Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+DIGIGR,Digitalist Group Oyj,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL
+TRH1V,Trainers' House Oyj,"Professional, scientific and technical activities",HEL
+MARAS,Martela Oyj,Manufacturing,HEL
+FELLOW,Alisa Bank PLC,Financial and insurance activities,HEL
+ENEDO,Enedo Oyj,Manufacturing,HEL
+EAB,Evli Oyj,Financial and insurance activities,HEL
+32BX,Fingrid Oyj,"Electricity, gas, steam and air conditioning supply",HEL
+SIEVI,KH Group Plc,Wholesale and retail trade,HEL
+LEHTO,Lehto Group Oyj,Construction,HEL
+LIFAIR,Lifa Air Oyj,Manufacturing,HEL
+STOCKA,Lindex Group,Wholesale and retail trade,HEL
+MOCORP,Metso Outotec Oyj,Manufacturing,HEL
+NDA,Nordea Bank AB,Financial and insurance activities,HEL
+NORDLIG,Nordic Lights Group Oyj,Manufacturing,HEL
+TMTR,Tamtron Group Oyj,Manufacturing,HEL
+WITM,Witted Megacorp Oy,"Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",HEL

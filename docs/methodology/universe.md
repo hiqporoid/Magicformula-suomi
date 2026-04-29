@@ -5,6 +5,7 @@ Muodostaa vakioitu joukko yhtiöitä, joille ranking-laskenta tehdään johdonmu
 
 ## Nykyinen rakenne
 - Koko ylläpidettävä universe on tiedostossa `python_pipeline/data/main_market_universe.csv`.
+- Universe-skeema sisältää vähintään sarakkeet `ticker`, `company`, `sector`, `exchange`.
 - Talousluvut generoidaan erikseen tiedostoon `python_pipeline/data/financials.csv` skriptillä `python_pipeline/scripts/generate_financials_csv.py`.
 - Export tuottaa samasta ajosta kolme näkymää: `raw_universe`, `rows` ja `excluded`.
 
@@ -37,3 +38,8 @@ Muodostaa vakioitu joukko yhtiöitä, joille ranking-laskenta tehdään johdonmu
 - Ei First North -yhtiöitä.
 - Ei erillistä finanssisektorin mallia.
 - Poissulut näytetään käyttäjälle selkeinä syinä, ei sisäisinä virhekoodeina.
+
+## Ruotsi-laajennuksen minimisuunnitelma (valmistelu)
+1. Lisää uusi universe-lähde Stockholm Main Marketille samalla skeemalla (`exchange=STO`).
+2. Lisää symbolikartta Yahoo-hakuun (esim. `.ST` ja mahdolliset alias-symbolit).
+3. Pidä ranking-laskenta samana, mutta raportoi datalähteet ja poissulut pörssikohtaisesti UI:ssa.

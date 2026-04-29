@@ -61,6 +61,7 @@ def main() -> None:
     financial_rows = load_csv(FINANCIALS_PATH)
 
     companies = [normalize_universe_company(row) for row in universe_rows]
+    company_by_ticker = {company.ticker: company for company in companies}
     financial_by_ticker = {str(row["ticker"]).strip().upper(): row for row in financial_rows}
 
     eligible_records = []
@@ -80,6 +81,7 @@ def main() -> None:
                 "ticker": company.ticker,
                 "company": company.company,
                 "sector": company.sector,
+                "exchange": company.exchange,
                 "is_financial": company.is_financial,
                 "status": "ranked" if is_ranked else "excluded",
                 "exclusion_reasons": translated_reasons,
@@ -93,6 +95,7 @@ def main() -> None:
                     "ticker": company.ticker,
                     "company": company.company,
                     "sector": company.sector,
+                    "exchange": company.exchange,
                     "is_financial": company.is_financial,
                     "reasons": translated_reasons,
                     "financial_snapshot": financial_snapshot,
@@ -109,6 +112,7 @@ def main() -> None:
     payload_rows = []
     for item in ranked:
         source = eligible_record_by_ticker[item.ticker]
+        universe_company = company_by_ticker[item.ticker]
         financial_snapshot = build_financial_snapshot(financial_by_ticker.get(item.ticker))
         if financial_snapshot is None:
             raise ValueError(f"Puuttuva financial_snapshot rankatulle yhtiolle {item.ticker}")
@@ -119,6 +123,7 @@ def main() -> None:
                 "ticker": item.ticker,
                 "company": item.company,
                 "sector": source.sector,
+                "exchange": universe_company.exchange,
                 "is_financial": bool(source.sector == "Financial and insurance activities"),
                 "magic_formula_score": item.magic_formula_rank,
                 "ebit_ev": round(item.ebit_ev, 6),
