@@ -12,9 +12,9 @@ sys.path.insert(0, str(REPO_ROOT))
 from python_pipeline.magicformula.eligibility import assess_company
 from python_pipeline.magicformula.quality import quality_score
 from python_pipeline.magicformula.ranking import rank_magic_formula
+from python_pipeline.magicformula.universe_sources import load_all_universe_rows
 from python_pipeline.magicformula.universe import normalize_universe_company, translate_reasons
 
-UNIVERSE_PATH = REPO_ROOT / "python_pipeline" / "data" / "main_market_universe.csv"
 FINANCIALS_PATH = REPO_ROOT / "python_pipeline" / "data" / "financials.csv"
 OUTPUT_PATH = REPO_ROOT / "src" / "data" / "ranking-v1.json"
 
@@ -57,7 +57,7 @@ def build_financial_snapshot(row: dict[str, str] | None) -> dict[str, object] | 
 
 
 def main() -> None:
-    universe_rows = load_csv(UNIVERSE_PATH)
+    universe_rows = load_all_universe_rows()
     financial_rows = load_csv(FINANCIALS_PATH)
 
     companies = [normalize_universe_company(row) for row in universe_rows]

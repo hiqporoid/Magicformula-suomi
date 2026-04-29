@@ -4,7 +4,7 @@
 Muodostaa vakioitu joukko yhtiöitä, joille ranking-laskenta tehdään johdonmukaisesti ja joiden poissulut voidaan selittää suoraan UI:ssa.
 
 ## Nykyinen rakenne
-- Koko ylläpidettävä universe on tiedostossa `python_pipeline/data/main_market_universe.csv`.
+- Universe ladataan tiedostoista `python_pipeline/data/main_market_universe.csv` (HEL) ja `python_pipeline/data/stockholm_main_market_universe.csv` (STO).
 - Universe-skeema sisältää vähintään sarakkeet `ticker`, `company`, `sector`, `exchange`.
 - Talousluvut generoidaan erikseen tiedostoon `python_pipeline/data/financials.csv` skriptillä `python_pipeline/scripts/generate_financials_csv.py`.
 - Export tuottaa samasta ajosta kolme näkymää: `raw_universe`, `rows` ja `excluded`.
@@ -21,6 +21,9 @@ Muodostaa vakioitu joukko yhtiöitä, joille ranking-laskenta tehdään johdonmu
 
 ## Ranking-kelpoisuuden poissulkukriteerit
 - Finanssisektori rajataan pois Magic Formula -rankkauksesta metodologisena v1-valintana.
+- Utility-sektori rajataan pois Greenblatt-rajauksen mukaisesti.
+- Ulkomaiset yhtiöt suhteessa listauspörssiin rajataan pois Greenblatt-rajauksen mukaisesti.
+- Markkina-arvo alle 50 M€ rajataan pois ticker-haun suodattimena (vähimmäiskoko).
 - Rankingiin tarvittavat statementit puuttuvat.
 - EBIT <= 0.
 - Enterprise Value <= 0.
@@ -39,7 +42,7 @@ Muodostaa vakioitu joukko yhtiöitä, joille ranking-laskenta tehdään johdonmu
 - Ei erillistä finanssisektorin mallia.
 - Poissulut näytetään käyttäjälle selkeinä syinä, ei sisäisinä virhekoodeina.
 
-## Ruotsi-laajennuksen minimisuunnitelma (valmistelu)
-1. Lisää uusi universe-lähde Stockholm Main Marketille samalla skeemalla (`exchange=STO`).
-2. Lisää symbolikartta Yahoo-hakuun (esim. `.ST` ja mahdolliset alias-symbolit).
-3. Pidä ranking-laskenta samana, mutta raportoi datalähteet ja poissulut pörssikohtaisesti UI:ssa.
+## Ruotsi-laajennus (toteutettu)
+1. Stockholm Main Market on lisätty omaksi universe-lähteeksi (`exchange=STO`).
+2. Financials-generator tukee nyt `.HE` ja `.ST` -symbolit exchange-kentän perusteella.
+3. Ranking-laskenta pysyy samana ja UI:n pörssisuodatin mahdollistaa HEL/STO rajauksen samalla datasetillä.

@@ -52,6 +52,60 @@ def test_assess_company_excludes_missing_statements() -> None:
     assert reasons == ["missing_financial_statements"]
 
 
+def test_assess_company_excludes_utility_sector() -> None:
+    company = normalize_universe_company(
+        {
+            "ticker": "FORTUM",
+            "company": "Fortum Oyj",
+            "sector": "Electricity, gas, steam and air conditioning supply",
+            "exchange": "HEL",
+        }
+    )
+    record, reasons = assess_company(company, None)
+    assert record is None
+    assert reasons == ["utility_sector_methodology"]
+
+
+def test_assess_company_excludes_foreign_company() -> None:
+    company = normalize_universe_company(
+        {
+            "ticker": "ABB",
+            "company": "ABB Ltd",
+            "sector": "Manufacturing",
+            "exchange": "STO",
+            "country": "CH",
+        }
+    )
+    record, reasons = assess_company(company, None)
+    assert record is None
+    assert reasons == ["foreign_company_methodology"]
+
+
+def test_assess_company_excludes_below_market_cap_threshold() -> None:
+    company = normalize_universe_company(
+        {
+            "ticker": "SMALL",
+            "company": "Small Cap Oyj",
+            "sector": "Manufacturing",
+            "exchange": "HEL",
+        }
+    )
+    record, reasons = assess_company(
+        company,
+        {
+            "ticker": "SMALL",
+            "market_cap": "49000000",
+            "ebit": 100,
+            "enterprise_value": 1000,
+            "current_assets": 400,
+            "current_liabilities": 100,
+            "net_ppe": 300,
+        },
+    )
+    assert record is None
+    assert reasons == ["market_cap_below_threshold"]
+
+
 def test_assess_company_excludes_missing_sector_even_if_financials_exist() -> None:
     company = normalize_universe_company(
         {

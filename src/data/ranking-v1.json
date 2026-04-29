@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T17:55:00.895650+00:00",
+  "generated_at": "2026-04-29T17:06:34.064848+00:00",
   "universe": "Nasdaq Helsinki Main Market",
   "methodology_version": "v1-main-market",
   "universe_source": "Nasdaq Helsinki Main Market -universe",
@@ -89,8 +89,10 @@
       "sector": "Electricity, gas, steam and air conditioning supply",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yleis­hyödyllinen yhtiö (utility) on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "FORTUM.HE",
@@ -1534,7 +1536,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -1690,8 +1692,10 @@
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "BIOBV.HE",
@@ -1708,8 +1712,10 @@
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "GLA1V.HE",
@@ -1726,8 +1732,10 @@
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "RAP1V.HE",
@@ -1746,7 +1754,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -1764,8 +1772,10 @@
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "CTH1V.HE",
@@ -1782,8 +1792,10 @@
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "ACG1V.HE",
@@ -1820,8 +1832,10 @@
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "SIILI.HE",
@@ -1840,7 +1854,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -1878,7 +1892,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -1896,8 +1910,10 @@
       "sector": "Administrative and support service activities",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "WUF1V.HE",
@@ -1914,8 +1930,10 @@
       "sector": "Water supply; sewerage, waste management and remediation activities",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "LAMOR.HE",
@@ -1932,8 +1950,10 @@
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "ROBIT.HE",
@@ -1950,8 +1970,10 @@
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "REKA.HE",
@@ -1968,8 +1990,10 @@
       "sector": "Real estate activities",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "OVARO.HE",
@@ -1986,8 +2010,10 @@
       "sector": "Real estate activities",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "INVEST.HE",
@@ -2006,7 +2032,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -2026,7 +2052,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -2066,8 +2092,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
-        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -2087,7 +2112,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -2107,8 +2132,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
-        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
+        "Yleis­hyödyllinen yhtiö (utility) on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -2128,7 +2152,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -2146,8 +2170,10 @@
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "ELEAV.HE",
@@ -2166,7 +2192,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -2186,8 +2212,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
-        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -2205,8 +2230,10 @@
       "sector": "Professional, scientific and technical activities",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "TRH1V.HE",
@@ -2225,7 +2252,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -2289,7 +2316,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+        "Yleis­hyödyllinen yhtiö (utility) on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
       ],
       "financial_snapshot": null
     },
@@ -2299,8 +2326,10 @@
       "sector": "Wholesale and retail trade",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "KHG.HE",
@@ -2401,8 +2430,10 @@
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "status": "ranked",
-      "exclusion_reasons": [],
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "TAMTRON.HE",
@@ -2421,7 +2452,7 @@
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2024-12-31",
@@ -2432,6 +2463,306 @@
         "enterprise_value": 20247834.0,
         "invested_capital": 6394661.05
       }
+    },
+    {
+      "ticker": "ABB",
+      "company": "ABB Ltd",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Ulkomainen yhtiö on rajattu pois Greenblatt-rajauksen mukaisesti."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ALFA",
+      "company": "Alfa Laval AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ASSA-B",
+      "company": "ASSA ABLOY AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ATCO-A",
+      "company": "Atlas Copco AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ATCO-B",
+      "company": "Atlas Copco AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "AZN",
+      "company": "AstraZeneca PLC",
+      "sector": "Human health and social work activities",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Ulkomainen yhtiö on rajattu pois Greenblatt-rajauksen mukaisesti."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "BOL",
+      "company": "Boliden AB",
+      "sector": "Mining and quarrying",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ELUX-B",
+      "company": "Electrolux AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ERIC-B",
+      "company": "Telefonaktiebolaget LM Ericsson",
+      "sector": "Information and communication",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ESSITY-B",
+      "company": "Essity AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "EVO",
+      "company": "Evolution AB",
+      "sector": "Arts and entertainment",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "GETI-B",
+      "company": "Getinge AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "HEXA-B",
+      "company": "Hexagon AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "HM-B",
+      "company": "H & M Hennes & Mauritz AB",
+      "sector": "Wholesale and retail trade",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "INVE-B",
+      "company": "Investor AB",
+      "sector": "Financial and insurance activities",
+      "exchange": "STO",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "NDA-SE",
+      "company": "Nordea Bank Abp",
+      "sector": "Financial and insurance activities",
+      "exchange": "STO",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SAND",
+      "company": "Sandvik AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SEB-A",
+      "company": "Skandinaviska Enskilda Banken AB",
+      "sector": "Financial and insurance activities",
+      "exchange": "STO",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SHB-A",
+      "company": "Svenska Handelsbanken AB",
+      "sector": "Financial and insurance activities",
+      "exchange": "STO",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SKF-B",
+      "company": "AB SKF",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SCA-B",
+      "company": "Svenska Cellulosa AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SWED-A",
+      "company": "Swedbank AB",
+      "sector": "Financial and insurance activities",
+      "exchange": "STO",
+      "is_financial": true,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "TEL2-B",
+      "company": "Tele2 AB",
+      "sector": "Information and communication",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "TELIA",
+      "company": "Telia Company AB",
+      "sector": "Information and communication",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "VOLV-B",
+      "company": "AB Volvo",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "status": "excluded",
+      "exclusion_reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
     }
   ],
   "rows": [
@@ -2442,7 +2773,7 @@
       "sector": "Construction",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 8,
+      "magic_formula_score": 7,
       "ebit_ev": 0.16472,
       "roc": 81.008929,
       "quality_score": 45.6,
@@ -2459,56 +2790,12 @@
     },
     {
       "rank": 2,
-      "ticker": "OVARO",
-      "company": "Ovaro Kiinteistösijoitus Oyj",
-      "sector": "Real estate activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 12,
-      "ebit_ev": 0.154886,
-      "roc": 6.354086,
-      "quality_score": 43.95,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "OVARO.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 25701810.0,
-        "ebit": 4899000.0,
-        "enterprise_value": 31629792.0,
-        "invested_capital": 771000.0
-      }
-    },
-    {
-      "rank": 3,
-      "ticker": "INVEST",
-      "company": "Investors House Oyj",
-      "sector": "Real estate activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 14,
-      "ebit_ev": 0.152711,
-      "roc": 1.944607,
-      "quality_score": 36.45,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "INVEST.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 25224570.0,
-        "ebit": 5301000.0,
-        "enterprise_value": 34712572.0,
-        "invested_capital": 2726000.0
-      }
-    },
-    {
-      "rank": 4,
       "ticker": "CONSTI",
       "company": "Consti Oyj",
       "sector": "Construction",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 21,
+      "magic_formula_score": 15,
       "ebit_ev": 0.109196,
       "roc": 1.835222,
       "quality_score": 49.15,
@@ -2524,35 +2811,13 @@
       }
     },
     {
-      "rank": 5,
-      "ticker": "RAUTE",
-      "company": "Raute Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 27,
-      "ebit_ev": 0.328869,
-      "roc": 0.367234,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "RAUTE.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 90617584.0,
-        "ebit": 17834000.0,
-        "enterprise_value": 54228352.0,
-        "invested_capital": 48563000.0
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 3,
       "ticker": "DIGIA",
       "company": "Digia Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 28,
+      "magic_formula_score": 22,
       "ebit_ev": 0.100315,
       "roc": 0.957874,
       "quality_score": 42.37,
@@ -2568,35 +2833,35 @@
       }
     },
     {
-      "rank": 7,
-      "ticker": "TRH1V",
-      "company": "Trainers' House Oyj",
-      "sector": "Professional, scientific and technical activities",
+      "rank": 4,
+      "ticker": "RAUTE",
+      "company": "Raute Oyj",
+      "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 34,
-      "ebit_ev": 0.114218,
-      "roc": 0.416112,
+      "magic_formula_score": 22,
+      "ebit_ev": 0.328869,
+      "roc": 0.367234,
       "quality_score": 50.0,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
-        "source_symbol": "TRH1V.HE",
+        "source_symbol": "RAUTE.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 5197739.0,
-        "ebit": 461612.46,
-        "enterprise_value": 4041521.0,
-        "invested_capital": 1109347.15
+        "market_cap": 90617584.0,
+        "ebit": 17834000.0,
+        "enterprise_value": 54228352.0,
+        "invested_capital": 48563000.0
       }
     },
     {
-      "rank": 8,
+      "rank": 5,
       "ticker": "TTALO",
       "company": "Terveystalo Oyj",
       "sector": "Human health and social work activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 40,
+      "magic_formula_score": 33,
       "ebit_ev": 0.091286,
       "roc": 0.764246,
       "quality_score": 37.53,
@@ -2612,35 +2877,13 @@
       }
     },
     {
-      "rank": 9,
-      "ticker": "GRK",
-      "company": "GRK Infra Oyj",
-      "sector": "Construction",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 44,
-      "ebit_ev": 0.198594,
-      "roc": 0.250969,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "GRK.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 512934816.0,
-        "ebit": 54174000.0,
-        "enterprise_value": 272787840.0,
-        "invested_capital": 215859000.0
-      }
-    },
-    {
-      "rank": 10,
+      "rank": 6,
       "ticker": "CTY1S",
       "company": "Citycon Oyj",
       "sector": "Real estate activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 45,
+      "magic_formula_score": 38,
       "ebit_ev": 0.090428,
       "roc": 0.503748,
       "quality_score": 25.0,
@@ -2656,13 +2899,35 @@
       }
     },
     {
-      "rank": 11,
+      "rank": 7,
+      "ticker": "GRK",
+      "company": "GRK Infra Oyj",
+      "sector": "Construction",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 38,
+      "ebit_ev": 0.198594,
+      "roc": 0.250969,
+      "quality_score": 50.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "GRK.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 512934816.0,
+        "ebit": 54174000.0,
+        "enterprise_value": 272787840.0,
+        "invested_capital": 215859000.0
+      }
+    },
+    {
+      "rank": 8,
       "ticker": "ALMA",
       "company": "Alma Media Oyj",
       "sector": "Publishing, broadcasting, and content production and distribution activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 46,
+      "magic_formula_score": 40,
       "ebit_ev": 0.067307,
       "roc": 13.714286,
       "quality_score": 44.47,
@@ -2678,13 +2943,13 @@
       }
     },
     {
-      "rank": 12,
+      "rank": 9,
       "ticker": "VERK",
       "company": "Verkkokauppa.com Oyj",
       "sector": "Wholesale and retail trade",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 49,
+      "magic_formula_score": 41,
       "ebit_ev": 0.147229,
       "roc": 0.261152,
       "quality_score": 44.0,
@@ -2700,35 +2965,13 @@
       }
     },
     {
-      "rank": 13,
-      "ticker": "NLG1V",
-      "company": "Nurminen Logistics Oyj",
-      "sector": "Transportation and storage",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 50,
-      "ebit_ev": 0.164962,
-      "roc": 0.229515,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "NLG1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 70725352.0,
-        "ebit": 13579000.0,
-        "enterprise_value": 82315800.0,
-        "invested_capital": 59164000.0
-      }
-    },
-    {
-      "rank": 14,
+      "rank": 10,
       "ticker": "QTCOM",
       "company": "Qt Group Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 50,
+      "magic_formula_score": 42,
       "ebit_ev": 0.072001,
       "roc": 0.776625,
       "quality_score": 36.51,
@@ -2744,57 +2987,13 @@
       }
     },
     {
-      "rank": 15,
-      "ticker": "ETTE",
-      "company": "Etteplan Oyj",
-      "sector": "Professional, scientific and technical activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 52,
-      "ebit_ev": 0.069758,
-      "roc": 0.775935,
-      "quality_score": 35.07,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ETTE.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 185334064.0,
-        "ebit": 17966000.0,
-        "enterprise_value": 257549056.0,
-        "invested_capital": 23154000.0
-      }
-    },
-    {
-      "rank": 16,
-      "ticker": "KSLAV",
-      "company": "Keskisuomalainen Oyj",
-      "sector": "Publishing, broadcasting, and content production and distribution activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 52,
-      "ebit_ev": 0.077562,
-      "roc": 0.471037,
-      "quality_score": 33.95,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "KSL.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 105194704.0,
-        "ebit": 12897000.0,
-        "enterprise_value": 166280368.0,
-        "invested_capital": 27380000.0
-      }
-    },
-    {
-      "rank": 17,
+      "rank": 11,
       "ticker": "VALMT",
       "company": "Valmet Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 52,
+      "magic_formula_score": 43,
       "ebit_ev": 0.091644,
       "roc": 0.36089,
       "quality_score": 39.95,
@@ -2810,13 +3009,79 @@
       }
     },
     {
-      "rank": 18,
+      "rank": 12,
+      "ticker": "ETTE",
+      "company": "Etteplan Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 44,
+      "ebit_ev": 0.069758,
+      "roc": 0.775935,
+      "quality_score": 35.07,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ETTE.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 185334064.0,
+        "ebit": 17966000.0,
+        "enterprise_value": 257549056.0,
+        "invested_capital": 23154000.0
+      }
+    },
+    {
+      "rank": 13,
+      "ticker": "KSLAV",
+      "company": "Keskisuomalainen Oyj",
+      "sector": "Publishing, broadcasting, and content production and distribution activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 44,
+      "ebit_ev": 0.077562,
+      "roc": 0.471037,
+      "quality_score": 33.95,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "KSL.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 105194704.0,
+        "ebit": 12897000.0,
+        "enterprise_value": 166280368.0,
+        "invested_capital": 27380000.0
+      }
+    },
+    {
+      "rank": 14,
+      "ticker": "NLG1V",
+      "company": "Nurminen Logistics Oyj",
+      "sector": "Transportation and storage",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 44,
+      "ebit_ev": 0.164962,
+      "roc": 0.229515,
+      "quality_score": 50.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "NLG1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 70725352.0,
+        "ebit": 13579000.0,
+        "enterprise_value": 82315800.0,
+        "invested_capital": 59164000.0
+      }
+    },
+    {
+      "rank": 15,
       "ticker": "KCR",
       "company": "Konecranes Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 53,
+      "magic_formula_score": 45,
       "ebit_ev": 0.078965,
       "roc": 0.44892,
       "quality_score": 50.0,
@@ -2832,35 +3097,13 @@
       }
     },
     {
-      "rank": 19,
-      "ticker": "TEM1V",
-      "company": "Tecnotree Oyj",
-      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 53,
-      "ebit_ev": 0.15571,
-      "roc": 0.205456,
-      "quality_score": 47.82,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "TEM1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 131545704.0,
-        "ebit": 16402000.0,
-        "enterprise_value": 105336816.0,
-        "invested_capital": 79832000.0
-      }
-    },
-    {
-      "rank": 20,
+      "rank": 16,
       "ticker": "PIHLIS",
       "company": "Pihlajalinna Oyj",
       "sector": "Human health and social work activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 54,
+      "magic_formula_score": 46,
       "ebit_ev": 0.103477,
       "roc": 0.276228,
       "quality_score": 35.42,
@@ -2876,35 +3119,13 @@
       }
     },
     {
-      "rank": 21,
-      "ticker": "BIOBV",
-      "company": "Biohit Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 55,
-      "ebit_ev": 0.079298,
-      "roc": 0.393458,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "BIOBV.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 38774260.0,
-        "ebit": 2947000.0,
-        "enterprise_value": 37163596.0,
-        "invested_capital": 7490000.0
-      }
-    },
-    {
-      "rank": 22,
+      "rank": 17,
       "ticker": "OLVAS",
       "company": "Olvi Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 55,
+      "magic_formula_score": 47,
       "ebit_ev": 0.125706,
       "roc": 0.234763,
       "quality_score": 50.0,
@@ -2920,13 +3141,35 @@
       }
     },
     {
-      "rank": 23,
+      "rank": 18,
+      "ticker": "TEM1V",
+      "company": "Tecnotree Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 48,
+      "ebit_ev": 0.15571,
+      "roc": 0.205456,
+      "quality_score": 47.82,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "TEM1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 131545704.0,
+        "ebit": 16402000.0,
+        "enterprise_value": 105336816.0,
+        "invested_capital": 79832000.0
+      }
+    },
+    {
+      "rank": 19,
       "ticker": "ORTHEX",
       "company": "Orthex Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 58,
+      "magic_formula_score": 49,
       "ebit_ev": 0.107069,
       "roc": 0.238805,
       "quality_score": 44.43,
@@ -2942,13 +3185,13 @@
       }
     },
     {
-      "rank": 24,
+      "rank": 20,
       "ticker": "MEKKO",
       "company": "Marimekko Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 59,
+      "magic_formula_score": 50,
       "ebit_ev": 0.079796,
       "roc": 0.344639,
       "quality_score": 50.0,
@@ -2964,13 +3207,13 @@
       }
     },
     {
-      "rank": 25,
+      "rank": 21,
       "ticker": "ORNAV",
       "company": "Orion Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 60,
+      "magic_formula_score": 52,
       "ebit_ev": 0.066661,
       "roc": 0.512325,
       "quality_score": 50.0,
@@ -2986,13 +3229,13 @@
       }
     },
     {
-      "rank": 26,
+      "rank": 22,
       "ticker": "REG1V",
       "company": "Revenio Group Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 61,
+      "magic_formula_score": 53,
       "ebit_ev": 0.064133,
       "roc": 0.678186,
       "quality_score": 50.0,
@@ -3008,13 +3251,13 @@
       }
     },
     {
-      "rank": 27,
+      "rank": 23,
       "ticker": "KALMAR",
       "company": "Kalmar Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 67,
+      "magic_formula_score": 57,
       "ebit_ev": 0.076418,
       "roc": 0.30378,
       "quality_score": 49.87,
@@ -3030,35 +3273,13 @@
       }
     },
     {
-      "rank": 28,
-      "ticker": "KEMIRA",
-      "company": "Kemira Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 70,
-      "ebit_ev": 0.09287,
-      "roc": 0.187269,
-      "quality_score": 45.45,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "KEMIRA.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 2515396608.0,
-        "ebit": 283900000.0,
-        "enterprise_value": 3056951808.0,
-        "invested_capital": 1516000000.0
-      }
-    },
-    {
-      "rank": 29,
+      "rank": 24,
       "ticker": "ENENTO",
       "company": "Enento Group Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 71,
+      "magic_formula_score": 60,
       "ebit_ev": 0.048295,
       "roc": 1.864401,
       "quality_score": 28.38,
@@ -3074,35 +3295,13 @@
       }
     },
     {
-      "rank": 30,
-      "ticker": "ICP1V",
-      "company": "Incap Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 71,
-      "ebit_ev": 0.094447,
-      "roc": 0.163695,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ICP1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 304488480.0,
-        "ebit": 23835000.0,
-        "enterprise_value": 252363376.0,
-        "invested_capital": 145606000.0
-      }
-    },
-    {
-      "rank": 31,
+      "rank": 25,
       "ticker": "RAIVV",
       "company": "Raisio Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 71,
+      "magic_formula_score": 61,
       "ebit_ev": 0.096516,
       "roc": 0.154452,
       "quality_score": 50.0,
@@ -3118,13 +3317,57 @@
       }
     },
     {
-      "rank": 32,
+      "rank": 26,
+      "ticker": "ICP1V",
+      "company": "Incap Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 62,
+      "ebit_ev": 0.094447,
+      "roc": 0.163695,
+      "quality_score": 50.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ICP1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 304488480.0,
+        "ebit": 23835000.0,
+        "enterprise_value": 252363376.0,
+        "invested_capital": 145606000.0
+      }
+    },
+    {
+      "rank": 27,
+      "ticker": "KEMIRA",
+      "company": "Kemira Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 62,
+      "ebit_ev": 0.09287,
+      "roc": 0.187269,
+      "quality_score": 45.45,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "KEMIRA.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 2515396608.0,
+        "ebit": 283900000.0,
+        "enterprise_value": 3056951808.0,
+        "invested_capital": 1516000000.0
+      }
+    },
+    {
+      "rank": 28,
       "ticker": "TOIVO",
       "company": "Toivo Group Oyj",
       "sector": "Real estate activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 72,
+      "magic_formula_score": 62,
       "ebit_ev": 0.073371,
       "roc": 0.287444,
       "quality_score": 25.0,
@@ -3140,57 +3383,13 @@
       }
     },
     {
-      "rank": 33,
-      "ticker": "ELISA",
-      "company": "Elisa Oyj",
-      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 73,
-      "ebit_ev": 0.059112,
-      "roc": 0.43431,
-      "quality_score": 50.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ELISA.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 6467773440.0,
-        "ebit": 467100000.0,
-        "enterprise_value": 7901974016.0,
-        "invested_capital": 1075500000.0
-      }
-    },
-    {
-      "rank": 34,
-      "ticker": "PUUILO",
-      "company": "Puuilo Oyj",
-      "sector": "Wholesale and retail trade",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 73,
-      "ebit_ev": 0.060794,
-      "roc": 0.373506,
-      "quality_score": 44.3,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2026-01-31",
-        "source_symbol": "PUUILO.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 1086486784.0,
-        "ebit": 75000000.0,
-        "enterprise_value": 1233677568.0,
-        "invested_capital": 200800000.0
-      }
-    },
-    {
-      "rank": 35,
+      "rank": 29,
       "ticker": "HKSAV",
       "company": "HKScan Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 74,
+      "magic_formula_score": 63,
       "ebit_ev": 0.110049,
       "roc": 0.12931,
       "quality_score": 33.59,
@@ -3206,13 +3405,35 @@
       }
     },
     {
-      "rank": 36,
+      "rank": 30,
+      "ticker": "PUUILO",
+      "company": "Puuilo Oyj",
+      "sector": "Wholesale and retail trade",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 63,
+      "ebit_ev": 0.060794,
+      "roc": 0.373506,
+      "quality_score": 44.3,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2026-01-31",
+        "source_symbol": "PUUILO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 1086486784.0,
+        "ebit": 75000000.0,
+        "enterprise_value": 1233677568.0,
+        "invested_capital": 200800000.0
+      }
+    },
+    {
+      "rank": 31,
       "ticker": "KNEBV",
       "company": "KONE Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 75,
+      "magic_formula_score": 64,
       "ebit_ev": 0.048216,
       "roc": 1.012141,
       "quality_score": 50.0,
@@ -3228,13 +3449,35 @@
       }
     },
     {
-      "rank": 37,
+      "rank": 32,
+      "ticker": "ELISA",
+      "company": "Elisa Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 65,
+      "ebit_ev": 0.059112,
+      "roc": 0.43431,
+      "quality_score": 39.84,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ELISA.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 6467773440.0,
+        "ebit": 467100000.0,
+        "enterprise_value": 7901974016.0,
+        "invested_capital": 1075500000.0
+      }
+    },
+    {
+      "rank": 33,
       "ticker": "KREATE",
       "company": "Kreate Group Oyj",
       "sector": "Construction",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 75,
+      "magic_formula_score": 65,
       "ebit_ev": 0.049484,
       "roc": 0.67975,
       "quality_score": 33.22,
@@ -3250,35 +3493,13 @@
       }
     },
     {
-      "rank": 38,
-      "ticker": "SRV1V",
-      "company": "SRV Yhtiöt Oyj",
-      "sector": "Construction",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 75,
-      "ebit_ev": 0.173357,
-      "roc": 0.088589,
-      "quality_score": 25.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "SRV1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 88554800.0,
-        "ebit": 25204000.0,
-        "enterprise_value": 145387664.0,
-        "invested_capital": 284504000.0
-      }
-    },
-    {
-      "rank": 39,
+      "rank": 34,
       "ticker": "CGCBV",
       "company": "Hiab Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 76,
+      "magic_formula_score": 66,
       "ebit_ev": 0.068942,
       "roc": 0.286353,
       "quality_score": 50.0,
@@ -3294,13 +3515,35 @@
       }
     },
     {
-      "rank": 40,
+      "rank": 35,
+      "ticker": "SRV1V",
+      "company": "SRV Yhtiöt Oyj",
+      "sector": "Construction",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 66,
+      "ebit_ev": 0.173357,
+      "roc": 0.088589,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "SRV1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 88554800.0,
+        "ebit": 25204000.0,
+        "enterprise_value": 145387664.0,
+        "invested_capital": 284504000.0
+      }
+    },
+    {
+      "rank": 36,
       "ticker": "GOFORE",
       "company": "Gofore Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 78,
+      "magic_formula_score": 68,
       "ebit_ev": 0.060092,
       "roc": 0.349052,
       "quality_score": 37.21,
@@ -3316,60 +3559,16 @@
       }
     },
     {
-      "rank": 41,
+      "rank": 37,
       "ticker": "SAGCV",
       "company": "Saga Furs Oyj",
       "sector": "Wholesale and retail trade",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 80,
+      "magic_formula_score": 69,
       "ebit_ev": 2.844185,
       "roc": 0.057132,
       "quality_score": 46.14,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-10-31",
-        "source_symbol": "SAGCV.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 51462072.0,
-        "ebit": 4748000.0,
-        "enterprise_value": 1669371.0,
-        "invested_capital": 83106000.0
-      }
-    },
-    {
-      "rank": 42,
-      "ticker": "NOHO",
-      "company": "NoHo Partners Oyj",
-      "sector": "Accommodation and food service activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 82,
-      "ebit_ev": 0.068143,
-      "roc": 0.252705,
-      "quality_score": 27.43,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "NOHO.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 148152608.0,
-        "ebit": 32700000.0,
-        "enterprise_value": 479873504.0,
-        "invested_capital": 129400000.0
-      }
-    },
-    {
-      "rank": 43,
-      "ticker": "REKA",
-      "company": "Reka Industrial Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 82,
-      "ebit_ev": 0.474054,
-      "roc": 0.054709,
-      "quality_score": 34.61,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -3382,79 +3581,13 @@
       }
     },
     {
-      "rank": 44,
-      "ticker": "APETIT",
-      "company": "Apetit Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 83,
-      "ebit_ev": 0.107848,
-      "roc": 0.106846,
-      "quality_score": 49.34,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "APETIT.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 80292048.0,
-        "ebit": 10300000.0,
-        "enterprise_value": 95505192.0,
-        "invested_capital": 96400000.0
-      }
-    },
-    {
-      "rank": 45,
-      "ticker": "ASPO",
-      "company": "Aspo Oyj",
-      "sector": "Transportation and storage",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 83,
-      "ebit_ev": 0.094465,
-      "roc": 0.120772,
-      "quality_score": 25.03,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ASPO.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 191792976.0,
-        "ebit": 35591000.0,
-        "enterprise_value": 376764000.0,
-        "invested_capital": 294696000.0
-      }
-    },
-    {
-      "rank": 46,
-      "ticker": "WUF1V",
-      "company": "Wulff-Yhtiöt Oyj",
-      "sector": "Administrative and support service activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 83,
-      "ebit_ev": 0.065904,
-      "roc": 0.26762,
-      "quality_score": 39.9,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "WUF1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 22902532.0,
-        "ebit": 4530000.0,
-        "enterprise_value": 68736168.0,
-        "invested_capital": 16927000.0
-      }
-    },
-    {
-      "rank": 47,
+      "rank": 38,
       "ticker": "ASUNTO",
       "company": "Asuntosalkku Oyj",
       "sector": "Real estate activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 85,
+      "magic_formula_score": 70,
       "ebit_ev": 0.026077,
       "roc": 1.058703,
       "quality_score": 25.0,
@@ -3470,13 +3603,79 @@
       }
     },
     {
-      "rank": 48,
+      "rank": 39,
+      "ticker": "APETIT",
+      "company": "Apetit Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 71,
+      "ebit_ev": 0.107848,
+      "roc": 0.106846,
+      "quality_score": 49.34,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "APETIT.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 80292048.0,
+        "ebit": 10300000.0,
+        "enterprise_value": 95505192.0,
+        "invested_capital": 96400000.0
+      }
+    },
+    {
+      "rank": 40,
+      "ticker": "NOHO",
+      "company": "NoHo Partners Oyj",
+      "sector": "Accommodation and food service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 71,
+      "ebit_ev": 0.068143,
+      "roc": 0.252705,
+      "quality_score": 27.43,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "NOHO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 148152608.0,
+        "ebit": 32700000.0,
+        "enterprise_value": 479873504.0,
+        "invested_capital": 129400000.0
+      }
+    },
+    {
+      "rank": 41,
+      "ticker": "ASPO",
+      "company": "Aspo Oyj",
+      "sector": "Transportation and storage",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 73,
+      "ebit_ev": 0.094465,
+      "roc": 0.120772,
+      "quality_score": 25.03,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ASPO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 191792976.0,
+        "ebit": 35591000.0,
+        "enterprise_value": 376764000.0,
+        "invested_capital": 294696000.0
+      }
+    },
+    {
+      "rank": 42,
       "ticker": "HUH1V",
       "company": "Huhtamäki Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 86,
+      "magic_formula_score": 75,
       "ebit_ev": 0.082235,
       "roc": 0.141266,
       "quality_score": 34.36,
@@ -3492,57 +3691,13 @@
       }
     },
     {
-      "rank": 49,
-      "ticker": "ATRAV",
-      "company": "Atria Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 87,
-      "ebit_ev": 0.094188,
-      "roc": 0.119777,
-      "quality_score": 27.86,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ATRAV.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 411089216.0,
-        "ebit": 66907000.0,
-        "enterprise_value": 710353472.0,
-        "invested_capital": 558597000.0
-      }
-    },
-    {
-      "rank": 50,
-      "ticker": "MOCORP",
-      "company": "Metso Outotec Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 87,
-      "ebit_ev": 0.054701,
-      "roc": 0.342993,
-      "quality_score": 43.7,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "METSO.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 11941396480.0,
-        "ebit": 722000000.0,
-        "enterprise_value": 13199050752.0,
-        "invested_capital": 2105000000.0
-      }
-    },
-    {
-      "rank": 51,
+      "rank": 43,
       "ticker": "STEAV",
       "company": "Stora Enso Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 87,
+      "magic_formula_score": 75,
       "ebit_ev": 0.092315,
       "roc": 0.125879,
       "quality_score": 32.94,
@@ -3558,13 +3713,57 @@
       }
     },
     {
-      "rank": 52,
+      "rank": 44,
+      "ticker": "ATRAV",
+      "company": "Atria Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 76,
+      "ebit_ev": 0.094188,
+      "roc": 0.119777,
+      "quality_score": 27.86,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ATRAV.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 411089216.0,
+        "ebit": 66907000.0,
+        "enterprise_value": 710353472.0,
+        "invested_capital": 558597000.0
+      }
+    },
+    {
+      "rank": 45,
+      "ticker": "MOCORP",
+      "company": "Metso Outotec Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 76,
+      "ebit_ev": 0.054701,
+      "roc": 0.342993,
+      "quality_score": 43.7,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "METSO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 11941396480.0,
+        "ebit": 722000000.0,
+        "enterprise_value": 13199050752.0,
+        "invested_capital": 2105000000.0
+      }
+    },
+    {
+      "rank": 46,
       "ticker": "WRT1V",
       "company": "Wärtsilä Oyj Abp",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 87,
+      "magic_formula_score": 76,
       "ebit_ev": 0.045957,
       "roc": 0.450961,
       "quality_score": 50.0,
@@ -3580,35 +3779,13 @@
       }
     },
     {
-      "rank": 53,
-      "ticker": "CTH1V",
-      "company": "Componenta Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 90,
-      "ebit_ev": 0.092654,
-      "roc": 0.116611,
-      "quality_score": 44.99,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "CTH1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 44098796.0,
-        "ebit": 4252000.0,
-        "enterprise_value": 45891056.0,
-        "invested_capital": 36463000.0
-      }
-    },
-    {
-      "rank": 54,
+      "rank": 47,
       "ticker": "ANORA",
       "company": "Anora Group Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 94,
+      "magic_formula_score": 81,
       "ebit_ev": 0.076507,
       "roc": 0.134305,
       "quality_score": 25.0,
@@ -3624,13 +3801,13 @@
       }
     },
     {
-      "rank": 55,
+      "rank": 48,
       "ticker": "HARVIA",
       "company": "Harvia Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 96,
+      "magic_formula_score": 84,
       "ebit_ev": 0.050407,
       "roc": 0.28461,
       "quality_score": 38.77,
@@ -3646,13 +3823,13 @@
       }
     },
     {
-      "rank": 56,
+      "rank": 49,
       "ticker": "LAPWALL",
       "company": "LapWall Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 100,
+      "magic_formula_score": 87,
       "ebit_ev": 0.046652,
       "roc": 0.288633,
       "quality_score": 50.0,
@@ -3668,35 +3845,13 @@
       }
     },
     {
-      "rank": 57,
-      "ticker": "TLT1V",
-      "company": "Teleste Oyj",
-      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 101,
-      "ebit_ev": 0.062307,
-      "roc": 0.144813,
-      "quality_score": 34.54,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "TLT1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 61960480.0,
-        "ebit": 5088000.0,
-        "enterprise_value": 81659952.0,
-        "invested_capital": 35135000.0
-      }
-    },
-    {
-      "rank": 58,
+      "rank": 50,
       "ticker": "VAIAS",
       "company": "Vaisala Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 101,
+      "magic_formula_score": 88,
       "ebit_ev": 0.0449,
       "roc": 0.290773,
       "quality_score": 50.0,
@@ -3712,79 +3867,13 @@
       }
     },
     {
-      "rank": 59,
-      "ticker": "SCANFL",
-      "company": "Scanfil Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 103,
-      "ebit_ev": 0.056848,
-      "roc": 0.174413,
-      "quality_score": 49.08,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "SCANFL.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": null,
-        "ebit": 53818000.0,
-        "enterprise_value": 946696960.0,
-        "invested_capital": 308566000.0
-      }
-    },
-    {
-      "rank": 60,
-      "ticker": "RELAIS",
-      "company": "Relais Group Oyj",
-      "sector": "Wholesale and retail trade",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 104,
-      "ebit_ev": 0.060694,
-      "roc": 0.142796,
-      "quality_score": 25.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "RELAIS.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 270055328.0,
-        "ebit": 29157000.0,
-        "enterprise_value": 480397344.0,
-        "invested_capital": 204186000.0
-      }
-    },
-    {
-      "rank": 61,
-      "ticker": "STOCKA",
-      "company": "Lindex Group",
-      "sector": "Wholesale and retail trade",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 104,
-      "ebit_ev": 0.074068,
-      "roc": 0.114802,
-      "quality_score": 25.54,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "LINDEX.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 358430432.0,
-        "ebit": 67400000.0,
-        "enterprise_value": 909972928.0,
-        "invested_capital": 587100000.0
-      }
-    },
-    {
-      "rank": 62,
+      "rank": 51,
       "ticker": "TIETO",
       "company": "TietoEVRY Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 105,
+      "magic_formula_score": 89,
       "ebit_ev": 0.027898,
       "roc": 0.337478,
       "quality_score": 42.75,
@@ -3800,35 +3889,101 @@
       }
     },
     {
-      "rank": 63,
-      "ticker": "KESKOA",
-      "company": "Kesko Oyj",
-      "sector": "Wholesale and retail trade",
+      "rank": 52,
+      "ticker": "TLT1V",
+      "company": "Teleste Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 109,
-      "ebit_ev": 0.057074,
-      "roc": 0.141321,
-      "quality_score": 34.44,
+      "magic_formula_score": 89,
+      "ebit_ev": 0.062307,
+      "roc": 0.144813,
+      "quality_score": 34.54,
       "validation_warnings": [],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
-        "source_symbol": "KESKOA.HE",
+        "source_symbol": "TLT1V.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 8032392704.0,
-        "ebit": 647800000.0,
-        "enterprise_value": 11350102016.0,
-        "invested_capital": 4583900000.0
+        "market_cap": 61960480.0,
+        "ebit": 5088000.0,
+        "enterprise_value": 81659952.0,
+        "invested_capital": 35135000.0
       }
     },
     {
-      "rank": 64,
+      "rank": 53,
+      "ticker": "STOCKA",
+      "company": "Lindex Group",
+      "sector": "Wholesale and retail trade",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 90,
+      "ebit_ev": 0.074068,
+      "roc": 0.114802,
+      "quality_score": 25.54,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "LINDEX.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 358430432.0,
+        "ebit": 67400000.0,
+        "enterprise_value": 909972928.0,
+        "invested_capital": 587100000.0
+      }
+    },
+    {
+      "rank": 54,
+      "ticker": "RELAIS",
+      "company": "Relais Group Oyj",
+      "sector": "Wholesale and retail trade",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 92,
+      "ebit_ev": 0.060694,
+      "roc": 0.142796,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "RELAIS.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 270055328.0,
+        "ebit": 29157000.0,
+        "enterprise_value": 480397344.0,
+        "invested_capital": 204186000.0
+      }
+    },
+    {
+      "rank": 55,
+      "ticker": "SCANFL",
+      "company": "Scanfil Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 93,
+      "ebit_ev": 0.056848,
+      "roc": 0.174413,
+      "quality_score": 49.08,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "SCANFL.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 808933376.0,
+        "ebit": 53818000.0,
+        "enterprise_value": 946696960.0,
+        "invested_capital": 308566000.0
+      }
+    },
+    {
+      "rank": 56,
       "ticker": "FIA1S",
       "company": "Finnair Oyj",
       "sector": "Transportation and storage",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 111,
+      "magic_formula_score": 94,
       "ebit_ev": 0.084503,
       "roc": 0.050808,
       "quality_score": 25.0,
@@ -3844,13 +3999,79 @@
       }
     },
     {
-      "rank": 65,
+      "rank": 57,
+      "ticker": "ILKKA2",
+      "company": "Ilkka Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 95,
+      "ebit_ev": 0.049236,
+      "roc": 0.223488,
+      "quality_score": 48.88,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ILKKA2.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 114740112.0,
+        "ebit": 4531000.0,
+        "enterprise_value": 92025632.0,
+        "invested_capital": 20274000.0
+      }
+    },
+    {
+      "rank": 58,
+      "ticker": "PON1V",
+      "company": "Ponsse Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 95,
+      "ebit_ev": 0.06559,
+      "roc": 0.122035,
+      "quality_score": 49.85,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "PON1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 629879296.0,
+        "ebit": 42169000.0,
+        "enterprise_value": 642913344.0,
+        "invested_capital": 345549000.0
+      }
+    },
+    {
+      "rank": 59,
+      "ticker": "KESKOA",
+      "company": "Kesko Oyj",
+      "sector": "Wholesale and retail trade",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 97,
+      "ebit_ev": 0.057074,
+      "roc": 0.141321,
+      "quality_score": 34.44,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "KESKOA.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 8032392704.0,
+        "ebit": 647800000.0,
+        "enterprise_value": 11350102016.0,
+        "invested_capital": 4583900000.0
+      }
+    },
+    {
+      "rank": 60,
       "ticker": "TOKMAN",
       "company": "Tokmanni Group Oyj",
       "sector": "Wholesale and retail trade",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 116,
+      "magic_formula_score": 102,
       "ebit_ev": 0.064042,
       "roc": 0.101208,
       "quality_score": 25.0,
@@ -3866,79 +4087,13 @@
       }
     },
     {
-      "rank": 66,
-      "ticker": "GLA1V",
-      "company": "Glaston Oyj Abp",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 120,
-      "ebit_ev": 0.049419,
-      "roc": 0.134554,
-      "quality_score": 35.18,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "GLA1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 46459804.0,
-        "ebit": 3771000.0,
-        "enterprise_value": 76306832.0,
-        "invested_capital": 28026000.0
-      }
-    },
-    {
-      "rank": 67,
-      "ticker": "TMTR",
-      "company": "Tamtron Group Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 120,
-      "ebit_ev": 0.040502,
-      "roc": 0.164528,
-      "quality_score": 44.29,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "TAMTRON.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 38940056.0,
-        "ebit": 1910000.0,
-        "enterprise_value": 47158168.0,
-        "invested_capital": 11609000.0
-      }
-    },
-    {
-      "rank": 68,
-      "ticker": "FORTUM",
-      "company": "Fortum Oyj",
-      "sector": "Electricity, gas, steam and air conditioning supply",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 123,
-      "ebit_ev": 0.051546,
-      "roc": 0.120653,
-      "quality_score": 30.85,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "FORTUM.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 19111731200.0,
-        "ebit": 1124000000.0,
-        "enterprise_value": 21805762560.0,
-        "invested_capital": 9316000000.0
-      }
-    },
-    {
-      "rank": 69,
+      "rank": 61,
       "ticker": "BITTI",
       "company": "Bittium Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 124,
+      "magic_formula_score": 105,
       "ebit_ev": 0.016622,
       "roc": 0.237516,
       "quality_score": 50.0,
@@ -3954,35 +4109,13 @@
       }
     },
     {
-      "rank": 70,
-      "ticker": "SIILI",
-      "company": "Siili Solutions Oyj",
-      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 124,
-      "ebit_ev": 0.038021,
-      "roc": 0.162218,
-      "quality_score": 34.47,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "SIILI.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 22947238.0,
-        "ebit": 1015000.0,
-        "enterprise_value": 26695496.0,
-        "invested_capital": 6257000.0
-      }
-    },
-    {
-      "rank": 71,
+      "rank": 62,
       "ticker": "KOSKI",
       "company": "Koskisen Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 130,
+      "magic_formula_score": 113,
       "ebit_ev": 0.057778,
       "roc": 0.062126,
       "quality_score": 35.99,
@@ -3998,35 +4131,13 @@
       }
     },
     {
-      "rank": 72,
-      "ticker": "SIEVI",
-      "company": "KH Group Plc",
-      "sector": "Wholesale and retail trade",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 131,
-      "ebit_ev": 0.054919,
-      "roc": 0.073581,
-      "quality_score": 40.25,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "KHG.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 33221130.0,
-        "ebit": 5613000.0,
-        "enterprise_value": 102205920.0,
-        "invested_capital": 76283000.0
-      }
-    },
-    {
-      "rank": 73,
+      "rank": 63,
       "ticker": "TNOM",
       "company": "Talenom Oyj",
       "sector": "Professional, scientific and technical activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 132,
+      "magic_formula_score": 115,
       "ebit_ev": 0.039851,
       "roc": 0.130433,
       "quality_score": 33.24,
@@ -4042,13 +4153,13 @@
       }
     },
     {
-      "rank": 74,
+      "rank": 64,
       "ticker": "VIK1V",
       "company": "Viking Line Abp",
       "sector": "Transportation and storage",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 132,
+      "magic_formula_score": 115,
       "ebit_ev": 0.056552,
       "roc": 0.062485,
       "quality_score": 40.38,
@@ -4064,35 +4175,13 @@
       }
     },
     {
-      "rank": 75,
-      "ticker": "LAMOR",
-      "company": "Lamor Corporation Oyj",
-      "sector": "Water supply; sewerage, waste management and remediation activities",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 135,
-      "ebit_ev": 0.048972,
-      "roc": 0.088237,
-      "quality_score": 25.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "LAMOR.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 26959974.0,
-        "ebit": 3750000.0,
-        "enterprise_value": 76575136.0,
-        "invested_capital": 42499000.0
-      }
-    },
-    {
-      "rank": 76,
+      "rank": 65,
       "ticker": "NOKIA",
       "company": "Nokia Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 137,
+      "magic_formula_score": 117,
       "ebit_ev": 0.022583,
       "roc": 0.13699,
       "quality_score": 42.0,
@@ -4108,13 +4197,13 @@
       }
     },
     {
-      "rank": 77,
+      "rank": 66,
       "ticker": "UPM",
       "company": "UPM-Kymmene Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 137,
+      "magic_formula_score": 119,
       "ebit_ev": 0.048449,
       "roc": 0.086332,
       "quality_score": 36.24,
@@ -4130,13 +4219,13 @@
       }
     },
     {
-      "rank": 78,
+      "rank": 67,
       "ticker": "FSKRS",
       "company": "Fiskars Oyj Abp",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 148,
+      "magic_formula_score": 127,
       "ebit_ev": 0.025748,
       "roc": 0.089926,
       "quality_score": 25.0,
@@ -4152,13 +4241,13 @@
       }
     },
     {
-      "rank": 79,
+      "rank": 68,
       "ticker": "YIT",
       "company": "YIT Oyj",
       "sector": "Construction",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 148,
+      "magic_formula_score": 128,
       "ebit_ev": 0.041217,
       "roc": 0.0612,
       "quality_score": 25.0,
@@ -4174,79 +4263,13 @@
       }
     },
     {
-      "rank": 80,
-      "ticker": "ACG1V",
-      "company": "Aspocomp Group Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 154,
-      "ebit_ev": 0.024208,
-      "roc": 0.069755,
-      "quality_score": 48.71,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ACG1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 36185256.0,
-        "ebit": 905000.0,
-        "enterprise_value": 37384172.0,
-        "invested_capital": 12974000.0
-      }
-    },
-    {
-      "rank": 81,
-      "ticker": "ROBIT",
-      "company": "Robit Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 158,
-      "ebit_ev": 0.02931,
-      "roc": 0.021219,
-      "quality_score": 25.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ROBIT.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 22727160.0,
-        "ebit": 1137000.0,
-        "enterprise_value": 38792788.0,
-        "invested_capital": 53583000.0
-      }
-    },
-    {
-      "rank": 82,
-      "ticker": "ELEAV",
-      "company": "Elecster Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 162,
-      "ebit_ev": 0.02775,
-      "roc": 0.013269,
-      "quality_score": 25.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "ELEAV.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": 9745101.0,
-        "ebit": 361000.0,
-        "enterprise_value": 13009102.0,
-        "invested_capital": 27206000.0
-      }
-    },
-    {
-      "rank": 83,
+      "rank": 69,
       "ticker": "MUSTI",
       "company": "Musti Group Oyj",
       "sector": "Wholesale and retail trade",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 164,
+      "magic_formula_score": 138,
       "ebit_ev": 0.008722,
       "roc": 0.061027,
       "quality_score": 25.0,
@@ -4262,13 +4285,13 @@
       }
     },
     {
-      "rank": 84,
+      "rank": 70,
       "ticker": "NESTE",
       "company": "Neste Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 166,
+      "magic_formula_score": 139,
       "ebit_ev": 0.01395,
       "roc": 0.030064,
       "quality_score": 25.0,
@@ -4284,35 +4307,13 @@
       }
     },
     {
-      "rank": 85,
-      "ticker": "RAP1V",
-      "company": "Rapala VMC Oyj",
-      "sector": "Manufacturing",
-      "exchange": "HEL",
-      "is_financial": false,
-      "magic_formula_score": 167,
-      "ebit_ev": 0.015056,
-      "roc": 0.016716,
-      "quality_score": 25.0,
-      "validation_warnings": [],
-      "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "RAP1V.HE",
-        "ev_source": "reported_enterprise_value",
-        "market_cap": null,
-        "ebit": 1700000.0,
-        "enterprise_value": 112911136.0,
-        "invested_capital": 101700000.0
-      }
-    },
-    {
-      "rank": 86,
+      "rank": 71,
       "ticker": "TYRES",
       "company": "Nokian Renkaat Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
-      "magic_formula_score": 171,
+      "magic_formula_score": 141,
       "ebit_ev": 0.009945,
       "roc": 0.012666,
       "quality_score": 25.0,
@@ -4341,6 +4342,25 @@
       "financial_snapshot": null
     },
     {
+      "ticker": "FORTUM",
+      "company": "Fortum Oyj",
+      "sector": "Electricity, gas, steam and air conditioning supply",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Yleis­hyödyllinen yhtiö (utility) on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "FORTUM.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 19111731200.0,
+        "ebit": 1124000000.0,
+        "enterprise_value": 21805762560.0,
+        "invested_capital": 9316000000.0
+      }
+    },
+    {
       "ticker": "MANTA",
       "company": "Mandatum Oyj",
       "sector": "Financial and insurance activities",
@@ -4740,7 +4760,7 @@
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -4764,13 +4784,70 @@
       "financial_snapshot": null
     },
     {
+      "ticker": "BIOBV",
+      "company": "Biohit Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "BIOBV.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 38774260.0,
+        "ebit": 2947000.0,
+        "enterprise_value": 37163596.0,
+        "invested_capital": 7490000.0
+      }
+    },
+    {
+      "ticker": "GLA1V",
+      "company": "Glaston Oyj Abp",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "GLA1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 46459804.0,
+        "ebit": 3771000.0,
+        "enterprise_value": 76306832.0,
+        "invested_capital": 28026000.0
+      }
+    },
+    {
+      "ticker": "RAP1V",
+      "company": "Rapala VMC Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "RAP1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 39083084.0,
+        "ebit": 1700000.0,
+        "enterprise_value": 112911136.0,
+        "invested_capital": 101700000.0
+      }
+    },
+    {
       "ticker": "EXL1V",
       "company": "Exel Composites Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -4780,6 +4857,44 @@
         "ebit": -3923000.0,
         "enterprise_value": 75245872.0,
         "invested_capital": 25117000.0
+      }
+    },
+    {
+      "ticker": "CTH1V",
+      "company": "Componenta Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "CTH1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 44098796.0,
+        "ebit": 4252000.0,
+        "enterprise_value": 45891056.0,
+        "invested_capital": 36463000.0
+      }
+    },
+    {
+      "ticker": "ACG1V",
+      "company": "Aspocomp Group Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ACG1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 36185256.0,
+        "ebit": 905000.0,
+        "enterprise_value": 37384172.0,
+        "invested_capital": 12974000.0
       }
     },
     {
@@ -4802,13 +4917,32 @@
       }
     },
     {
+      "ticker": "SIILI",
+      "company": "Siili Solutions Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "SIILI.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 22947238.0,
+        "ebit": 1015000.0,
+        "enterprise_value": 26695496.0,
+        "invested_capital": 6257000.0
+      }
+    },
+    {
       "ticker": "TULAV",
       "company": "Tulikivi Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -4827,7 +4961,7 @@
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -4840,13 +4974,127 @@
       }
     },
     {
+      "ticker": "WUF1V",
+      "company": "Wulff-Yhtiöt Oyj",
+      "sector": "Administrative and support service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "WUF1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 22902532.0,
+        "ebit": 4530000.0,
+        "enterprise_value": 68736168.0,
+        "invested_capital": 16927000.0
+      }
+    },
+    {
+      "ticker": "LAMOR",
+      "company": "Lamor Corporation Oyj",
+      "sector": "Water supply; sewerage, waste management and remediation activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "LAMOR.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 26959974.0,
+        "ebit": 3750000.0,
+        "enterprise_value": 76575136.0,
+        "invested_capital": 42499000.0
+      }
+    },
+    {
+      "ticker": "ROBIT",
+      "company": "Robit Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ROBIT.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 22727160.0,
+        "ebit": 1137000.0,
+        "enterprise_value": 38792788.0,
+        "invested_capital": 53583000.0
+      }
+    },
+    {
+      "ticker": "REKA",
+      "company": "Reka Industrial Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "REKA.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 24582922.0,
+        "ebit": 2054000.0,
+        "enterprise_value": 4332840.0,
+        "invested_capital": 37544000.0
+      }
+    },
+    {
+      "ticker": "OVARO",
+      "company": "Ovaro Kiinteistösijoitus Oyj",
+      "sector": "Real estate activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "OVARO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 25701810.0,
+        "ebit": 4899000.0,
+        "enterprise_value": 31629792.0,
+        "invested_capital": 771000.0
+      }
+    },
+    {
+      "ticker": "INVEST",
+      "company": "Investors House Oyj",
+      "sector": "Real estate activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "INVEST.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 25224570.0,
+        "ebit": 5301000.0,
+        "enterprise_value": 34712572.0,
+        "invested_capital": 2726000.0
+      }
+    },
+    {
       "ticker": "PUMU",
       "company": "Rebl Group Oyj",
       "sector": "Professional, scientific and technical activities",
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -4865,7 +5113,7 @@
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -4903,8 +5151,7 @@
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
-        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -4923,7 +5170,7 @@
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -4942,8 +5189,7 @@
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
-        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
+        "Yleis­hyödyllinen yhtiö (utility) on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -4962,7 +5208,7 @@
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -4975,13 +5221,32 @@
       }
     },
     {
+      "ticker": "ELEAV",
+      "company": "Elecster Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ELEAV.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 9745101.0,
+        "ebit": 361000.0,
+        "enterprise_value": 13009102.0,
+        "invested_capital": 27206000.0
+      }
+    },
+    {
       "ticker": "SOLTEQ",
       "company": "Solteq Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -5000,8 +5265,7 @@
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.",
-        "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -5014,13 +5278,32 @@
       }
     },
     {
+      "ticker": "TRH1V",
+      "company": "Trainers' House Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "TRH1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 5197739.0,
+        "ebit": 461612.46,
+        "enterprise_value": 4041521.0,
+        "invested_capital": 1109347.15
+      }
+    },
+    {
       "ticker": "MARAS",
       "company": "Martela Oyj",
       "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2025-12-31",
@@ -5080,9 +5363,28 @@
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+        "Yleis­hyödyllinen yhtiö (utility) on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
       ],
       "financial_snapshot": null
+    },
+    {
+      "ticker": "SIEVI",
+      "company": "KH Group Plc",
+      "sector": "Wholesale and retail trade",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "KHG.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 33221130.0,
+        "ebit": 5613000.0,
+        "enterprise_value": 102205920.0,
+        "invested_capital": 76283000.0
+      }
     },
     {
       "ticker": "LEHTO",
@@ -5129,13 +5431,32 @@
       "financial_snapshot": null
     },
     {
+      "ticker": "TMTR",
+      "company": "Tamtron Group Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "reasons": [
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
+      ],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "TAMTRON.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 38940056.0,
+        "ebit": 1910000.0,
+        "enterprise_value": 47158168.0,
+        "invested_capital": 11609000.0
+      }
+    },
+    {
       "ticker": "WITM",
       "company": "Witted Megacorp Oy",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
       "reasons": [
-        "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen."
+        "Markkina-arvo on alle 50 M€, joten yhtiö rajataan ulos universesta."
       ],
       "financial_snapshot": {
         "statement_date": "2024-12-31",
@@ -5146,6 +5467,281 @@
         "enterprise_value": 20247834.0,
         "invested_capital": 6394661.05
       }
+    },
+    {
+      "ticker": "ABB",
+      "company": "ABB Ltd",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Ulkomainen yhtiö on rajattu pois Greenblatt-rajauksen mukaisesti."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ALFA",
+      "company": "Alfa Laval AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ASSA-B",
+      "company": "ASSA ABLOY AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ATCO-A",
+      "company": "Atlas Copco AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ATCO-B",
+      "company": "Atlas Copco AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "AZN",
+      "company": "AstraZeneca PLC",
+      "sector": "Human health and social work activities",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Ulkomainen yhtiö on rajattu pois Greenblatt-rajauksen mukaisesti."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "BOL",
+      "company": "Boliden AB",
+      "sector": "Mining and quarrying",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ELUX-B",
+      "company": "Electrolux AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ERIC-B",
+      "company": "Telefonaktiebolaget LM Ericsson",
+      "sector": "Information and communication",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "ESSITY-B",
+      "company": "Essity AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "EVO",
+      "company": "Evolution AB",
+      "sector": "Arts and entertainment",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "GETI-B",
+      "company": "Getinge AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "HEXA-B",
+      "company": "Hexagon AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "HM-B",
+      "company": "H & M Hennes & Mauritz AB",
+      "sector": "Wholesale and retail trade",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "INVE-B",
+      "company": "Investor AB",
+      "sector": "Financial and insurance activities",
+      "exchange": "STO",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "NDA-SE",
+      "company": "Nordea Bank Abp",
+      "sector": "Financial and insurance activities",
+      "exchange": "STO",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SAND",
+      "company": "Sandvik AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SEB-A",
+      "company": "Skandinaviska Enskilda Banken AB",
+      "sector": "Financial and insurance activities",
+      "exchange": "STO",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SHB-A",
+      "company": "Svenska Handelsbanken AB",
+      "sector": "Financial and insurance activities",
+      "exchange": "STO",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SKF-B",
+      "company": "AB SKF",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SCA-B",
+      "company": "Svenska Cellulosa AB",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "SWED-A",
+      "company": "Swedbank AB",
+      "sector": "Financial and insurance activities",
+      "exchange": "STO",
+      "is_financial": true,
+      "reasons": [
+        "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "TEL2-B",
+      "company": "Tele2 AB",
+      "sector": "Information and communication",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "TELIA",
+      "company": "Telia Company AB",
+      "sector": "Information and communication",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
+    },
+    {
+      "ticker": "VOLV-B",
+      "company": "AB Volvo",
+      "sector": "Manufacturing",
+      "exchange": "STO",
+      "is_financial": false,
+      "reasons": [
+        "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä."
+      ],
+      "financial_snapshot": null
     }
   ]
 }

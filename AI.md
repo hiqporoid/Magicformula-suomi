@@ -33,6 +33,7 @@ Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka kesk
 ## Repon workflow
 1. Paivita suunnitelma (`PLANS.md`) ennen isompaa toteutusta.
 2. Paivita tarvittaessa `python_pipeline/data/main_market_universe.csv` (sis. `exchange`, esim. `HEL`).
+   - Voit tuoda yhdistetyn HEL+STO-listan tiedostoon `/tmp/nordic_universe.csv` (kentat: `ticker_yf,ticker_local,company,sector,country,exchange`) ja ajaa `python python_pipeline/scripts/import_nordic_universe.py`.
 3. Generoi financials-taulu komennolla `python python_pipeline/scripts/generate_financials_csv.py`.
 4. Aja JSON-export komennolla `python python_pipeline/scripts/export_ranking_json.py`.
 5. Aja universe-audit komennolla `python python_pipeline/scripts/audit_universe.py`.

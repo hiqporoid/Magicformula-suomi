@@ -72,3 +72,15 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 19. Tilanne / virhe: Pelkkä testien läpimeno ei yksin kerro, onko universen kattavuus, poissulkujen rakenne ja rank-sekvenssi liiketoimintalogiikan näkökulmasta järkevä jokaisessa export-ajossa.
    Korjaus: Lisättiin erillinen audit-skripti, joka tuottaa helposti luettavan laatuyhteenvedon (`raw/ranked/excluded`, exchange-jakauma, poissulkusyyt, rank-eheys) ennen deployta.
    Uudelleenkäytettävä malli tai sääntö: Pidä data-pipelineen aina mukana yksi ihmisen luettava audit-askel testien rinnalla; se paljastaa nopeasti regressiot, joita yksikkötestit eivät yksin tee näkyväksi.
+20. Tilanne / virhe: Kun monipörssidata lisätään yhdellä kertaa, pienikin CSV-skeemavirhe (esim. pilkut sektorikentässä ilman oikein rajattua saraketta) voi vääristää exchange-jakauman auditissa.
+   Korjaus: Vakiinnutettiin STO-universelle yksinkertainen nelikenttäskeema (`ticker,company,sector,exchange`) ja varmistettiin auditilla, että exchange-jakauma on odotettu (HEL+STO ilman roskaluokkia).
+   Uudelleenkäytettävä malli tai sääntö: Kun tuodaan uusi markkina sisään nopeasti, pidä syöteformaatti aluksi mahdollisimman konservatiivisena ja anna datan rikastuksen tapahtua myöhemmässä vaiheessa pipeline-logiikassa, ei CSV-rakenteessa.
+21. Tilanne / virhe: Greenblatt-rajauksen kirjallinen vaatimus (financials + utilities + foreign companies) ei toteudu automaattisesti, jos universedatassa ei ole pÃ¶rssiin suhteutettua kotimaa-attribuuttia.
+   Korjaus: Lisättiin `country` universeriveille ja johdettiin `is_foreign_to_exchange` exchange-country -säännöllä, jolloin metodologinen poissulku voidaan toteuttaa deterministisesti.
+   Uudelleenkäytettävä malli tai sääntö: Kun metodologinen rajaus viittaa "foreign"-käsitteeseen, tee siitä eksplisiittinen datakenttä + yksiselitteinen sääntö, älä jätä tulkinnan varaan tickerin tai nimen perusteella.
+22. Tilanne / virhe: Markkina-arvorajaus voi jäädä epädeterministiseksi, jos se tehdään vain manuaalisessa universe-vaiheessa eikä eligibility-logiikassa, joka ajaa jokaisella export-kierroksella.
+   Korjaus: Siirrettiin 50 M€ -raja eksplisiittiseksi eligibility-säännöksi (`market_cap_below_threshold`), jolloin se pakottaa rajauksen jatkuvasti riippumatta syöttölistan laadusta.
+   Uudelleenkäytettävä malli tai sääntö: Kun rajaus halutaan päteväksi "aina", toteuta se sekä datanhankinnan suodattimena että rankingin kelpoisuussääntönä.
+23. Tilanne / virhe: Kun ulkoinen pörssiticker-lista saadaan kertatoimituksena, manuaalinen kopiointi kahteen universe-CSV:hen aiheuttaa helposti duplikaatteja ja skeemavirheitä.
+   Korjaus: Tehtiin yksi import-skripti, joka lukee standardoidun väliformaatin ja tuottaa HEL/STO-universet deterministisesti samalla logiikalla.
+   Uudelleenkäytettävä malli tai sääntö: Kun data tulee ulkopuolelta isona listana, tee aina ensin kapea ingest-formaatti + automaattinen splitteri ennen varsinaista pipelinea.
