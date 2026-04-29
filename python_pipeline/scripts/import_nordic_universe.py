@@ -7,6 +7,8 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 INPUT_PATH = Path('/tmp/nordic_universe.csv')
 HEL_PATH = REPO_ROOT / 'python_pipeline' / 'data' / 'main_market_universe.csv'
 STO_PATH = REPO_ROOT / 'python_pipeline' / 'data' / 'stockholm_main_market_universe.csv'
+EXPECTED_HEL_MIN = 96
+EXPECTED_STO_MIN = 151
 
 
 def normalize_ticker(ticker_local: str, ticker_yf: str) -> str:
@@ -53,6 +55,14 @@ def main() -> None:
 
     print(f'HEL rows: {len(out["HEL"])} -> {HEL_PATH}')
     print(f'STO rows: {len(out["STO"])} -> {STO_PATH}')
+
+    if len(out['HEL']) < EXPECTED_HEL_MIN or len(out['STO']) < EXPECTED_STO_MIN:
+        hel_count = len(out['HEL'])
+        sto_count = len(out['STO'])
+        raise SystemExit(
+            f'Universe incomplete: HEL={hel_count} (min {EXPECTED_HEL_MIN}), '
+            f'STO={sto_count} (min {EXPECTED_STO_MIN}).'
+        )
 
 
 if __name__ == '__main__':

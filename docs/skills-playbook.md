@@ -16,7 +16,9 @@
 
 ## Pörssilaajennuksen (HEL -> HEL+STO) checklista
 1. Päivitä universe skeemaan `exchange`.
-2. Lisää symboliresoluutio financials-generaattoriin.
-3. Aja export ja varmista pörssikohtaiset lukumäärät.
-4. Lisää UI:hin pörssisuodatin.
-5. Päivitä metodologia- ja disclaimer-dokumentit ennen mergeä.
+2. Hae täysi HEL+STO ticker-lista (>=50M) skriptillä `python python_pipeline/scripts/fetch_nordic_universe.py`.
+3. Tuo generoitu `/tmp/nordic_universe.csv` skriptillä `python python_pipeline/scripts/import_nordic_universe.py`.
+4. Lisää symboliresoluutio financials-generaattoriin.
+5. Aja export ja varmista pörssikohtaiset lukumäärät.
+6. Lisää UI:hin pörssisuodatin.
+7. Päivitä metodologia- ja disclaimer-dokumentit ennen mergeä.

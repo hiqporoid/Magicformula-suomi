@@ -84,3 +84,9 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 23. Tilanne / virhe: Kun ulkoinen pörssiticker-lista saadaan kertatoimituksena, manuaalinen kopiointi kahteen universe-CSV:hen aiheuttaa helposti duplikaatteja ja skeemavirheitä.
    Korjaus: Tehtiin yksi import-skripti, joka lukee standardoidun väliformaatin ja tuottaa HEL/STO-universet deterministisesti samalla logiikalla.
    Uudelleenkäytettävä malli tai sääntö: Kun data tulee ulkopuolelta isona listana, tee aina ensin kapea ingest-formaatti + automaattinen splitteri ennen varsinaista pipelinea.
+24. Tilanne / virhe: Ilman automaattista universen lähdehakua projektiin jää helposti osittainen ticker-lista, vaikka importti- ja ranking-putki muuten toimivat.
+   Korjaus: Lisättiin erillinen fetch-skripti (`fetch_nordic_universe.py`) joka muodostaa koko HEL+STO universen samalla markkina-arvosuodattimella ennen importtia.
+   Uudelleenkäytettävä malli tai sääntö: Kun tavoite on "kaikki pörssiyhtiöt", universen päivitys pitää automatisoida datalähteestä asti, ei vain import-vaiheesta eteenpäin.
+25. Tilanne / virhe: Vaikka fetch/import-työkalut olisivat olemassa, osittainen syötelista voi silti livahtaa sisään ja näyttää "valmiilta" ilman kovaa kattavuuskriteeriä.
+   Korjaus: Importtiin lisättiin eksplisiittinen kattavuuslukko (HEL/STO minimit), joka failaa ajon ennen datan jatkokäsittelyä.
+   Uudelleenkäytettävä malli tai sääntö: Kun liiketoimintavaatimus on "kaikki yhtiöt", kirjoita vaatimus koneen tarkistettavaksi minimi-/odotusarvoehdoksi heti ingest-vaiheeseen.

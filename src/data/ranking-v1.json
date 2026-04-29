@@ -3571,13 +3571,13 @@
       "quality_score": 46.14,
       "validation_warnings": [],
       "financial_snapshot": {
-        "statement_date": "2025-12-31",
-        "source_symbol": "REKA.HE",
+        "statement_date": "2025-10-31",
+        "source_symbol": "SAGCV.HE",
         "ev_source": "reported_enterprise_value",
-        "market_cap": 24582922.0,
-        "ebit": 2054000.0,
-        "enterprise_value": 4332840.0,
-        "invested_capital": 37544000.0
+        "market_cap": 51462072.0,
+        "ebit": 4748000.0,
+        "enterprise_value": 1669371.0,
+        "invested_capital": 83106000.0
       }
     },
     {
