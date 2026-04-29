@@ -7,7 +7,6 @@ class UniverseCompany:
     company: str
     sector: str | None = None
     exchange: str = "HEL"
-    country: str | None = None
 
     @property
     def is_financial(self) -> bool:

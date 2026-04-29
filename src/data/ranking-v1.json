@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T17:06:34.064848+00:00",
+  "generated_at": "2026-04-29T16:32:04.975897+00:00",
   "universe": "Nasdaq Helsinki Main Market",
   "methodology_version": "v1-main-market",
   "universe_source": "Nasdaq Helsinki Main Market -universe",
@@ -2477,10 +2477,11 @@
       }
     },
     {
-      "ticker": "ABB",
-      "company": "ABB Ltd",
-      "sector": "Manufacturing",
-      "exchange": "STO",
+      "rank": 1,
+      "ticker": "ESENSE",
+      "company": "Enersense International Oyj",
+      "sector": "Construction",
+      "exchange": "HEL",
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
@@ -2489,10 +2490,11 @@
       "financial_snapshot": null
     },
     {
-      "ticker": "ALFA",
-      "company": "Alfa Laval AB",
-      "sector": "Manufacturing",
-      "exchange": "STO",
+      "rank": 2,
+      "ticker": "OVARO",
+      "company": "Ovaro Kiinteistösijoitus Oyj",
+      "sector": "Real estate activities",
+      "exchange": "HEL",
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
@@ -2501,10 +2503,11 @@
       "financial_snapshot": null
     },
     {
-      "ticker": "ASSA-B",
-      "company": "ASSA ABLOY AB",
-      "sector": "Manufacturing",
-      "exchange": "STO",
+      "rank": 3,
+      "ticker": "INVEST",
+      "company": "Investors House Oyj",
+      "sector": "Real estate activities",
+      "exchange": "HEL",
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
@@ -2513,10 +2516,11 @@
       "financial_snapshot": null
     },
     {
-      "ticker": "ATCO-A",
-      "company": "Atlas Copco AB",
-      "sector": "Manufacturing",
-      "exchange": "STO",
+      "rank": 4,
+      "ticker": "CONSTI",
+      "company": "Consti Oyj",
+      "sector": "Construction",
+      "exchange": "HEL",
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
@@ -2528,7 +2532,7 @@
       "ticker": "ATCO-B",
       "company": "Atlas Copco AB",
       "sector": "Manufacturing",
-      "exchange": "STO",
+      "exchange": "HEL",
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
@@ -2537,10 +2541,11 @@
       "financial_snapshot": null
     },
     {
-      "ticker": "AZN",
-      "company": "AstraZeneca PLC",
-      "sector": "Human health and social work activities",
-      "exchange": "STO",
+      "rank": 6,
+      "ticker": "DIGIA",
+      "company": "Digia Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "exchange": "HEL",
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
@@ -2549,10 +2554,11 @@
       "financial_snapshot": null
     },
     {
-      "ticker": "BOL",
-      "company": "Boliden AB",
-      "sector": "Mining and quarrying",
-      "exchange": "STO",
+      "rank": 7,
+      "ticker": "TRH1V",
+      "company": "Trainers' House Oyj",
+      "sector": "Professional, scientific and technical activities",
+      "exchange": "HEL",
       "is_financial": false,
       "status": "excluded",
       "exclusion_reasons": [
@@ -2889,7 +2895,29 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 9,
+      "ticker": "GRK",
+      "company": "GRK Infra Oyj",
+      "sector": "Construction",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 44,
+      "ebit_ev": 0.198594,
+      "roc": 0.250969,
+      "quality_score": 50.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "GRK.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 512934816.0,
+        "ebit": 54174000.0,
+        "enterprise_value": 272787840.0,
+        "invested_capital": 215859000.0
+      }
+    },
+    {
+      "rank": 10,
       "ticker": "CTY1S",
       "company": "Citycon Oyj",
       "sector": "Real estate activities",
@@ -2977,7 +3005,29 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 13,
+      "ticker": "NLG1V",
+      "company": "Nurminen Logistics Oyj",
+      "sector": "Transportation and storage",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 50,
+      "ebit_ev": 0.164962,
+      "roc": 0.229515,
+      "quality_score": 50.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "NLG1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 70725352.0,
+        "ebit": 13579000.0,
+        "enterprise_value": 82315800.0,
+        "invested_capital": 59164000.0
+      }
+    },
+    {
+      "rank": 14,
       "ticker": "QTCOM",
       "company": "Qt Group Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
@@ -3065,10 +3115,10 @@
       }
     },
     {
-      "rank": 14,
-      "ticker": "NLG1V",
-      "company": "Nurminen Logistics Oyj",
-      "sector": "Transportation and storage",
+      "rank": 17,
+      "ticker": "VALMT",
+      "company": "Valmet Oyj",
+      "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
       "magic_formula_score": 44,
@@ -3131,7 +3181,51 @@
       }
     },
     {
-      "rank": 17,
+      "rank": 20,
+      "ticker": "TEM1V",
+      "company": "Tecnotree Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 54,
+      "ebit_ev": 0.15571,
+      "roc": 0.205456,
+      "quality_score": 47.82,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "TEM1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 131545704.0,
+        "ebit": 16402000.0,
+        "enterprise_value": 105336816.0,
+        "invested_capital": 79832000.0
+      }
+    },
+    {
+      "rank": 21,
+      "ticker": "BIOBV",
+      "company": "Biohit Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 55,
+      "ebit_ev": 0.079298,
+      "roc": 0.393458,
+      "quality_score": 50.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "BIOBV.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 38774260.0,
+        "ebit": 2947000.0,
+        "enterprise_value": 37163596.0,
+        "invested_capital": 7490000.0
+      }
+    },
+    {
+      "rank": 22,
       "ticker": "OLVAS",
       "company": "Olvi Oyj",
       "sector": "Manufacturing",
@@ -3395,10 +3489,32 @@
       }
     },
     {
-      "rank": 29,
-      "ticker": "HKSAV",
-      "company": "HKScan Oyj",
-      "sector": "Manufacturing",
+      "rank": 32,
+      "ticker": "ENENTO",
+      "company": "Enento Group Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 73,
+      "ebit_ev": 0.048295,
+      "roc": 1.864401,
+      "quality_score": 28.38,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ENENTO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 376911456.0,
+        "ebit": 23814000.0,
+        "enterprise_value": 493091104.0,
+        "invested_capital": 12773000.0
+      }
+    },
+    {
+      "rank": 33,
+      "ticker": "ELISA",
+      "company": "Elisa Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
       "magic_formula_score": 63,
@@ -3461,10 +3577,10 @@
       }
     },
     {
-      "rank": 32,
-      "ticker": "ELISA",
-      "company": "Elisa Oyj",
-      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "rank": 36,
+      "ticker": "CGCBV",
+      "company": "Hiab Oyj",
+      "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
       "magic_formula_score": 65,
@@ -3571,7 +3687,29 @@
       }
     },
     {
-      "rank": 37,
+      "rank": 41,
+      "ticker": "NOHO",
+      "company": "NoHo Partners Oyj",
+      "sector": "Accommodation and food service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 82,
+      "ebit_ev": 0.068143,
+      "roc": 0.252705,
+      "quality_score": 27.43,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "NOHO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 148152608.0,
+        "ebit": 32700000.0,
+        "enterprise_value": 479873504.0,
+        "invested_capital": 129400000.0
+      }
+    },
+    {
+      "rank": 42,
       "ticker": "SAGCV",
       "company": "Saga Furs Oyj",
       "sector": "Wholesale and retail trade",
@@ -3593,10 +3731,32 @@
       }
     },
     {
-      "rank": 38,
-      "ticker": "ASUNTO",
-      "company": "Asuntosalkku Oyj",
-      "sector": "Real estate activities",
+      "rank": 43,
+      "ticker": "WUF1V",
+      "company": "Wulff-Yhtiöt Oyj",
+      "sector": "Administrative and support service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 83,
+      "ebit_ev": 0.065904,
+      "roc": 0.26762,
+      "quality_score": 39.9,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "WUF1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 22902532.0,
+        "ebit": 4530000.0,
+        "enterprise_value": 68736168.0,
+        "invested_capital": 16927000.0
+      }
+    },
+    {
+      "rank": 44,
+      "ticker": "REKA",
+      "company": "Reka Industrial Oyj",
+      "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
       "magic_formula_score": 70,
@@ -3681,7 +3841,29 @@
       }
     },
     {
-      "rank": 42,
+      "rank": 47,
+      "ticker": "ASUNTO",
+      "company": "Asuntosalkku Oyj",
+      "sector": "Real estate activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 87,
+      "ebit_ev": 0.026077,
+      "roc": 1.058703,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-09-30",
+        "source_symbol": "ASUNTO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 73174376.0,
+        "ebit": 5663000.0,
+        "enterprise_value": 217167696.0,
+        "invested_capital": 5349000.0
+      }
+    },
+    {
+      "rank": 48,
       "ticker": "HUH1V",
       "company": "Huhtamäki Oyj",
       "sector": "Manufacturing",
@@ -3703,7 +3885,29 @@
       }
     },
     {
-      "rank": 43,
+      "rank": 49,
+      "ticker": "MOCORP",
+      "company": "Metso Outotec Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 88,
+      "ebit_ev": 0.054701,
+      "roc": 0.342993,
+      "quality_score": 43.7,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "METSO.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 11941396480.0,
+        "ebit": 722000000.0,
+        "enterprise_value": 13199050752.0,
+        "invested_capital": 2105000000.0
+      }
+    },
+    {
+      "rank": 50,
       "ticker": "STEAV",
       "company": "Stora Enso Oyj",
       "sector": "Manufacturing",
@@ -3791,7 +3995,29 @@
       }
     },
     {
-      "rank": 47,
+      "rank": 53,
+      "ticker": "CTH1V",
+      "company": "Componenta Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 92,
+      "ebit_ev": 0.092654,
+      "roc": 0.116611,
+      "quality_score": 44.99,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "CTH1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 44098796.0,
+        "ebit": 4252000.0,
+        "enterprise_value": 45891056.0,
+        "invested_capital": 36463000.0
+      }
+    },
+    {
+      "rank": 54,
       "ticker": "ANORA",
       "company": "Anora Group Oyj",
       "sector": "Manufacturing",
@@ -3857,7 +4083,29 @@
       }
     },
     {
-      "rank": 50,
+      "rank": 57,
+      "ticker": "TLT1V",
+      "company": "Teleste Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 103,
+      "ebit_ev": 0.062307,
+      "roc": 0.144813,
+      "quality_score": 34.54,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "TLT1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 61960480.0,
+        "ebit": 5088000.0,
+        "enterprise_value": 81659952.0,
+        "invested_capital": 35135000.0
+      }
+    },
+    {
+      "rank": 58,
       "ticker": "VAIAS",
       "company": "Vaisala Oyj",
       "sector": "Manufacturing",
@@ -3879,10 +4127,10 @@
       }
     },
     {
-      "rank": 51,
-      "ticker": "TIETO",
-      "company": "TietoEVRY Oyj",
-      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "rank": 59,
+      "ticker": "SCANFL",
+      "company": "Scanfil Oyj",
+      "sector": "Manufacturing",
       "exchange": "HEL",
       "is_financial": false,
       "magic_formula_score": 89,
@@ -3967,10 +4215,10 @@
       }
     },
     {
-      "rank": 55,
-      "ticker": "SCANFL",
-      "company": "Scanfil Oyj",
-      "sector": "Manufacturing",
+      "rank": 61,
+      "ticker": "STOCKA",
+      "company": "Lindex Group",
+      "sector": "Wholesale and retail trade",
       "exchange": "HEL",
       "is_financial": false,
       "magic_formula_score": 93,
@@ -3989,10 +4237,10 @@
       }
     },
     {
-      "rank": 56,
-      "ticker": "FIA1S",
-      "company": "Finnair Oyj",
-      "sector": "Transportation and storage",
+      "rank": 62,
+      "ticker": "TIETO",
+      "company": "TietoEVRY Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
       "exchange": "HEL",
       "is_financial": false,
       "magic_formula_score": 94,
@@ -4077,7 +4325,29 @@
       }
     },
     {
-      "rank": 60,
+      "rank": 66,
+      "ticker": "FIA1S",
+      "company": "Finnair Oyj",
+      "sector": "Transportation and storage",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 113,
+      "ebit_ev": 0.084503,
+      "roc": 0.050808,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "FIA1S.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 635444608.0,
+        "ebit": 99000000.0,
+        "enterprise_value": 1171557248.0,
+        "invested_capital": 1948500000.0
+      }
+    },
+    {
+      "rank": 67,
       "ticker": "TOKMAN",
       "company": "Tokmanni Group Oyj",
       "sector": "Wholesale and retail trade",
@@ -4099,7 +4369,51 @@
       }
     },
     {
-      "rank": 61,
+      "rank": 68,
+      "ticker": "GLA1V",
+      "company": "Glaston Oyj Abp",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 122,
+      "ebit_ev": 0.049419,
+      "roc": 0.134554,
+      "quality_score": 35.18,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "GLA1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 46459804.0,
+        "ebit": 3771000.0,
+        "enterprise_value": 76306832.0,
+        "invested_capital": 28026000.0
+      }
+    },
+    {
+      "rank": 69,
+      "ticker": "TMTR",
+      "company": "Tamtron Group Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 123,
+      "ebit_ev": 0.040502,
+      "roc": 0.164528,
+      "quality_score": 44.29,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "TAMTRON.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 38940056.0,
+        "ebit": 1910000.0,
+        "enterprise_value": 47158168.0,
+        "invested_capital": 11609000.0
+      }
+    },
+    {
+      "rank": 70,
       "ticker": "BITTI",
       "company": "Bittium Oyj",
       "sector": "Manufacturing",
@@ -4121,7 +4435,51 @@
       }
     },
     {
-      "rank": 62,
+      "rank": 71,
+      "ticker": "FORTUM",
+      "company": "Fortum Oyj",
+      "sector": "Electricity, gas, steam and air conditioning supply",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 126,
+      "ebit_ev": 0.051546,
+      "roc": 0.120653,
+      "quality_score": 30.85,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "FORTUM.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 19111731200.0,
+        "ebit": 1124000000.0,
+        "enterprise_value": 21805762560.0,
+        "invested_capital": 9316000000.0
+      }
+    },
+    {
+      "rank": 72,
+      "ticker": "SIILI",
+      "company": "Siili Solutions Oyj",
+      "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 127,
+      "ebit_ev": 0.038021,
+      "roc": 0.162218,
+      "quality_score": 34.47,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "SIILI.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 22947238.0,
+        "ebit": 1015000.0,
+        "enterprise_value": 26695496.0,
+        "invested_capital": 6257000.0
+      }
+    },
+    {
+      "rank": 73,
       "ticker": "KOSKI",
       "company": "Koskisen Oyj",
       "sector": "Manufacturing",
@@ -4143,7 +4501,29 @@
       }
     },
     {
-      "rank": 63,
+      "rank": 74,
+      "ticker": "SIEVI",
+      "company": "KH Group Plc",
+      "sector": "Wholesale and retail trade",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 134,
+      "ebit_ev": 0.054919,
+      "roc": 0.073581,
+      "quality_score": 40.25,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "KHG.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 33221130.0,
+        "ebit": 5613000.0,
+        "enterprise_value": 102205920.0,
+        "invested_capital": 76283000.0
+      }
+    },
+    {
+      "rank": 75,
       "ticker": "TNOM",
       "company": "Talenom Oyj",
       "sector": "Professional, scientific and technical activities",
@@ -4187,7 +4567,29 @@
       }
     },
     {
-      "rank": 65,
+      "rank": 77,
+      "ticker": "LAMOR",
+      "company": "Lamor Corporation Oyj",
+      "sector": "Water supply; sewerage, waste management and remediation activities",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 139,
+      "ebit_ev": 0.048972,
+      "roc": 0.088237,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "LAMOR.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 26959974.0,
+        "ebit": 3750000.0,
+        "enterprise_value": 76575136.0,
+        "invested_capital": 42499000.0
+      }
+    },
+    {
+      "rank": 78,
       "ticker": "NOKIA",
       "company": "Nokia Oyj",
       "sector": "Telecommunications, computer programming, consultancy, computing infrastructure, and other information service activities",
@@ -4275,7 +4677,73 @@
       }
     },
     {
-      "rank": 69,
+      "rank": 82,
+      "ticker": "ACG1V",
+      "company": "Aspocomp Group Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 158,
+      "ebit_ev": 0.024208,
+      "roc": 0.069755,
+      "quality_score": 48.71,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ACG1V.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 36185256.0,
+        "ebit": 905000.0,
+        "enterprise_value": 37384172.0,
+        "invested_capital": 12974000.0
+      }
+    },
+    {
+      "rank": 83,
+      "ticker": "ROBIT",
+      "company": "Robit Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 162,
+      "ebit_ev": 0.02931,
+      "roc": 0.021219,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ROBIT.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 22727160.0,
+        "ebit": 1137000.0,
+        "enterprise_value": 38792788.0,
+        "invested_capital": 53583000.0
+      }
+    },
+    {
+      "rank": 84,
+      "ticker": "ELEAV",
+      "company": "Elecster Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 166,
+      "ebit_ev": 0.02775,
+      "roc": 0.013269,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "ELEAV.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 9745101.0,
+        "ebit": 361000.0,
+        "enterprise_value": 13009102.0,
+        "invested_capital": 27206000.0
+      }
+    },
+    {
+      "rank": 85,
       "ticker": "MUSTI",
       "company": "Musti Group Oyj",
       "sector": "Wholesale and retail trade",
@@ -4311,6 +4779,28 @@
       "financial_snapshot": {
         "statement_date": "2025-12-31",
         "source_symbol": "NESTE.HE",
+        "ev_source": "reported_enterprise_value",
+        "market_cap": 22610305024.0,
+        "ebit": 350000000.0,
+        "enterprise_value": 25089509376.0,
+        "invested_capital": 11642000000.0
+      }
+    },
+    {
+      "rank": 87,
+      "ticker": "RAP1V",
+      "company": "Rapala VMC Oyj",
+      "sector": "Manufacturing",
+      "exchange": "HEL",
+      "is_financial": false,
+      "magic_formula_score": 171,
+      "ebit_ev": 0.015056,
+      "roc": 0.016716,
+      "quality_score": 25.0,
+      "validation_warnings": [],
+      "financial_snapshot": {
+        "statement_date": "2025-12-31",
+        "source_symbol": "RAP1V.HE",
         "ev_source": "reported_enterprise_value",
         "market_cap": 22610305024.0,
         "ebit": 350000000.0,

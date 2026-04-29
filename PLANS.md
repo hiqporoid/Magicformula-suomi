@@ -60,7 +60,7 @@
 16. [x] Methodology and density pass
    - Typografia ja spacing tiivistetty finance-dashboard -henkisiksi
    - Metodologiasivu tiivistetty laskentaselosteeksi lähteineen
-17. [x] Nordic expansion readiness + exchange filter
+17. [ ] Nordic expansion readiness + exchange filter
    - Varmista universen kattavuus ja poissulkujen laatu Helsingin päälistalla audit-scriptillä
    - Lisää exchange-kenttä universen skeemaan ja UI:hin pörssisuodatin (HEL valmisteltu, STO seuraava)
    - Dokumentoi Ruotsi-laajennuksen minimivaatimukset (uusi universe + financials-symbolikartta + disclaimer-päivitys)

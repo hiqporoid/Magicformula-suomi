@@ -21,16 +21,13 @@ def normalize_universe_company(raw: dict) -> UniverseCompany:
     company = str(raw.get("company", "")).strip()
     sector = str(raw.get("sector", "")).strip() or None
     exchange = str(raw.get("exchange", "HEL")).strip().upper() or "HEL"
-    country = str(raw.get("country", "")).strip().upper() or None
-    if country is None:
-        country = {"HEL": "FI", "STO": "SE"}.get(exchange)
 
     if not ticker:
         raise ValueError("Universe-riviltä puuttuu ticker")
     if not company:
         raise ValueError(f"Universe-riviltä puuttuu yhtiön nimi: {ticker}")
 
-    return UniverseCompany(ticker=ticker, company=company, sector=sector, exchange=exchange, country=country)
+    return UniverseCompany(ticker=ticker, company=company, sector=sector, exchange=exchange)
 
 
 def dedupe_codes(codes: list[str]) -> list[str]:
