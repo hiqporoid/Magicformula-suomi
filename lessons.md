@@ -96,3 +96,6 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 27. Tilanne / virhe: Jos `progress.md`/`lessons.md` ei lueta aktiivisesti ennen työn aloitusta, aiemmat päätökset (esim. datan kattavuuslukko, raw-universe-suodatinlogiikka) voivat unohtua ja samoja virheitä toistuu.
    Korjaus: Otettiin käyttöön pakollinen pre/post-rutiini: lue `progress.md` ja `lessons.md` ennen toteutusta sekä heti lopuksi ennen commitia, ja kirjaa uusi oppi sekä seuraava askel aikajärjestyksessä.
    Uudelleenkäytettävä malli tai sääntö: Käsittele `progress.md`/`lessons.md` projektin operatiivisena tilamuistina; ne ovat osa toteutusprosessia, eivät pelkkää jälkidokumentaatiota.
+28. Tilanne / virhe: Jos Data Refresh -workflow päivittää vain financials/exportin mutta ei universetiedostoja, monipörssiprojekti jää helposti tilanteeseen jossa ranking-ajot eivät heijasta uusinta tickerijoukkoa.
+   Korjaus: Workflowyn lisättiin fetch+import-vaiheet sekä universe-CSV:t mukaan diff-tunnistukseen, artefakteihin ja commit-vaiheeseen.
+   Uudelleenkäytettävä malli tai sääntö: Kun data-pipelineen lisätään uusi upstream-lähde (esim. universe-fetch), se pitää kytkeä CI-putkeen kokonaisuutena, ei vain paikalliseen ajoon.
