@@ -1,0 +1,26 @@
+ticker,company,sector,exchange,country
+ABB,ABB Ltd,Manufacturing,STO,CH
+ALFA,Alfa Laval AB,Manufacturing,STO,SE
+ASSA-B,ASSA ABLOY AB,Manufacturing,STO,SE
+ATCO-A,Atlas Copco AB,Manufacturing,STO,SE
+ATCO-B,Atlas Copco AB,Manufacturing,STO,SE
+AZN,AstraZeneca PLC,Human health and social work activities,STO,GB
+BOL,Boliden AB,Mining and quarrying,STO,SE
+ELUX-B,Electrolux AB,Manufacturing,STO,SE
+ERIC-B,Telefonaktiebolaget LM Ericsson,Information and communication,STO,SE
+ESSITY-B,Essity AB,Manufacturing,STO,SE
+EVO,Evolution AB,Arts and entertainment,STO,SE
+GETI-B,Getinge AB,Manufacturing,STO,SE
+HEXA-B,Hexagon AB,Manufacturing,STO,SE
+HM-B,H & M Hennes & Mauritz AB,Wholesale and retail trade,STO,SE
+INVE-B,Investor AB,Financial and insurance activities,STO,SE
+NDA-SE,Nordea Bank Abp,Financial and insurance activities,STO,FI
+SAND,Sandvik AB,Manufacturing,STO,SE
+SEB-A,Skandinaviska Enskilda Banken AB,Financial and insurance activities,STO,SE
+SHB-A,Svenska Handelsbanken AB,Financial and insurance activities,STO,SE
+SKF-B,AB SKF,Manufacturing,STO,SE
+SCA-B,Svenska Cellulosa AB,Manufacturing,STO,SE
+SWED-A,Swedbank AB,Financial and insurance activities,STO,SE
+TEL2-B,Tele2 AB,Information and communication,STO,SE
+TELIA,Telia Company AB,Information and communication,STO,SE
+VOLV-B,AB Volvo,Manufacturing,STO,SE

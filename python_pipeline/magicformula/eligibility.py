@@ -21,9 +21,25 @@ def assess_company(company: UniverseCompany, financial_row: dict | None) -> tupl
         codes.append("financial_sector_methodology")
         return None, dedupe_codes(codes)
 
+    if company.is_utility:
+        codes.append("utility_sector_methodology")
+        return None, dedupe_codes(codes)
+
+    if company.is_foreign_to_exchange:
+        codes.append("foreign_company_methodology")
+        return None, dedupe_codes(codes)
+
     if financial_row is None:
         codes.append("missing_financial_statements")
         return None, dedupe_codes(codes)
+
+    market_cap_value = financial_row.get("market_cap")
+    try:
+        if market_cap_value not in (None, "") and float(market_cap_value) < 50_000_000:
+            codes.append("market_cap_below_threshold")
+            return None, dedupe_codes(codes)
+    except (TypeError, ValueError):
+        pass
 
     try:
         record = normalize_record(

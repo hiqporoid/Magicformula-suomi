@@ -110,6 +110,7 @@ function parseRow(value: unknown, index: number): RankingRow {
     ticker: readString(value.ticker, `rows[${index}].ticker`),
     company: readString(value.company, `rows[${index}].company`),
     sector: readNullableString(value.sector ?? null, `rows[${index}].sector`),
+    exchange: readString(value.exchange ?? "HEL", `rows[${index}].exchange`),
     isFinancial: readBoolean(value.is_financial, `rows[${index}].is_financial`),
     magicFormulaScore: readNumber(value.magic_formula_score, `rows[${index}].magic_formula_score`),
     ebitEv: readNumber(value.ebit_ev, `rows[${index}].ebit_ev`),
@@ -129,6 +130,7 @@ function parseExcluded(value: unknown, index: number): ExcludedCompany {
     ticker: readString(value.ticker, `excluded[${index}].ticker`),
     company: readString(value.company, `excluded[${index}].company`),
     sector: readNullableString(value.sector ?? null, `excluded[${index}].sector`),
+    exchange: readString(value.exchange ?? "HEL", `excluded[${index}].exchange`),
     isFinancial: readBoolean(value.is_financial, `excluded[${index}].is_financial`),
     reasons: readStringArray(value.reasons, `excluded[${index}].reasons`),
     financialSnapshot: parseFinancialSnapshot(value.financial_snapshot, `excluded[${index}].financial_snapshot`)
@@ -149,6 +151,7 @@ function parseRawUniverse(value: unknown, index: number): UniverseCompany {
     ticker: readString(value.ticker, `raw_universe[${index}].ticker`),
     company: readString(value.company, `raw_universe[${index}].company`),
     sector: readNullableString(value.sector ?? null, `raw_universe[${index}].sector`),
+    exchange: readString(value.exchange ?? "HEL", `raw_universe[${index}].exchange`),
     isFinancial: readBoolean(value.is_financial, `raw_universe[${index}].is_financial`),
     status,
     exclusionReasons: readStringArray(value.exclusion_reasons, `raw_universe[${index}].exclusion_reasons`),
