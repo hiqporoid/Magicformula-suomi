@@ -6,6 +6,7 @@ class UniverseCompany:
     ticker: str
     company: str
     sector: str | None = None
+    exchange: str = "HEL"
 
     @property
     def is_financial(self) -> bool:

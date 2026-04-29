@@ -19,6 +19,7 @@ export type RankingRow = {
   ticker: string;
   company: string;
   sector: string | null;
+  exchange: string;
   isFinancial: boolean;
   magicFormulaScore: number;
   ebitEv: number;
@@ -32,6 +33,7 @@ export type UniverseCompany = {
   ticker: string;
   company: string;
   sector: string | null;
+  exchange: string;
   isFinancial: boolean;
   status: "ranked" | "excluded";
   exclusionReasons: string[];
@@ -42,6 +44,7 @@ export type ExcludedCompany = {
   ticker: string;
   company: string;
   sector: string | null;
+  exchange: string;
   isFinancial: boolean;
   reasons: string[];
   financialSnapshot: FinancialSnapshot | null;
