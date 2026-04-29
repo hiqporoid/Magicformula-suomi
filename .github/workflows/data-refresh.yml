@@ -50,6 +50,9 @@ jobs:
       - name: Export ranking JSON
         run: python python_pipeline/scripts/export_ranking_json.py
 
+      - name: Audit universe and ranking output
+        run: python python_pipeline/scripts/audit_universe.py
+
       - name: Validate ranking JSON output
         run: test -s src/data/ranking-v1.json
 
@@ -88,6 +91,7 @@ jobs:
           echo "- Pipeline tests: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Financials CSV generation: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Ranking JSON export: ok" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Universe audit: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Frontend lint: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Production build: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Dataset changed: ${{ steps.changes.outputs.changed }}" >> "$GITHUB_STEP_SUMMARY"
