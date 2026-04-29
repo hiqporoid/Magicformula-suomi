@@ -90,3 +90,9 @@ Kirjaa opit juoksevasti numeroituna listana muodossa:
 25. Tilanne / virhe: Vaikka fetch/import-työkalut olisivat olemassa, osittainen syötelista voi silti livahtaa sisään ja näyttää "valmiilta" ilman kovaa kattavuuskriteeriä.
    Korjaus: Importtiin lisättiin eksplisiittinen kattavuuslukko (HEL/STO minimit), joka failaa ajon ennen datan jatkokäsittelyä.
    Uudelleenkäytettävä malli tai sääntö: Kun liiketoimintavaatimus on "kaikki yhtiöt", kirjoita vaatimus koneen tarkistettavaksi minimi-/odotusarvoehdoksi heti ingest-vaiheeseen.
+26. Tilanne / virhe: Jos UI:n pörssisuodattimen vaihtoehdot johdetaan vain rankatuista riveistä, kokonainen pörssi voi "kadota" käyttöliittymästä silloin kun sen yhtiöt ovat hetkellisesti kaikki excluded-tilassa.
+   Korjaus: Suodattimen vaihtoehdot sidottiin raw-universeen, joka kuvaa todellisen syöteuniversen eikä vain läpäisseitä rivejä.
+   Uudelleenkäytettävä malli tai sääntö: Suodatinvaihtoehtojen tulee perustua lähdeuniversen dimensioihin, ei suodatetun lopputuloksen alijoukkoon.
+27. Tilanne / virhe: Jos `progress.md`/`lessons.md` ei lueta aktiivisesti ennen työn aloitusta, aiemmat päätökset (esim. datan kattavuuslukko, raw-universe-suodatinlogiikka) voivat unohtua ja samoja virheitä toistuu.
+   Korjaus: Otettiin käyttöön pakollinen pre/post-rutiini: lue `progress.md` ja `lessons.md` ennen toteutusta sekä heti lopuksi ennen commitia, ja kirjaa uusi oppi sekä seuraava askel aikajärjestyksessä.
+   Uudelleenkäytettävä malli tai sääntö: Käsittele `progress.md`/`lessons.md` projektin operatiivisena tilamuistina; ne ovat osa toteutusprosessia, eivät pelkkää jälkidokumentaatiota.

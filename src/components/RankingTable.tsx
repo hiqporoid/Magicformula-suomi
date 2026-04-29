@@ -7,6 +7,7 @@ import type { RankingRow } from "@/lib/types";
 
 type Props = {
   rows: RankingRow[];
+  exchanges: string[];
 };
 
 type SortKey = "rank" | "magicFormulaScore" | "roc" | "ebitEv" | "qualityScore" | "marketCap";
@@ -69,15 +70,15 @@ function passesMarketCapFilter(row: RankingRow, filter: MarketCapFilter): boolea
   return marketCap > 100_000_000;
 }
 
-export function RankingTable({ rows }: Props) {
+export function RankingTable({ rows, exchanges }: Props) {
   const [query, setQuery] = useState("");
   const [sortKey, setSortKey] = useState<SortKey>("rank");
   const [validationFilter, setValidationFilter] = useState<ValidationFilter>("all");
   const [marketCapFilter, setMarketCapFilter] = useState<MarketCapFilter>("all");
   const [exchangeFilter, setExchangeFilter] = useState<string>("all");
   const exchangeOptions = useMemo(() => {
-    return [...new Set(rows.map((row) => row.exchange))].sort();
-  }, [rows]);
+    return [...new Set(exchanges)].sort();
+  }, [exchanges]);
 
   const visibleRows = useMemo(() => {
     const q = query.trim().toLowerCase();
