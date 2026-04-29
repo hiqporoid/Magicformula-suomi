@@ -44,11 +44,20 @@ jobs:
       - name: Run pipeline tests
         run: python -m pytest -q
 
+      - name: Fetch Nordic universe (HEL + STO, >=50M)
+        run: python python_pipeline/scripts/fetch_nordic_universe.py
+
+      - name: Import Nordic universe into project CSVs
+        run: python python_pipeline/scripts/import_nordic_universe.py
+
       - name: Generate financials CSV
         run: python python_pipeline/scripts/generate_financials_csv.py
 
       - name: Export ranking JSON
         run: python python_pipeline/scripts/export_ranking_json.py
+
+      - name: Audit universe and ranking output
+        run: python python_pipeline/scripts/audit_universe.py
 
       - name: Validate ranking JSON output
         run: test -s src/data/ranking-v1.json
@@ -62,7 +71,7 @@ jobs:
       - name: Detect dataset changes
         id: changes
         run: |
-          if git diff --quiet -- python_pipeline/data/financials.csv src/data/ranking-v1.json; then
+          if git diff --quiet -- python_pipeline/data/main_market_universe.csv python_pipeline/data/stockholm_main_market_universe.csv python_pipeline/data/financials.csv src/data/ranking-v1.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -74,6 +83,8 @@ jobs:
           name: data-refresh-output
           path: |
             python_pipeline/data/financials.csv
+            python_pipeline/data/main_market_universe.csv
+            python_pipeline/data/stockholm_main_market_universe.csv
             src/data/ranking-v1.json
 
       - name: Upload methodology artifacts
@@ -86,8 +97,10 @@ jobs:
         run: |
           echo "## Data refresh" >> "$GITHUB_STEP_SUMMARY"
           echo "- Pipeline tests: ok" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Nordic universe fetch/import: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Financials CSV generation: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Ranking JSON export: ok" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Universe audit: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Frontend lint: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Production build: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Dataset changed: ${{ steps.changes.outputs.changed }}" >> "$GITHUB_STEP_SUMMARY"
@@ -97,6 +110,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add python_pipeline/data/financials.csv src/data/ranking-v1.json
+          git add python_pipeline/data/main_market_universe.csv python_pipeline/data/stockholm_main_market_universe.csv python_pipeline/data/financials.csv src/data/ranking-v1.json
           git commit -m "chore: refresh dataset"
           git push origin HEAD:main

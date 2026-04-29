@@ -7,6 +7,7 @@ import type { RankingRow } from "@/lib/types";
 
 type Props = {
   rows: RankingRow[];
+  exchanges: string[];
 };
 
 type SortKey = "rank" | "magicFormulaScore" | "roc" | "ebitEv" | "qualityScore" | "marketCap";
@@ -69,11 +70,15 @@ function passesMarketCapFilter(row: RankingRow, filter: MarketCapFilter): boolea
   return marketCap > 100_000_000;
 }
 
-export function RankingTable({ rows }: Props) {
+export function RankingTable({ rows, exchanges }: Props) {
   const [query, setQuery] = useState("");
   const [sortKey, setSortKey] = useState<SortKey>("rank");
   const [validationFilter, setValidationFilter] = useState<ValidationFilter>("all");
   const [marketCapFilter, setMarketCapFilter] = useState<MarketCapFilter>("all");
+  const [exchangeFilter, setExchangeFilter] = useState<string>("all");
+  const exchangeOptions = useMemo(() => {
+    return [...new Set(exchanges)].sort();
+  }, [exchanges]);
 
   const visibleRows = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -82,7 +87,8 @@ export function RankingTable({ rows }: Props) {
       const matchesQuery =
         q.length === 0 || row.ticker.toLowerCase().includes(q) || row.company.toLowerCase().includes(q);
 
-      if (!matchesQuery || !passesMarketCapFilter(row, marketCapFilter)) {
+      const matchesExchange = exchangeFilter === "all" || row.exchange === exchangeFilter;
+      if (!matchesQuery || !passesMarketCapFilter(row, marketCapFilter) || !matchesExchange) {
         return false;
       }
 
@@ -98,7 +104,7 @@ export function RankingTable({ rows }: Props) {
     });
 
     return sortRows(filtered, sortKey);
-  }, [marketCapFilter, query, rows, sortKey, validationFilter]);
+  }, [exchangeFilter, marketCapFilter, query, rows, sortKey, validationFilter]);
 
   const warningRows = rows.filter((row) => row.validationWarnings.length > 0).length;
 
@@ -137,6 +143,18 @@ export function RankingTable({ rows }: Props) {
             <option value="all">Kaikki</option>
             <option value="over50m">Yli 50 M€</option>
             <option value="over100m">Yli 100 M€</option>
+          </select>
+        </label>
+
+        <label className="fieldGroup">
+          <span>Pörssi</span>
+          <select value={exchangeFilter} onChange={(event) => setExchangeFilter(event.target.value)}>
+            <option value="all">Kaikki</option>
+            {exchangeOptions.map((exchange) => (
+              <option key={exchange} value={exchange}>
+                {exchange}
+              </option>
+            ))}
           </select>
         </label>
 

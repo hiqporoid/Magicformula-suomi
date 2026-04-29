@@ -6,10 +6,23 @@ class UniverseCompany:
     ticker: str
     company: str
     sector: str | None = None
+    exchange: str = "HEL"
+    country: str | None = None
 
     @property
     def is_financial(self) -> bool:
         return self.sector == "Financial and insurance activities"
+
+    @property
+    def is_utility(self) -> bool:
+        return self.sector == "Electricity, gas, steam and air conditioning supply"
+
+    @property
+    def is_foreign_to_exchange(self) -> bool:
+        exchange_country = {"HEL": "FI", "STO": "SE"}.get(self.exchange)
+        if exchange_country is None:
+            return False
+        return self.country is not None and self.country != exchange_country
 
 
 @dataclass(frozen=True)

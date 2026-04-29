@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: siteConfig.defaultTitle,
   description:
-    "Avaa Nasdaq Helsinki Main Market -yhtiöiden ranking yhdessä näkymässä. Mukana Magic Formula, EBIT/EV, laatupisteet ja datalaadun rajaukset.",
+    "Avaa Nasdaq Helsinki + Stockholm Main Market -yhtiöiden ranking yhdessä näkymässä. Mukana Magic Formula, EBIT/EV, laatupisteet ja datalaadun rajaukset.",
   alternates: {
     canonical: "/"
   }
@@ -19,6 +19,7 @@ export default function Page() {
   const dataset = getRankingDataset();
   const summary = getValidationSummary(dataset);
   const leadCompany = dataset.rows[0];
+  const exchanges = [...new Set(dataset.rawUniverse.map((row) => row.exchange))];
 
   return (
     <main className="shellContainer pageStack pageOffset">
@@ -28,7 +29,7 @@ export default function Page() {
             <p className="eyebrow">Tutkimusnäkymä</p>
             <span className="softBadge">{dataset.methodologyVersion}</span>
           </div>
-          <h1>Magic Formula -screener Nasdaq Helsingin päälistalle.</h1>
+          <h1>Magic Formula -screener Helsingin ja Tukholman päälistoille.</h1>
           <p className="heroLead">
             Näkymä kokoaa rankatut yhtiöt, poissulut ja datalähteet samaan työpöytään. Tarkoitus on nopea seulonta ja
             läpinäkyvä taustadata.
@@ -102,7 +103,7 @@ export default function Page() {
             <div>
               <span className="definitionLabel">Universe</span>
               <strong>{dataset.dataSources.universe.label}</strong>
-              <p>Universe kattaa Nasdaq Helsingin päälistan yhtiöt nykyisessä vientiajossa.</p>
+              <p>Universe kattaa Helsingin ja Tukholman päälistat nykyisessä vientiajossa.</p>
             </div>
             <div>
               <span className="definitionLabel">Financials</span>
@@ -133,7 +134,7 @@ export default function Page() {
 
       <section className="workspaceLayout" id="ranking">
         <div className="workspaceMain">
-          <RankingTable rows={dataset.rows} />
+          <RankingTable rows={dataset.rows} exchanges={exchanges} />
         </div>
 
         <aside className="workspaceSidebar">

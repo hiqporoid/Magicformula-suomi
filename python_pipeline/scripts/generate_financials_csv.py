@@ -11,9 +11,9 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO_ROOT))
 
 from python_pipeline.magicformula.financials import compute_enterprise_value, latest_numeric_value
+from python_pipeline.magicformula.universe_sources import load_all_universe_rows
 from python_pipeline.magicformula.universe import normalize_universe_company
 
-UNIVERSE_PATH = REPO_ROOT / "python_pipeline" / "data" / "main_market_universe.csv"
 OUTPUT_PATH = REPO_ROOT / "python_pipeline" / "data" / "financials.csv"
 
 YAHOO_SYMBOL_OVERRIDES = {
@@ -56,10 +56,6 @@ class ExtractedFinancials:
     debt_to_ebitda: float | None
 
 
-def load_universe() -> list[dict[str, str]]:
-    return list(csv.DictReader(UNIVERSE_PATH.read_text(encoding="utf-8").splitlines()))
-
-
 def latest_row_value(frame, row_name: str) -> tuple[float | None, str | None]:
     if row_name not in frame.index:
         return None, None
@@ -84,13 +80,15 @@ def first_available_row_value(frame, row_names: tuple[str, ...]) -> tuple[float 
     return None, None
 
 
-def build_candidate_symbols(ticker: str, company: str) -> list[str]:
+def build_candidate_symbols(ticker: str, company: str, exchange: str) -> list[str]:
     candidates: list[str] = []
     override = YAHOO_SYMBOL_OVERRIDES.get(ticker)
     if override:
         candidates.append(override)
 
-    default_symbol = f"{ticker}.HE"
+    exchange_suffix = "ST" if exchange == "STO" else "HE"
+    search_exchange = "STO" if exchange == "STO" else "HEL"
+    default_symbol = f"{ticker}.{exchange_suffix}"
     if default_symbol not in candidates:
         candidates.append(default_symbol)
 
@@ -99,7 +97,7 @@ def build_candidate_symbols(ticker: str, company: str) -> list[str]:
         for quote in search.quotes:
             symbol = quote.get("symbol")
             exchange = quote.get("exchange")
-            if not symbol or exchange != "HEL" or symbol in candidates:
+            if not symbol or exchange != search_exchange or symbol in candidates:
                 continue
             candidates.append(symbol)
     except Exception:
@@ -108,8 +106,8 @@ def build_candidate_symbols(ticker: str, company: str) -> list[str]:
     return candidates
 
 
-def extract_financials(ticker: str, company: str) -> ExtractedFinancials | None:
-    candidates = build_candidate_symbols(ticker, company)
+def extract_financials(ticker: str, company: str, exchange: str) -> ExtractedFinancials | None:
+    candidates = build_candidate_symbols(ticker, company, exchange)
 
     for symbol in candidates:
         try:
@@ -167,7 +165,7 @@ def extract_financials(ticker: str, company: str) -> ExtractedFinancials | None:
 
 
 def main() -> None:
-    companies = [normalize_universe_company(row) for row in load_universe()]
+    companies = [normalize_universe_company(row) for row in load_all_universe_rows()]
     extracted_rows: list[dict[str, str | float | None]] = []
     missing: list[str] = []
 
@@ -175,7 +173,7 @@ def main() -> None:
         if index % 25 == 0:
             print(f"Kasitelty {index}/{len(companies)} yhtiota")
 
-        extracted = extract_financials(company.ticker, company.company)
+        extracted = extract_financials(company.ticker, company.company, company.exchange)
         if extracted is None:
             missing.append(company.ticker)
             continue
