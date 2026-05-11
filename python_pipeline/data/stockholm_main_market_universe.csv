@@ -3,7 +3,6 @@ ticker,company,sector,exchange,country
 8TRA,TRATON SE,Unknown,STO,SW
 AAC,AAC Clyde Space AB,Unknown,STO,SW
 AAK,AAK AB,Unknown,STO,SW
-ABAS,ABAS Protect AB,Unknown,STO,SW
 ABB,ABB Ltd,Unknown,STO,SW
 ABERA,Abera Bioscience AB,Unknown,STO,SW
 ABI,AB Igrene,Unknown,STO,SW
@@ -118,6 +117,7 @@ BOHO,Boho Group AB,Unknown,STO,SW
 BOKUS,Bokusgruppen AB,Unknown,STO,SW
 BOL,Boliden AB,Unknown,STO,SW
 BOMILL,BoMill AB,Unknown,STO,SW
+BONAS,Bonäsudden Holding AB,Unknown,STO,SW
 BONAV-A,Bonava AB ser. A,Unknown,STO,SW
 BONAV-B,Bonava AB ser. B,Unknown,STO,SW
 BONEX,BONESUPPORT HOLDING AB,Unknown,STO,SW
@@ -361,6 +361,7 @@ ITECH,I-Tech AB,Unknown,STO,SW
 IVACC,Intervacc AB,Unknown,STO,SW
 IVSO,INVISIO AB,Unknown,STO,SW
 IZAFE-B,iZafe Group AB ser. B,Unknown,STO,SW
+JLT,JLT Mobile Computers AB,Unknown,STO,SW
 JM,JM AB,Unknown,STO,SW
 JOMA,John Mattson Fastighetsföretag,Unknown,STO,SW
 K2A-B,K2A Knaust & Andersson Fastighe,Unknown,STO,SW
@@ -438,6 +439,7 @@ MORROW,Morrow Bank AB,Unknown,STO,SW
 MPOS,Micropos Medical AB,Unknown,STO,SW
 MRSELL,mResell Holding AB,Unknown,STO,SW
 MSAB-B,Micro Systemation AB B,Unknown,STO,SW
+MSON-A,Midsona AB ser. A,Unknown,STO,SW
 MSON-B,Midsona AB ser. B,Unknown,STO,SW
 MTG-A,Modern Times Group MTG AB ser.,Unknown,STO,SW
 MTG-B,Modern Times Group MTG AB ser.,Unknown,STO,SW
@@ -593,6 +595,7 @@ SHB-A,Svenska Handelsbanken ser. A,Unknown,STO,SW
 SHB-B,Svenska Handelsbanken ser. B,Unknown,STO,SW
 SHOT,Scandic Hotels Group AB,Unknown,STO,SW
 SIBEK,SIBEK AB,Unknown,STO,SW
+SILEX,Silex Microsystems AB,Unknown,STO,SW
 SIMRIS-B,Simris Group AB ser. B,Unknown,STO,SW
 SIN,Solution International Nordics,Unknown,STO,SW
 SINCH,Sinch AB,Unknown,STO,SW
@@ -668,7 +671,6 @@ TINGS-A,Tingsvalvet Fastighets AB ser.,Unknown,STO,SW
 TINGS-B,Tingsvalvet Fastighets AB ser.,Unknown,STO,SW
 TITA-B,Titania Holding AB ser. B,Unknown,STO,SW
 TOBII,Tobii AB,Unknown,STO,SW
-TOURN,Tourn International AB,Unknown,STO,SW
 TRAC-B,Traction AB ser. B,Unknown,STO,SW
 TRAD,TradeDoubler AB,Unknown,STO,SW
 TRAN-A,Transferator AB ser. A,Unknown,STO,SW
