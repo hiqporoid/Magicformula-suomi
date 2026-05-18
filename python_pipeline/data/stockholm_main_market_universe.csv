@@ -1,11 +1,14 @@
 ticker,company,sector,exchange,country
+2CUREX,2cureX AB,Unknown,STO,SW
 4C,4C Group AB,Unknown,STO,SW
 8TRA,TRATON SE,Unknown,STO,SW
 AAC,AAC Clyde Space AB,Unknown,STO,SW
 AAK,AAK AB,Unknown,STO,SW
+ABAS,ABAS Protect AB,Unknown,STO,SW
 ABB,ABB Ltd,Unknown,STO,SW
 ABERA,Abera Bioscience AB,Unknown,STO,SW
 ABI,AB Igrene,Unknown,STO,SW
+ABSL-B,Absolicon Solar Collector AB,Unknown,STO,SW
 ABSO,Absolent Air Care Group AB,Unknown,STO,SW
 ACAD,AcadeMedia AB,Unknown,STO,SW
 ACARIX,Acarix AB,Unknown,STO,SW
@@ -72,6 +75,7 @@ ATIN,Athanase Innovation AB,Unknown,STO,SW
 ATORX,Alligator Bioscience AB,Unknown,STO,SW
 ATRLJ-B,Atrium Ljungberg AB ser. B,Unknown,STO,SW
 ATT,Attendo AB,Unknown,STO,SW
+AVARDA,Avarda Bank AB,Unknown,STO,SW
 AVEN,Avensia AB,Unknown,STO,SW
 AVT-B,Avtech Sweden AB B,Unknown,STO,SW
 AXFO,Axfood AB,Unknown,STO,SW
@@ -268,7 +272,6 @@ FPAR-A,Fastpartner AB ser. A,Unknown,STO,SW
 FPAR-D,Fastpartner AB ser. D,Unknown,STO,SW
 FPIP,Formpipe Software AB,Unknown,STO,SW
 FRACTL,Fractal Gaming Group AB,Unknown,STO,SW
-FRAG,Fragbite Group AB,Unknown,STO,SW
 FREEM,Freemelt Holding AB,Unknown,STO,SW
 FREJA,Freja eID Group AB,Unknown,STO,SW
 FRILAN,Frilans,Unknown,STO,SW
@@ -384,8 +387,6 @@ KLAR,Klaria Pharma Holding AB,Unknown,STO,SW
 KLARA-B,KlaraBo Sverige AB ser. B,Unknown,STO,SW
 KLIMAT,Klimator AB,Unknown,STO,SW
 KNOW,Knowit AB,Unknown,STO,SW
-KONT,Kontigo Care AB,Unknown,STO,SW
-KRONA,Krona Public Real Estate AB,Unknown,STO,SW
 LAGR-B,Lagercrantz Group AB ser B,Unknown,STO,SW
 LAMM-B,Lammhults Design Group AB ser.,Unknown,STO,SW
 LATO-B,"Latour, Investmentab. ser. B",Unknown,STO,SW
@@ -416,7 +417,6 @@ MAGLE,Magle Chemoswed Holding AB,Unknown,STO,SW
 MAHA-A,Maha Capital AB,Unknown,STO,SW
 MANG,Mangold AB,Unknown,STO,SW
 MAVEN,Maven Wireless Sweden AB,Unknown,STO,SW
-MBBAB,MoveByBike Europe AB,Unknown,STO,SW
 MCAP,MedCap AB,Unknown,STO,SW
 MCOV-B,Medicover AB ser. B,Unknown,STO,SW
 MEAB-B,Malmbergs Elektriska AB ser. B,Unknown,STO,SW
@@ -477,6 +477,7 @@ NOBI,Nobia AB,Unknown,STO,SW
 NOKIA-SEK,Nokia Corporation,Unknown,STO,SW
 NOLA-B,Nolato AB ser. B,Unknown,STO,SW
 NORB-B,Nordisk Bergteknik AB ser. B,Unknown,STO,SW
+NORDEN,Norden Estates AB,Unknown,STO,SW
 NORION,Norion Bank AB,Unknown,STO,SW
 NOSA,Nosa Plugs AB,Unknown,STO,SW
 NOTE,NOTE AB,Unknown,STO,SW
