@@ -1,5 +1,4 @@
 ticker,company,sector,exchange,country
-2CUREX,2cureX AB,Unknown,STO,SW
 4C,4C Group AB,Unknown,STO,SW
 8TRA,TRATON SE,Unknown,STO,SW
 AAC,AAC Clyde Space AB,Unknown,STO,SW
@@ -26,6 +25,7 @@ ADDT-B,Addtech AB ser. B,Unknown,STO,SW
 ADTR,Adtraction Group AB,Unknown,STO,SW
 ADVE,Advenica AB,Unknown,STO,SW
 AEC,AFRICA ENERGY CORP.,Unknown,STO,SW
+AERO,Svenska Aerogel Holding AB,Unknown,STO,SW
 AERW-B,Aerowash AB ser. B,Unknown,STO,SW
 AFRY,AFRY AB,Unknown,STO,SW
 AGES-B,Ages Industri AB ser. B,Unknown,STO,SW
@@ -44,6 +44,7 @@ ALLIGO-B,Alligo AB ser. B,Unknown,STO,SW
 ALM,ALM Equity AB,Unknown,STO,SW
 ALM-PREF,ALM Equity AB Pref,Unknown,STO,SW
 ALPCOT-B,Alpcot Holding AB ser. B,Unknown,STO,SW
+ALTRA,Altra Fastigheter AB,Unknown,STO,SW
 ALVO-SDB,Alvotech SDB,Unknown,STO,SW
 ALZ,Alzinova AB,Unknown,STO,SW
 ALZCUR,AlzeCure Pharma AB,Unknown,STO,SW
@@ -99,7 +100,6 @@ BERNER-B,Berner Industrier AB ser. B,Unknown,STO,SW
 BESQAB,Besqab AB,Unknown,STO,SW
 BETCO,Better Collective A/S,Unknown,STO,SW
 BETS-B,Betsson AB ser. B,Unknown,STO,SW
-BEYOND,Beyond Frames Entertainment AB,Unknown,STO,SW
 BHG,BHG Group AB,Unknown,STO,SW
 BHOLM,Bergholm Fritidsfordon AB,Unknown,STO,SW
 BIBB,BibbInstruments AB,Unknown,STO,SW
@@ -134,6 +134,7 @@ BPCINS,BPC Instruments AB,Unknown,STO,SW
 BRAIN,BrainCool AB,Unknown,STO,SW
 BRAV,Bravida Holding AB,Unknown,STO,SW
 BRAVE,Kinda Brave Entertainment Group,Unknown,STO,SW
+BRIGHT,BrightBid Group AB,Unknown,STO,SW
 BRILL,Brilliant Future AB,Unknown,STO,SW
 BRIN-B,Brinova Fastigheter AB ser. B,Unknown,STO,SW
 BTC-B,B Treasury Capital AB ser. B,Unknown,STO,SW
@@ -279,6 +280,7 @@ G2M,Gentoo Media Inc.,Unknown,STO,SW
 G5EN,G5 Entertainment AB,Unknown,STO,SW
 GAPW-B,Gapwaves AB B,Unknown,STO,SW
 GARO,Garo AB,Unknown,STO,SW
+GBK,Goodbye Kansas Group AB,Unknown,STO,SW
 GCOR,Gaming Corps AB,Unknown,STO,SW
 GENI,Generic Sweden AB,Unknown,STO,SW
 GENO,Genovis AB,Unknown,STO,SW
@@ -387,6 +389,8 @@ KLAR,Klaria Pharma Holding AB,Unknown,STO,SW
 KLARA-B,KlaraBo Sverige AB ser. B,Unknown,STO,SW
 KLIMAT,Klimator AB,Unknown,STO,SW
 KNOW,Knowit AB,Unknown,STO,SW
+KONT,Kontigo Care AB,Unknown,STO,SW
+KRONA,Krona Public Real Estate AB,Unknown,STO,SW
 LAGR-B,Lagercrantz Group AB ser B,Unknown,STO,SW
 LAMM-B,Lammhults Design Group AB ser.,Unknown,STO,SW
 LATO-B,"Latour, Investmentab. ser. B",Unknown,STO,SW
@@ -405,6 +409,7 @@ LOGI-B,Logistea AB ser. B,Unknown,STO,SW
 LOGIST-A,Logistri Fastighets AB ser. A,Unknown,STO,SW
 LOOMIS,Loomis AB,Unknown,STO,SW
 LOVI,Lovisagruvan AB,Unknown,STO,SW
+LOYAL,Loyal Solutions A/S,Unknown,STO,SW
 LUC,Lucara Diamond Corp,Unknown,STO,SW
 LUG,Lundin Gold Inc.,Unknown,STO,SW
 LUMEN,LumenRadio AB,Unknown,STO,SW
@@ -488,9 +493,9 @@ NREST,Nordrest Holding AB,Unknown,STO,SW
 NTEK-B,NOVOTEK AB ser. B,Unknown,STO,SW
 NXTCL,NextCell Pharma AB,Unknown,STO,SW
 NYAB,NYAB AB,Unknown,STO,SW
-NYF,Nyfosa AB,Unknown,STO,SW
 OBAB,Online Brands Nordic AB,Unknown,STO,SW
 OBSE,Observit AB,Unknown,STO,SW
+OCTV-SDB,OCTV-SDB,Unknown,STO,SW
 ODI,ODI Pharma AB,Unknown,STO,SW
 OEM-B,OEM International AB ser. B,Unknown,STO,SW
 OGUN-B,Ogunsen AB ser. B,Unknown,STO,SW
@@ -533,9 +538,9 @@ PRISMA,Prisma Properties AB,Unknown,STO,SW
 PRO,Promimic AB,Unknown,STO,SW
 PROF-B,ProfilGruppen AB ser. B,Unknown,STO,SW
 PTRK,Physitrack PLC,Unknown,STO,SW
+PUBLI,PPI Public Property Invest AB,Unknown,STO,SW
 QAIR,QleanAir AB,Unknown,STO,SW
 QBEN,Qben Infra AB,Unknown,STO,SW
-QBNK,QBNK Holding AB,Unknown,STO,SW
 QLIFE,QLife Holding AB,Unknown,STO,SW
 QLINEA,Q-Linea AB,Unknown,STO,SW
 QLIRO,Qliro AB,Unknown,STO,SW
@@ -547,6 +552,7 @@ RATO-A,Ratos AB ser. A,Unknown,STO,SW
 RATO-B,Ratos AB ser. B,Unknown,STO,SW
 RAY-B,RaySearch Laboratories AB ser.,Unknown,STO,SW
 REALFI,Realfiction Holding AB,Unknown,STO,SW
+REDS,Redsense Medical AB,Unknown,STO,SW
 REFINE,Refine Group AB,Unknown,STO,SW
 REJL-B,Rejlers AB ser. B,Unknown,STO,SW
 ROKO-B,ROKO-B,Unknown,STO,SW
@@ -729,7 +735,6 @@ XANO-B,XANO Industri AB ser. B,Unknown,STO,SW
 XBRANE,Xbrane Biopharma AB,Unknown,STO,SW
 XER,Xer Tech Holding AB,Unknown,STO,SW
 XINT,Xintela AB,Unknown,STO,SW
-XMR,XMReality AB,Unknown,STO,SW
 XPC,XP Chemistries AB,Unknown,STO,SW
 XSPRAY,Xspray Pharma AB,Unknown,STO,SW
 XVIVO,Xvivo Perfusion AB,Unknown,STO,SW
