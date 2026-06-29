@@ -1,5 +1,4 @@
 ticker,company,sector,exchange,country
-2CUREX,2cureX AB,Unknown,STO,SW
 4C,4C Group AB,Unknown,STO,SW
 8TRA,TRATON SE,Unknown,STO,SW
 AAC,AAC Clyde Space AB,Unknown,STO,SW
@@ -181,6 +180,7 @@ CLS-B,Clinical Laserthermia Systems A,Unknown,STO,SW
 CMOTEC-B,Scandinavian ChemoTech AB B,Unknown,STO,SW
 CNCJO-B,Concejo AB ser. B,Unknown,STO,SW
 COFFEE-B,Coffee Stain Group AB ser. B,Unknown,STO,SW
+COMPDM,Compodium International AB,Unknown,STO,SW
 COOR,Coor Service Management Holding,Unknown,STO,SW
 CORE-A,Corem Property Group AB ser. A,Unknown,STO,SW
 CORE-B,Corem Property Group AB ser. B,Unknown,STO,SW
@@ -313,7 +313,6 @@ HELIO,Heliospectra AB,Unknown,STO,SW
 HEM,Hemnet Group AB,Unknown,STO,SW
 HERNO-B,HERNO-B,Unknown,STO,SW
 HEXA-B,Hexagon AB ser. B,Unknown,STO,SW
-HEXI,Hexicon AB,Unknown,STO,SW
 HIGHCO-B,High Coast Distillery AB ser. B,Unknown,STO,SW
 HILB-B,Hilbert Group AB ser. B,Unknown,STO,SW
 HM-B,"Hennes & Mauritz AB, H & M ser.",Unknown,STO,SW
@@ -469,7 +468,6 @@ NIBE-B,NIBE Industrier AB ser. B,Unknown,STO,SW
 NICA,Nanologica AB,Unknown,STO,SW
 NIL-B,Nilörngruppen AB ser. B,Unknown,STO,SW
 NIO,Nordic Iron Ore AB,Unknown,STO,SW
-NITRO,Nitro Games Oyj,Unknown,STO,SW
 NIVI-B,Nivika Fastigheter AB ser. B,Unknown,STO,SW
 NMAN,Nederman Holding AB,Unknown,STO,SW
 NNH,New Nordic Healthbrands AB,Unknown,STO,SW
@@ -514,6 +512,7 @@ PAX,Paxman AB,Unknown,STO,SW
 PCELL,PowerCell Sweden AB,Unknown,STO,SW
 PDX,Paradox Interactive AB,Unknown,STO,SW
 PEAB-B,Peab AB ser. B,Unknown,STO,SW
+PEXA-B,PExA AB,Unknown,STO,SW
 PIERCE,Pierce Group AB,Unknown,STO,SW
 PILA,PILA PHARMA AB,Unknown,STO,SW
 PION-B,PION Group AB ser. B,Unknown,STO,SW
@@ -549,6 +548,7 @@ REALFI,Realfiction Holding AB,Unknown,STO,SW
 REDS,Redsense Medical AB,Unknown,STO,SW
 REJL-B,Rejlers AB ser. B,Unknown,STO,SW
 ROKO-B,ROKO-B,Unknown,STO,SW
+RPLAN,Ranplan Group AB,Unknown,STO,SW
 RROS,Rottneros AB,Unknown,STO,SW
 RUG,RugVista Group AB,Unknown,STO,SW
 RUSTA,Rusta AB,Unknown,STO,SW
@@ -567,7 +567,6 @@ SAVE,Nordnet AB,Unknown,STO,SW
 SAXG,Saxlund Group AB,Unknown,STO,SW
 SBB-B,Samhällsbyggnadsbo. i Norden A,Unknown,STO,SW
 SBB-D,Samhällsbyggnadsbo. i Norden A,Unknown,STO,SW
-SBOK,ScandBook Holding AB,Unknown,STO,SW
 SBOK-B,ScandBook Holding AB,Unknown,STO,SW
 SCA-A,Svenska Cellulosa AB SCA ser. A,Unknown,STO,SW
 SCA-B,Svenska Cellulosa AB SCA ser. B,Unknown,STO,SW
@@ -727,11 +726,12 @@ WPTG-B,White Pearl Technology Group AB,Unknown,STO,SW
 WRV,WebRock Ventures AB,Unknown,STO,SW
 WSG,WS WeSports Group AB,Unknown,STO,SW
 WTW-A,Wall to Wall Group AB A,Unknown,STO,SW
+WYLD,Wyld Networks AB,Unknown,STO,SW
 XANO-B,XANO Industri AB ser. B,Unknown,STO,SW
 XBRANE,Xbrane Biopharma AB,Unknown,STO,SW
 XER,Xer Tech Holding AB,Unknown,STO,SW
 XINT,Xintela AB,Unknown,STO,SW
-XOM-B,Xoma AB B,Unknown,STO,SW
+XMR,XMReality AB,Unknown,STO,SW
 XPC,XP Chemistries AB,Unknown,STO,SW
 XSPRAY,Xspray Pharma AB,Unknown,STO,SW
 XVIVO,Xvivo Perfusion AB,Unknown,STO,SW
