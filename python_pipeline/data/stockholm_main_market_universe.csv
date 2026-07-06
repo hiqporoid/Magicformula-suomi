@@ -1,4 +1,5 @@
 ticker,company,sector,exchange,country
+2CUREX,2cureX AB,Unknown,STO,SW
 4C,4C Group AB,Unknown,STO,SW
 8TRA,TRATON SE,Unknown,STO,SW
 AAC,AAC Clyde Space AB,Unknown,STO,SW
@@ -114,6 +115,7 @@ BIOEX,Bioextrax AB,Unknown,STO,SW
 BIOG-B,BioGaia AB ser. B,Unknown,STO,SW
 BIOVIC-B,Biovica International AB ser. B,Unknown,STO,SW
 BIOWKS,Bio-Works Technologies AB,Unknown,STO,SW
+BLINC-B,BlincVision AB ser. B,Unknown,STO,SW
 BMAX,Byggmax Group AB,Unknown,STO,SW
 BMC,Brock Milton Capital AB,Unknown,STO,SW
 BOAT,Nimbus Group AB,Unknown,STO,SW
@@ -134,7 +136,6 @@ BPCINS,BPC Instruments AB,Unknown,STO,SW
 BRAIN,BrainCool AB,Unknown,STO,SW
 BRAV,Bravida Holding AB,Unknown,STO,SW
 BRAVE,Kinda Brave Entertainment Group,Unknown,STO,SW
-BRIGHT,BrightBid Group AB,Unknown,STO,SW
 BRILL,Brilliant Future AB,Unknown,STO,SW
 BRIN-B,Brinova Fastigheter AB ser. B,Unknown,STO,SW
 BTC-B,B Treasury Capital AB ser. B,Unknown,STO,SW
@@ -264,6 +265,7 @@ FLEXM,Flexion Mobile Plc,Unknown,STO,SW
 FLEXQ,FlexQube AB,Unknown,STO,SW
 FLMNG,Fleming Properties AB,Unknown,STO,SW
 FLOWS,Flowscape Technology AB,Unknown,STO,SW
+FLUI,Fluicell AB,Unknown,STO,SW
 FLUO,FluoGuide A/S,Unknown,STO,SW
 FMM-B,FM Mattsson AB ser. B,Unknown,STO,SW
 FNM,Ferronordic AB,Unknown,STO,SW
@@ -279,6 +281,7 @@ G2M,Gentoo Media Inc.,Unknown,STO,SW
 G5EN,G5 Entertainment AB,Unknown,STO,SW
 GAPW-B,Gapwaves AB B,Unknown,STO,SW
 GARO,Garo AB,Unknown,STO,SW
+GBK,Goodbye Kansas Group AB,Unknown,STO,SW
 GCOR,Gaming Corps AB,Unknown,STO,SW
 GENI,Generic Sweden AB,Unknown,STO,SW
 GENO,Genovis AB,Unknown,STO,SW
@@ -390,6 +393,7 @@ KONT,Kontigo Care AB,Unknown,STO,SW
 KRONA,Krona Public Real Estate AB,Unknown,STO,SW
 LAGR-B,Lagercrantz Group AB ser B,Unknown,STO,SW
 LAMM-B,Lammhults Design Group AB ser.,Unknown,STO,SW
+LASER,Lasernet Group AB,Unknown,STO,SW
 LATO-B,"Latour, Investmentab. ser. B",Unknown,STO,SW
 LEA,Lea Bank AB,Unknown,STO,SW
 LEMSE,Leading Edge Materials Corp.,Unknown,STO,SW
@@ -468,6 +472,7 @@ NIBE-B,NIBE Industrier AB ser. B,Unknown,STO,SW
 NICA,Nanologica AB,Unknown,STO,SW
 NIL-B,Nilörngruppen AB ser. B,Unknown,STO,SW
 NIO,Nordic Iron Ore AB,Unknown,STO,SW
+NITRO,Nitro Games Oyj,Unknown,STO,SW
 NIVI-B,Nivika Fastigheter AB ser. B,Unknown,STO,SW
 NMAN,Nederman Holding AB,Unknown,STO,SW
 NNH,New Nordic Healthbrands AB,Unknown,STO,SW
@@ -719,6 +724,7 @@ W5,W5 Solutions AB,Unknown,STO,SW
 WALL-B,Wallenstam AB ser. B,Unknown,STO,SW
 WAYS,Waystream Group AB,Unknown,STO,SW
 WBGR-B,Wästbygg Gruppen AB ser. B,Unknown,STO,SW
+WEG,Windon Energy Group AB,Unknown,STO,SW
 WIHL,Wihlborgs Fastigheter AB,Unknown,STO,SW
 WISE,Wise Group AB,Unknown,STO,SW
 WPAY,Westpay AB,Unknown,STO,SW
@@ -731,7 +737,6 @@ XANO-B,XANO Industri AB ser. B,Unknown,STO,SW
 XBRANE,Xbrane Biopharma AB,Unknown,STO,SW
 XER,Xer Tech Holding AB,Unknown,STO,SW
 XINT,Xintela AB,Unknown,STO,SW
-XMR,XMReality AB,Unknown,STO,SW
 XPC,XP Chemistries AB,Unknown,STO,SW
 XSPRAY,Xspray Pharma AB,Unknown,STO,SW
 XVIVO,Xvivo Perfusion AB,Unknown,STO,SW
