@@ -1,5 +1,4 @@
 ticker,company,sector,exchange,country
-2CUREX,2cureX AB,Unknown,STO,SW
 4C,4C Group AB,Unknown,STO,SW
 8TRA,TRATON SE,Unknown,STO,SW
 AAC,AAC Clyde Space AB,Unknown,STO,SW
@@ -219,6 +218,7 @@ EGTX,Egetis Therapeutics AB,Unknown,STO,SW
 EKTA-B,Elekta AB ser. B,Unknown,STO,SW
 ELAN-B,Elanders AB ser. B,Unknown,STO,SW
 ELIC,Elicera Therapeutics AB,Unknown,STO,SW
+ELLOS,Ellos Holding AB,Unknown,STO,SW
 ELON,Elon AB,Unknown,STO,SW
 ELTEL,Eltel AB,Unknown,STO,SW
 ELUX-A,"Electrolux, AB ser. A",Unknown,STO,SW
@@ -265,7 +265,6 @@ FLEXM,Flexion Mobile Plc,Unknown,STO,SW
 FLEXQ,FlexQube AB,Unknown,STO,SW
 FLMNG,Fleming Properties AB,Unknown,STO,SW
 FLOWS,Flowscape Technology AB,Unknown,STO,SW
-FLUI,Fluicell AB,Unknown,STO,SW
 FLUO,FluoGuide A/S,Unknown,STO,SW
 FMM-B,FM Mattsson AB ser. B,Unknown,STO,SW
 FNM,Ferronordic AB,Unknown,STO,SW
@@ -553,7 +552,6 @@ REALFI,Realfiction Holding AB,Unknown,STO,SW
 REDS,Redsense Medical AB,Unknown,STO,SW
 REJL-B,Rejlers AB ser. B,Unknown,STO,SW
 ROKO-B,ROKO-B,Unknown,STO,SW
-RPLAN,Ranplan Group AB,Unknown,STO,SW
 RROS,Rottneros AB,Unknown,STO,SW
 RUG,RugVista Group AB,Unknown,STO,SW
 RUSTA,Rusta AB,Unknown,STO,SW
@@ -668,7 +666,6 @@ TELIA,Telia Company AB,Unknown,STO,SW
 TELLUS,Tellusgruppen AB,Unknown,STO,SW
 TEQ,Teqnion AB,Unknown,STO,SW
 TERNOR,Terranor Group AB,Unknown,STO,SW
-TERRNT-B,Terranet AB ser. B,Unknown,STO,SW
 THULE,Thule Group AB,Unknown,STO,SW
 TIETOS,Tieto Corporation,Unknown,STO,SW
 TINGS-A,Tingsvalvet Fastighets AB ser.,Unknown,STO,SW
@@ -676,7 +673,6 @@ TINGS-B,Tingsvalvet Fastighets AB ser.,Unknown,STO,SW
 TITA-B,Titania Holding AB ser. B,Unknown,STO,SW
 TOBII,Tobii AB,Unknown,STO,SW
 TOUCH,Touchtech AB,Unknown,STO,SW
-TOURN,Tourn International AB,Unknown,STO,SW
 TRAC-B,Traction AB ser. B,Unknown,STO,SW
 TRAIN-B,Train Alliance AB ser. B,Unknown,STO,SW
 TRAN-A,Transferator AB ser. A,Unknown,STO,SW
