@@ -66,10 +66,12 @@ ARP,Arctic Paper S.A.,Unknown,STO,SW
 ARPL,Arla Plast AB,Unknown,STO,SW
 ASKER,Asker Healthcare Group AB,Unknown,STO,SW
 ASMDEE-B,Asmodee Group AB ser. B,Unknown,STO,SW
+ASSA-B,ASSA ABLOY AB ser. B,Unknown,STO,SW
 ATCO-A,Atlas Copco AB ser. A,Unknown,STO,SW
 ATCO-B,Atlas Copco AB ser. B,Unknown,STO,SW
 ATIC,Actic Group AB,Unknown,STO,SW
 ATIN,Athanase Innovation AB,Unknown,STO,SW
+ATORX,Alligator Bioscience AB,Unknown,STO,SW
 ATRLJ-B,Atrium Ljungberg AB ser. B,Unknown,STO,SW
 ATT,Attendo AB,Unknown,STO,SW
 AVARDA,Avarda Bank AB,Unknown,STO,SW
@@ -78,6 +80,7 @@ AVT-B,Avtech Sweden AB B,Unknown,STO,SW
 AXFO,Axfood AB,Unknown,STO,SW
 AXIC-A,aXichem AB ser. A,Unknown,STO,SW
 AXOLOT,Axolot Solutions Holding AB,Unknown,STO,SW
+AXVIK,Axvik Group AB,Unknown,STO,SW
 AZA,Avanza Bank Holding AB,Unknown,STO,SW
 AZN,AstraZeneca PLC,Unknown,STO,SW
 B3,B3 Consulting Group AB,Unknown,STO,SW
@@ -91,13 +94,11 @@ BEAMMW-B,BeammWave AB ser. B,Unknown,STO,SW
 BEGR,BE Group AB,Unknown,STO,SW
 BEIA-B,Beijer Alma AB ser. B,Unknown,STO,SW
 BEIJ-B,Beijer Ref AB ser. B,Unknown,STO,SW
-BEO-SDB,Beowulf Mining PLC SDB,Unknown,STO,SW
 BERG-B,Bergman & Beving Aktiebolag ser,Unknown,STO,SW
 BERNER-B,Berner Industrier AB ser. B,Unknown,STO,SW
 BESQAB,Besqab AB,Unknown,STO,SW
 BETCO,Better Collective A/S,Unknown,STO,SW
 BETS-B,Betsson AB ser. B,Unknown,STO,SW
-BEYOND,Beyond Frames Entertainment AB,Unknown,STO,SW
 BHG,BHG Group AB,Unknown,STO,SW
 BHOLM,Bergholm Fritidsfordon AB,Unknown,STO,SW
 BIBB,BibbInstruments AB,Unknown,STO,SW
@@ -120,7 +121,6 @@ BOHO,Boho Group AB,Unknown,STO,SW
 BOKUS,Bokusgruppen AB,Unknown,STO,SW
 BOL,Boliden AB,Unknown,STO,SW
 BOMILL,BoMill AB,Unknown,STO,SW
-BONAS,Bonäsudden Holding AB,Unknown,STO,SW
 BONAV-A,Bonava AB ser. A,Unknown,STO,SW
 BONAV-B,Bonava AB ser. B,Unknown,STO,SW
 BONEX,BONESUPPORT HOLDING AB,Unknown,STO,SW
@@ -199,6 +199,7 @@ DLAB,Dlaboratory Sweden AB,Unknown,STO,SW
 DMXSE-SDB,District Metals Corporation,Unknown,STO,SW
 DMYD-B,Diamyd Medical AB ser. B,Unknown,STO,SW
 DOM,Dometic Group AB,Unknown,STO,SW
+DONE,Done.ai Group AB,Unknown,STO,SW
 DOXA,Doxa AB,Unknown,STO,SW
 DPHA,Disruptive Pharma AB,Unknown,STO,SW
 DRIL,Drillcon AB,Unknown,STO,SW
@@ -241,7 +242,6 @@ EQL,EQL Pharma AB,Unknown,STO,SW
 EQT,EQT AB,Unknown,STO,SW
 ERIC-A,"Ericsson, Telefonab. L M ser. A",Unknown,STO,SW
 ERIC-B,"Ericsson, Telefonab. L M ser. B",Unknown,STO,SW
-ERMA,Enorama Pharma AB,Unknown,STO,SW
 ESGR-B,ES Group AB ser. B,Unknown,STO,SW
 ESSITY-A,Essity AB ser. A,Unknown,STO,SW
 ESSITY-B,Essity AB ser. B,Unknown,STO,SW
@@ -277,7 +277,6 @@ G2M,Gentoo Media Inc.,Unknown,STO,SW
 G5EN,G5 Entertainment AB,Unknown,STO,SW
 GAPW-B,Gapwaves AB B,Unknown,STO,SW
 GARO,Garo AB,Unknown,STO,SW
-GBK,Goodbye Kansas Group AB,Unknown,STO,SW
 GCOR,Gaming Corps AB,Unknown,STO,SW
 GENI,Generic Sweden AB,Unknown,STO,SW
 GENO,Genovis AB,Unknown,STO,SW
@@ -321,10 +320,12 @@ HOFI,Hoist Finance AB,Unknown,STO,SW
 HOLM-A,Holmen AB ser. A,Unknown,STO,SW
 HOLM-B,Holmen AB ser. B,Unknown,STO,SW
 HOME-B,HomeMaid AB ser. B,Unknown,STO,SW
+HPOL-B,HEXPOL AB ser. B,Unknown,STO,SW
 HTRO,Hexatronic Group AB,Unknown,STO,SW
 HUFV-A,Hufvudstaden AB ser. A,Unknown,STO,SW
 HUM,Humana AB,Unknown,STO,SW
 HUMBLE,Humble Group AB,Unknown,STO,SW
+HUNTER,Hunter Capital AB,Unknown,STO,SW
 HUSQ-A,Husqvarna AB ser. A,Unknown,STO,SW
 HUSQ-B,Husqvarna AB ser. B,Unknown,STO,SW
 IBT-B,Infant Bacterial Therapeutics A,Unknown,STO,SW
@@ -334,7 +335,6 @@ IDUN-B,Idun Industrier AB ser. B,Unknown,STO,SW
 IMMNOV,Immunovia AB,Unknown,STO,SW
 IMMU,Mendus AB,Unknown,STO,SW
 IMPC,Impact Coatings AB,Unknown,STO,SW
-INCOAX,InCoax Networks AB,Unknown,STO,SW
 INDT,Indutrade AB,Unknown,STO,SW
 INDU-A,"Industrivärden, AB ser. A",Unknown,STO,SW
 INDU-C,"Industrivärden, AB ser. C",Unknown,STO,SW
@@ -348,6 +348,7 @@ INTEA-D,Intea Fastigheter AB ser. D,Unknown,STO,SW
 INTEG-B,Integrum AB ser. B,Unknown,STO,SW
 INTRUM,Intrum AB,Unknown,STO,SW
 INVE-A,Investor AB ser. A,Unknown,STO,SW
+INVE-B,Investor AB ser. B,Unknown,STO,SW
 INWI,Inwido AB,Unknown,STO,SW
 IPCO,International Petroleum Corpora,Unknown,STO,SW
 IRIS,Irisity AB,Unknown,STO,SW
@@ -395,6 +396,7 @@ LIGR,Lightning Group AB,Unknown,STO,SW
 LIME,Lime Technologies AB,Unknown,STO,SW
 LINC,Linc AB,Unknown,STO,SW
 LITI,Litium AB,Unknown,STO,SW
+LMGAB,LMGAB,Unknown,STO,SW
 LOGI-B,Logistea AB ser. B,Unknown,STO,SW
 LOGIST-A,Logistri Fastighets AB ser. A,Unknown,STO,SW
 LOGIST-B,Logistri Fastighets AB ser. B,Unknown,STO,SW
@@ -463,7 +465,6 @@ NFGAB,Nordic Flanges Group AB,Unknown,STO,SW
 NIBE-B,NIBE Industrier AB ser. B,Unknown,STO,SW
 NICA,Nanologica AB,Unknown,STO,SW
 NIO,Nordic Iron Ore AB,Unknown,STO,SW
-NITRO,Nitro Games Oyj,Unknown,STO,SW
 NIVI-B,Nivika Fastigheter AB ser. B,Unknown,STO,SW
 NMAN,Nederman Holding AB,Unknown,STO,SW
 NNH,New Nordic Healthbrands AB,Unknown,STO,SW
@@ -499,6 +500,7 @@ ORRON,Orrön Energy AB (publ),Unknown,STO,SW
 ORT-B,Ortoma AB ser. B,Unknown,STO,SW
 ORTI-A,Ortivus AB ser. A,Unknown,STO,SW
 ORTI-B,Ortivus AB ser. B,Unknown,STO,SW
+ORX,Orexo AB,Unknown,STO,SW
 OSSD,OssDsign AB,Unknown,STO,SW
 OVZON,Ovzon AB,Unknown,STO,SW
 OXE,OXE Marine AB,Unknown,STO,SW
@@ -528,7 +530,7 @@ PTRK,Physitrack PLC,Unknown,STO,SW
 PUBLI,PPI Public Property Invest AB,Unknown,STO,SW
 QAIR,QleanAir AB,Unknown,STO,SW
 QBEN,Qben Infra AB,Unknown,STO,SW
-QIIWI,Qiiwi Games AB,Unknown,STO,SW
+QBNK,QBNK Holding AB,Unknown,STO,SW
 QLINEA,Q-Linea AB,Unknown,STO,SW
 QLIRO,Qliro AB,Unknown,STO,SW
 QSYS,Qualisys Holding Aktiebolag,Unknown,STO,SW
@@ -574,6 +576,7 @@ SECU-B,Securitas AB ser. B,Unknown,STO,SW
 SEDANA,Sedana Medical AB,Unknown,STO,SW
 SENZA,SenzaGen AB,Unknown,STO,SW
 SERT,Serstech AB,Unknown,STO,SW
+SERV,Servana AB,Unknown,STO,SW
 SES,Scandinavian Enviro Systems AB,Unknown,STO,SW
 SEYE,Smart Eye AB,Unknown,STO,SW
 SEZI,Senzime AB,Unknown,STO,SW
@@ -619,6 +622,7 @@ SPEONE,SpectrumOne AB,Unknown,STO,SW
 SPGR,Spotlight Group AB,Unknown,STO,SW
 SPRINT,Sprint Bioscience AB,Unknown,STO,SW
 SSAB-A,SSAB AB ser. A,Unknown,STO,SW
+SSAB-B,SSAB AB ser. B,Unknown,STO,SW
 STAR-A,Starbreeze AB ser. A,Unknown,STO,SW
 STAR-B,Starbreeze AB ser. B,Unknown,STO,SW
 STE-A,Stora Enso Oyj ser. A,Unknown,STO,SW
@@ -634,16 +638,17 @@ STWK,Stockwik AB,Unknown,STO,SW
 SUMMAS,Summa Defence Oyj,Unknown,STO,SW
 SUS,Surgical Science Sweden AB,Unknown,STO,SW
 SUSG,Sustainion Group AB,Unknown,STO,SW
-SVEAF,Sveafastigheter AB,Unknown,STO,SW
 SVEAF-B,Sveafastigheter AB,Unknown,STO,SW
 SVED-B,Svedbergs Group AB ser. B,Unknown,STO,SW
 SVIK,Studsvik AB,Unknown,STO,SW
+SVOL-A,Svolder AB ser. A,Unknown,STO,SW
 SVOL-B,Svolder AB ser. B,Unknown,STO,SW
 SWEC-A,SWECO AB ser. A,Unknown,STO,SW
 SWEC-B,SWECO AB ser. B,Unknown,STO,SW
 SWED-A,Swedbank AB ser A,Unknown,STO,SW
 SYNACT,SynAct Pharma AB,Unknown,STO,SW
 SYNSAM,Synsam AB,Unknown,STO,SW
+SYNT,SyntheticMR AB,Unknown,STO,SW
 SYSR,Systemair AB,Unknown,STO,SW
 TAGM-B,TagMaster AB ser. B,Unknown,STO,SW
 TALK,TalkPool AG,Unknown,STO,SW
@@ -674,7 +679,6 @@ TSEC,Tempest Security AB,Unknown,STO,SW
 TURA,Tura Group AB,Unknown,STO,SW
 UNIBAP,Unibap Space Solutions AB,Unknown,STO,SW
 UPSALE,Upsales Technology AB,Unknown,STO,SW
-USWE,USWE Sports AB,Unknown,STO,SW
 UTG,Unlimited Travel Group AB,Unknown,STO,SW
 VBG-B,VBG GROUP AB ser. B,Unknown,STO,SW
 VEFAB,VEF AB,Unknown,STO,SW
@@ -711,6 +715,7 @@ WIHL,Wihlborgs Fastigheter AB,Unknown,STO,SW
 WISE,Wise Group AB,Unknown,STO,SW
 WPAY,Westpay AB,Unknown,STO,SW
 WPTG-B,White Pearl Technology Group AB,Unknown,STO,SW
+WRV,WebRock Ventures AB,Unknown,STO,SW
 WSG,WS WeSports Group AB,Unknown,STO,SW
 WTG,Wonderful Times Group AB,Unknown,STO,SW
 WTW-A,Wall to Wall Group AB A,Unknown,STO,SW
