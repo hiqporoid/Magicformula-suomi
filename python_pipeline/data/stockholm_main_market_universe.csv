@@ -61,7 +61,7 @@ ASSA-B,ASSA ABLOY AB ser. B,Unknown,STO,SW
 ATCO-A,Atlas Copco AB ser. A,Unknown,STO,SW
 ATCO-B,Atlas Copco AB ser. B,Unknown,STO,SW
 ATIC,Actic Group AB,Unknown,STO,SW
-ATORX,Alligator Bioscience AB,Unknown,STO,SW
+ATIN,Athanase Innovation AB,Unknown,STO,SW
 ATRLJ-B,Atrium Ljungberg AB ser. B,Unknown,STO,SW
 ATT,Attendo AB,Unknown,STO,SW
 AVARDA,Avarda Bank AB,Unknown,STO,SW
@@ -225,6 +225,7 @@ EQL,EQL Pharma AB,Unknown,STO,SW
 EQT,EQT AB,Unknown,STO,SW
 ERIC-A,"Ericsson, Telefonab. L M ser. A",Unknown,STO,SW
 ERIC-B,"Ericsson, Telefonab. L M ser. B",Unknown,STO,SW
+ERMA,Enorama Pharma AB,Unknown,STO,SW
 ESGR-B,ES Group AB ser. B,Unknown,STO,SW
 ESSITY-A,Essity AB ser. A,Unknown,STO,SW
 ESSITY-B,Essity AB ser. B,Unknown,STO,SW
@@ -327,7 +328,6 @@ INWI,Inwido AB,Unknown,STO,SW
 IPCO,International Petroleum Corpora,Unknown,STO,SW
 IRIS,Irisity AB,Unknown,STO,SW
 IRLAB-A,IRLAB Therapeutics AB ser. A,Unknown,STO,SW
-IS,Image Systems AB,Unknown,STO,SW
 ISOFOL,Isofol Medical AB,Unknown,STO,SW
 ITAB,ITAB Group AB,Unknown,STO,SW
 ITECH,I-Tech AB,Unknown,STO,SW
@@ -394,7 +394,6 @@ MMGR-B,Momentum Group AB ser. B,Unknown,STO,SW
 MNTC,Mentice AB,Unknown,STO,SW
 MOB,Moberg Pharma AB,Unknown,STO,SW
 MODEL,Modelon AB,Unknown,STO,SW
-MODTX,Modus Therapeutics Holding AB,Unknown,STO,SW
 MOMENT,Moment Group AB,Unknown,STO,SW
 MORROW,Morrow Bank AB,Unknown,STO,SW
 MSAB-B,Micro Systemation AB B,Unknown,STO,SW
@@ -626,6 +625,7 @@ TRUE-B,Truecaller AB ser. B,Unknown,STO,SW
 TSEC,Tempest Security AB,Unknown,STO,SW
 UNIBAP,Unibap Space Solutions AB,Unknown,STO,SW
 UPSALE,Upsales Technology AB,Unknown,STO,SW
+USWE,USWE Sports AB,Unknown,STO,SW
 UTG,Unlimited Travel Group AB,Unknown,STO,SW
 VBG-B,VBG GROUP AB ser. B,Unknown,STO,SW
 VEFAB,VEF AB,Unknown,STO,SW
