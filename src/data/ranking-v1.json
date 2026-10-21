@@ -7,12 +7,12 @@
   "data_sources": {
     "universe": {
       "label": "Nasdaq Helsinki Main Market -universe",
-      "detail": "Universe yllÃ¤pidetÃ¤Ã¤n omana lÃ¤hteenÃ¤Ã¤n Nasdaq Helsingin pÃ¤Ã¤listan yhtiÃ¶ille.",
+      "detail": "Universe ylläpidetään omana lähteenään Nasdaq Helsingin päälistan yhtiöille.",
       "path": "Nasdaq Helsinki Main Market"
     },
     "financials": {
       "label": "Yahoo Finance -> financials.csv",
-      "detail": "Talousluvut generoidaan Yahoo Financesta ja viedÃ¤Ã¤n staattiseen vÃ¤litiedostoon ennen rankingia.",
+      "detail": "Talousluvut generoidaan Yahoo Financesta ja viedään staattiseen välitiedostoon ennen rankingia.",
       "path": "Yahoo Finance / financials-aineisto"
     }
   },

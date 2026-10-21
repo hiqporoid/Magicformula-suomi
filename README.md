@@ -118,13 +118,53 @@ npm run build
 
 ## Tyypillinen paivitysflow
 
+### Paikallinen kehitys ja muutosten vienti GitHubiin
+
+Tee yksi rajattu tehtävä kerrallaan omassa haarassa. Lue ensin `AGENTS.md`,
+`PLANS.md`, `progress.md` ja `lessons.md`. Tarkista työpuu ja säilytä mahdollinen
+keskeneräinen työ commitissa tai nimetyssä stashissa ennen seuraavia komentoja:
+
+```powershell
+git fetch origin
+git switch main
+git merge --ff-only origin/main
+git switch -c codex/tehtavan-nimi
+```
+
+Toteuta muutos ja varmista se paikallisesti:
+
+```powershell
+.\.venv\Scripts\python.exe -m pytest -q
+npm run lint
+npm run build
+```
+
+Käynnistä käyttöliittymä komennolla `npm run dev` ja tarkista muuttunut toiminto
+osoitteessa `http://localhost:3000`. Päivitä `progress.md` ja `lessons.md` sekä
+tarvittaessa suunnitelma ja metodologia. Tarkista `git diff --check` ja `git diff`,
+lisää vain tehtävään kuuluvat tiedostot komennolla `git add <tiedostot>` ja tee
+commit komennolla `git commit -m "Kuvaa tehty muutos"`.
+
+Kun tehtävässä on lupa viedä muutokset GitHubiin, aja
+`git push -u origin codex/tehtavan-nimi` ja tee haarasta pull request `main`-haaraan.
+Tarkista testitulokset ja diff ennen yhdistämistä. `main`-päivitys voi käynnistää
+Vercelin tuotantojulkaisun ja kehityshaaran push esikatselubuildin.
+Jos tehtävässä kielletään push tai julkaisu, jätä commit paikalliseksi.
+
+Data Refresh voi päivittää `main`-haaraa myös kehitystyön aikana. Hae etätila
+uudelleen ennen yhdistämistä ja ratkaise mahdolliset erot säilyttäen molempien
+osapuolten tarpeelliset muutokset. Generoituja datatiedostoja ei tarvitse päivittää
+pelkkää käyttöliittymämuutosta varten.
+
+### Datan päivitys
+
 1. Paivita tarvittaessa Main Market -universe tiedostossa `python_pipeline/data/main_market_universe.csv`.
 2. Aja `python python_pipeline/scripts/generate_financials_csv.py`.
 3. Aja `python python_pipeline/scripts/export_ranking_json.py`.
 4. Aja Python-testit.
 5. Aja `npm run lint` ja `npm run build`.
 6. Tarkista reitit `/`, `/metodologia` ja `/yhtio/<ticker>`.
-7. Pushaa `main`-branchiin.
+7. Tarkista diff, commitoi muutos kehityshaaraan ja vie se GitHubiin yllä kuvatulla tavalla, jos tehtävä sallii pushin ja julkaisun.
 
 ## GitHub Actions data refresh v1:ssa
 

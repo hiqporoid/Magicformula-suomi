@@ -1,5 +1,20 @@
 # PLANS.md
 
+## Paikallisen jatkokehityksen valmistelu (21.10.2026)
+
+18. [x] Synkronoi paikallinen työ GitHubin uusimpaan main-haaraan
+   - [x] Varmuuskopioi muutokset ja Git-historia sekä selvitä paikalliset erot.
+   - [x] Päivitä main, säilytä tarpeelliset korjaukset ja poista datan konfliktit.
+   - [x] Aja Python-testit, frontend-lint ja build sekä dokumentoi jatkokehityksen työjärjestys.
+   - Tulos: main = origin/main (`93c86f6`), valmistelut haarassa `codex/paikallinen-jatkokehitys`; 24 testiä, lint ja build läpäisty.
+   - Ei pushia tai julkaisua tässä tehtävässä.
+
+## Seuraavat selvitettävät asiat
+
+- [ ] Selvitä GitHubista periytyvän datan `Unknown`-sektorit ja niiden vaikutus finanssi- ja utility-poissulkuihin.
+- [ ] Selvitä Stockholm-universen `country=SW` suhteessa koodin käyttämään `SE`-koodiin: nykyisessä exportissa kaikki 672 STO-riviä suljetaan pois ulkomaisina.
+- [ ] Yhtenäistä Helsinki-v1-rajaus ja toteutuksen Helsinki+Tukholma-laajennus projektiohjeissa erillisessä rajauspäätöksessä.
+
 ## v1 Toteutussuunnitelma (milestones)
 
 1. [x] Repository bootstrap

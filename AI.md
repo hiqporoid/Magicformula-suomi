@@ -40,9 +40,19 @@ Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka kesk
 5. Aja universe-audit komennolla `python python_pipeline/scripts/audit_universe.py`.
 6. Aja tarkistukset: `pytest -q`, `npm run lint`, `npm run build`.
 7. Tarkista keskeiset reitit (`/`, `/metodologia`, `/yhtio/<ticker>`, `/robots.txt`, `/sitemap.xml`).
-8. Pushaa `main`-branchiin, jonka Vercel deployaa tuotantoon.
+8. Tee kehitysmuutokset omassa `codex/<tehtävä>`-haarassa. Kun tehtävässä on lupa puskea, vie tarkistettu haara GitHubiin ja yhdistä se katselmoinnin jälkeen `main`-haaraan; Vercel julkaisee `main`-päivityksen. Noudata tehtäväkohtaista push- ja julkaisurajausta.
 9. GitHub Actionsin `data-refresh.yml` voi paivittaa `financials.csv`:n ja `ranking-v1.json`:n ajastetusti tai manuaalisesti suoraan `main`-branchiin.
 10. Paivita `progress.md` ja `lessons.md`.
+
+## Paikallinen jatkokehitys Codexilla
+
+- Lue aluksi `AGENTS.md`, `PLANS.md` sekä `progress.md` ja `lessons.md`.
+- Tarkista `git status --short --branch` ja hae tuore etätila komennolla `git fetch origin`. Säilytä keskeneräinen työ commitissa tai nimetyssä stashissa ennen haaran vaihtoa tai päivitystä.
+- Päivitä puhdas `main` komennolla `git merge --ff-only origin/main` ja aloita uusi tehtävä komennolla `git switch -c codex/<tehtävä>`. Jos fast-forward ei onnistu, selvitä haarojen ero ennen jatkamista.
+- Toteuta yksi rajattu tehtävä, aja Python-testit, lint ja build sekä tarkista muuttunut toiminto. Muodosta datan export uudelleen vain, jos tehtävä koskee dataa tai exportin sisältöä.
+- Päivitä suunnitelma ja lokit, tarkista diff ja tee paikallinen commit. Pushaa tehtävän sallimissa rajoissa komennolla `git push -u origin codex/<tehtävä>` ja tee pull request.
+- Data Refresh voi päivittää GitHubin `main`-haaraa kehitystyön aikana. Hae siksi etätila uudelleen ennen yhdistämistä ja aja tarkistukset uudelleen, jos yhdistämisessä muuttuu koodia tai dataa.
+- Tarkistukset ja commit eivät itsessään julkaise sivua. `main`-haaran push tai pull requestin yhdistäminen voi käynnistää tuotantojulkaisun; muun haaran push voi käynnistää esikatselubuildin.
 
 ## AGENTS.md:n rooli
 `AGENTS.md` on auktoritatiivinen Codex-ajonaikainen ohjaustiedosto (miten agentti toimii tassa repossa).
