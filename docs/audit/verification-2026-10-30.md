@@ -1,6 +1,6 @@
 # Helsinki + Stockholm -korjausten varmennus 30.10.2026
 
-Tämä toimitus on kehityshaara ja katselmoitava draft-PR. Alusta ei ole julkaisuvalmis. Mainiin ei yhdistetä eikä tuotantoa julkaista.
+Tämä toimitus on kehityshaara codex/hel-sto-luotettavuus ja [draft-PR #12](https://github.com/hiqporoid/Magicformula-suomi/pull/12), toteutuscommit 492d01f. Alusta ei ole julkaisuvalmis. Mainiin ei yhdistetä eikä tuotantoa julkaista.
 
 ## Todistetut virheet ja vaikutus
 

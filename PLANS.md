@@ -13,10 +13,11 @@ Julkaisualue on Nasdaq Helsinki ja Nasdaq Stockholm Main Market. First North ei 
     - Yhteinen HEL+STO-ranking; markkinasuodatus ei muuta vertailujoukkoa.
     - Osarankingit, lähdeluvut, valuutat, ajankohdat, poissulkusyyt ja kattavuus pörsseittäin.
     - Tulos: yhteisranking 230 yhtiötä, tarkat lähdeluvut valuuttoineen/päivineen, osarankit sekä datapuute-/metodologialuokat. Selainvarmennus: HEL 62 / STO 168, suodattimet eivät muuta sijoituksia, neljä lähdeotosta näkyy yhtiösivuilla oikein.
-21. [ ] **in-progress — P1: varmennus ja tarkistettava toimitus**
+21. [x] **P1: varmennus ja tarkistettava toimitus**
     - Python, lint, build, data-audit, selain ja pieni ensisijaisiin lähteisiin jäljitetty HEL/STO-otos.
     - Datapäivitys ei saa julkaista todentamatonta universumia tai ylikirjoittaa mainia tarkistamatta.
     - Päivitä menetelmä/ohjeet/lokit, tarkistetut commitit, push ja draft-PR. Ei mergeä eikä tuotantojulkaisua.
+    - Tulos: 149 Python-testiä, lint, build, data-audit ja 17 selainassertiota läpi. Live Nasdaq+GLEIF-haku varmennettu. Toteutus `492d01f` pushattu; [draft-PR #12](https://github.com/hiqporoid/Magicformula-suomi/pull/12) avattu. Alusta ei ole julkaisuvalmis: seuraavan milestonen lähdepuutteet ovat edelleen avoinna.
 22. [ ] **Seuraava tärkein milestone: lähdekomponenttien täsmäytys ennen julkaisua**
     - Ratkaise KONE/UPM/Volvo-otoksen luokitteluerot, Atlas Copcon kassakomponentti sekä EV:n ja osakesarjojen yhtiötason arvostusperusta.
     - Sulje raportointi-/noteerausvaluutan erojen 34 lähdeaukkoa, puuttuvat issuer-tunnisteet ja muut talousdata-aukot; älä nosta rankattujen määrää oikeellisuustodisteeksi.
