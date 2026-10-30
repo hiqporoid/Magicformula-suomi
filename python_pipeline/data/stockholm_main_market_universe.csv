@@ -1,668 +1,410 @@
-ticker,company,sector,exchange,country
-4C,4C Group AB,Unknown,STO,SW
-8TRA,TRATON SE,Unknown,STO,SW
-AAC,AAC Clyde Space AB,Unknown,STO,SW
-AAK,AAK AB,Unknown,STO,SW
-ABB,ABB Ltd,Unknown,STO,SW
-ABSO,Absolent Air Care Group AB,Unknown,STO,SW
-ACAD,AcadeMedia AB,Unknown,STO,SW
-ACARIX,Acarix AB,Unknown,STO,SW
-ACAST,Acast AB,Unknown,STO,SW
-ACCON,Acconeer AB,Unknown,STO,SW
-ACE,Ascelia Pharma AB,Unknown,STO,SW
-ACOU,AcouSort AB,Unknown,STO,SW
-ACRI-A,Acrinova AB ser. A,Unknown,STO,SW
-ACRI-B,Acrinova AB ser. B,Unknown,STO,SW
-ACROUD,ACROUD AB,Unknown,STO,SW
-ACTI,Active Biotech AB,Unknown,STO,SW
-ACUVI,Acuvi AB,Unknown,STO,SW
-ADDT-B,Addtech AB ser. B,Unknown,STO,SW
-ADTR,Adtraction Group AB,Unknown,STO,SW
-ADVE,Advenica AB,Unknown,STO,SW
-AEC,AFRICA ENERGY CORP.,Unknown,STO,SW
-AFRY,AFRY AB,Unknown,STO,SW
-AGES-B,Ages Industri AB ser. B,Unknown,STO,SW
-AGROUP,Arlandastad Group AB,Unknown,STO,SW
-AGTIRA-B,Agtira AB ser. B,Unknown,STO,SW
-AIRA,AI Revenue Assistant Software S,Unknown,STO,SW
-AJA-B,Byggmästare Anders J Ahlström,Unknown,STO,SW
-ALBERT,eEducation Albert AB,Unknown,STO,SW
-ALCA,Alcadon Group AB,Unknown,STO,SW
-ALFA,Alfa Laval AB,Unknown,STO,SW
-ALIF-B,AddLife AB ser. B,Unknown,STO,SW
-ALIG,Alimak Group AB,Unknown,STO,SW
-ALIV-SDB,Autoliv Inc. SDB,Unknown,STO,SW
-ALLEI,Alleima AB,Unknown,STO,SW
-ALLIGO-B,Alligo AB ser. B,Unknown,STO,SW
-ALM,ALM Equity AB,Unknown,STO,SW
-ALM-PREF,ALM Equity AB Pref,Unknown,STO,SW
-ALPCOT-B,Alpcot Holding AB ser. B,Unknown,STO,SW
-ALTRA,Altra Fastigheter AB,Unknown,STO,SW
-ALVO-SDB,Alvotech SDB,Unknown,STO,SW
-ALZ,Alzinova AB,Unknown,STO,SW
-ALZCUR,AlzeCure Pharma AB,Unknown,STO,SW
-AMBEA,Ambea AB,Unknown,STO,SW
-ANNE-B,Annehem Fastigheter AB ser. B,Unknown,STO,SW
-ANNX,Annexin Pharmaceuticals AB,Unknown,STO,SW
-ANOD-B,Addnode Group AB ser. B,Unknown,STO,SW
-APOTEA,Apotea AB,Unknown,STO,SW
-AQ,AQ Group AB,Unknown,STO,SW
-ARCOMA,Arcoma AB,Unknown,STO,SW
-ARCT,Arctic Minerals AB,Unknown,STO,SW
-ARENIT-SDB,ARENIT Industrie SE SDB,Unknown,STO,SW
-ARFA,Arctic Falls Aktiebolag,Unknown,STO,SW
-ARION-SDB,Arion Banki hf SDB,Unknown,STO,SW
-ARJO-B,Arjo AB ser. B,Unknown,STO,SW
-ARP,Arctic Paper S.A.,Unknown,STO,SW
-ARPL,Arla Plast AB,Unknown,STO,SW
-ASKER,Asker Healthcare Group AB,Unknown,STO,SW
-ASMDEE-B,Asmodee Group AB ser. B,Unknown,STO,SW
-ASSA-B,ASSA ABLOY AB ser. B,Unknown,STO,SW
-ATCO-A,Atlas Copco AB ser. A,Unknown,STO,SW
-ATCO-B,Atlas Copco AB ser. B,Unknown,STO,SW
-ATIC,Actic Group AB,Unknown,STO,SW
-ATRLJ-B,Atrium Ljungberg AB ser. B,Unknown,STO,SW
-ATT,Attendo AB,Unknown,STO,SW
-AVARDA,Avarda Bank AB,Unknown,STO,SW
-AVEN,Avensia AB,Unknown,STO,SW
-AVT-B,Avtech Sweden AB B,Unknown,STO,SW
-AXFO,Axfood AB,Unknown,STO,SW
-AXIC-A,aXichem AB ser. A,Unknown,STO,SW
-AXOLOT,Axolot Solutions Holding AB,Unknown,STO,SW
-AXVIK,Axvik Group AB,Unknown,STO,SW
-AZA,Avanza Bank Holding AB,Unknown,STO,SW
-AZN,AstraZeneca PLC,Unknown,STO,SW
-B3,B3 Consulting Group AB,Unknown,STO,SW
-BACTI-B,Bactiguard Holding AB ser. B,Unknown,STO,SW
-BAHN-B,Bahnhof AB ser. B,Unknown,STO,SW
-BALCO,Balco Group AB,Unknown,STO,SW
-BALD-B,Fastighets AB Balder ser. B,Unknown,STO,SW
-BAWAT,Bawat Water Technologies AB,Unknown,STO,SW
-BBROOM,New Bubbleroom Sweden AB,Unknown,STO,SW
-BEAMMW-B,BeammWave AB ser. B,Unknown,STO,SW
-BEGR,BE Group AB,Unknown,STO,SW
-BEIA-B,Beijer Alma AB ser. B,Unknown,STO,SW
-BEIJ-B,Beijer Ref AB ser. B,Unknown,STO,SW
-BERG-B,Bergman & Beving Aktiebolag ser,Unknown,STO,SW
-BERNER-B,Berner Industrier AB ser. B,Unknown,STO,SW
-BESQAB,Besqab AB,Unknown,STO,SW
-BETCO,Better Collective A/S,Unknown,STO,SW
-BETS-B,Betsson AB ser. B,Unknown,STO,SW
-BHG,BHG Group AB,Unknown,STO,SW
-BICO,BICO Group AB,Unknown,STO,SW
-BILI-A,Bilia AB ser. A,Unknown,STO,SW
-BILL,Billerud Aktiebolag,Unknown,STO,SW
-BIM,BIMobject AB,Unknown,STO,SW
-BINERO,Binero Group AB,Unknown,STO,SW
-BINV,BioInvent International AB,Unknown,STO,SW
-BIOA-B,BioArctic AB ser. B,Unknown,STO,SW
-BIOEX,Bioextrax AB,Unknown,STO,SW
-BIOG-B,BioGaia AB ser. B,Unknown,STO,SW
-BIOVIC-B,Biovica International AB ser. B,Unknown,STO,SW
-BLINC-B,BlincVision AB ser. B,Unknown,STO,SW
-BMAX,Byggmax Group AB,Unknown,STO,SW
-BMC,Brock Milton Capital AB,Unknown,STO,SW
-BOAT,Nimbus Group AB,Unknown,STO,SW
-BOHO,Boho Group AB,Unknown,STO,SW
-BOKUS,Bokusgruppen AB,Unknown,STO,SW
-BOL,Boliden AB,Unknown,STO,SW
-BOMILL,BoMill AB,Unknown,STO,SW
-BONAS,Bonäsudden Holding AB,Unknown,STO,SW
-BONAV-A,Bonava AB ser. A,Unknown,STO,SW
-BONAV-B,Bonava AB ser. B,Unknown,STO,SW
-BONEX,BONESUPPORT HOLDING AB,Unknown,STO,SW
-BONG,Bong AB,Unknown,STO,SW
-BOOZT,Boozt AB,Unknown,STO,SW
-BORG,Björn Borg AB,Unknown,STO,SW
-BOTX,Botnia Gold AB,Unknown,STO,SW
-BRAIN,BrainCool AB,Unknown,STO,SW
-BRAV,Bravida Holding AB,Unknown,STO,SW
-BRAVE,Kinda Brave Entertainment Group,Unknown,STO,SW
-BRIN-B,Brinova Fastigheter AB ser. B,Unknown,STO,SW
-BTS-B,BTS Group AB ser. B,Unknown,STO,SW
-BUFAB,Bufab AB,Unknown,STO,SW
-BULTEN,Bulten AB,Unknown,STO,SW
-BURE,Bure Equity AB,Unknown,STO,SW
-BUSER,Bambuser AB,Unknown,STO,SW
-BUY,Sweden BuyersClub AB,Unknown,STO,SW
-BYGGP,ByggPartner Gruppen AB,Unknown,STO,SW
-CAG,CAG Group AB,Unknown,STO,SW
-CALVIK,Calviks AB,Unknown,STO,SW
-CAMX,Camurus AB,Unknown,STO,SW
-CANDLE-B,Candles Scandinavia AB ser. B,Unknown,STO,SW
-CANTA,Cantargia AB,Unknown,STO,SW
-CARA,Carasent AB,Unknown,STO,SW
-CARE,Careium AB,Unknown,STO,SW
-CASE,Case Group AB,Unknown,STO,SW
-CAST,Castellum AB,Unknown,STO,SW
-CAT-A,Catella AB ser. A,Unknown,STO,SW
-CAT-B,Catella AB ser. B,Unknown,STO,SW
-CATE,Catena AB,Unknown,STO,SW
-CCC,Cavotec Group AB,Unknown,STO,SW
-CDMIL,CodeMill AB,Unknown,STO,SW
-CDON,CDON AB,Unknown,STO,SW
-CEDER,Cedergrenska AB,Unknown,STO,SW
-CEVI,CellaVision AB,Unknown,STO,SW
-CFISH,Crunchfish AB,Unknown,STO,SW
-CHARGE,ChargePanel AB,Unknown,STO,SW
-CHECK,Checkin.com Group AB,Unknown,STO,SW
-CHEF,Cheffelo AB,Unknown,STO,SW
-CIBUS,Cibus Real Estate AB (publ),Unknown,STO,SW
-CINPHA,Cinclus Pharma Holding AB,Unknown,STO,SW
-CLA-B,Cloetta AB ser. B,Unknown,STO,SW
-CLAS-B,Clas Ohlson AB ser. B,Unknown,STO,SW
-CLAV,Clavister AB,Unknown,STO,SW
-CLBIO,Corline Biomedical AB,Unknown,STO,SW
-CLEM,Clemondo Group AB,Unknown,STO,SW
-CLIME-B,Climeon AB ser. B,Unknown,STO,SW
-CLS-B,Clinical Laserthermia Systems A,Unknown,STO,SW
-CNCJO-B,Concejo AB ser. B,Unknown,STO,SW
-COFFEE-B,Coffee Stain Group AB ser. B,Unknown,STO,SW
-COMPDM,Compodium International AB,Unknown,STO,SW
-COOR,Coor Service Management Holding,Unknown,STO,SW
-CORE-A,Corem Property Group AB ser. A,Unknown,STO,SW
-CORE-B,Corem Property Group AB ser. B,Unknown,STO,SW
-CORE-D,Corem Property Group AB ser. D,Unknown,STO,SW
-CORE-PREF,Corem Property Group AB Pref,Unknown,STO,SW
-CRAD-B,C-RAD AB ser. B,Unknown,STO,SW
-CRED-A,Creades AB A,Unknown,STO,SW
-CRNO-B,Cereno Scientific AB ser. B,Unknown,STO,SW
-CTEK,CTEK AB,Unknown,STO,SW
-CTM,Catena Media P.L.C,Unknown,STO,SW
-CTT,CTT Systems AB,Unknown,STO,SW
-CX,CombinedX AB,Unknown,STO,SW
-CYNCA,Cynca Nordic AB,Unknown,STO,SW
-DEDI,Dedicare AB ser. B,Unknown,STO,SW
-DEVP-B,DevPort AB ser. B,Unknown,STO,SW
-DICOT,Dicot Pharma AB,Unknown,STO,SW
-DIOS,Diös Fastigheter AB,Unknown,STO,SW
-DIST,DistIT AB,Unknown,STO,SW
-DLAB,Dlaboratory Sweden AB,Unknown,STO,SW
-DMXSE-SDB,District Metals Corporation,Unknown,STO,SW
-DMYD-B,Diamyd Medical AB ser. B,Unknown,STO,SW
-DOM,Dometic Group AB,Unknown,STO,SW
-DONE,Done.ai Group AB,Unknown,STO,SW
-DORMY,Dormy Corporation AB,Unknown,STO,SW
-DOXA,Doxa AB,Unknown,STO,SW
-DRIL,Drillcon AB,Unknown,STO,SW
-DSNO,Desenio Group AB,Unknown,STO,SW
-DUNI,Duni AB,Unknown,STO,SW
-DURC-B,Duroc AB ser. B,Unknown,STO,SW
-DUST,Dustin Group AB,Unknown,STO,SW
-DVYSR,Devyser Diagnostics AB,Unknown,STO,SW
-DYVOX,Dynavox Group AB,Unknown,STO,SW
-EAST,Eastnine AB,Unknown,STO,SW
-EFFH,Effnetplattformen Holding AB,Unknown,STO,SW
-EG7,Enad Global 7 AB,Unknown,STO,SW
-EGTX,Egetis Therapeutics AB,Unknown,STO,SW
-EKTA-B,Elekta AB ser. B,Unknown,STO,SW
-ELAN-B,Elanders AB ser. B,Unknown,STO,SW
-ELIC,Elicera Therapeutics AB,Unknown,STO,SW
-ELLOS,Ellos Holding AB,Unknown,STO,SW
-ELON,Elon AB,Unknown,STO,SW
-ELTEL,Eltel AB,Unknown,STO,SW
-ELUX-A,"Electrolux, AB ser. A",Unknown,STO,SW
-ELUX-B,"Electrolux, AB ser. B",Unknown,STO,SW
-EMB,EMB Mission Bound AB,Unknown,STO,SW
-EMBELL,Embellence Group AB,Unknown,STO,SW
-EMBRAC-B,Embracer Group AB ser. B,Unknown,STO,SW
-EMIL-B,Fastighetsbolaget Emilshus AB s,Unknown,STO,SW
-ENEA,Enea AB,Unknown,STO,SW
-ENGCON-B,engcon AB ser. B,Unknown,STO,SW
-ENITY,Enity Holding AB,Unknown,STO,SW
-ENRO,Eniro Group AB,Unknown,STO,SW
-ENVAR,Envar Holding AB,Unknown,STO,SW
-ENZY,Enzymatica AB,Unknown,STO,SW
-EOLU-B,Eolus Aktiebolag ser. B,Unknown,STO,SW
-EPEN,Ependion AB,Unknown,STO,SW
-EPI-A,Epiroc AB ser. A,Unknown,STO,SW
-EPI-B,Epiroc AB ser. B,Unknown,STO,SW
-EPIS-B,Episurf Medical AB B,Unknown,STO,SW
-EPRO-B,Electrolux Professional AB ser.,Unknown,STO,SW
-EQL,EQL Pharma AB,Unknown,STO,SW
-EQT,EQT AB,Unknown,STO,SW
-ERIC-A,"Ericsson, Telefonab. L M ser. A",Unknown,STO,SW
-ERIC-B,"Ericsson, Telefonab. L M ser. B",Unknown,STO,SW
-ERMA,Enorama Pharma AB,Unknown,STO,SW
-ESGR-B,ES Group AB ser. B,Unknown,STO,SW
-ESSITY-A,Essity AB ser. A,Unknown,STO,SW
-ESSITY-B,Essity AB ser. B,Unknown,STO,SW
-EVO,Evolution AB,Unknown,STO,SW
-EWRK,Ework Group AB,Unknown,STO,SW
-EXS,Exsitec Holding AB,Unknown,STO,SW
-FABG,Fabege AB,Unknown,STO,SW
-FAG,Fagerhult Group AB,Unknown,STO,SW
-FASTAT,AB Fastator,Unknown,STO,SW
-FERRO,Ferroamp AB,Unknown,STO,SW
-FG,Fasadgruppen Group AB,Unknown,STO,SW
-FIRE,Firefly AB,Unknown,STO,SW
-FIRST-B,First Venture Sweden AB ser. B,Unknown,STO,SW
-FLAT-B,Flat Capital AB ser. B,Unknown,STO,SW
-FLERIE,Flerie AB,Unknown,STO,SW
-FLEXM,Flexion Mobile Plc,Unknown,STO,SW
-FLEXQ,FlexQube AB,Unknown,STO,SW
-FLOWS,Flowscape Technology AB,Unknown,STO,SW
-FLUO,FluoGuide A/S,Unknown,STO,SW
-FMM-B,FM Mattsson AB ser. B,Unknown,STO,SW
-FNM,Ferronordic AB,Unknown,STO,SW
-FNOVA-B,Fortinova Fastigheter AB ser. B,Unknown,STO,SW
-FOI-B,Fenix Outdoor International AG,Unknown,STO,SW
-FPAR-A,Fastpartner AB ser. A,Unknown,STO,SW
-FPAR-D,Fastpartner AB ser. D,Unknown,STO,SW
-FRACTL,Fractal Gaming Group AB,Unknown,STO,SW
-FRAG,Fragbite Group AB,Unknown,STO,SW
-FREEM,Freemelt Holding AB,Unknown,STO,SW
-FREJA,Freja eID Group AB,Unknown,STO,SW
-G2M,Gentoo Media Inc.,Unknown,STO,SW
-G5EN,G5 Entertainment AB,Unknown,STO,SW
-GAPW-B,Gapwaves AB B,Unknown,STO,SW
-GARO,Garo AB,Unknown,STO,SW
-GCOR,Gaming Corps AB,Unknown,STO,SW
-GENI,Generic Sweden AB,Unknown,STO,SW
-GENO,Genovis AB,Unknown,STO,SW
-GETI-B,Getinge AB ser. B,Unknown,STO,SW
-GGEO,Guideline Geo AB,Unknown,STO,SW
-GIG-SDB,GiG Software PLC,Unknown,STO,SW
-GIGA,Gigasun AB,Unknown,STO,SW
-GOMX,GomSpace Group AB,Unknown,STO,SW
-GOTL-A,Rederiaktiebolaget Gotland ser.,Unknown,STO,SW
-GOTL-B,Rederiaktiebolaget Gotland ser.,Unknown,STO,SW
-GPG,Genova Property Group AB,Unknown,STO,SW
-GRANGX,GRANGEX AB,Unknown,STO,SW
-GREAT,Greater Than AB,Unknown,STO,SW
-GREEN,Green Landscaping Group AB,Unknown,STO,SW
-GRNG,Gränges AB,Unknown,STO,SW
-GSKR-SDB,Goldsky Resources Corp.,Unknown,STO,SW
-GULD,Guldbrev Holding AB,Unknown,STO,SW
-HACK,Hacksaw AB,Unknown,STO,SW
-HAKI-A,HAKI Safety AB ser. A,Unknown,STO,SW
-HAKI-B,HAKI Safety AB ser. B,Unknown,STO,SW
-HANZA,HANZA AB,Unknown,STO,SW
-HAV-B,Havsfrun Investment AB ser. B,Unknown,STO,SW
-HAYPP,Haypp Group AB,Unknown,STO,SW
-HEART,Scandinavian Real Heart AB,Unknown,STO,SW
-HEBA-B,Heba Fastighets AB ser. B,Unknown,STO,SW
-HEIM-PREF,Heimstaden AB Pref,Unknown,STO,SW
-HEM,Hemnet Group AB,Unknown,STO,SW
-HERNO-B,Hernö Gin AB ser. B,Unknown,STO,SW
-HEXA-B,Hexagon AB ser. B,Unknown,STO,SW
-HIGHCO-B,High Coast Distillery AB ser. B,Unknown,STO,SW
-HILB-B,Hilbert Group AB ser. B,Unknown,STO,SW
-HM-B,"Hennes & Mauritz AB, H & M ser.",Unknown,STO,SW
-HMS,HMS Networks AB,Unknown,STO,SW
-HNSA,Hansa Biopharma AB,Unknown,STO,SW
-HOFI,Hoist Finance AB,Unknown,STO,SW
-HOLM-A,Holmen AB ser. A,Unknown,STO,SW
-HOLM-B,Holmen AB ser. B,Unknown,STO,SW
-HPOL-B,HEXPOL AB ser. B,Unknown,STO,SW
-HTRO,Hexatronic Group AB,Unknown,STO,SW
-HUFV-A,Hufvudstaden AB ser. A,Unknown,STO,SW
-HUM,Humana AB,Unknown,STO,SW
-HUMBLE,Humble Group AB,Unknown,STO,SW
-HUSQ-A,Husqvarna AB ser. A,Unknown,STO,SW
-HUSQ-B,Husqvarna AB ser. B,Unknown,STO,SW
-IBT-B,Infant Bacterial Therapeutics A,Unknown,STO,SW
-ICO,Iconovo AB,Unknown,STO,SW
-IDLDX,IDL Diagnostics AB,Unknown,STO,SW
-IDUN-B,Idun Industrier AB ser. B,Unknown,STO,SW
-IMMU,Mendus AB,Unknown,STO,SW
-IMPC,Impact Coatings AB,Unknown,STO,SW
-INDT,Indutrade AB,Unknown,STO,SW
-INDU-A,"Industrivärden, AB ser. A",Unknown,STO,SW
-INDU-C,"Industrivärden, AB ser. C",Unknown,STO,SW
-INFREA,Infrea AB,Unknown,STO,SW
-INISS-B,Inission AB ser. B,Unknown,STO,SW
-INIT,Initiator Pharma A/S,Unknown,STO,SW
-INQ,INQ Group AB,Unknown,STO,SW
-INSTAL,Instalco AB,Unknown,STO,SW
-INTEA-B,Intea Fastigheter AB ser. B,Unknown,STO,SW
-INTEA-D,Intea Fastigheter AB ser. D,Unknown,STO,SW
-INTEG-B,Integrum AB ser. B,Unknown,STO,SW
-INTRUM,Intrum AB,Unknown,STO,SW
-INVE-A,Investor AB ser. A,Unknown,STO,SW
-INVE-B,Investor AB ser. B,Unknown,STO,SW
-INWI,Inwido AB,Unknown,STO,SW
-IPCO,International Petroleum Corpora,Unknown,STO,SW
-IRIS,Irisity AB,Unknown,STO,SW
-IRLAB-A,IRLAB Therapeutics AB ser. A,Unknown,STO,SW
-IS,Image Systems AB,Unknown,STO,SW
-ISOFOL,Isofol Medical AB,Unknown,STO,SW
-ITAB,ITAB Group AB,Unknown,STO,SW
-ITECH,I-Tech AB,Unknown,STO,SW
-IVACC,Intervacc AB,Unknown,STO,SW
-IZAFE-B,iZafe Group AB ser. B,Unknown,STO,SW
-JM,JM AB,Unknown,STO,SW
-JOMA,John Mattson Fastighetsföretag,Unknown,STO,SW
-K2A-B,K2A Knaust & Andersson Fastighe,Unknown,STO,SW
-K2A-PREF,K2A Knaust & Andersson Fastighe,Unknown,STO,SW
-K33,K33 AB,Unknown,STO,SW
-KABE-B,KABE Group AB ser. B,Unknown,STO,SW
-KAMBI,Kambi Group Plc,Unknown,STO,SW
-KAPIAB,Kallebäck Property Invest AB,Unknown,STO,SW
-KAR,Karnov Group AB,Unknown,STO,SW
-KARNEL-B,Karnell Group AB ser. B,Unknown,STO,SW
-KBC,KB Components AB,Unknown,STO,SW
-KEBNI-B,KebNi AB ser. B,Unknown,STO,SW
-KENH,Kentima Holding AB,Unknown,STO,SW
-KEOC,Keo Capital AB,Unknown,STO,SW
-KFAST-B,K-Fast Holding AB B,Unknown,STO,SW
-KINV-A,Kinnevik AB ser. A,Unknown,STO,SW
-KINV-B,Kinnevik AB ser. B,Unknown,STO,SW
-KJELL,Kjell Group AB,Unknown,STO,SW
-KLAR,Klaria Pharma Holding AB,Unknown,STO,SW
-KLIMAT,Klimator AB,Unknown,STO,SW
-KNOW,Knowit AB,Unknown,STO,SW
-LAGR-B,Lagercrantz Group AB ser B,Unknown,STO,SW
-LAMM-B,Lammhults Design Group AB ser.,Unknown,STO,SW
-LATO-B,"Latour, Investmentab. ser. B",Unknown,STO,SW
-LEA,Lea Bank AB,Unknown,STO,SW
-LEMSE,Leading Edge Materials Corp.,Unknown,STO,SW
-LEVEL,Nordic LEVEL Group AB,Unknown,STO,SW
-LIAB,Lindab International AB,Unknown,STO,SW
-LIFCO-B,Lifco AB ser.B,Unknown,STO,SW
-LIME,Lime Technologies AB,Unknown,STO,SW
-LINC,Linc AB,Unknown,STO,SW
-LITI,Litium AB,Unknown,STO,SW
-LMGAB,Linjemontage i Grästorp AB,Unknown,STO,SW
-LOGI-B,Logistea AB ser. B,Unknown,STO,SW
-LOOMIS,Loomis AB,Unknown,STO,SW
-LOYAL,Loyal Solutions A/S,Unknown,STO,SW
-LUC,Lucara Diamond Corp,Unknown,STO,SW
-LUG,Lundin Gold Inc.,Unknown,STO,SW
-LUMEN,LumenRadio AB,Unknown,STO,SW
-LUMI,Lundin Mining Corporation,Unknown,STO,SW
-LUND-B,"Lundbergföretagen AB, L E ser.",Unknown,STO,SW
-LYGRD,Lyckegård Group AB,Unknown,STO,SW
-LYKO-A,Lyko Group AB ser. A,Unknown,STO,SW
-MAGI,MAG Interactive AB,Unknown,STO,SW
-MANG,Mangold AB,Unknown,STO,SW
-MAVEN,Maven Wireless Sweden AB,Unknown,STO,SW
-MCAP,MedCap AB,Unknown,STO,SW
-MCOV-B,Medicover AB ser. B,Unknown,STO,SW
-MEAB-B,Malmbergs Elektriska AB ser. B,Unknown,STO,SW
-MEDS,Meds Apotek AB,Unknown,STO,SW
-MEKO,MEKO AB,Unknown,STO,SW
-MER,Meren Energy Inc.,Unknown,STO,SW
-META,Metacon AB,Unknown,STO,SW
-MIDS,Midsummer AB,Unknown,STO,SW
-MILDEF,Mildef Group AB,Unknown,STO,SW
-MINEST,Minesto AB,Unknown,STO,SW
-MIPS,Mips AB,Unknown,STO,SW
-MMGR-B,Momentum Group AB ser. B,Unknown,STO,SW
-MNTC,Mentice AB,Unknown,STO,SW
-MOB,Moberg Pharma AB,Unknown,STO,SW
-MODEL,Modelon AB,Unknown,STO,SW
-MOMENT,Moment Group AB,Unknown,STO,SW
-MORROW,Morrow Bank AB,Unknown,STO,SW
-MSAB-B,Micro Systemation AB B,Unknown,STO,SW
-MSON-A,Midsona AB ser. A,Unknown,STO,SW
-MSON-B,Midsona AB ser. B,Unknown,STO,SW
-MTG-A,Modern Times Group MTG AB ser.,Unknown,STO,SW
-MTG-B,Modern Times Group MTG AB ser.,Unknown,STO,SW
-MTRS,Munters Group AB,Unknown,STO,SW
-MVIR,Medivir AB,Unknown,STO,SW
-MYCR,Mycronic AB,Unknown,STO,SW
-NANEXA,Nanexa AB,Unknown,STO,SW
-NANOFS,Nanoform Finland Oyj,Unknown,STO,SW
-NAVIGO-PREF,Navigo Invest AB Pref,Unknown,STO,SW
-NAVIGO-STAM,Navigo Invest AB,Unknown,STO,SW
-NAXS,NAXS AB,Unknown,STO,SW
-NCAB,NCAB Group AB,Unknown,STO,SW
-NCC-A,NCC AB ser. A,Unknown,STO,SW
-NCC-B,NCC AB ser. B,Unknown,STO,SW
-NDA-SE,Nordea Bank Abp,Unknown,STO,SW
-NEEMS-B,Neem's Hill AB B,Unknown,STO,SW
-NELLY,Nelly Group AB,Unknown,STO,SW
-NEO-B,Neovici Holding AB ser. B,Unknown,STO,SW
-NEOBO,Neobo Fastigheter AB,Unknown,STO,SW
-NEOLA,Neola Medical AB,Unknown,STO,SW
-NEPA,Nepa AB,Unknown,STO,SW
-NETEL,Netel Holding AB,Unknown,STO,SW
-NETI-B,Net Insight AB ser. B,Unknown,STO,SW
-NEWA-B,New Wave Group AB ser. B,Unknown,STO,SW
-NEXAM,Nexam Chemical Holding AB,Unknown,STO,SW
-NFGAB,Nordic Flanges Group AB,Unknown,STO,SW
-NIBE-B,NIBE Industrier AB ser. B,Unknown,STO,SW
-NICA,Nanologica AB,Unknown,STO,SW
-NIO,Nordic Iron Ore AB,Unknown,STO,SW
-NIVI-B,Nivika Fastigheter AB ser. B,Unknown,STO,SW
-NMAN,Nederman Holding AB,Unknown,STO,SW
-NNH,New Nordic Healthbrands AB,Unknown,STO,SW
-NOBA,NOBA Bank Group AB,Unknown,STO,SW
-NOBI,Nobia AB,Unknown,STO,SW
-NOKIA-SEK,Nokia Corporation,Unknown,STO,SW
-NOLA-B,Nolato AB ser. B,Unknown,STO,SW
-NORB-B,Nordisk Bergteknik AB ser. B,Unknown,STO,SW
-NORION,Norion Bank AB,Unknown,STO,SW
-NOSA,Nosa Plugs AB,Unknown,STO,SW
-NOTE,NOTE AB,Unknown,STO,SW
-NOTEK,Norditek Group AB,Unknown,STO,SW
-NP3,NP3 Fastigheter AB,Unknown,STO,SW
-NP3-PREF,NP3 Fastigheter AB Pref,Unknown,STO,SW
-NRDAMP,NordAmps AB,Unknown,STO,SW
-NREST,Nordrest Holding AB,Unknown,STO,SW
-NTEK-B,NOVOTEK AB ser. B,Unknown,STO,SW
-NXTCL,NextCell Pharma AB,Unknown,STO,SW
-NYAB,NYAB AB,Unknown,STO,SW
-NYOR,Nyorda AB,Unknown,STO,SW
-OBAB,Online Brands Nordic AB,Unknown,STO,SW
-OBSE,Observit AB,Unknown,STO,SW
-OEM-B,OEM International AB ser. B,Unknown,STO,SW
-OGUN-B,Ogunsen AB ser. B,Unknown,STO,SW
-ONCO,Oncopeptides AB,Unknown,STO,SW
-ONCOZ,OncoZenge AB,Unknown,STO,SW
-ONEF,Oneflow AB,Unknown,STO,SW
-OODA,OODA AI AB,Unknown,STO,SW
-OPTER,Opter AB,Unknown,STO,SW
-OPTI,OptiCept Technologies AB,Unknown,STO,SW
-ORES,"Öresund, Investment AB",Unknown,STO,SW
-ORRON,Orrön Energy AB,Unknown,STO,SW
-ORT-B,Ortoma AB ser. B,Unknown,STO,SW
-ORTI-A,Ortivus AB ser. A,Unknown,STO,SW
-ORTI-B,Ortivus AB ser. B,Unknown,STO,SW
-ORX,Orexo AB,Unknown,STO,SW
-OSSD,OssDsign AB,Unknown,STO,SW
-OVZON,Ovzon AB,Unknown,STO,SW
-OXE,OXE Marine AB,Unknown,STO,SW
-PACT,Proact IT Group AB,Unknown,STO,SW
-PAX,Paxman AB,Unknown,STO,SW
-PCELL,PowerCell Sweden AB,Unknown,STO,SW
-PDX,Paradox Interactive AB,Unknown,STO,SW
-PEAB-B,Peab AB ser. B,Unknown,STO,SW
-PIERCE,Pierce Group AB,Unknown,STO,SW
-PILA,PILA PHARMA AB,Unknown,STO,SW
-PION-B,PION Group AB ser. B,Unknown,STO,SW
-PLAZ-B,Platzer Fastigheter Holding AB,Unknown,STO,SW
-PNDX-B,Pandox AB ser. B,Unknown,STO,SW
-POLYG,Polygiene Group AB,Unknown,STO,SW
-PRCO-B,Precio Fishbone AB ser. B,Unknown,STO,SW
-PREC,Precise Biometrics AB,Unknown,STO,SW
-PREV-B,Prevas AB ser. B,Unknown,STO,SW
-PRFO,Profoto Holding AB,Unknown,STO,SW
-PRIC-B,Pricer AB ser. B,Unknown,STO,SW
-PRISMA,Prisma Properties AB,Unknown,STO,SW
-PRO,Promimic AB,Unknown,STO,SW
-PROF-B,ProfilGruppen AB ser. B,Unknown,STO,SW
-PTRK,Physitrack PLC,Unknown,STO,SW
-PUBLI,PPI Public Property Invest AB,Unknown,STO,SW
-QAIR,QleanAir AB,Unknown,STO,SW
-QBEN,Qben Infra AB,Unknown,STO,SW
-QLINEA,Q-Linea AB,Unknown,STO,SW
-QLIRO,Qliro AB,Unknown,STO,SW
-QSYS,Qualisys Holding Aktiebolag,Unknown,STO,SW
-RAIL,Railcare Group AB,Unknown,STO,SW
-RAKE,Raketech Group Holding plc,Unknown,STO,SW
-RATO-A,Ratos AB ser. A,Unknown,STO,SW
-RATO-B,Ratos AB ser. B,Unknown,STO,SW
-RAY-B,RaySearch Laboratories AB ser.,Unknown,STO,SW
-REJL-B,Rejlers AB ser. B,Unknown,STO,SW
-ROKO-B,Röko AB ser. B,Unknown,STO,SW
-RROS,Rottneros AB,Unknown,STO,SW
-RUG,RugVista Group AB,Unknown,STO,SW
-RUSTA,Rusta AB,Unknown,STO,SW
-RVRC,RVRC Holding AB,Unknown,STO,SW
-SAAB-B,SAAB AB ser. B,Unknown,STO,SW
-SAFETY-B,mySafety Group AB ser. B,Unknown,STO,SW
-SAGA-A,Sagax AB A,Unknown,STO,SW
-SAGA-B,Sagax AB B,Unknown,STO,SW
-SAGA-D,Sagax AB D,Unknown,STO,SW
-SALIX,Salix Group AB,Unknown,STO,SW
-SALT-B,SaltX Technology Holding AB ser,Unknown,STO,SW
-SAMPO-SEK,Sampo Plc A,Unknown,STO,SW
-SAND,Sandvik AB,Unknown,STO,SW
-SANION,Saniona AB,Unknown,STO,SW
-SAVE,Nordnet AB,Unknown,STO,SW
-SAXG,Saxlund Group AB,Unknown,STO,SW
-SBB-B,Samhällsbyggnadsbo. i Norden A,Unknown,STO,SW
-SBB-D,Samhällsbyggnadsbo. i Norden A,Unknown,STO,SW
-SBOK-B,ScandBook Holding AB,Unknown,STO,SW
-SCA-A,Svenska Cellulosa AB SCA ser. A,Unknown,STO,SW
-SCA-B,Svenska Cellulosa AB SCA ser. B,Unknown,STO,SW
-SCIB,Scibase Holding AB,Unknown,STO,SW
-SCST,Scandi Standard AB,Unknown,STO,SW
-SDIP-B,Sdiptech AB ser. B,Unknown,STO,SW
-SEAF,Seafire AB,Unknown,STO,SW
-SEB-A,Skandinaviska Enskilda Banken s,Unknown,STO,SW
-SEB-C,Skandinaviska Enskilda Banken s,Unknown,STO,SW
-SECARE,Swedencare AB,Unknown,STO,SW
-SECT-B,SECTRA AB ser B,Unknown,STO,SW
-SECU-B,Securitas AB ser. B,Unknown,STO,SW
-SEDANA,Sedana Medical AB,Unknown,STO,SW
-SENZA,SenzaGen AB,Unknown,STO,SW
-SERT,Serstech AB,Unknown,STO,SW
-SES,Scandinavian Enviro Systems AB,Unknown,STO,SW
-SEYE,Smart Eye AB,Unknown,STO,SW
-SEZI,Senzime AB,Unknown,STO,SW
-SF,Stillfront Group AB,Unknown,STO,SW
-SFAB,Solid Försäkringsaktiebolag,Unknown,STO,SW
-SFAST,Stenhus Fastigheter i Norden AB,Unknown,STO,SW
-SFL,Safello Group AB,Unknown,STO,SW
-SFTR,Safeture AB,Unknown,STO,SW
-SGG,Sensys Gatso Group AB,Unknown,STO,SW
-SHB-A,Svenska Handelsbanken ser. A,Unknown,STO,SW
-SHB-B,Svenska Handelsbanken ser. B,Unknown,STO,SW
-SHOT,Scandic Hotels Group AB,Unknown,STO,SW
-SIBEK,SIBEK AB,Unknown,STO,SW
-SILEX,Silex Microsystems AB,Unknown,STO,SW
-SIMRIS-B,Simris Group AB ser. B,Unknown,STO,SW
-SINCH,Sinch AB,Unknown,STO,SW
-SINT,SinterCast AB,Unknown,STO,SW
-SIVE,Sivers Semiconductors AB,Unknown,STO,SW
-SIVI,Siljansvik AB,Unknown,STO,SW
-SKA-B,Skanska AB ser. B,Unknown,STO,SW
-SKF-A,"SKF, AB ser. A",Unknown,STO,SW
-SKF-B,"SKF, AB ser. B",Unknown,STO,SW
-SKIS-B,SkiStar AB ser. B,Unknown,STO,SW
-SKMO,Skåne-möllan AB,Unknown,STO,SW
-SKOLON,Skolon AB,Unknown,STO,SW
-SLEEP,Sleep Cycle AB,Unknown,STO,SW
-SLP-B,Swedish Logistic Property AB se,Unknown,STO,SW
-SMCRT,SmartCraft Group AB,Unknown,STO,SW
-SNM-SDB,ShaMaran Petroleum Ltd,Unknown,STO,SW
-SNX,Premium Snacks Nordic AB,Unknown,STO,SW
-SOBI,Swedish Orphan Biovitrum AB,Unknown,STO,SW
-SODER,Söder Sportfiske AB,Unknown,STO,SW
-SOF-B,Softronic AB ser. B,Unknown,STO,SW
-SOLNA,Solnaberg Property AB,Unknown,STO,SW
-SOLT,SolTech Energy Sweden AB,Unknown,STO,SW
-SPACEN-B,Space Nord Invest AB ser. B,Unknown,STO,SW
-SPEONE,SpectrumOne AB,Unknown,STO,SW
-SPRINT,Sprint Bioscience AB,Unknown,STO,SW
-SSAB-A,SSAB AB ser. A,Unknown,STO,SW
-SSAB-B,SSAB AB ser. B,Unknown,STO,SW
-STAR-A,Starbreeze AB ser. A,Unknown,STO,SW
-STAR-B,Starbreeze AB ser. B,Unknown,STO,SW
-STE-A,Stora Enso Oyj ser. A,Unknown,STO,SW
-STE-R,Stora Enso Oyj ser. R,Unknown,STO,SW
-STEF-B,Stendörren Fastigheter AB ser.,Unknown,STO,SW
-STIL,Stille AB,Unknown,STO,SW
-STOR-B,Storskogen Group AB ser. B,Unknown,STO,SW
-STORY-B,Storytel AB ser. B,Unknown,STO,SW
-STUDBO,Studentbostäder i Norden AB,Unknown,STO,SW
-STW,SeaTwirl AB,Unknown,STO,SW
-STWK,Stockwik AB,Unknown,STO,SW
-SUMMAS,Summa Defence Oyj,Unknown,STO,SW
-SUS,Surgical Science Sweden AB,Unknown,STO,SW
-SVEAF-B,Sveafastigheter AB,Unknown,STO,SW
-SVED-B,Svedbergs Group AB ser. B,Unknown,STO,SW
-SVEVIK,Svevik Industri AB,Unknown,STO,SW
-SVIK,Studsvik AB,Unknown,STO,SW
-SVOL-A,Svolder AB ser. A,Unknown,STO,SW
-SVOL-B,Svolder AB ser. B,Unknown,STO,SW
-SWEC-A,SWECO AB ser. A,Unknown,STO,SW
-SWEC-B,SWECO AB ser. B,Unknown,STO,SW
-SWED-A,Swedbank AB ser A,Unknown,STO,SW
-SYNACT,SynAct Pharma AB,Unknown,STO,SW
-SYNSAM,Synsam AB,Unknown,STO,SW
-SYSR,Systemair AB,Unknown,STO,SW
-TAGM-B,TagMaster AB ser. B,Unknown,STO,SW
-TALK,TalkPool AG,Unknown,STO,SW
-TEL2-A,Tele2 AB ser. A,Unknown,STO,SW
-TEL2-B,Tele2 AB ser. B,Unknown,STO,SW
-TELIA,Telia Company AB,Unknown,STO,SW
-TELLUS,Tellusgruppen AB,Unknown,STO,SW
-TENEO,Teneo AI AB,Unknown,STO,SW
-TEQ,Teqnion AB,Unknown,STO,SW
-TERNOR,Terranor Group AB,Unknown,STO,SW
-THULE,Thule Group AB,Unknown,STO,SW
-TIETOS,Tieto Corporation,Unknown,STO,SW
-TINGS-A,Tingsvalvet Fastighets AB ser.,Unknown,STO,SW
-TINGS-B,Tingsvalvet Fastighets AB ser.,Unknown,STO,SW
-TITA-B,Titania Holding AB ser. B,Unknown,STO,SW
-TOBII,Tobii AB,Unknown,STO,SW
-TRAC-B,Traction AB ser. B,Unknown,STO,SW
-TRAIN-B,Train Alliance AB ser. B,Unknown,STO,SW
-TRANS,Transtema Group AB,Unknown,STO,SW
-TREL-B,Trelleborg AB ser. B,Unknown,STO,SW
-TRIAN-B,Fastighets AB Trianon ser. B,Unknown,STO,SW
-TRIBO-B,Tribox Group AB ser. B,Unknown,STO,SW
-TROAX,Troax Group AB,Unknown,STO,SW
-TRUE-B,Truecaller AB ser. B,Unknown,STO,SW
-TSEC,Tempest Security AB,Unknown,STO,SW
-UNIBAP,Unibap Space Solutions AB,Unknown,STO,SW
-UPSALE,Upsales Technology AB,Unknown,STO,SW
-UTG,Unlimited Travel Group AB,Unknown,STO,SW
-VBG-B,VBG GROUP AB ser. B,Unknown,STO,SW
-VEFAB,VEF AB,Unknown,STO,SW
-VER,Verve Group Media SE,Unknown,STO,SW
-VERT-B,Vertiseit AB ser. B,Unknown,STO,SW
-VETT,Vetted Assets AB (publ),Unknown,STO,SW
-VICO,Vicore Pharma Holding AB,Unknown,STO,SW
-VIMAB,Vimab Group AB,Unknown,STO,SW
-VIMIAN,Vimian Group AB,Unknown,STO,SW
-VISC,Gruvaktiebolaget Viscaria,Unknown,STO,SW
-VIT-B,Vitec Software Group AB ser. B,Unknown,STO,SW
-VITR,Vitrolife AB,Unknown,STO,SW
-VIVE,Vivesto AB,Unknown,STO,SW
-VNV,VNV Global AB,Unknown,STO,SW
-VO2,VO2 Cap Holding AB,Unknown,STO,SW
-VOLCAR-B,Volvo Car AB ser. B,Unknown,STO,SW
-VOLO,Volati AB,Unknown,STO,SW
-VOLO-PREF,Volati AB Pref,Unknown,STO,SW
-VOLV-A,"Volvo, AB ser. A",Unknown,STO,SW
-VOLV-B,"Volvo, AB ser. B",Unknown,STO,SW
-VPLAY-A,Viaplay Group AB ser. A,Unknown,STO,SW
-VPLAY-B,Viaplay Group AB ser. B,Unknown,STO,SW
-VSSAB-B,Viking Supply Ships AB ser. B,Unknown,STO,SW
-VSURE,Verisure plc,Unknown,STO,SW
-VUXEN,Vuxen Group AB,Unknown,STO,SW
-W5,W5 Solutions AB,Unknown,STO,SW
-WALL-B,Wallenstam AB ser. B,Unknown,STO,SW
-WAYS,Waystream Group AB,Unknown,STO,SW
-WBGR-B,Wästbygg Gruppen AB ser. B,Unknown,STO,SW
-WIHL,Wihlborgs Fastigheter AB,Unknown,STO,SW
-WISE,Wise Group AB,Unknown,STO,SW
-WPAY,Westpay AB,Unknown,STO,SW
-WPTG-B,White Pearl Technology Group AB,Unknown,STO,SW
-WRV,WebRock Ventures AB,Unknown,STO,SW
-WSG,WS WeSports Group AB,Unknown,STO,SW
-WTW-A,Wall to Wall Group AB A,Unknown,STO,SW
-XANO-B,XANO Industri AB ser. B,Unknown,STO,SW
-XBRANE,Xbrane Biopharma AB,Unknown,STO,SW
-XINT,Xintela AB,Unknown,STO,SW
-XPC,XP Chemistries AB,Unknown,STO,SW
-XSPRAY,Xspray Pharma AB,Unknown,STO,SW
-XVIVO,Xvivo Perfusion AB,Unknown,STO,SW
-YIELD,SaveLend Group AB,Unknown,STO,SW
-YUBICO,Yubico AB,Unknown,STO,SW
-ZZ-B,Zinzino AB Ser. B,Unknown,STO,SW
+ticker,company,sector,exchange,country,market_segment,listing_verified,source_url,source_date,isin,issuer_id,source_symbol,nasdaq_symbol,orderbook_id,list_segment,listing_currency
+8TRA,TRATON,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,DE000TRAT0N7,529900UIMQRKPFN6SV80,8TRA.ST,8TRA,TX3080186,LARGE_CAP,SEK
+AAK,AAK,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011337708,549300GK4LGIDDWJWL07,AAK.ST,AAK,TX209114,LARGE_CAP,SEK
+ABB,ABB Ltd,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,CH0012221716,5493000LKVGOO9PELI61,ABB.ST,ABB,TX291,LARGE_CAP,SEK
+ACAD,AcadeMedia,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007897079,549300H47PGHY4JNKO68,ACAD.ST,ACAD,TX2100146,MID_CAP,SEK
+ACAST,Acast,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015960935,5493004UROJFQSP6RC85,ACAST.ST,ACAST,TX3871046,MID_CAP,SEK
+ACE,Ascelia Pharma,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010573113,5493002YR9VCJJPWYN08,ACE.ST,ACE,TX2983880,SMALL_CAP,SEK
+ACRI-A,Acrinova A,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015660014,54930064FHDVK3N8U251,ACRI-A.ST,ACRI A,TX3238630,SMALL_CAP,SEK
+ACRI-B,Acrinova B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015660030,54930064FHDVK3N8U251,ACRI-B.ST,ACRI B,TX3769790,SMALL_CAP,SEK
+ACTI,Active Biotech,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0029278555,549300OJ44CLMRU8YE43,ACTI.ST,ACTI,TX139,SMALL_CAP,SEK
+ADDT-B,Addtech B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0014781795,549300QZ5U2IDRHPWL60,ADDT-B.ST,ADDT B,TX358,LARGE_CAP,SEK
+AFRY,AFRY,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005999836,549300Q87LKPPD4X9R30,AFRY.ST,AFRY,TX134,LARGE_CAP,SEK
+AJA-B,Byggmästare A J Ahlström H,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0026876476,549300ELOKKD7L8J4559,AJA-B.ST,AJA B,TX1691846,MID_CAP,SEK
+ALFA,Alfa Laval,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000695876,549300UCKT2UK88AG251,ALFA.ST,ALFA,TX364,LARGE_CAP,SEK
+ALIF-B,AddLife B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0014401378,5493005T3M7CD7XWE013,ALIF-B.ST,ALIF B,TX2018506,LARGE_CAP,SEK
+ALIG,Alimak Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007158910,549300LC2ER06GDV6565,ALIG.ST,ALIG,TX1821472,LARGE_CAP,SEK
+ALIV-SDB,Autoliv SDB,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0021309614,A23RUXWKASG834LTMK28,ALIV-SDB.ST,ALIV SDB,TX65,LARGE_CAP,SEK
+ALLEI,Alleima,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017615644,529900EBHTYGLA6PGP77,ALLEI.ST,ALLEI,TX4539520,LARGE_CAP,SEK
+ALLIGO-B,Alligo B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009922305,549300AZV2TAMUBEZS90,ALLIGO-B.ST,ALLIGO B,TX2411196,MID_CAP,SEK
+ALTRA,Altra Fastigheter,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011426428,5493000YR2B83SILCJ50,ALTRA.ST,ALTRA,TX2873970,LARGE_CAP,SEK
+ALVO-SDB,Alvotech SDB,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0025011463,,ALVO-SDB.ST,ALVO SDB,TX6067312,LARGE_CAP,SEK
+AMBEA,Ambea,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009663826,549300AEVNZRHYI5HV24,AMBEA.ST,AMBEA,TX2337926,MID_CAP,SEK
+ANNE-B,Annehem Fastigheter B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015221684,5493001IZXU12M8NYV95,ANNE-B.ST,ANNE B,TX3652848,SMALL_CAP,SEK
+ANOD-B,Addnode Group B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017885767,213800CQXEA3W1YWXZ31,ANOD-B.ST,ANOD B,TX286,LARGE_CAP,SEK
+APOTEA,Apotea,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0023313762,636700XU8GQ8ZL4RNM17,APOTEA.ST,APOTEA,TX5653902,MID_CAP,SEK
+AQ,AQ Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0022062196,549300CN568MD1JD3E40,AQ.ST,AQ,TX2165,LARGE_CAP,SEK
+ARION-SDB,Arion Banki SDB,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010413567,RIL4VBPDB0M7Z3KXSF19,ARION-SDB.ST,ARION SDB,TX2733052,LARGE_CAP,SEK
+ARJO-B,Arjo B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010468116,549300OWGJPYKC6JF790,ARJO-B.ST,ARJO B,TX2558902,MID_CAP,SEK
+ARP,Arctic Paper,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,PLARTPR00012,259400OI92UBLS9RJK55,ARP.ST,ARP,TX1249460,MID_CAP,SEK
+ARPL,Arla Plast,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015810817,549300DGKW6UDAZV9R84,ARPL.ST,ARPL,TX3842718,SMALL_CAP,SEK
+ASKER,Asker Healthcare Group,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0024171458,636700RZEYK9TOWV8F05,ASKER.ST,ASKER,TX5934638,LARGE_CAP,SEK
+ASMDEE-B,Asmodee Group B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0023615638,636700G5993BBAFDYD02,ASMDEE-B.ST,ASMDEE B,TX5821684,LARGE_CAP,SEK
+ASSA-B,ASSA ABLOY B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007100581,549300YECS8HKCIMMB67,ASSA-B.ST,ASSA B,TX102,LARGE_CAP,SEK
+ATCO-A,Atlas Copco A,Industrials,STO,SE,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017486889,213800T8PC8Q4FYJZR07,ATCO-A.ST,ATCO A,TX63,LARGE_CAP,SEK
+ATCO-B,Atlas Copco B,Industrials,STO,SE,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017486897,213800T8PC8Q4FYJZR07,ATCO-B.ST,ATCO B,TX64,LARGE_CAP,SEK
+ATIC,Actic Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009269467,549300HI1JEY110HXM08,ATIC.ST,ATIC,TX2341558,SMALL_CAP,SEK
+ATORX,Alligator Bioscience,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0024173637,549300E15VI0MB7LXV19,ATORX.ST,ATORX,TX2227504,SMALL_CAP,SEK
+ATRLJ-B,Atrium Ljungberg B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0024320832,5493001NNP6HM67OVU09,ATRLJ-B.ST,ATRLJ B,TX213,LARGE_CAP,SEK
+ATT,Attendo,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007666110,549300KEJDL2FNITUW65,ATT.ST,ATT,TX1931718,MID_CAP,SEK
+AVARDA,Avarda Bank,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0025666969,529900BGZZZTLLBR1X49,AVARDA.ST,AVARDA,TX2098154,MID_CAP,SEK
+AXFO,Axfood,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006993770,549300QIXCZWZLHE8L05,AXFO.ST,AXFO,TX309,LARGE_CAP,SEK
+AZA,Avanza Bank Holding,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012454072,549300MBWR5H8SIJLE03,AZA.ST,AZA,TX199,LARGE_CAP,SEK
+AZN,AstraZeneca,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,GB0009895292,PY6ZZQWO2IZFZC3IOL08,AZN.ST,AZN,TX271,LARGE_CAP,SEK
+B3,B3 Consulting Group,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0008347660,549300DY2G2PN6NAI688,B3.ST,B3,TX2093274,SMALL_CAP,SEK
+BACTI-B,Bactiguard Holding B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005878741,549300PAEBW7IAMOSO21,BACTI-B.ST,BACTI B,TX1584958,SMALL_CAP,SEK
+BALCO,Balco Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010323998,549300Z8JUDQ3BN8QB79,BALCO.ST,BALCO,TX2495270,SMALL_CAP,SEK
+BALD-B,Fast. Balder B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017832488,549300GHKJCEZOAEUU82,BALD-B.ST,BALD B,TX303,LARGE_CAP,SEK
+BEGR,BE Group,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0008321921,549300TD8XXBS8J3TF85,BEGR.ST,BEGR,TX230050,SMALL_CAP,SEK
+BEIA-B,Beijer Alma B,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011090547,549300HJX9BNG5055Z38,BEIA-B.ST,BEIA B,TX138,LARGE_CAP,SEK
+BEIJ-B,Beijer Ref B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015949748,549300PZZEUVH08H4G75,BEIJ-B.ST,BEIJ B,TX105,LARGE_CAP,SEK
+BERG-B,Bergman & Beving B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000101362,549300RC0HUZSJYJO751,BERG-B.ST,BERG B,TX106,MID_CAP,SEK
+BERNER-B,Berner Industrier B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006143129,213800KL43V8X6MPRD94,BERNER-B.ST,BERNER B,TX1651424,SMALL_CAP,SEK
+BESQAB,Besqab,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010547786,549300XFVKDYCN5GR726,BESQAB.ST,BESQAB,TX3870190,MID_CAP,SEK
+BESQAB-PREF-B,Besqab Pref B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015195706,549300XFVKDYCN5GR726,BESQAB-PREF-B.ST,BESQAB PREF B,TX3678426,MID_CAP,SEK
+BETCO,Better Collective,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,DK0060952240,2549001EPXH6NK7I2R78,BETCO.ST,BETCO,TX2718208,MID_CAP,SEK
+BETS-B,Betsson B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0022726485,549300W61XW8OFGBG077,BETS-B.ST,BETS B,TX327,LARGE_CAP,SEK
+BHG,BHG Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010948588,549300ZLCWL2QTO3HR86,BHG.ST,BHG,TX2649304,MID_CAP,SEK
+BICO,BICO Group,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0013647385,549300FE4PT8NDXXNK85,BICO.ST,BICO,TX2207820,MID_CAP,SEK
+BILI-A,Bilia A,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009921588,2138002GW5WN1UYZAO32,BILI-A.ST,BILI A,TX107,LARGE_CAP,SEK
+BILL,Billerud,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000862997,549300YJUYJ9A24RXL71,BILL.ST,BILL,TX362,LARGE_CAP,SEK
+BINV,BioInvent International,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015244520,549300E7QRHEF2IJUY10,BINV.ST,BINV,TX351,MID_CAP,SEK
+BIOA-B,BioArctic B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010323311,549300Y0OI2WVUNHLC33,BIOA-B.ST,BIOA B,TX2497972,LARGE_CAP,SEK
+BIOG-B,BioGaia B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017769995,549300UBUJOY2L7TT361,BIOG-B.ST,BIOG B,TX184,MID_CAP,SEK
+BMAX,Byggmax Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0003303627,549300MPJPYQB0KCNH03,BMAX.ST,BMAX,TX655378,MID_CAP,SEK
+BOL,Boliden,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0020050417,21380059QU7IM1ONDJ56,BOL.ST,BOL,TX363,LARGE_CAP,SEK
+BONAV-A,Bonava A,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0008091573,213800SLYJ6HYXWP8L95,BONAV-A.ST,BONAV A,TX2085850,MID_CAP,SEK
+BONAV-B,Bonava B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0008091581,213800SLYJ6HYXWP8L95,BONAV-B.ST,BONAV B,TX2085852,MID_CAP,SEK
+BONEX,BONESUPPORT HOLDING,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009858152,549300COLY053IGTLD63,BONEX.ST,BONEX,TX2411200,LARGE_CAP,SEK
+BONG,Bong,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000396061,5493003RPM8YGS44WV97,BONG.ST,BONG,TX142,SMALL_CAP,SEK
+BOOZT,Boozt,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009888738,549300HOEUKTVLRKQQ57,BOOZT.ST,BOOZT,TX2387064,MID_CAP,SEK
+BORG,Björn Borg,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0021921327,549300UIPGM58Z67Z634,BORG.ST,BORG,TX272768,SMALL_CAP,SEK
+BOUL,Boule Diagnostics,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011231158,213800IK1TGY858TKZ45,BOUL.ST,BOUL,TX913524,SMALL_CAP,SEK
+BRAV,Bravida Holding,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007491303,549300H88IJGPNNL3T61,BRAV.ST,BRAV,TX1908248,LARGE_CAP,SEK
+BRIN-B,Brinova Fastigheter B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0008347652,5493002JE0BBAIJ06O61,BRIN-B.ST,BRIN B,TX2181118,MID_CAP,SEK
+BTS-B,BTS Group B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000805426,549300GBTPZH31MU7R34,BTS-B.ST,BTS B,TX349,MID_CAP,SEK
+BUFAB,Bufab,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0025010671,5493002TF62S16D67T17,BUFAB.ST,BUFAB,TX1510162,LARGE_CAP,SEK
+BULTEN,Bulten,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0003849223,549300HUR75YN61F4108,BULTEN.ST,BULTEN,TX892730,SMALL_CAP,SEK
+BURE,Bure Equity,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000195810,5493000EHCBQ7QQBGX32,BURE.ST,BURE,TX108,LARGE_CAP,SEK
+CAMX,Camurus,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007692850,5493003S6Z6VI7WYFQ06,CAMX.ST,CAMX,TX1933658,LARGE_CAP,SEK
+CANTA,Cantargia,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006371126,549300GKWRT7RXI4VS85,CANTA.ST,CANTA,TX1755560,SMALL_CAP,SEK
+CARA,Carasent,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0023261599,636700WDI7YVR5F6V241,CARA.ST,CARA,TX5668648,SMALL_CAP,SEK
+CAST,Castellum,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000379190,549300GU5OHTR1T5IY68,CAST.ST,CAST,TX188,LARGE_CAP,SEK
+CAT-A,Catella A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000188500,213800WNI4X4LCFHV831,CAT-A.ST,CAT A,TX481404,MID_CAP,SEK
+CAT-B,Catella B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000188518,213800WNI4X4LCFHV831,CAT-B.ST,CAT B,TX481406,MID_CAP,SEK
+CATE,Catena,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001664707,549300EMLM7AH5LDLY65,CATE.ST,CATE,TX175718,LARGE_CAP,SEK
+CCC,Cavotec Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0025010887,636700CG8F631WFEUG14,CCC.ST,CCC,TX6197160,MID_CAP,SEK
+CEVI,CellaVision,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000683484,529900IUBZBZ0HXFJ114,CEVI.ST,CEVI,TX281006,MID_CAP,SEK
+CIBUS,Cibus Real Estate,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010832204,549300PW36MFK96GCR23,CIBUS.ST,CIBUS,TX2626658,MID_CAP,SEK
+CINPHA,Cinclus Pharma Holding,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0020388577,549300TJBPSNZ3DO6B42,CINPHA.ST,CINPHA,TX5372138,SMALL_CAP,SEK
+CLA-B,Cloetta B,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0002626861,549300CSLHPO6Y1AZN37,CLA-B.ST,CLA B,TX487692,MID_CAP,SEK
+CLAS-B,Clas Ohlson B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000584948,549300MH8OETHBBKJU80,CLAS-B.ST,CLAS B,TX301,LARGE_CAP,SEK
+CNCJO-B,Concejo B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000236382,549300PSDFYO1ZBFO413,CNCJO-B.ST,CNCJO B,TX110,SMALL_CAP,SEK
+COOR,Coor Service Management Hold.,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007158829,529900TMO6717OKBSU69,COOR.ST,COOR,TX1820592,MID_CAP,SEK
+CORE-A,Corem Property Group A,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010714279,213800CHXQQD7TSS1T59,CORE-A.ST,CORE A,TX533870,LARGE_CAP,SEK
+CORE-B,Corem Property Group B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010714287,213800CHXQQD7TSS1T59,CORE-B.ST,CORE B,TX2559426,LARGE_CAP,SEK
+CORE-D,Corem Property Group D,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015961594,213800CHXQQD7TSS1T59,CORE-D.ST,CORE D,TX3871626,LARGE_CAP,SEK
+CORE-PREF,Corem Property Group Pref,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010714311,213800CHXQQD7TSS1T59,CORE-PREF.ST,CORE PREF,TX617676,LARGE_CAP,SEK
+CRAD-B,C-RAD B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0002016352,549300SPXLHF15W2CU25,CRAD-B.ST,CRAD B,TX617236,SMALL_CAP,SEK
+CRED-A,Creades A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015661236,549300MYLGD0VKNGTJ47,CRED-A.ST,CRED A,TX1057314,MID_CAP,SEK
+CTEK,CTEK,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016798763,5493007JXLLMFL3T8L95,CTEK.ST,CTEK,TX3975066,SMALL_CAP,SEK
+CTM,Catena Media,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,MT0001000109,549300609A73DL5C5Z86,CTM.ST,CTM,TX1986300,SMALL_CAP,SEK
+CTT,CTT Systems,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000418923,549300AG5CO2JWUJQ994,CTT.ST,CTT,TX265,MID_CAP,SEK
+CYNCA,Cynca Nordic,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0030587176,549300V2QS9QL4C1KQ31,CYNCA.ST,CYNCA,TX400372,MID_CAP,SEK
+DEDI,Dedicare B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0003909282,549300F01ELNT82H4P50,DEDI.ST,DEDI,TX880822,SMALL_CAP,SEK
+DIOS,Diös Fastigheter,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001634262,549300G3VF7LZQ9IW435,DIOS.ST,DIOS,TX183938,MID_CAP,SEK
+DOM,Dometic Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007691613,549300STIPMK5VSA7Y59,DOM.ST,DOM,TX1930266,LARGE_CAP,SEK
+DUNI,Duni,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000616716,549300MWQEN1427O5L53,DUNI.ST,DUNI,TX336196,MID_CAP,SEK
+DURC-B,Duroc B,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000331266,549300ZY7OJROY97Y052,DURC-B.ST,DURC B,TX298,SMALL_CAP,SEK
+DUST,Dustin Group,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006625471,549300C3IRYAOWOT0783,DUST.ST,DUST,TX1724242,MID_CAP,SEK
+DYVOX,Dynavox Group,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017105620,5493008X1XZR4R5R0P66,DYVOX.ST,DYVOX,TX4057664,MID_CAP,SEK
+EAST,Eastnine,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0022050183,2138009N2FO2BZTVYS76,EAST.ST,EAST,TX333368,MID_CAP,SEK
+EG7,Enad Global 7,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010520106,549300OBCTAOBEEVN513,EG7.ST,EG7,TX2940166,SMALL_CAP,SEK
+EGTX,Egetis Therapeutics,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0003815604,549300RZCKGWRUBPMY22,EGTX.ST,EGTX,TX868732,MID_CAP,SEK
+EKTA-B,Elekta B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000163628,54930044O54BK617EP80,EKTA-B.ST,EKTA B,TX111,LARGE_CAP,SEK
+ELAN-B,Elanders B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000119299,5493009S961JPI21WN66,ELAN-B.ST,ELAN B,TX146,MID_CAP,SEK
+ELLOS,Ellos Holding,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0028799429,1595UU5YMU4S61M2UO26,ELLOS.ST,ELLOS,TX7384398,SMALL_CAP,SEK
+ELON,Elon,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001572520,549300BD5VFRJS5HFW64,ELON.ST,ELON,TX524666,SMALL_CAP,SEK
+ELTEL,Eltel,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006509949,549300QPTTHTI8KCH937,ELTEL.ST,ELTEL,TX1721452,SMALL_CAP,SEK
+ELUX-A,Electrolux A,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016589170,549300Y3HHZB1ZGFPJ93,ELUX-A.ST,ELUX A,TX66,LARGE_CAP,SEK
+ELUX-B,Electrolux B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016589188,549300Y3HHZB1ZGFPJ93,ELUX-B.ST,ELUX B,TX67,LARGE_CAP,SEK
+EMBRAC-B,Embracer Group B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0023615885,549300RFXXKT652HB549,EMBRAC-B.ST,EMBRAC B,TX2227240,LARGE_CAP,SEK
+EMIL-B,Fastighetsbolaget Emilshus B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016785786,5493004EO7GR5U8PRK21,EMIL-B.ST,EMIL B,TX4402586,MID_CAP,SEK
+EMIL-PREF,Fastighetsbolag. Emilshus Pref,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016785794,5493004EO7GR5U8PRK21,EMIL-PREF.ST,EMIL PREF,TX3981914,MID_CAP,SEK
+ENEA,Enea,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009697220,549300UNMLWLG6B2R803,ENEA.ST,ENEA,TX256,MID_CAP,SEK
+ENGCON-B,engcon B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017769847,549300EMZ2B768S85S50,ENGCON-B.ST,ENGCON B,TX4421130,LARGE_CAP,SEK
+ENITY,Enity Holding,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0025011554,636700S7UMLTDQ0BKU55,ENITY.ST,ENITY,TX6113774,MID_CAP,SEK
+ENRO,Eniro Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0029300995,549300DYME127YXNIN46,ENRO.ST,ENRO,TX337,SMALL_CAP,SEK
+EOLU-B,Eolus B,Energy,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007075056,549300NNUPH6DE8DVO06,EOLU-B.ST,EOLU B,TX524474,SMALL_CAP,SEK
+EPEN,Ependion,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000671711,549300HBZGNQOTYZPJ54,EPEN.ST,EPEN,TX323,MID_CAP,SEK
+EPI-A,Epiroc A,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015658109,5493004Q73OEYW1SPE91,EPI-A.ST,EPI A,TX2734144,LARGE_CAP,SEK
+EPI-B,Epiroc B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015658117,5493004Q73OEYW1SPE91,EPI-B.ST,EPI B,TX2734146,LARGE_CAP,SEK
+EPIS-B,Episurf B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0003491562,549300GORBCSMHZB2J75,EPIS-B.ST,EPIS B,TX712898,SMALL_CAP,SEK
+EPRO-B,Electrolux Professional B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0013747870,254900KI62Q46ZWD8084,EPRO-B.ST,EPRO B,TX3389666,LARGE_CAP,SEK
+EQL,EQL Pharma,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005497732,549300Q8B2D2AE8GCW21,EQL.ST,EQL,TX5398996,SMALL_CAP,SEK
+EQT,EQT,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012853455,213800U7P9GOIRKCTB34,EQT.ST,EQT,TX3166736,LARGE_CAP,SEK
+ERIC-A,Ericsson A,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000108649,549300W9JLPW15XIFM52,ERIC-A.ST,ERIC A,TX68,LARGE_CAP,SEK
+ERIC-B,Ericsson B,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000108656,549300W9JLPW15XIFM52,ERIC-B.ST,ERIC B,TX69,LARGE_CAP,SEK
+ESSITY-A,Essity A,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009922156,549300G8E6YUVJ1DA153,ESSITY-A.ST,ESSITY A,TX2408294,LARGE_CAP,SEK
+ESSITY-B,Essity B,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009922164,549300G8E6YUVJ1DA153,ESSITY-B.ST,ESSITY B,TX2408296,LARGE_CAP,SEK
+EVO,Evolution,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012673267,549300SUH6ZR1RF6TA88,EVO.ST,EVO,TX1757078,LARGE_CAP,SEK
+EWRK,Ework Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0002402701,549300WF2ILKHMGV9I45,EWRK.ST,EWRK,TX614304,MID_CAP,SEK
+FABG,Fabege,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011166974,549300JNPI46XNH0PM97,FABG.ST,FABG,TX133,LARGE_CAP,SEK
+FAG,Fagerhult Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010048884,549300G9NPD8LSJLMP91,FAG.ST,FAG,TX149,MID_CAP,SEK
+FASTAT,Fastator,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015407382,549300MI7ETWW4TQD242,FASTAT.ST,FASTAT,TX1091898,SMALL_CAP,SEK
+FG,Fasadgruppen Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015195771,549300E24LG2Z7KCFQ23,FG.ST,FG,TX3651010,MID_CAP,SEK
+FLAT-B,Flat Capital B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016609846,549300LHOWJ5TLK68326,FLAT-B.ST,FLAT B,TX4007910,MID_CAP,SEK
+FLERIE,Flerie,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0022447348,54930047C4A74IBXR037,FLERIE.ST,FLERIE,TX2185716,MID_CAP,SEK
+FMM-B,FM Mattsson B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0018040883,549300X3RXRNVJH7XE65,FMM-B.ST,FMM B,TX2343260,MID_CAP,SEK
+FNM,Ferronordic,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005468717,549300ZWVSKHHDQPES93,FNM.ST,FNM,TX2512758,SMALL_CAP,SEK
+FNOVA-B,Fortinova Fastigheter ser. B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0014608915,549300H8ZDTNCZ8PPJ25,FNOVA-B.ST,FNOVA B,TX3636640,SMALL_CAP,SEK
+FOI-B,Fenix Outdoor International B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,CH0242214887,549300OBIOEC0J5XEB68,FOI-B.ST,FOI B,TX1586572,LARGE_CAP,SEK
+FPAR-A,Fastpartner A,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0013512506,549300BG6SL5QQ7LQW56,FPAR-A.ST,FPAR A,TX195,LARGE_CAP,SEK
+FPAR-D,Fastpartner D,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0013512514,549300BG6SL5QQ7LQW56,FPAR-D.ST,FPAR D,TX3239890,LARGE_CAP,SEK
+G2M,Gentoo Media,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,US36467X2062,549300Z7163BIIXBP377,G2M.ST,G2M,TX2992316,MID_CAP,SEK
+G5EN,G5 Entertainment,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001824004,549300K7QJ1N1FEG2X81,G5EN.ST,G5EN,TX464848,SMALL_CAP,SEK
+GARO,Garo,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015812417,549300RKWROUEEV6VP74,GARO.ST,GARO,TX2018504,SMALL_CAP,SEK
+GETI-B,Getinge B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000202624,5493003PZ4F570G3W735,GETI-B.ST,GETI B,TX113,LARGE_CAP,SEK
+GPG,Genova Property Group,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007184189,549300EJ67GY3FS4IN91,GPG.ST,GPG,TX3486546,MID_CAP,SEK
+GREEN,Green Landscaping Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010985028,54930070F55O6PDFDF97,GREEN.ST,GREEN,TX2646514,MID_CAP,SEK
+GRNG,Gränges,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006288015,5493006UG44TYSIXOB13,GRNG.ST,GRNG,TX1640616,LARGE_CAP,SEK
+HACK,Hacksaw,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0025138357,636700SMLZDCBPNPMJ36,HACK.ST,HACK,TX6167470,LARGE_CAP,SEK
+HAKI-A,HAKI Safety A,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000122657,213800FDUNKI9PVKJ456,HAKI-A.ST,HAKI A,TX124,SMALL_CAP,SEK
+HAKI-B,HAKI Safety B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000122673,213800FDUNKI9PVKJ456,HAKI-B.ST,HAKI B,TX125,SMALL_CAP,SEK
+HANZA,HANZA,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005878543,549300X0C14ZL28N1L09,HANZA.ST,HANZA,TX1584950,MID_CAP,SEK
+HAV-B,Havsfrun Investment B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000312043,549300S56SRW0QDZD626,HAV-B.ST,HAV B,TX200,SMALL_CAP,SEK
+HEBA-B,HEBA B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017911480,549300B1UZTBDU27UJ88,HEBA-B.ST,HEBA B,TX201,MID_CAP,SEK
+HEM,Hemnet Group,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015671995,5493008VIU67J3HUAR07,HEM.ST,HEM,TX3808450,LARGE_CAP,SEK
+HEXA-B,Hexagon B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015961909,549300WJFW6ILNI4TA80,HEXA-B.ST,HEXA B,TX119,LARGE_CAP,SEK
+HM-B,Hennes & Mauritz B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000106270,529900O5RR7R39FRDM42,HM-B.ST,HM B,TX202,LARGE_CAP,SEK
+HMS,HMS Networks,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009997018,549300MOY2FDUUDIQ179,HMS.ST,HMS,TX319282,LARGE_CAP,SEK
+HNSA,Hansa Biopharma,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0002148817,549300LLEO25ZJJ3NT91,HNSA.ST,HNSA,TX318650,MID_CAP,SEK
+HOFI,Hoist Finance,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006887063,549300NPK3FB2BEL4D08,HOFI.ST,HOFI,TX1758258,MID_CAP,SEK
+HOLM-A,Holmen A,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011090000,52990080SH3454F0QE68,HOLM-A.ST,HOLM A,TX81,LARGE_CAP,SEK
+HOLM-B,Holmen B,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011090018,52990080SH3454F0QE68,HOLM-B.ST,HOLM B,TX82,LARGE_CAP,SEK
+HPOL-B,HEXPOL B,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007074281,549300MN30TBRLYN3465,HPOL-B.ST,HPOL B,TX405798,LARGE_CAP,SEK
+HTRO,Hexatronic Group,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0018040677,2138001VSY1B4U9JLM82,HTRO.ST,HTRO,TX913522,MID_CAP,SEK
+HUFV-A,Hufvudstaden A,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000170375,213800UEV5ZAFFVQ4J85,HUFV-A.ST,HUFV A,TX120,LARGE_CAP,SEK
+HUMBLE,Humble Group,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006261046,54930067DYL82EKQR937,HUMBLE.ST,HUMBLE,TX1659292,MID_CAP,SEK
+HUSQ-A,Husqvarna A,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001662222,549300GYQIIJ3UXB7655,HUSQ-A.ST,HUSQ A,TX190322,LARGE_CAP,SEK
+HUSQ-B,Husqvarna B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001662230,549300GYQIIJ3UXB7655,HUSQ-B.ST,HUSQ B,TX190324,LARGE_CAP,SEK
+IBT-B,Infant Bacterial TherapeuticsB,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0008015259,2138008KVBXCRJGP6Z26,IBT-B.ST,IBT B,TX2023390,SMALL_CAP,SEK
+IMMNOV,Immunovia,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006091997,549300KHWL6KK1XGUO81,IMMNOV.ST,IMMNOV,TX1932150,SMALL_CAP,SEK
+IMMU,Mendus,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0022239950,529900AFBGFR7ZB50J95,IMMU.ST,IMMU,TX1339658,SMALL_CAP,SEK
+INDT,Indutrade,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001515552,549300FISLQ6CEFP1867,INDT.ST,INDT,TX125290,LARGE_CAP,SEK
+INDU-A,Industrivärden A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000190126,549300TM1DLIQI3B3T37,INDU-A.ST,INDU A,TX73,LARGE_CAP,SEK
+INDU-C,Industrivärden C,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000107203,549300TM1DLIQI3B3T37,INDU-C.ST,INDU C,TX74,LARGE_CAP,SEK
+INFREA,Infrea,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010600106,549300ZH65CJBOHR2X44,INFREA.ST,INFREA,TX2669136,SMALL_CAP,SEK
+INISS-B,Inission B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016275069,529900B6F5172S3DQD52,INISS-B.ST,INISS B,TX1806450,SMALL_CAP,SEK
+INQ,INQ Group,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010415281,54930036ZLGZG0G19M24,INQ.ST,INQ,TX325,SMALL_CAP,SEK
+INSTAL,Instalco,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017483506,549300DZ9ONT2AXY4029,INSTAL.ST,INSTAL,TX2369374,MID_CAP,SEK
+INTEA-B,Intea Fastigheter B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017072259,549300KD3XGX3754UW61,INTEA-B.ST,INTEA B,TX5677206,MID_CAP,SEK
+INTEA-D,Intea Fastigheter D,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017072267,549300KD3XGX3754UW61,INTEA-D.ST,INTEA D,TX5677208,MID_CAP,SEK
+INTRUM,Intrum,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000936478,549300UNCO2FCUWXX470,INTRUM.ST,INTRUM,TX366,MID_CAP,SEK
+INVE-A,Investor A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015811955,549300VEBQPHRZBKUX38,INVE-A.ST,INVE A,TX75,LARGE_CAP,SEK
+INVE-B,Investor B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015811963,549300VEBQPHRZBKUX38,INVE-B.ST,INVE B,TX76,LARGE_CAP,SEK
+INWI,Inwido,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006220018,529900A9NKQW5UTHBG13,INWI.ST,INWI,TX1634622,MID_CAP,SEK
+IPCO,International Petroleum Corp.,Energy,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,CA46016U1084,,IPCO.ST,IPCO,TX2356586,LARGE_CAP,SEK
+IRLAB-A,IRLAB Therapeutics A,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012675361,549300JAT34LHEI0DH60,IRLAB-A.ST,IRLAB A,TX2308898,SMALL_CAP,SEK
+IS,Image Systems,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006421871,529900N708O043JCCO23,IS.ST,IS,TX279,SMALL_CAP,SEK
+ISOFOL,Isofol Medical,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009581051,549300MCXYAHG7VBHX75,ISOFOL.ST,ISOFOL,TX2339902,SMALL_CAP,SEK
+ITAB,ITAB Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015962097,2138001H6FCSZBP26351,ITAB.ST,ITAB,TX416212,MID_CAP,SEK
+IVSO,INVISIO,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001200015,54930054EB7KX3MY2Q11,IVSO.ST,IVSO,TX185842,LARGE_CAP,SEK
+JM,JM,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000806994,529900X0UEM9DOM6FK12,JM.ST,JM,TX347,LARGE_CAP,SEK
+JOMA,John Mattson Fastighetsföret.,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012481364,549300UP4ZA93HCPRZ59,JOMA.ST,JOMA,TX3056546,MID_CAP,SEK
+K2A-B,K2A Knaust & Andersson B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010520254,549300Q62J8QZJ5TGJ71,K2A-B.ST,K2A B,TX3076904,SMALL_CAP,SEK
+K2A-PREF,K2A Knaust & Andersson Pref,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006852075,549300Q62J8QZJ5TGJ71,K2A-PREF.ST,K2A PREF,TX1763022,SMALL_CAP,SEK
+KABE-B,KABE Group B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000107724,529900KQ5CM6BA63KT70,KABE-B.ST,KABE B,TX154,MID_CAP,SEK
+KAR,Karnov Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012323715,549300P7312749LJS754,KAR.ST,KAR,TX3007832,MID_CAP,SEK
+KARNEL-B,Karnell Group B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017832173,549300G5JY05P4PLS906,KARNEL-B.ST,KARNEL B,TX5239306,MID_CAP,SEK
+KDV-B,KDventures B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0002190926,54930011ZA52NKO5W681,KDV-B.ST,KDV B,TX877732,SMALL_CAP,SEK
+KEOC,Keo Capital,Energy,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0008374383,213800USNX47LQFQQN20,KEOC.ST,KEOC,TX2132022,SMALL_CAP,SEK
+KFAST-B,K-Fast Holding B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016101679,549300VT0UXKWES37P59,KFAST-B.ST,KFAST B,TX3232626,MID_CAP,SEK
+KINV-A,Kinnevik A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0022060513,2138006PZH76JOS6MN27,KINV-A.ST,KINV A,TX207,LARGE_CAP,SEK
+KINV-B,Kinnevik B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0022060521,2138006PZH76JOS6MN27,KINV-B.ST,KINV B,TX208,LARGE_CAP,SEK
+KNOW,Knowit,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000421273,549300CM6KSG2GY3HV62,KNOW.ST,KNOW,TX268,MID_CAP,SEK
+LAGR-B,Lagercrantz Group B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0014990966,5493002L6I4YHANEYR87,LAGR-B.ST,LAGR B,TX357,LARGE_CAP,SEK
+LAMM-B,Lammhults Design Group B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000386138,549300DYEHYCGPBE2016,LAMM-B.ST,LAMM B,TX238,SMALL_CAP,SEK
+LATO-B,Latour B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010100958,5493006GFBLNB3Y0Y789,LATO-B.ST,LATO B,TX156,LARGE_CAP,SEK
+LIAB,Lindab International,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001852419,54930085MH6IRQ1JP227,LIAB.ST,LIAB,TX231494,LARGE_CAP,SEK
+LIFCO-B,Lifco B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015949201,549300RTLL4VDQRCTW41,LIFCO-B.ST,LIFCO B,TX1668520,LARGE_CAP,SEK
+LIME,Lime Technologies,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011870195,5493008UUFYDF3ZTHC65,LIME.ST,LIME,TX2880948,MID_CAP,SEK
+LINC,Linc,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015949433,549300UFJU04UGB49K16,LINC.ST,LINC,TX3844308,MID_CAP,SEK
+LMGAB,Linjemontage i Grästorp,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0030361606,54930005660790LWPU08,LMGAB.ST,LMGAB,TX7657288,MID_CAP,SEK
+LOGI-B,Logistea B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017131337,549300ZSB0ZCKM1SL747,LOGI-B.ST,LOGI B,TX4042350,MID_CAP,SEK
+LOOMIS,Loomis,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0014504817,213800NS2XXVRYS7WP40,LOOMIS.ST,LOOMIS,TX471254,LARGE_CAP,SEK
+LUG,Lundin Gold,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,CA5503711080,,LUG.ST,LUG,TX1690254,LARGE_CAP,SEK
+LUMI,Lundin Mining Corporation,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,CA5503721063,,LUMI.ST,LUMI,TX64276,LARGE_CAP,SEK
+LUND-B,Lundbergföretagen B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000108847,529900BPSFZS6O3A9R04,LUND-B.ST,LUND B,TX214,LARGE_CAP,SEK
+MANG,Mangold,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001449380,549300F7ULEE3V59UW34,MANG.ST,MANG,TX1140484,SMALL_CAP,SEK
+MCAP,MedCap,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009160872,549300NGO5XAJ6TL8719,MCAP.ST,MCAP,TX195548,MID_CAP,SEK
+MCOV-B,Medicover B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009778848,5493000E9BUOYMOW2K53,MCOV-B.ST,MCOV B,TX2382760,LARGE_CAP,SEK
+MEAB-B,Malmbergs Elektriska B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000507659,549300ZUNJ5HNG264Q34,MEAB-B.ST,MEAB B,TX269,SMALL_CAP,SEK
+MEKO,MEKO,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0002110064,529900R809HC1RFRQA91,MEKO.ST,MEKO,TX319,MID_CAP,SEK
+MER,Meren Energy,Energy,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,CA5889141019,,MER.ST,MER,TX694982,MID_CAP,SEK
+MILDEF,Mildef Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016074249,9845009F7Q0D56B38270,MILDEF.ST,MILDEF,TX3850704,MID_CAP,SEK
+MIPS,Mips,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009216278,549300LZSA4S0L54VQ25,MIPS.ST,MIPS,TX2333952,LARGE_CAP,SEK
+MMGR-B,Momentum Group B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017562523,549300QOHUWQMD9G3757,MMGR-B.ST,MMGR B,TX4298272,MID_CAP,SEK
+MOB,Moberg Pharma,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0020353928,549300XFXK7DVGDRP410,MOB.ST,MOB,TX895320,SMALL_CAP,SEK
+MOMENT,Moment Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0020388932,549300VNTTR22XK8DM54,MOMENT.ST,MOMENT,TX146164,SMALL_CAP,SEK
+MORROW,Morrow Bank,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0026852725,9845009C8D6CC754F846,MORROW.ST,MORROW,TX6661914,MID_CAP,SEK
+MSAB-B,Micro Systemation B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000526626,549300BVH5NT4MN90561,MSAB-B.ST,MSAB B,TX1021270,SMALL_CAP,SEK
+MSON-A,Midsona A,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000565210,549300YMDO8YBYYI1981,MSON-A.ST,MSON A,TX287,SMALL_CAP,SEK
+MSON-B,Midsona B,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000565228,549300YMDO8YBYYI1981,MSON-B.ST,MSON B,TX288,SMALL_CAP,SEK
+MTG-A,Modern Times Group A,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0018012486,549300E8NDODRSX29339,MTG-A.ST,MTG A,TX280,MID_CAP,SEK
+MTG-B,Modern Times Group B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0018012494,549300E8NDODRSX29339,MTG-B.ST,MTG B,TX281,MID_CAP,SEK
+MTRS,Munters Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009806607,549300KYCB37YAVUV523,MTRS.ST,MTRS,TX2381164,LARGE_CAP,SEK
+MVIR,Medivir,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0020181014,549300VWDGUX0WMJ1T79,MVIR.ST,MVIR,TX219,SMALL_CAP,SEK
+MYCR,Mycronic,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0025158629,549300S5CCFESE4C6Y07,MYCR.ST,MYCR,TX310,LARGE_CAP,SEK
+NAXS,NAXS,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001965369,549300IHU2ZPY10PVD11,NAXS.ST,NAXS,TX275700,SMALL_CAP,SEK
+NCAB,NCAB Group,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017160773,549300RUPCK2N43ES354,NCAB.ST,NCAB,TX2717220,MID_CAP,SEK
+NCC-A,NCC A,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000118952,213800WRGLW3CY4MHW53,NCC-A.ST,NCC A,TX126,LARGE_CAP,SEK
+NCC-B,NCC B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000117970,213800WRGLW3CY4MHW53,NCC-B.ST,NCC B,TX127,LARGE_CAP,SEK
+NDA-SE,Nordea Bank Abp,Financials,STO,FI,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000297767,529900ODI3047E2LIV03,NDA-SE.ST,NDA SE,TX80,LARGE_CAP,SEK
+NELLY,Nelly Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015245535,549300TY1ZF7FQEF0552,NELLY.ST,NELLY,TX752514,MID_CAP,SEK
+NEOBO,Neobo Fastigheter,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005034550,213800QBPS3L89U9TZ44,NEOBO.ST,NEOBO,TX4735450,MID_CAP,SEK
+NETEL,Netel Holding,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016798417,8945008LXPHO95822B45,NETEL.ST,NETEL,TX4004812,SMALL_CAP,SEK
+NETI-B,Net Insight B,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000366098,549300BMCT8IT2CFDH63,NETI-B.ST,NETI B,TX284,MID_CAP,SEK
+NEWA-B,New Wave B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0020356970,5493006EIYZZYQILKS31,NEWA-B.ST,NEWA B,TX159,LARGE_CAP,SEK
+NIBE-B,NIBE Industrier B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015988019,549300ZQH0FIF1P0MX67,NIBE-B.ST,NIBE B,TX160,LARGE_CAP,SEK
+NICA,Nanologica,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005454873,54930017L41C7P87LP22,NICA.ST,NICA,TX4295850,SMALL_CAP,SEK
+NIVI-B,Nivika Fastigheter B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017083272,549300HXIG611R7YBT33,NIVI-B.ST,NIVI B,TX4051398,MID_CAP,SEK
+NMAN,Nederman Holding,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011204510,54930030A8V6LH0G1Z92,NMAN.ST,NMAN,TX277102,MID_CAP,SEK
+NOBA,NOBA Bank Group,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0023135298,21380057HUGFEAF25W84,NOBA.ST,NOBA,TX6360920,LARGE_CAP,SEK
+NOBI,Nobia,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0028900134,529900MZ8Y3QGPDF6815,NOBI.ST,NOBI,TX367,MID_CAP,SEK
+NOLA-B,Nolato B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015962477,213800T7T7I7WAOX8Y72,NOLA-B.ST,NOLA B,TX162,LARGE_CAP,SEK
+NORB-B,Nordisk Bergteknik B,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015812128,549300AVDXS5RAHMDK92,NORB-B.ST,NORB B,TX4002670,SMALL_CAP,SEK
+NORION,Norion Bank,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017831795,529900AGWAKUTYNETM62,NORION.ST,NORION,TX4508426,MID_CAP,SEK
+NOTE,NOTE,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001161654,54930038JVQ3CMTEO084,NOTE.ST,NOTE,TX44291,MID_CAP,SEK
+NP3,NP3 Fastigheter,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006342333,549300MGVITW8GYJHZ50,NP3.ST,NP3,TX1674240,LARGE_CAP,SEK
+NP3-PREF,NP3 Fastigheter Pref,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010820514,549300MGVITW8GYJHZ50,NP3-PREF.ST,NP3 PREF,TX2629094,LARGE_CAP,SEK
+NTECH,Stockholm Nordtech Group,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0028825042,6367005IOZLQFJ4VFN64,NTECH.ST,NTECH,TX7252194,MID_CAP,SEK
+NTEK-B,NOVOTEK B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000567752,5493008I42W5RB05GU19,NTEK-B.ST,NTEK B,TX296,SMALL_CAP,SEK
+NYOR,Nyorda,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001552357,549300VR2P8X3F1UOX13,NYOR.ST,NYOR,TX132856,SMALL_CAP,SEK
+OCTV-SDB,Octave Intelligence SDB,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0028329433,,OCTV-SDB.ST,OCTV SDB,TX7221252,LARGE_CAP,SEK
+OEM-B,OEM International B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017766843,549300Z7DLN54J8M4J79,OEM-B.ST,OEM B,TX164,LARGE_CAP,SEK
+ONCO,Oncopeptides,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009414576,549300J9WWQ5CBYQ1M77,ONCO.ST,ONCO,TX2304580,SMALL_CAP,SEK
+ORES,Öresund,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0008321608,549300ZNNKE1UFGNNE47,ORES.ST,ORES,TX135,MID_CAP,SEK
+ORRON,Orrön Energy,Energy,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000825820,549300IULC8F8IGXKI15,ORRON.ST,ORRON,TX378,MID_CAP,SEK
+ORX,Orexo,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000736415,549300LJ5CCWDPTK9Z08,ORX.ST,ORX,TX133028,SMALL_CAP,SEK
+OVZON,Ovzon,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010948711,549300U82F1HQRSTYZ66,OVZON.ST,OVZON,TX2697632,MID_CAP,SEK
+PACT,Proact IT Group,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015961222,549300HMPIC1B86ZHC96,PACT.ST,PACT,TX297,MID_CAP,SEK
+PCELL,PowerCell Sweden,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006425815,54930075IJ7TGOK3VC02,PCELL.ST,PCELL,TX1689480,MID_CAP,SEK
+PDX,Paradox Interactive,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0008294953,529900QNSZUY53R5WW95,PDX.ST,PDX,TX2081046,LARGE_CAP,SEK
+PEAB-B,Peab B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000106205,549300FQS4VD3153I854,PEAB-B.ST,PEAB B,TX165,LARGE_CAP,SEK
+PIERCE,Pierce Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015658364,54930082SM8KO7LCER77,PIERCE.ST,PIERCE,TX3772900,SMALL_CAP,SEK
+PION-B,PION Group B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000567539,549300TMUX6ZE1FLLV16,PION-B.ST,PION B,TX294,SMALL_CAP,SEK
+PLAZ-B,Platzer Fastigheter Holding B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0004977692,5493009KPII4BZE70820,PLAZ-B.ST,PLAZ B,TX1470916,MID_CAP,SEK
+PNDX-B,Pandox B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007100359,549300K4HA8EBLSL3B97,PNDX-B.ST,PNDX B,TX1821878,LARGE_CAP,SEK
+PREC,Precise Biometrics,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0018013849,54930047Z8TEBJTKYX74,PREC.ST,PREC,TX336,SMALL_CAP,SEK
+PREV-B,Prevas B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000356008,5493007FF9DNP5DUJQ78,PREV-B.ST,PREV B,TX233,SMALL_CAP,SEK
+PRFO,Profoto Holding,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015962147,5493008RTPUAOFW3SX33,PRFO.ST,PRFO,TX3879558,SMALL_CAP,SEK
+PRIC-B,Pricer B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000233934,5493000MATG2DYK19F35,PRIC-B.ST,PRIC B,TX234,SMALL_CAP,SEK
+PRISMA,Prisma Properties,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0022062055,636700IALCXDTVXING25,PRISMA.ST,PRISMA,TX5370906,MID_CAP,SEK
+PROF-B,Profilgruppen B,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000393860,549300WKWUJ3V44KMQ27,PROF-B.ST,PROF B,TX166,SMALL_CAP,SEK
+PUBLI,PPI Public Property Invest,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0028799411,636700M0RW88QPM7RG19,PUBLI.ST,PUBLI,TX7182366,LARGE_CAP,SEK
+QLINEA,Q-Linea,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0025420714,549300BXVB4XRM8WSC73,QLINEA.ST,QLINEA,TX2881562,SMALL_CAP,SEK
+QLIRO,Qliro,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0013719077,2138006QFV6OJMYQC847,QLIRO.ST,QLIRO,TX3577830,SMALL_CAP,SEK
+RAIL,Railcare Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010441139,549300UH2JD85PIJOK89,RAIL.ST,RAIL,TX2652374,SMALL_CAP,SEK
+RATO-A,Ratos A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000191090,2138008KECUUB9VR4798,RATO-A.ST,RATO A,TX235,MID_CAP,SEK
+RATO-B,Ratos B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000111940,2138008KECUUB9VR4798,RATO-B.ST,RATO B,TX236,MID_CAP,SEK
+RAY-B,RaySearch Laboratories B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000135485,549300TYFVYGS0JFWM28,RAY-B.ST,RAY B,TX249,MID_CAP,SEK
+REJL-B,Rejlers B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000123671,549300K5464VN6QLVB64,REJL-B.ST,REJL B,TX236654,MID_CAP,SEK
+ROKO-B,Röko B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0023950795,549300X76X1DK285JB13,ROKO-B.ST,ROKO B,TX5896672,LARGE_CAP,SEK
+RROS,Rottneros,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000112252,213800DM8OBVX8QWUR14,RROS.ST,RROS,TX167,SMALL_CAP,SEK
+RUSTA,Rusta,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0020848356,549300V512S3QMRNO618,RUSTA.ST,RUSTA,TX5034630,MID_CAP,SEK
+RVRC,RVRC Holding,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015962485,549300YU7003VHQV3J57,RVRC.ST,RVRC,TX3870188,MID_CAP,SEK
+SAAB-B,SAAB B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0021921269,549300ZHO4JCQQI13M69,SAAB-B.ST,SAAB B,TX240,LARGE_CAP,SEK
+SAFETY-B,mySafety Group B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0010769182,549300H1D6B81XZGWQ06,SAFETY-B.ST,SAFETY B,TX221,SMALL_CAP,SEK
+SAGA-A,Sagax A,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0004635878,549300LJX28T6OM8DT95,SAGA-A.ST,SAGA A,TX315208,LARGE_CAP,SEK
+SAGA-B,Sagax B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005127818,549300LJX28T6OM8DT95,SAGA-B.ST,SAGA B,TX1326390,LARGE_CAP,SEK
+SAGA-D,Sagax D,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009161052,549300LJX28T6OM8DT95,SAGA-D.ST,SAGA D,TX2211306,LARGE_CAP,SEK
+SALIX,Salix Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0028329540,636700W026R2UIXP3L09,SALIX.ST,SALIX,TX7296124,MID_CAP,SEK
+SAMPO-SEK,Sampo Oyj A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000552500,743700UF3RL386WIDA22,SAMPO-SEK.ST,SAMPO SEK,TX6793286,LARGE_CAP,SEK
+SAND,Sandvik,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000667891,5299008ZUAXN43LVZF54,SAND.ST,SAND,TX316,LARGE_CAP,SEK
+SANION,Saniona,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005794617,549300XO4L9XNOCFCZ84,SANION.ST,SANION,TX1551532,SMALL_CAP,SEK
+SAVE,Nordnet,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015192067,549300D6WW5ZTWLZ4C08,SAVE.ST,SAVE,TX3639524,LARGE_CAP,SEK
+SBB-B,Samhällsbyggnadsbo. i Norden B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009554454,549300HX9MRFY47AH564,SBB-B.ST,SBB B,TX1659294,MID_CAP,SEK
+SBB-D,Samhällsbyggnadsbo. i Norden D,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011844091,549300HX9MRFY47AH564,SBB-D.ST,SBB D,TX2891532,MID_CAP,SEK
+SCA-A,SCA A,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000171886,549300FW5JDRV1IJ0M67,SCA-A.ST,SCA A,TX93,LARGE_CAP,SEK
+SCA-B,SCA B,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000112724,549300FW5JDRV1IJ0M67,SCA-B.ST,SCA B,TX94,LARGE_CAP,SEK
+SCST,Scandi Standard,Consumer Staples,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005999760,5493006VHH78UQJVF844,SCST.ST,SCST,TX1586728,MID_CAP,SEK
+SDIP-B,Sdiptech B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0003756758,549300JBO7VTEGMRW310,SDIP-B.ST,SDIP B,TX2371810,MID_CAP,SEK
+SEAF,Seafire,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009779796,549300KDKLUNU37BMM70,SEAF.ST,SEAF,TX3104718,SMALL_CAP,SEK
+SEB-A,SEB A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000148884,F3JS33DEI6XQ4ZBPTN86,SEB-A.ST,SEB A,TX86,LARGE_CAP,SEK
+SEB-C,SEB C,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000120784,F3JS33DEI6XQ4ZBPTN86,SEB-C.ST,SEB C,TX87,LARGE_CAP,SEK
+SECT-B,SECTRA B,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0022419784,549300R9ZBT8YSFFK266,SECT-B.ST,SECT B,TX266,LARGE_CAP,SEK
+SECU-B,Securitas B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000163594,635400TTYKE8EIWDS617,SECU-B.ST,SECU B,TX101,LARGE_CAP,SEK
+SEDANA,Sedana Medical,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015988373,549300FQ3NJRI56LCX32,SEDANA.ST,SEDANA,TX2411192,SMALL_CAP,SEK
+SEZI,Senzime,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0002478776,549300JQF174JP0MM382,SEZI.ST,SEZI,TX409794,SMALL_CAP,SEK
+SF,Stillfront Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015346135,529900SYKCO4GYBTIJ54,SF.ST,SF,TX1935494,MID_CAP,SEK
+SFAB,Solid Försäkringsaktiebolag,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017082548,529900JIV2O9HEPWIN77,SFAB.ST,SFAB,TX4050308,SMALL_CAP,SEK
+SFAST,Stenhus Fastigheter i Norden,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0014956819,5493006RHHJRIC7ITL87,SFAST.ST,SFAST,TX3638770,MID_CAP,SEK
+SGG,Sensys Gatso Group,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0020356244,5493008GYHJL9PWTC395,SGG.ST,SGG,TX343,SMALL_CAP,SEK
+SHB-A,Sv. Handelsbanken A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007100599,NHBDILHZTYCNBV5UYZ31,SHB-A.ST,SHB A,TX95,LARGE_CAP,SEK
+SHB-B,Sv. Handelsbanken B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007100607,NHBDILHZTYCNBV5UYZ31,SHB-B.ST,SHB B,TX96,LARGE_CAP,SEK
+SHOT,Scandic Hotels Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007640156,529900JY9ZBGUXGRKQ86,SHOT.ST,SHOT,TX1933108,LARGE_CAP,SEK
+SILEX,Silex Microsystems,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0028000190,549300Y2GKW0KQ2I5O12,SILEX.ST,SILEX,TX7136056,MID_CAP,SEK
+SINCH,Sinch,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016101844,549300UXY7QM6IDCGI12,SINCH.ST,SINCH,TX1897918,LARGE_CAP,SEK
+SINT,SinterCast,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000950982,549300365FORUXLUWL17,SINT.ST,SINT,TX245,SMALL_CAP,SEK
+SIVE,Sivers Semiconductors,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0003917798,254900UBKNY2EJ588J53,SIVE.ST,SIVE,TX2540138,SMALL_CAP,SEK
+SKA-B,Skanska B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000113250,549300UINV5RINHGMG07,SKA-B.ST,SKA B,TX88,LARGE_CAP,SEK
+SKF-A,SKF A,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000108201,549300B6HWYEE57O8J84,SKF-A.ST,SKF A,TX89,LARGE_CAP,SEK
+SKF-B,SKF B,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000108227,549300B6HWYEE57O8J84,SKF-B.ST,SKF B,TX90,LARGE_CAP,SEK
+SKIS-B,SkiStar B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012141687,529900CD7HSJ1CZS7089,SKIS-B.ST,SKIS B,TX174,LARGE_CAP,SEK
+SLEEP,Sleep Cycle,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015961404,549300I6C77EO26G2U47,SLEEP.ST,SLEEP,TX3853822,SMALL_CAP,SEK
+SLP-B,Swedish Logistic Property B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017565476,254900AWRHP1QNE6OQ19,SLP-B.ST,SLP B,TX4201196,MID_CAP,SEK
+SMCRT,SmartCraft Group,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0027597691,636700AT40KQICYD6W91,SMCRT.ST,SMCRT,TX6935058,MID_CAP,SEK
+SOBI,Swedish Orphan Biovitrum,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000872095,549300124Y3MQI87PT35,SOBI.ST,SOBI,TX211528,LARGE_CAP,SEK
+SOF-B,Softronic B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000323305,5493007ZANE084F8VU98,SOF-B.ST,SOF B,TX258,SMALL_CAP,SEK
+SSAB-A,SSAB A,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000171100,529900329VS14ZIML164,SSAB-A.ST,SSAB A,TX91,LARGE_CAP,SEK
+SSAB-B,SSAB B,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000120669,529900329VS14ZIML164,SSAB-B.ST,SSAB B,TX92,LARGE_CAP,SEK
+STAR-A,Starbreeze A,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007158928,213800T68IVZFR868L42,STAR-A.ST,STAR A,TX1808860,SMALL_CAP,SEK
+STAR-B,Starbreeze B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005992831,213800T68IVZFR868L42,STAR-B.ST,STAR B,TX2159,SMALL_CAP,SEK
+STE-A,Stora Enso A,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007603,,STE-A.ST,STE A,TX261,LARGE_CAP,SEK
+STE-R,Stora Enso R,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007611,,STE-R.ST,STE R,TX262,LARGE_CAP,SEK
+STEF-B,Stendörren Fastigheter B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006543344,5493003YS3NSPZJ5WU39,STEF-B.ST,STEF B,TX804148,MID_CAP,SEK
+STOR-B,Storskogen Group B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016797732,549300DL3K4HLJ41KD24,STOR-B.ST,STOR B,TX3988866,LARGE_CAP,SEK
+STORY-B,Storytel B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007439443,549300I1FSPPI9HHU419,STORY-B.ST,STORY B,TX2880400,MID_CAP,SEK
+STWK,Stockwik,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012257970,213800X1259MBEKD5H24,STWK.ST,STWK,TX212,SMALL_CAP,SEK
+SVEAF-B,Sveafastigheter,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0029856053,636700W1VM86O2G2AA36,SVEAF-B.ST,SVEAF B,TX5563068,MID_CAP,SEK
+SVED-B,Svedbergs Group B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000407991,549300233PQ1UWNYVK79,SVED-B.ST,SVED B,TX170,MID_CAP,SEK
+SVIK,Studsvik,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000653230,549300MLJ046XFQNVH42,SVIK.ST,SVIK,TX346,SMALL_CAP,SEK
+SVOL-A,Svolder A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017161441,5493006ZVS6SHCKH6I37,SVOL-A.ST,SVOL A,TX171,MID_CAP,SEK
+SVOL-B,Svolder B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017161458,5493006ZVS6SHCKH6I37,SVOL-B.ST,SVOL B,TX172,MID_CAP,SEK
+SWEC-A,SWECO A,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0014960365,549300Q4Y55VICYV6U90,SWEC-A.ST,SWEC A,TX247,LARGE_CAP,SEK
+SWEC-B,SWECO B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0014960373,549300Q4Y55VICYV6U90,SWEC-B.ST,SWEC B,TX248,LARGE_CAP,SEK
+SWED-A,Swedbank A,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000242455,M312WZV08Y7LYUC71685,SWED-A.ST,SWED A,TX70,LARGE_CAP,SEK
+SYNACT,SynAct Pharma,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0008241491,549300RRYIEFEQ72N546,SYNACT.ST,SYNACT,TX4479212,SMALL_CAP,SEK
+SYNSAM,Synsam,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016829709,5493000TMEGW9DHNOQ70,SYNSAM.ST,SYNSAM,TX4016916,MID_CAP,SEK
+SYSR,Systemair,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016609499,529900RK1R6HF8KKOI20,SYSR.ST,SYSR,TX316484,LARGE_CAP,SEK
+TANGEN-B,Tången Industrikapital,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0029278985,6367000P6YJFDB271V16,TANGEN-B.ST,TANGEN B,TX7255614,MID_CAP,SEK
+TEL2-A,Tele2 A,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005190220,213800EKD193RVI9HL76,TEL2-A.ST,TEL2 A,TX224,LARGE_CAP,SEK
+TEL2-B,Tele2 B,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0005190238,213800EKD193RVI9HL76,TEL2-B.ST,TEL2 B,TX225,LARGE_CAP,SEK
+TELIA,Telia Company,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000667925,213800FSR9RNDUOTXO25,TELIA.ST,TELIA,TX324,LARGE_CAP,SEK
+THULE,Thule Group,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006422390,549300XHHOGBOERKU333,THULE.ST,THULE,TX1670310,LARGE_CAP,SEK
+TIETOS,Tieto Oyj,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009000277,549300EW2KM4KROKQV31,TIETOS.ST,TIETOS,TX299,LARGE_CAP,SEK
+TOBII,Tobii,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0002591420,54930045LD4XTJCBGS35,TOBII.ST,TOBII,TX1776700,SMALL_CAP,SEK
+TRAC-B,Traction  B,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000391716,549300TTX4HXDRDKMV93,TRAC-B.ST,TRAC B,TX317,MID_CAP,SEK
+TRANS,Transtema Group,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0006758587,549300XR2VLTQY3P8M69,TRANS.ST,TRANS,TX1799260,SMALL_CAP,SEK
+TREL-B,Trelleborg B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000114837,213800XY16PAWG2PAD14,TREL-B.ST,TREL B,TX98,LARGE_CAP,SEK
+TRIAN-B,Trianon B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0018013658,213800SWOEKEF29R3C35,TRIAN-B.ST,TRIAN B,TX2411198,MID_CAP,SEK
+TROAX,Troax Group,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012729366,5493003TBEWGBIEG1X97,TROAX.ST,TROAX,TX1759702,LARGE_CAP,SEK
+TRUE-B,Truecaller B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016787071,549300TEYF1FA5G5GK26,TRUE-B.ST,TRUE B,TX3991356,LARGE_CAP,SEK
+VBG-B,VBG GROUP B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000115107,549300O1V2ZWY6W9GZ14,VBG-B.ST,VBG B,TX177,MID_CAP,SEK
+VEFAB,VEF,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016128151,549300GLLHHE80RQ2Y24,VEFAB.ST,VEFAB,TX3884028,MID_CAP,SEK
+VICO,Vicore Pharma Holding,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007577895,549300KTNBPTZLF01130,VICO.ST,VICO,TX1937060,MID_CAP,SEK
+VIMIAN,Vimian Group,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015961982,549300OQ8R5TCAP0BS18,VIMIAN.ST,VIMIAN,TX3871630,LARGE_CAP,SEK
+VISC,Gruvaktiebolaget Viscaria,Basic Materials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0021148160,5299004NWV90GIWSWQ04,VISC.ST,VISC,TX254056,MID_CAP,SEK
+VIT-B,Vitec Software Group B,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007871363,5493005EB5RV1QHE6H94,VIT-B.ST,VIT B,TX2157,LARGE_CAP,SEK
+VITR,Vitrolife,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0011205202,5493001WDZMONMSPPR49,VITR.ST,VITR,TX354,LARGE_CAP,SEK
+VIVE,Vivesto,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0028925701,5493003TZPR4B7QO9L49,VIVE.ST,VIVE,TX665698,SMALL_CAP,SEK
+VNV,VNV Global,Financials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0014428835,549300ONMNSTOBAU0S14,VNV.ST,VNV,TX3486108,MID_CAP,SEK
+VOLCAR-B,Volvo Car B,Consumer Discretionary,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0021628898,5299000EAMGGBEYP7J33,VOLCAR-B.ST,VOLCAR B,TX4016914,LARGE_CAP,SEK
+VOLO,Volati,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009143662,529900R2YHW43H9B4342,VOLO.ST,VOLO,TX2232576,MID_CAP,SEK
+VOLO-PREF,Volati Pref,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009143670,529900R2YHW43H9B4342,VOLO-PREF.ST,VOLO PREF,TX1805482,MID_CAP,SEK
+VOLV-A,Volvo A,Industrials,STO,SE,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000115420,549300HGV012CNC8JD22,VOLV-A.ST,VOLV A,TX99,LARGE_CAP,SEK
+VOLV-B,Volvo B,Industrials,STO,SE,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000115446,549300HGV012CNC8JD22,VOLV-B.ST,VOLV B,TX100,LARGE_CAP,SEK
+VPLAY-A,Viaplay Group A,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012324226,5493006E0IJD0DHJSR89,VPLAY-A.ST,VPLAY A,TX2994454,MID_CAP,SEK
+VPLAY-B,Viaplay Group B,Telecommunications,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0012116390,5493006E0IJD0DHJSR89,VPLAY-B.ST,VPLAY B,TX2994456,MID_CAP,SEK
+VSURE,Verisure,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,GB00BVMN1558,636700ZY9PP0NGXTA943,VSURE.ST,VSURE,TX6393968,LARGE_CAP,EUR
+WALL-B,Wallenstam B,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0017780133,21380081R2P9MKFQBD25,WALL-B.ST,WALL B,TX179,LARGE_CAP,SEK
+WBGR-B,Wästbygg Gruppen B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0014453874,5493005C147NU3KD0M89,WBGR-B.ST,WBGR B,TX3594458,SMALL_CAP,SEK
+WIHL,Wihlborgs Fastigheter,Real Estate,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0018012635,549300RC1YDJPITF8X06,WIHL.ST,WIHL,TX92522,LARGE_CAP,SEK
+WISE,Wise Group,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0007277876,549300HR2P6D0PNRI535,WISE.ST,WISE,TX266500,SMALL_CAP,SEK
+WTW-A,Wall to Wall Group A,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0016075246,549300WMZQS7HLNYQB09,WTW-A.ST,WTW A,TX3874086,SMALL_CAP,SEK
+XANO-B,XANO Industri B,Industrials,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0018014151,213800CTCRPR7CPMDT80,XANO-B.ST,XANO B,TX255,MID_CAP,SEK
+XBRANE,Xbrane Biopharma,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0026598583,5493008DKD05APTKQO39,XBRANE.ST,XBRANE,TX1981696,SMALL_CAP,SEK
+XSPRAY,Xspray Pharma,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0009973563,549300NGRQCNZ3X4L157,XSPRAY.ST,XSPRAY,TX2489842,SMALL_CAP,SEK
+XVIVO,Xvivo Perfusion,Health Care,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0004840718,549300G2464FYLS14B41,XVIVO.ST,XVIVO,TX1194230,MID_CAP,SEK
+YUBICO,Yubico,Technology,STO,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=STO&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0015657788,549300I9RBIU9DW59H39,YUBICO.ST,YUBICO,TX3772158,LARGE_CAP,SEK

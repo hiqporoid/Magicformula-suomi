@@ -2,8 +2,8 @@ export const siteConfig = {
   name: "Magicformula Suomi",
   shortName: "Magicformula",
   description:
-    "Suomenkielinen sijoitustutkimuksen v1-julkaisu Nasdaq Helsinki Main Market -yhtiöiden Magic Formula-, EBIT/EV- ja laatuvertailuun.",
-  defaultTitle: "Magicformula Suomi | Nasdaq Helsinki -ranking"
+    "Suomenkielinen tutkimusnäkymä Nasdaq Helsingin ja Stockholmin Main Market -yhtiöiden Magic Formula-, EBIT/EV- ja laatuvertailuun.",
+  defaultTitle: "Magicformula Suomi | Helsinki ja Tukholma"
 };
 
 function ensureAbsoluteUrl(value: string): string {

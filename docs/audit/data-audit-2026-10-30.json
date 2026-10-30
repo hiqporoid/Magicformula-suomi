@@ -1,0 +1,52 @@
+{
+  "raw_count": 557,
+  "ranked_count": 230,
+  "excluded_count": 327,
+  "exchange_counts": {
+    "HEL": 148,
+    "STO": 409
+  },
+  "excluded_reason_counts": {
+    "Markkina-arvo on alle 50 M€; listaus säilyy aineistossa mutta ei rankingissa.": 73,
+    "Finanssiyhtiö on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.": 66,
+    "Sijoitetun pääoman nimittäjä on nolla tai negatiivinen.": 61,
+    "Yhtiöltä puuttuvat rankingiin tarvittavat talousluvut tässä viennissä.": 60,
+    "EBIT on nolla tai negatiivinen, joten tulostuotto ei ole v1:ssä vertailukelpoinen.": 41,
+    "EV:n valuuttaperustaa ei ole varmennettu, kun raportointi- ja noteerausvaluutta eroavat.": 34,
+    "Sama yhtiö on mukana toisella osakesarjalla tai rinnakkaislistauksella; rankingissa käytetään yhtä edustavaa listausta.": 21,
+    "Yhteiseltä vuosiperiodilta puuttuu pakollinen tase- tai liiketuloskenttä.": 12,
+    "Markkina-arvo, EV tai markkinadatan päivä puuttuu lähteestä.": 11,
+    "Lähderaportin ja toimittajan tase-erien vastaavuus vaatii tarkistuksen; laskenta on estetty.": 4,
+    "Yhtiön yksilöivä tunniste puuttuu; osakesarjojen päällekkäisyyttä ei voida estää.": 4,
+    "Yleis­hyödyllinen yhtiö (utility) on rajattu pois Magic Formula -rankkauksesta v1-metodologiassa.": 4,
+    "Taseesta ja tuloslaskelmasta ei löytynyt yhteistä vuosiperiodia.": 2,
+    "Enterprise value on nolla tai negatiivinen.": 1,
+    "Talousdatalähteen symbolia ja pörssiä ei saatu vastaamaan Nasdaq-listausta.": 1,
+    "Tilinpäätös-, markkina- ja hakupäivien järjestys ei ole johdonmukainen.": 1
+  },
+  "rank_sequence_ok": true,
+  "coverage": {
+    "HEL": {
+      "candidate_listings": 148,
+      "listings": 148,
+      "verified_listings": 148,
+      "ranked": 62,
+      "methodology_excluded": 69,
+      "data_missing": 17,
+      "complete_main_market_verified": true,
+      "issuer_resolved": 136
+    },
+    "STO": {
+      "candidate_listings": 409,
+      "listings": 409,
+      "verified_listings": 409,
+      "ranked": 168,
+      "methodology_excluded": 189,
+      "data_missing": 52,
+      "complete_main_market_verified": true,
+      "issuer_resolved": 401
+    }
+  },
+  "integrity_errors": [],
+  "release_ready": false
+}

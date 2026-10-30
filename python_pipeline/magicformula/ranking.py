@@ -1,49 +1,37 @@
 from __future__ import annotations
 
+from dataclasses import replace
+
 from .models import FinancialRecord, RankedRecord
+from .normalization import validate_record
+from .ebit_ev import calculate_earnings_yield
+
+
+def _validate(record: FinancialRecord) -> None:
+    errors = validate_record(record)
+    if errors:
+        raise ValueError(f"{record.listing_id}: {', '.join(errors)}")
 
 
 def calculate_roc(record: FinancialRecord) -> float:
-    invested_capital = record.net_ppe + (record.current_assets - record.current_liabilities)
-    if invested_capital <= 0:
-        raise ValueError("Sijoitetun pääoman nimittäjä <= 0")
-    return record.ebit / invested_capital
-
-
-def calculate_earnings_yield(record: FinancialRecord) -> float:
-    if record.enterprise_value <= 0:
-        raise ValueError("Enterprise value <= 0")
-    return record.ebit / record.enterprise_value
+    _validate(record)
+    return record.ebit / record.invested_capital
 
 
 def rank_magic_formula(records: list[FinancialRecord]) -> list[RankedRecord]:
-    computed: list[tuple[FinancialRecord, float, float]] = []
-    for record in records:
-        roc = calculate_roc(record)
-        ey = calculate_earnings_yield(record)
-        computed.append((record, roc, ey))
-
-    roc_rank = {
-        item[0].ticker: idx + 1
-        for idx, item in enumerate(sorted(computed, key=lambda x: (-x[1], x[0].ticker)))
-    }
-    ey_rank = {
-        item[0].ticker: idx + 1
-        for idx, item in enumerate(sorted(computed, key=lambda x: (-x[2], x[0].ticker)))
-    }
-
-    ranked: list[RankedRecord] = []
-    for record, roc, ey in computed:
-        ranked.append(
-            RankedRecord(
-                ticker=record.ticker,
-                company=record.company,
-                roc=roc,
-                earnings_yield=ey,
-                ebit_ev=ey,
-                magic_formula_rank=roc_rank[record.ticker] + ey_rank[record.ticker],
-                ebit_ev_rank=ey_rank[record.ticker],
-            )
-        )
-
-    return sorted(ranked, key=lambda r: (r.magic_formula_rank, r.ticker))
+    if len({record.listing_id for record in records}) != len(records):
+        raise ValueError("Rankingissa on sama listaus useaan kertaan")
+    computed = [(record, calculate_roc(record), calculate_earnings_yield(record)) for record in records]
+    # Osarankingin tasatilanteet ja lopullinen rankkisumma ratkaistaan pörssi:tickerillä.
+    roc_rank = {item[0].listing_id: index + 1 for index, item in
+                enumerate(sorted(computed, key=lambda item: (-item[1], item[0].listing_id)))}
+    ey_rank = {item[0].listing_id: index + 1 for index, item in
+               enumerate(sorted(computed, key=lambda item: (-item[2], item[0].listing_id)))}
+    ranked = [RankedRecord(
+        ticker=record.ticker, company=record.company, exchange=record.exchange,
+        roc=roc, earnings_yield=ey, ebit_ev=ey, magic_formula_rank=0,
+        ebit_ev_rank=ey_rank[record.listing_id], roc_rank=roc_rank[record.listing_id],
+        rank_sum=roc_rank[record.listing_id] + ey_rank[record.listing_id],
+    ) for record, roc, ey in computed]
+    return [replace(record, magic_formula_rank=index + 1) for index, record in
+            enumerate(sorted(ranked, key=lambda item: (item.rank_sum, item.listing_id)))]

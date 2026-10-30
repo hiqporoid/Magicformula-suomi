@@ -2,10 +2,11 @@ from __future__ import annotations
 
 import math
 from collections.abc import Iterable
+from numbers import Real
 
 
 def is_valid_number(value: object) -> bool:
-    return isinstance(value, (int, float)) and not math.isnan(float(value))
+    return isinstance(value, Real) and not isinstance(value, bool) and math.isfinite(float(value))
 
 
 def latest_numeric_value(series: object) -> float | None:
@@ -35,10 +36,12 @@ def compute_enterprise_value(
     if not is_valid_number(market_cap) or float(market_cap) <= 0 or not is_valid_number(total_debt):
         return None
 
-    cash = 0.0
+    cash = None
     for value in cash_values:
         if is_valid_number(value):
             cash = float(value)
             break
 
+    if cash is None:
+        return None
     return float(market_cap) + float(total_debt) - cash

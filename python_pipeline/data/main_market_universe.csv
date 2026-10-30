@@ -1,136 +1,149 @@
-ticker,company,sector,exchange,country
-ADMCM,Admicom Oyj,Unknown,HEL,FI
-AFAGR,Afarak Group SE,Unknown,HEL,FI
-AKTIA,Aktia Pankki Oyj,Unknown,HEL,FI
-ALBAV,Bank of Åland Plc A,Unknown,HEL,FI
-ALBBV,Bank of Åland Plc B,Unknown,HEL,FI
-ALEX,Alexandria Group Oyj,Unknown,HEL,FI
-ALMA,Alma Media Corporation,Unknown,HEL,FI
-ANORA,Anora Group Plc,Unknown,HEL,FI
-APETIT,Apetit Plc,Unknown,HEL,FI
-ARVOSK,Arvo Sijoitusosuuskunta,Unknown,HEL,FI
-ASPO,Aspo Plc,Unknown,HEL,FI
-ASUNTO,Asuntosalkku Oyj,Unknown,HEL,FI
-ATRAV,Atria Plc A,Unknown,HEL,FI
-BITTI,Bittium Corporation,Unknown,HEL,FI
-BOREO,Boreo Oyj,Unknown,HEL,FI
-CANATU,Canatu Oyj A,Unknown,HEL,FI
-CAPMAN,CapMan Plc,Unknown,HEL,FI
-CITYVA,Cityvarasto Oyj,Unknown,HEL,FI
-CONSTI,Consti Plc,Unknown,HEL,FI
-CTH1V,Componenta Corporation,Unknown,HEL,FI
-CTY1S,Citycon Oyj,Unknown,HEL,FI
-DETEC,Detection Technology Oyj,Unknown,HEL,FI
-DIGIA,Digia Plc,Unknown,HEL,FI
-ELISA,Elisa Corporation,Unknown,HEL,FI
-ENENTO,Enento Group Oyj,Unknown,HEL,FI
-EQV1V,eQ Oyj,Unknown,HEL,FI
-ERIBR,"Ericsson, Telefonab. L M ser. B",Unknown,HEL,FI
-ESENSE,Enersense International Oyj,Unknown,HEL,FI
-ETTE,Etteplan Oyj,Unknown,HEL,FI
-EVLI,Evli Oyj,Unknown,HEL,FI
-EXEL,Exel Composites Plc,Unknown,HEL,FI
-FARON,Faron Pharmaceuticals Oy,Unknown,HEL,FI
-FIA1S,Finnair Oyj,Unknown,HEL,FI
-FORTUM,Fortum Corporation,Unknown,HEL,FI
-FRAMERY,Framery Group Oyj,Unknown,HEL,FI
-FSECURE,F-Secure Oyj,Unknown,HEL,FI
-FSKRS,Fiskars Corporation,Unknown,HEL,FI
-GOFORE,Gofore Plc,Unknown,HEL,FI
-GRK,GRK Infra Plc,Unknown,HEL,FI
-HARVIA,Harvia Plc,Unknown,HEL,FI
-HEALTH,Nightingale Health Oyj B,Unknown,HEL,FI
-HIAB,Hiab Oyj,Unknown,HEL,FI
-HKFOODS,HKFoods Oyj A,Unknown,HEL,FI
-HUH1V,Huhtamäki Oyj,Unknown,HEL,FI
-ICP1V,Incap Corporation,Unknown,HEL,FI
-ILKKA,Ilkka Oyj,Unknown,HEL,FI
-IQMX,IQM Quantum Computers Oyj,Unknown,HEL,FI
-KALMAR,Kalmar Oyj B,Unknown,HEL,FI
-KCR,Konecranes Plc,Unknown,HEL,FI
-KEMIRA,Kemira Oyj,Unknown,HEL,FI
-KEMPOWR,Kempower Oyj,Unknown,HEL,FI
-KESKOA,Kesko Corporation A,Unknown,HEL,FI
-KESKOB,Kesko Corporation B,Unknown,HEL,FI
-KNEBV,KONE Corporation,Unknown,HEL,FI
-KOSKI,Koskisen Oyj,Unknown,HEL,FI
-KPYOSK,KPY osk,Unknown,HEL,FI
-KREATE,Kreate Group Plc,Unknown,HEL,FI
-KSL,Keskisuomalainen Oyj,Unknown,HEL,FI
-LASTIK,Lassila & Tikanoja Plc,Unknown,HEL,FI
-LEMON,Lemonsoft Oyj,Unknown,HEL,FI
-LINDEX,Lindex Group Oyj,Unknown,HEL,FI
-LOIHDE,Loihde Oyj,Unknown,HEL,FI
-LUMO,Lumo Kodit Oyj,Unknown,HEL,FI
-LUOTEA,Luotea Plc,Unknown,HEL,FI
-MANTA,Mandatum Oyj,Unknown,HEL,FI
-MEKKO,Marimekko Corporation,Unknown,HEL,FI
-MERUS,Merus Power Oyj,Unknown,HEL,FI
-METSA,Metsä Board Oyj A,Unknown,HEL,FI
-METSB,Metsä Board Oyj B,Unknown,HEL,FI
-METSO,Metso Oyj,Unknown,HEL,FI
-MUSTI,Musti Group Plc,Unknown,HEL,FI
-NANOFH,Nanoform Finland Oyj,Unknown,HEL,FI
-NDA-FI,Nordea Bank Abp,Unknown,HEL,FI
-NESTE,Neste Corporation,Unknown,HEL,FI
-NOHO,NoHo Partners Oyj,Unknown,HEL,FI
-NOKIA,Nokia Corporation,Unknown,HEL,FI
-NXTMH,Nexstim Oyj,Unknown,HEL,FI
-OLVAS,Olvi Plc A,Unknown,HEL,FI
-OMASP,Oma Säästöpankki Oyj,Unknown,HEL,FI
-ORIOLA,Oriola Corporation,Unknown,HEL,FI
-ORNAV,Orion Corporation A,Unknown,HEL,FI
-ORNBV,Orion Corporation B,Unknown,HEL,FI
-ORTHEX,Orthex Plc,Unknown,HEL,FI
-OUT1V,Outokumpu Oyj,Unknown,HEL,FI
-PAMPALO,Endomines Finland Oyj,Unknown,HEL,FI
-PIHLIS,Pihlajalinna Oyj,Unknown,HEL,FI
-PON1V,Ponsse Oyj 1,Unknown,HEL,FI
-POSTI,Posti Group Oyj,Unknown,HEL,FI
-PUUILO,Puuilo Plc,Unknown,HEL,FI
-QTCOM,Qt Group Oyj,Unknown,HEL,FI
-RAIKV,Raisio Plc K,Unknown,HEL,FI
-RAIVV,Raisio Plc Vaihto-osake,Unknown,HEL,FI
-RAUTE,Raute Corporation,Unknown,HEL,FI
-REAKTOR,Reaktor Group Oyj,Unknown,HEL,FI
-REG1V,Revenio Group Corporation,Unknown,HEL,FI
-RELAIS,Relais Group Oyj,Unknown,HEL,FI
-REMEDY,Remedy Entertainment Oyj,Unknown,HEL,FI
-SAGCV,Saga Furs Oyj C,Unknown,HEL,FI
-SAMPO,Sampo Plc A,Unknown,HEL,FI
-SANOMA,Sanoma Corporation,Unknown,HEL,FI
-SBI,Sunborn International Plc,Unknown,HEL,FI
-SCANFL,Scanfil Plc,Unknown,HEL,FI
-SENSO,Sensofusion Oyj,Unknown,HEL,FI
-SFOODS,Solar Foods Oyj,Unknown,HEL,FI
-SITOWS,Sitowise Group Plc,Unknown,HEL,FI
-SOSI1,Sotkamo Silver AB,Unknown,HEL,FI
-SRV1V,SRV Group Plc,Unknown,HEL,FI
-SSABAH,SSAB AB ser. A,Unknown,HEL,FI
-SSABBH,SSAB AB ser. B,Unknown,HEL,FI
-SSH1V,SSH Communications Security Oyj,Unknown,HEL,FI
-STEADY,Steady Energy Oyj,Unknown,HEL,FI
-STEAV,Stora Enso Oyj A,Unknown,HEL,FI
-STERV,Stora Enso Oyj R,Unknown,HEL,FI
-SUY1V,Suominen Oyj,Unknown,HEL,FI
-TAALA,Taaleri Oyj,Unknown,HEL,FI
-TALLINK,AS Tallink Grupp FDR,Unknown,HEL,FI
-TELIA1,Telia Company AB,Unknown,HEL,FI
-TEM1V,Tecnotree Corporation,Unknown,HEL,FI
-TIETO,Tieto Corporation,Unknown,HEL,FI
-TITAN,Titanium Oyj,Unknown,HEL,FI
-TLT1V,Teleste Corporation,Unknown,HEL,FI
-TNOM,Talenom Oyj,Unknown,HEL,FI
-TOIVO,Toivo Group Oyj,Unknown,HEL,FI
-TOKMAN,Tokmanni Group Oyj,Unknown,HEL,FI
-TTALO,Terveystalo Plc,Unknown,HEL,FI
-TYRES,Nokian Tyres Plc,Unknown,HEL,FI
-UNITED,United Bankers Oyj,Unknown,HEL,FI
-UPM,UPM-Kymmene Corporation,Unknown,HEL,FI
-VAIAS,Vaisala Corporation A,Unknown,HEL,FI
-VALMT,Valmet Corporation,Unknown,HEL,FI
-VERK,Verkkokauppa.com Oyj,Unknown,HEL,FI
-VIAFIN,Viafin Service Oyj,Unknown,HEL,FI
-VIK1V,Viking Line Abp,Unknown,HEL,FI
-WRT1V,Wärtsilä Corporation,Unknown,HEL,FI
-YIT,YIT Corporation,Unknown,HEL,FI
+ticker,company,sector,exchange,country,market_segment,listing_verified,source_url,source_date,isin,issuer_id,source_symbol,nasdaq_symbol,orderbook_id,list_segment,listing_currency
+ACG1V,Aspocomp Group Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009008080,743700W8ZIJAMXWWWD26,ACG1V.HE,ACG1V,TX49989,SMALL_CAP,EUR
+AFAGR,Afarak Group,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009800098,,AFAGR.HE,AFAGR,TX50091,SMALL_CAP,EUR
+AKTIA,Aktia Pankki,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000058870,,AKTIA.HE,AKTIA,TX566536,MID_CAP,EUR
+ALBAV,Ålandsbanken Abp A,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009000103,7437006WYM821IJ3MN73,ALBAV.HE,ALBAV,TX49990,MID_CAP,EUR
+ALBBV,Ålandsbanken Abp B,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009001127,7437006WYM821IJ3MN73,ALBBV.HE,ALBBV,TX49991,MID_CAP,EUR
+ALISA,Alisa Pankki Oyj,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000170915,743700VK1NB8HRGTQH74,ALISA.HE,ALISA,TX1933106,SMALL_CAP,EUR
+ALMA,Alma Media Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009013114,743700ILU1PL86IW3429,ALMA.HE,ALMA,TX85332,MID_CAP,EUR
+ANORA,Anora Group Oyj,Consumer Staples,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000292438,52990007AXNSS4PNX352,ANORA.HE,ANORA,TX2646512,MID_CAP,EUR
+APETIT,Apetit Oyj,Consumer Staples,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009003503,743700RSFZUIQYABYT14,APETIT.HE,APETIT,TX50053,SMALL_CAP,EUR
+ASPO,Aspo Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009008072,7437000TB0GHDHLPX677,ASPO.HE,ASPO,TX49997,MID_CAP,EUR
+ATRAV,Atria Oyj A,Consumer Staples,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009006548,743700XLYONPSKO15Z91,ATRAV.HE,ATRAV,TX49998,MID_CAP,EUR
+AUROORA,Auroora Group,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000586409,,AUROORA.HE,AUROORA,TX6997290,MID_CAP,EUR
+BIOBV,Biohit Oyj B,Health Care,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009005482,74370089ATTSNBXJVT29,BIOBV.HE,BIOBV,TX50002,SMALL_CAP,EUR
+BITTI,Bittium Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007264,743700NFG5W5I59OVX65,BITTI.HE,BITTI,TX50011,MID_CAP,EUR
+BOREO,Boreo Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900724,743700OD4QRWKZ4ODC98,BOREO.HE,BOREO,TX50139,SMALL_CAP,EUR
+CAPMAN,CapMan Oyj,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009009377,743700498L5THNQWVL66,CAPMAN.HE,CAPMAN,TX50006,MID_CAP,EUR
+CONSTI,Consti Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000178256,743700JMXCC11CRJCS71,CONSTI.HE,CONSTI,TX1937392,SMALL_CAP,EUR
+CTH1V,Componenta Oyj,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000476783,5493000SDCOXVGZDWK18,CTH1V.HE,CTH1V,TX50007,SMALL_CAP,EUR
+CTY1S,Citycon Oyj,Real Estate,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000369947,549300P8N0P6KDGTJ206,CTY1S.HE,CTY1S,TX50009,MID_CAP,EUR
+DIGIA,Digia Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007983,743700QVAG6OXK5OP587,DIGIA.HE,DIGIA,TX50114,MID_CAP,EUR
+DIGIGR,Digitalist Group Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000591698,743700AL68PUX6JMS644,DIGIGR.HE,DIGIGR,TX50123,SMALL_CAP,EUR
+DOV1V,Dovre Group Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009008098,7437000NA1I6Y1OQWL24,DOV1V.HE,DOV1V,TX50075,SMALL_CAP,EUR
+EASOR,Easor Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000598156,636700SC9QDZ98RZ8N15,EASOR.HE,EASOR,TX6856370,SMALL_CAP,EUR
+EEZY,Eezy Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000322326,743700ZKOMTB7X00OW54,EEZY.HE,EEZY,TX2734638,SMALL_CAP,EUR
+ELEAV,Elecster Oyj A,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900658,743700PEMBIJ4GPCYX48,ELEAV.HE,ELEAV,TX50013,SMALL_CAP,EUR
+ELISA,Elisa Oyj,Telecommunications,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007884,743700TU2S3DXWGU7H32,ELISA.HE,ELISA,TX50014,LARGE_CAP,EUR
+ENENTO,Enento Group Oyj,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000123195,743700EPLUWXE25HGM03,ENENTO.HE,ENENTO,TX1759700,MID_CAP,EUR
+EQV1V,eQ Oyj,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009009617,743700R4FA6AVH5J3D68,EQV1V.HE,EQV1V,TX49995,MID_CAP,EUR
+ESENSE,Enersense International Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000301585,743700XSMVPR48XIML56,ESENSE.HE,ESENSE,TX2670736,SMALL_CAP,EUR
+ETTE,Etteplan Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009008650,7437006I5533R06JU690,ETTE.HE,ETTE,TX50020,MID_CAP,EUR
+EVLI,Evli Oyj,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000513437,984500F4CCF3AD74F766,EVLI.HE,EVLI,TX4308598,MID_CAP,EUR
+EXEL,Exel Composites Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000602172,743700205JAMGM80QD88,EXEL.HE,EXEL,TX50022,SMALL_CAP,EUR
+FIA1S,Finnair Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000567029,213800SB6EOB8SSK9W63,FIA1S.HE,FIA1S,TX50023,MID_CAP,EUR
+FORTUM,Fortum Oyj,Utilities,HEL,FI,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007132,635400IUIZZIUJSAMF76,FORTUM.HE,FORTUM,TX50028,LARGE_CAP,EUR
+FRAMERY,Framery Group,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000595756,,FRAMERY.HE,FRAMERY,TX6557530,MID_CAP,EUR
+FSECURE,F-Secure Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000519236,9845006BFDJF0375E466,FSECURE.HE,FSECURE,TX4458094,MID_CAP,EUR
+FSKRS,Fiskars Oyj Abp,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009000400,743700BKTW4EQIVKYY42,FSKRS.HE,FSKRS,TX50024,LARGE_CAP,EUR
+GLA1V,Glaston Oyj Abp,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000587340,743700V3I7CLI3DJ8L62,GLA1V.HE,GLA1V,TX50046,SMALL_CAP,EUR
+GOFORE,Gofore Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000283130,743700JIW1LAUZDH9012,GOFORE.HE,GOFORE,TX2533768,MID_CAP,EUR
+GRK,GRK Infra Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000517966,743700Y8QWC1FT6R0F34,GRK.HE,GRK,TX5949088,MID_CAP,EUR
+HARVIA,Harvia Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000306873,7437002ULTBOWQQOXL69,HARVIA.HE,HARVIA,TX2644430,MID_CAP,EUR
+HEALTH,Nightingale Health Oyj B,Health Care,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000490875,743700WUIPC24LVMLO66,HEALTH.HE,HEALTH,TX3768658,SMALL_CAP,EUR
+HIAB,Hiab Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000571013,5493002B0GOVF42KWX33,HIAB.HE,HIAB,TX94484,LARGE_CAP,EUR
+HKFOODS,HKFoods Oyj A,Consumer Staples,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009006308,7437000PN6E448NPGY86,HKFOODS.HE,HKFOODS,TX50029,SMALL_CAP,EUR
+HONBS,Honkarakenne Oyj B,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900104,7437007POZXRBIWNJ629,HONBS.HE,HONBS,TX50030,SMALL_CAP,EUR
+HUH1V,Huhtamäki Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009000459,5493007050SJVMXN6L29,HUH1V.HE,HUH1V,TX50031,LARGE_CAP,EUR
+ICP1V,Incap Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009006407,7437004GENTTQHMNQ407,ICP1V.HE,ICP1V,TX50034,MID_CAP,EUR
+ILKKA,Ilkka Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009800205,743700KMZL7E8PLI5X73,ILKKA.HE,ILKKA,TX50033,SMALL_CAP,EUR
+INVEST,Investors House Oyj,Real Estate,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900559,74370058ZYOB0GIYUT38,INVEST.HE,INVEST,TX50105,SMALL_CAP,EUR
+IQMX,IQM Quantum Computers Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000602354,743700MUXIBO64XQUT02,IQMX.HE,IQMX,TX7355970,LARGE_CAP,EUR
+KALMAR,Kalmar Oyj B,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000571054,636700Z25ZQXLMZ3CY73,KALMAR.HE,KALMAR,TX5394824,LARGE_CAP,EUR
+KAMUX,Kamux Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000206750,743700KCVYIYNLPZYN56,KAMUX.HE,KAMUX,TX2371812,SMALL_CAP,EUR
+KCR,Konecranes Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009005870,549300EF0CDEQZBMA096,KCR.HE,KCR,TX50039,LARGE_CAP,EUR
+KELAS,Kesla Oyj A,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900237,743700YGE1GQ2DNT5T52,KELAS.HE,KELAS,TX50041,SMALL_CAP,EUR
+KEMIRA,Kemira Oyj,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009004824,74370031Y7RK5H88CQ48,KEMIRA.HE,KEMIRA,TX50045,LARGE_CAP,EUR
+KEMPOWR,Kempower Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000513593,743700EIG9TDB5QNZS09,KEMPOWR.HE,KEMPOWR,TX4074134,MID_CAP,EUR
+KESKOA,Kesko Oyj A,Consumer Staples,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007900,743700OX6HSVMCAHPB95,KESKOA.HE,KESKOA,TX50042,LARGE_CAP,EUR
+KESKOB,Kesko Oyj B,Consumer Staples,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009000202,743700OX6HSVMCAHPB95,KESKOB.HE,KESKOB,TX50043,LARGE_CAP,EUR
+KHG,KH Group Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009008924,743700F6CLX8JMYDEP21,KHG.HE,KHG,TX50096,SMALL_CAP,EUR
+KNEBV,KONE Oyj,Industrials,HEL,FI,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009013403,2138001CNF45JP5XZK38,KNEBV.HE,KNEBV,TX94482,LARGE_CAP,EUR
+KOSKI,Koskisen Oyj,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000533005,9845000D85046ECFFF27,KOSKI.HE,KOSKI,TX4656400,MID_CAP,EUR
+KREATE,Kreate Group Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000476866,743700POUUQ3CS3Q7S40,KREATE.HE,KREATE,TX3733306,SMALL_CAP,EUR
+KSL,Keskisuomalainen Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007546,743700J7NHT5OLSJ3B78,KSL.HE,KSL,TX50047,SMALL_CAP,EUR
+LAMOR,Lamor Corporation Oyj,Utilities,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000512488,7437003R88R5QOCMFQ82,LAMOR.HE,LAMOR,TX4056974,SMALL_CAP,EUR
+LASTIK,Lassila & Tikanoja,Utilities,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000592472,,LASTIK.HE,LASTIK,TX6644644,MID_CAP,EUR
+LEHTO,Lehto Group Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000081138,743700YEHY9I3ZDHNX66,LEHTO.HE,LEHTO,TX2045988,SMALL_CAP,EUR
+LINDEX,Lindex Group Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009000251,743700IFQI6W89M1IY95,LINDEX.HE,LINDEX,TX50110,MID_CAP,EUR
+LUMO,Lumo Kodit Oyj,Real Estate,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000312251,7437007YPUOQZ8OV1R42,LUMO.HE,LUMO,TX2733050,LARGE_CAP,EUR
+LUOTEA,Luotea Plc,Utilities,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000592464,,LUOTEA.HE,LUOTEA,TX50050,MID_CAP,EUR
+MANTA,Mandatum,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000552526,,MANTA.HE,MANTA,TX5013556,LARGE_CAP,EUR
+MARAS,Martela Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900385,743700M4EIEVD61PNN55,MARAS.HE,MARAS,TX50054,SMALL_CAP,EUR
+MEKKO,Marimekko Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007660,74370053IOY42B9YJ350,MEKKO.HE,MEKKO,TX50056,MID_CAP,EUR
+METSA,Metsä Board Oyj A,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009000640,743700KKB8Q035K38488,METSA.HE,METSA,TX50058,LARGE_CAP,EUR
+METSB,Metsä Board Oyj B,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009000665,743700KKB8Q035K38488,METSB.HE,METSB,TX50059,LARGE_CAP,EUR
+METSO,Metso Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009014575,549300R0VN9C371W0E07,METSO.HE,METSO,TX216776,LARGE_CAP,EUR
+MUSTI,Musti Group Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000410758,743700IE9NQGF9YZAI97,MUSTI.HE,MUSTI,TX3300162,MID_CAP,EUR
+NDA-FI,Nordea Bank Abp,Financials,HEL,FI,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000297767,529900ODI3047E2LIV03,NDA-FI.HE,NDA FI,TX50060,LARGE_CAP,EUR
+NESTE,Neste Oyj,Energy,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009013296,5493009GY1X8GQ66AM14,NESTE.HE,NESTE,TX82046,LARGE_CAP,EUR
+NLG1V,Nurminen Logistics Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900187,743700O69NCHTNEV0362,NLG1V.HE,NLG1V,TX50038,SMALL_CAP,EUR
+NOHO,NoHo Partners Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000064332,743700DYZ6R1QNLWQA56,NOHO.HE,NOHO,TX1470640,MID_CAP,EUR
+NOKIA,Nokia Oyj,Telecommunications,HEL,FI,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009000681,549300A0JPRWG1KI7U06,NOKIA.HE,NOKIA,TX50063,LARGE_CAP,EUR
+OLVAS,Olvi Oyj A,Consumer Staples,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900401,7437003NX7WWVRT6AJ55,OLVAS.HE,OLVAS,TX50068,MID_CAP,EUR
+OMASP,Oma Säästöpankki Oyj,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000306733,743700LE1ECAPXC5UT18,OMASP.HE,OMASP,TX2878622,MID_CAP,EUR
+OPTOMED,Optomed Oyj,Health Care,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000410881,7437009IVYWGEE4S7B77,OPTOMED.HE,OPTOMED,TX3235638,SMALL_CAP,EUR
+ORIOLA,Oriola Oyj,Health Care,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009014351,549300UWB1AIR85BM957,ORIOLA.HE,ORIOLA,TX195168,MID_CAP,EUR
+ORNAV,Orion Oyj A,Health Care,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009014369,74370029VAHCXDR7B745,ORNAV.HE,ORNAV,TX195162,LARGE_CAP,EUR
+ORNBV,Orion Oyj B,Health Care,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009014377,74370029VAHCXDR7B745,ORNBV.HE,ORNBV,TX195164,LARGE_CAP,EUR
+ORTHEX,Orthex Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000480504,7437008RMK8BSWN39T09,ORTHEX.HE,ORTHEX,TX3772156,SMALL_CAP,EUR
+OUT1V,Outokumpu Oyj,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009002422,5493009YRUJJDCFF0R80,OUT1V.HE,OUT1V,TX50072,LARGE_CAP,EUR
+OVARO,Ovaro Kiinteistösijoitus Oyj,Real Estate,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000349113,529900C4P88APHFZ5H47,OVARO.HE,OVARO,TX1449752,SMALL_CAP,EUR
+PAMPALO,Endomines Finland Oyj,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000508023,7437004UOFZRIUWTUG97,PAMPALO.HE,PAMPALO,TX4686028,MID_CAP,EUR
+PIHLIS,Pihlajalinna Oyj,Health Care,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000092556,74370058MTRLEDOCHV67,PIHLIS.HE,PIHLIS,TX1804270,MID_CAP,EUR
+PNA1V,Panostaja Oyj,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009800379,743700ZGH7GD27UOQO12,PNA1V.HE,PNA1V,TX50074,SMALL_CAP,EUR
+PON1V,Ponsse Oyj 1,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009005078,,PON1V.HE,PON1V,TX50081,MID_CAP,EUR
+POSTI,Posti Group,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000592159,,POSTI.HE,POSTI,TX6397490,MID_CAP,EUR
+PUUILO,Puuilo Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000507124,743700UJUT6FWHBXPR69,PUUILO.HE,PUUILO,TX3874080,MID_CAP,EUR
+QPR1V,QPR Software Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009008668,7437003V4S76KM56UW70,QPR1V.HE,QPR1V,TX50083,SMALL_CAP,EUR
+QTCOM,Qt Group Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000198031,743700GO2XU2ZYYDKW67,QTCOM.HE,QTCOM,TX2049260,LARGE_CAP,EUR
+RAIVV,Raisio Oyj Vaihto-osake,Consumer Staples,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009002943,74370083282NHIP4QD02,RAIVV.HE,RAIVV,TX50085,MID_CAP,EUR
+RAP1V,Rapala VMC Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007355,7437009TB42O2AB3JW91,RAP1V.HE,RAP1V,TX50087,SMALL_CAP,EUR
+RAUTE,Raute Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009004741,743700G00629V99PE435,RAUTE.HE,RAUTE,TX50092,SMALL_CAP,EUR
+REAKTOR,Reaktor Group Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000603105,74370058ZP81NSMHOV45,REAKTOR.HE,REAKTOR,TX7308454,MID_CAP,EUR
+REBL,Rebl Group Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900468,743700HSIESZ75X06H10,REBL.HE,REBL,TX50077,SMALL_CAP,EUR
+REG1V,Revenio Group Oyj,Health Care,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009010912,743700I27E0FWSXLKK04,REG1V.HE,REG1V,TX50010,MID_CAP,EUR
+REKA,Reka Industrial Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009800296,743700TSB08BO83SJR33,REKA.HE,REKA,TX50061,SMALL_CAP,EUR
+RELAIS,Relais Group Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000391487,743700X9S8FVYRI20J88,RELAIS.HE,RELAIS,TX3193106,MID_CAP,EUR
+REMEDY,Remedy Entertainment Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000251897,7437003VZ3JPF7DBTG92,REMEDY.HE,REMEDY,TX2385772,MID_CAP,EUR
+ROBIT,Robit Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000150016,743700NRL9EH2FLPH480,ROBIT.HE,ROBIT,TX1799262,SMALL_CAP,EUR
+SAGCV,Saga Furs Oyj C,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009800551,7437000VHKJDQQJWF837,SAGCV.HE,SAGCV,TX50129,SMALL_CAP,EUR
+SAMPO,Sampo Oyj A,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000552500,743700UF3RL386WIDA22,SAMPO.HE,SAMPO,TX50094,LARGE_CAP,EUR
+SANOMA,Sanoma Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007694,743700XJC24THUPK0S03,SANOMA.HE,SANOMA,TX50113,LARGE_CAP,EUR
+SAVOX,Savox Communications Oyj,Telecommunications,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000602958,743700NC1E63WPG0DX61,SAVOX.HE,SAVOX,TX7327568,MID_CAP,EUR
+SCANFL,Scanfil Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000029905,7437004XD6U0FFDCT507,SCANFL.HE,SCANFL,TX1023370,MID_CAP,EUR
+SENSO,Sensofusion Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000609672,7437000UYRI2YZJTC459,SENSO.HE,SENSO,TX7750058,LARGE_CAP,EUR
+SIILI,Siili Solutions Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000043435,7437003WYXJUSV27Q316,SIILI.HE,SIILI,TX1199624,SMALL_CAP,EUR
+SITOWS,Sitowise Group Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000480215,743700HOHMOHAANHFF73,SITOWS.HE,SITOWS,TX3772154,SMALL_CAP,EUR
+SOLTEQ,Solteq Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007991,743700HXWTM31ZHBXW13,SOLTEQ.HE,SOLTEQ,TX50101,SMALL_CAP,EUR
+SOSI1,Sotkamo Silver AB,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0001057910,213800R2TQW1OZGYDX93,SOSI1.HE,SOSI1,TX1146886,SMALL_CAP,EUR
+SRV1V,SRV Yhtiöt Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000523675,743700GB29FXC0VXF414,SRV1V.HE,SRV1V,TX286056,SMALL_CAP,EUR
+SSABAH,SSAB A,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000171100,529900329VS14ZIML164,SSABAH.HE,SSABAH,TX1601776,LARGE_CAP,EUR
+SSABBH,SSAB B,Basic Materials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000120669,529900329VS14ZIML164,SSABBH.HE,SSABBH,TX1601778,LARGE_CAP,EUR
+SSH1V,SSH Communications Security,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009008270,,SSH1V.HE,SSH1V,TX50104,SMALL_CAP,EUR
+STEAV,Stora Enso Oyj A,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009005953,7437000ZP669LKUTZ738,STEAV.HE,STEAV,TX50106,LARGE_CAP,EUR
+STERV,Stora Enso Oyj R,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009005961,7437000ZP669LKUTZ738,STERV.HE,STERV,TX50107,LARGE_CAP,EUR
+SUY1V,Suominen Oyj,Consumer Staples,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009010862,743700Z1BNFYR9PRDF52,SUY1V.HE,SUY1V,TX50111,SMALL_CAP,EUR
+TAALA,Taaleri Oyj,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000062195,743700LSJBDD7TMLAD92,TAALA.HE,TAALA,TX1342034,MID_CAP,EUR
+TALLINK,AS Tallink Grupp FDR,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000349378,,TALLINK.HE,TALLINK,TX2879624,MID_CAP,EUR
+TELIA1,Telia Company,Telecommunications,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,SE0000667925,213800FSR9RNDUOTXO25,TELIA1.HE,TELIA1,TX50126,LARGE_CAP,EUR
+TEM1V,Tecnotree Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000570890,743700MRPVYI7ASHCX38,TEM1V.HE,TEM1V,TX50120,SMALL_CAP,EUR
+TIETO,Tieto Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009000277,549300EW2KM4KROKQV31,TIETO.HE,TIETO,TX50122,LARGE_CAP,EUR
+TLT1V,Teleste Oyj,Telecommunications,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009007728,743700CJRQRU0007GN59,TLT1V.HE,TLT1V,TX50119,SMALL_CAP,EUR
+TNOM,Talenom Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000598149,7437008E4R0N45B8J675,TNOM.HE,TNOM,TX1808862,MID_CAP,EUR
+TOIVO,Toivo Group Oyj,Real Estate,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000496716,743700N31WYJDNPT8M98,TOIVO.HE,TOIVO,TX3856008,SMALL_CAP,EUR
+TOKMAN,Tokmanni Group Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000197934,743700VMG6KWF0FW1560,TOKMAN.HE,TOKMAN,TX2047036,MID_CAP,EUR
+TRH1V,Trainers´ House Oyj,Technology,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000519202,,TRH1V.HE,TRH1V,TX50095,SMALL_CAP,EUR
+TTALO,Terveystalo Oyj,Health Care,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000252127,7437001AEZHLL3UEX093,TTALO.HE,TTALO,TX2497702,LARGE_CAP,EUR
+TULAV,Tulikivi Oyj A,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900583,743700GSL41H2DXZY963,TULAV.HE,TULAV,TX50128,SMALL_CAP,EUR
+TYRES,Nokian Renkaat Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009005318,743700YQIO8Y4L4WKR40,TYRES.HE,TYRES,TX50064,LARGE_CAP,EUR
+UNITED,United Bankers Oyj,Financials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000081427,743700J2WO3J6XGFPG77,UNITED.HE,UNITED,TX1668878,MID_CAP,EUR
+UPM,UPM-Kymmene Oyj,Basic Materials,HEL,FI,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009005987,213800EC6PW5VU4J9U64,UPM.HE,UPM,TX50131,LARGE_CAP,EUR
+VAIAS,Vaisala Oyj A,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009900682,743700RNDD7KU11HW873,VAIAS.HE,VAIAS,TX50133,LARGE_CAP,EUR
+VALMT,Valmet Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000074984,213800D9O7FUQDH83V62,VALMT.HE,VALMT,TX1484768,LARGE_CAP,EUR
+VERK,Verkkokauppa.com Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI4000049812,743700QZE6B52SHHTV75,VERK.HE,VERK,TX1534398,SMALL_CAP,EUR
+VIK1V,Viking Line Abp,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009005250,743700CUWGW42AGIDN49,VIK1V.HE,VIK1V,TX50134,MID_CAP,EUR
+WETTERI,Wetteri Oyj,Consumer Discretionary,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009012793,743700TDB62DGAFROB24,WETTERI.HE,WETTERI,TX332188,SMALL_CAP,EUR
+WRT1V,Wärtsilä Oyj Abp,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=LARGE_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009003727,743700G7A9J1PHM3X223,WRT1V.HE,WRT1V,TX50138,LARGE_CAP,EUR
+WUF1V,Wulff-Yhtiöt Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=SMALL_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009008452,74370016PW2V4W02LX91,WUF1V.HE,WUF1V,TX50000,SMALL_CAP,EUR
+YIT,YIT Oyj,Industrials,HEL,,Main Market,true,https://api.nasdaq.com/api/nordic/screener/shares?category=MAIN_MARKET&market=HEL&segment=MID_CAP&tableonly=false&size=1000&page=1,2026-10-30,FI0009800643,529900M13GM4VSTE6W80,YIT.HE,YIT,TX50141,MID_CAP,EUR

@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## Projektin missio
-Rakentaa suomenkielinen tutkimuspainotteinen verkkosovellus Nasdaq Helsinki Main Market -yhtiöiden arvosijoitusvertailuun (Magic Formula, EBIT/EV, laatu-overlay), läpinäkyvästi ja toistettavasti.
+Rakentaa suomenkielinen tutkimuspainotteinen verkkosovellus Nasdaq Helsinki ja Nasdaq Stockholm Main Market -yhtiöiden arvosijoitusvertailuun (Magic Formula, EBIT/EV, laatu-overlay), läpinäkyvästi ja toistettavasti.
 
 ## Työskentelysäännöt
 - Tee kaikki tuotokset ensisijaisesti suomeksi.
@@ -23,7 +23,8 @@ Rakentaa suomenkielinen tutkimuspainotteinen verkkosovellus Nasdaq Helsinki Main
 - Älä mergeä ilman, että keskeiset laskentatestit menevät läpi.
 
 ## Arkkitehtuurirajat v1
-- Universe: vain Nasdaq Helsinki Main Market.
+- Universe: Nasdaq Helsinki ja Nasdaq Stockholm Main Market. First North ei kuulu ensimmäiseen julkaisuun. Muut pörssit ovat jatkokehitystä.
+- Listausvarmennus perustuu lähteeseen ja instrumenttitunnisteisiin, ei datatoimittajan exchange-kenttään tai rivimäärään. Todentamattomat kandidaatit eivät kuulu rankingiin.
 - Datalähteet: metadata + talousluvut yhtenäistettyyn välitauluun.
 - Ranking-moottorit: Magic Formula ja EBIT/EV erillisinä moduuleina.
 - Quality overlay: kevyt pistemalli, ei ML:ää v1:ssä.

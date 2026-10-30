@@ -1,5 +1,32 @@
 # PLANS.md
 
+## Helsinki + Stockholm: luotettavuuskorjaus (29.10.2026)
+
+Julkaisualue on Nasdaq Helsinki ja Nasdaq Stockholm Main Market. First North ei kuulu julkaisuun. Aiemmat julkaisuvalmiusmerkinnät kuvaavat teknistä demoa, eivät varmennettua markkinakattavuutta.
+
+19. [x] **P0: varmennettu listausuniversumi ja laskennan virheportit**
+    - Erottele todistettu Main Market -listaus, metodologinen poissulku ja datapuute; poista Yahoo-exchange/minimimäärä kattavuustodisteena.
+    - Korjaa maakoodit, sektorit, listaus-/yhtiöavaimet, osakesarjat ja rinnakkaislistaukset.
+    - Varmenna valuutat, 50 M€ -raja, yhteinen tilikausi, ROC-pääoma ja äärelliset luvut regressiotestein.
+    - Tulos: Nasdaq Main Market HEL 148 / STO 409; segmentti-/sivutustodiste ja kanoniset tiedostotiivisteet. GLEIF-yhtiötunnisteet 136/148 ja 401/409 listauksella. Todistetut maakoodi-, sektori-, valuutta-, periodi-, tunniste- ja puuttuvan arvon virheet korjattu.
+20. [x] **P1: läpinäkyvä export ja tutkimusnäkymä**
+    - Yhteinen HEL+STO-ranking; markkinasuodatus ei muuta vertailujoukkoa.
+    - Osarankingit, lähdeluvut, valuutat, ajankohdat, poissulkusyyt ja kattavuus pörsseittäin.
+    - Tulos: yhteisranking 230 yhtiötä, tarkat lähdeluvut valuuttoineen/päivineen, osarankit sekä datapuute-/metodologialuokat. Selainvarmennus: HEL 62 / STO 168, suodattimet eivät muuta sijoituksia, neljä lähdeotosta näkyy yhtiösivuilla oikein.
+21. [ ] **in-progress — P1: varmennus ja tarkistettava toimitus**
+    - Python, lint, build, data-audit, selain ja pieni ensisijaisiin lähteisiin jäljitetty HEL/STO-otos.
+    - Datapäivitys ei saa julkaista todentamatonta universumia tai ylikirjoittaa mainia tarkistamatta.
+    - Päivitä menetelmä/ohjeet/lokit, tarkistetut commitit, push ja draft-PR. Ei mergeä eikä tuotantojulkaisua.
+22. [ ] **Seuraava tärkein milestone: lähdekomponenttien täsmäytys ennen julkaisua**
+    - Ratkaise KONE/UPM/Volvo-otoksen luokitteluerot, Atlas Copcon kassakomponentti sekä EV:n ja osakesarjojen yhtiötason arvostusperusta.
+    - Sulje raportointi-/noteerausvaluutan erojen 34 lähdeaukkoa, puuttuvat issuer-tunnisteet ja muut talousdata-aukot; älä nosta rankattujen määrää oikeellisuustodisteeksi.
+    - ESEF-lähteet tai lisensoitu fundamenttidata: toteutuspäätös ja mahdolliset käyttö-/uudelleenjakeluoikeudet erikseen. Ei maksullisia hankintoja tässä työssä.
+
+Auditin lähtöhavainnot:
+- **Todistetut virheet:** Sweden katkaistaan SW:ksi; ticker yksin yhdistämisavaimena; Unknown pääsee sektoritarkistuksesta; Yahoo-exchange sisältää First Northia; 50 miljoonan raja ilman valuuttaa; lähdeperiodit voivat erota; puuttuva käteinen muuttuu nollaksi.
+- **Epävarmuudet:** nykyisen listan oikea Main Market -kattavuus, toimittajan valuutat/EV/periodit ja yhtiötunnisteet.
+- **Puuttuvat ominaisuudet:** lähteellä varmennettu listausuniversumi, osarankit ja jäljitettävä valuutta-/päivämetadata UI:ssa sekä julkaisemisen estävä laatutarkistus.
+
 ## Paikallisen jatkokehityksen valmistelu (21.10.2026)
 
 18. [x] Synkronoi paikallinen työ GitHubin uusimpaan main-haaraan
@@ -11,9 +38,9 @@
 
 ## Seuraavat selvitettävät asiat
 
-- [ ] Selvitä GitHubista periytyvän datan `Unknown`-sektorit ja niiden vaikutus finanssi- ja utility-poissulkuihin.
-- [ ] Selvitä Stockholm-universen `country=SW` suhteessa koodin käyttämään `SE`-koodiin: nykyisessä exportissa kaikki 672 STO-riviä suljetaan pois ulkomaisina.
-- [ ] Yhtenäistä Helsinki-v1-rajaus ja toteutuksen Helsinki+Tukholma-laajennus projektiohjeissa erillisessä rajauspäätöksessä.
+- [x] Unknown-sektorit korjattu virallisella Nasdaq-sektorilla; puuttuva sektori on datapuute.
+- [x] SW/SE normalisoitu; kotimaa ei aiheuta virheellistä foreign-poissulkua.
+- [x] Helsinki+Stockholm-rajauksen ristiriitaiset projektiohjeet päivitetty.
 
 ## v1 Toteutussuunnitelma (milestones)
 

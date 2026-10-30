@@ -63,7 +63,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <span className="brandMark">MF</span>
                 <span>
                   <strong>Magicformula Suomi</strong>
-                  <small>Nasdaq Helsinki Main Market</small>
+                  <small>Helsinki + Stockholm Main Market</small>
                 </span>
               </Link>
 
@@ -82,7 +82,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <div className="shellContainer siteFooterInner">
               <div>
                 <strong>Magicformula Suomi</strong>
-                <p>Suomenkielinen tutkimusnäkymä Nasdaq Helsinki Main Market -yhtiöiden arvoseulontaan.</p>
+                <p>Suomenkielinen tutkimusnäkymä Helsingin ja Tukholman Main Market -yhtiöiden arvoseulontaan.</p>
               </div>
               <div>
                 <p>Tämä palvelu ei ole sijoitusneuvontaa. Käytä näkymää oman analyysin lähtöpisteenä.</p>

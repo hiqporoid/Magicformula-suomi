@@ -8,7 +8,7 @@ description: Toteuta Magic Formula -ranking (ROC + Earnings Yield) projektiin. K
 ## Tee
 - Laske ROC ja Earnings Yield dokumentoiduilla kaavoilla.
 - Rankkaa molemmat mittarit erikseen ja yhdistä summapisteiksi.
-- Ratkaise tasatilanteet deterministisesti (ticker aakkosjärjestys).
+- Ratkaise tasatilanteet deterministisesti (exchange:ticker aakkosjärjestys).
 - Erota laskenta, ranking ja serialisointi omiin funktioihin.
 - Lisää yksikkötestit sekä normaali- että reunatapauksille.
 
