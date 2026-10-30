@@ -43,28 +43,25 @@ export default function Page() {
             </Link>
           </div>
           <div className="heroMetaStrip">
-            <span>Raakauniversumi: {summary.rawUniverseCount}</span>
+            <span>Listauksia aineistossa: {summary.rawUniverseCount}</span>
             <span>Rankatut: {summary.rankedCount}</span>
             <span>Poissulut: {summary.excludedCount}</span>
-            <span>Päivitetty: {formatTimestamp(dataset.generatedAt)}</span>
+            <span>Vienti luotu: {formatTimestamp(dataset.generatedAt)}</span>
           </div>
         </div>
 
         <aside className="heroSideCard">
           <div className="sideCardSection">
             <p className="eyebrow">Tämän viennin kärki</p>
-            <h2>
-              {leadCompany.company} <span className="inlineTicker">({leadCompany.ticker})</span>
-            </h2>
-            <p>
-              Sijoitus #{leadCompany.rank}, markkina-arvo {formatMarketCap(leadCompany.financialSnapshot.marketCap)}, ROC {" "}
-              {formatPercent(leadCompany.roc)} ja EBIT/EV {formatPercent(leadCompany.ebitEv)}.
-            </p>
+            {leadCompany ? <>
+              <h2>{leadCompany.company} <span className="inlineTicker">({leadCompany.listingId})</span></h2>
+              <p>Yhteissija #{leadCompany.rank}, markkina-arvo {formatMarketCap(leadCompany.financialSnapshot.marketCapEur, "EUR")}, ROC {formatPercent(leadCompany.roc)} ja EBIT/EV {formatPercent(leadCompany.ebitEv)}.</p>
+            </> : <><h2>Ei vertailukelpoisia rivejä</h2><p>Nykyisen aineiston tiedot eivät riitä luotettavaan rankingiin. Tarkista datan puutteet ja poissulut alempaa.</p></>}
           </div>
           <div className="sideCardSection sideCardDivider">
             <p className="eyebrow">Mitä tästä näkee</p>
             <ul className="plainList compactList">
-              <li>Koko Main Market -universen yhdestä viennistä.</li>
+              <li>Nykyisen listausaineiston ja kattavuuden markkinoittain.</li>
               <li>Markkina-arvo näkyy taulukossa ja toimii suodattimena.</li>
               <li>Yrityssivu näyttää rankingin taustalla olevat luvut ja poissulut.</li>
             </ul>
@@ -72,11 +69,25 @@ export default function Page() {
         </aside>
       </section>
 
+      <section className="contentPanel cautionPanel">
+        <p className="eyebrow">Aineiston luotettavuus</p>
+        <h2>Kattavuus markkinoittain</h2>
+        <p>Listausaineisto, metodologiset poissulut ja datan estämä laskenta ovat eri asioita. Rivimäärä ei osoita koko Main Marketin kattavuutta. Viennin luontiaika ei ole talouslukujen päivitysaika.</p>
+        <p>{Object.values(dataset.coverage).every((item) => item.completeListingVerified) ? "Nasdaqin Main Market -listausotos on varmennettu molemmille pörsseille. Talousdatan ja yhtiötunnisteiden puutteet rajaavat laskettavaa joukkoa." : "Täyttä listauskattavuutta ei ole varmennettu."} {dataset.universeRetrievedAt ? `Listauslähde haettu ${formatTimestamp(dataset.universeRetrievedAt)}.` : ""}</p>
+        <div className="tableSurface"><table className="rankingTable">
+          <thead><tr><th>Markkina</th><th className="numberCell">Aineiston kandidaatit</th><th className="numberCell">Varmennetut Main Market</th><th className="numberCell">Rankattu</th><th className="numberCell">Metodologinen poissulku</th><th className="numberCell">Datan estämä laskenta</th></tr></thead>
+          <tbody>{["HEL", "STO"].map((exchange) => {
+            const coverage = dataset.coverage[exchange];
+            return <tr key={exchange}><td>{exchange === "HEL" ? "Suomi / Helsinki" : "Ruotsi / Tukholma"}</td><td className="numberCell">{coverage?.candidateListings ?? dataset.rawUniverse.filter((row) => row.exchange === exchange).length}</td><td className="numberCell">{coverage?.verifiedListings ?? "Ei varmennettu"}</td><td className="numberCell">{coverage?.ranked ?? dataset.rows.filter((row) => row.exchange === exchange).length}</td><td className="numberCell">{coverage?.methodologyExcluded ?? "Ei saatavilla"}</td><td className="numberCell">{coverage?.dataMissing ?? "Ei saatavilla"}</td></tr>;
+          })}</tbody>
+        </table></div>
+      </section>
+
       <section className="summaryGrid fourUpGrid">
         <article className="summaryCard emphasisCard">
-          <span className="summaryLabel">Raakauniversumi</span>
+          <span className="summaryLabel">Listauksia aineistossa</span>
           <strong>{summary.rawUniverseCount}</strong>
-          <p>Main Market -yhtiöt nykyisessä universessa.</p>
+          <p>Listauksia ennen laskennan poissulkuja. Yhtiöllä voi olla useita osakesarjoja.</p>
         </article>
         <article className="summaryCard">
           <span className="summaryLabel">Rankatut</span>
@@ -103,7 +114,7 @@ export default function Page() {
             <div>
               <span className="definitionLabel">Universe</span>
               <strong>{dataset.dataSources.universe.label}</strong>
-              <p>Universe kattaa Helsingin ja Tukholman päälistat nykyisessä vientiajossa.</p>
+              <p>{dataset.dataSources.universe.detail}</p>
             </div>
             <div>
               <span className="definitionLabel">Financials</span>
@@ -111,9 +122,9 @@ export default function Page() {
               <p>Talousluvut haetaan financials-aineistosta ennen rankingin laskentaa.</p>
             </div>
             <div>
-              <span className="definitionLabel">Päivitetty</span>
+              <span className="definitionLabel">Vienti luotu</span>
               <strong>{formatTimestamp(dataset.generatedAt)}</strong>
-              <p>Sama exportti näkyy etusivulla, metodologiassa ja yrityssivuilla.</p>
+              <p>Lähdelukujen tilikausi, valuutta ja hakuajankohta näkyvät yhtiösivulla.</p>
             </div>
           </div>
         </article>
@@ -141,14 +152,15 @@ export default function Page() {
           <section className="sidePanel">
             <p className="eyebrow">Tulosten lukutapa</p>
             <h2>Mistä sijoitus syntyy?</h2>
-            <p>Magic Formula -sijoitus muodostuu ROC:n ja EBIT/EV:n yhdistelmästä. Tasatilanteissa ticker ratkaisee.</p>
+            <p>Yhteissijoitus lasketaan Suomen ja Ruotsin kelpoisista yhtiöistä. ROC-rank ja EBIT/EV-rank summataan. Tasatilanteet ratkaistaan vakioidusti listaustunnisteella. Laatupiste ei vaikuta sijoitukseen.</p>
           </section>
 
           <section className="sidePanel cautionPanel">
             <p className="eyebrow">Kelpoisuusrajat</p>
             <h2>Mikä sulkee yhtiön pois?</h2>
             <ul className="plainList compactList">
-              <li>Finanssisektori rajataan pois v1-metodologian vuoksi.</li>
+              <li>Finanssi- ja utility-yhtiöt rajataan pois metodologian vuoksi.</li>
+              <li>Yhteinen markkina-arvoraja on 50 miljoonaa euroa.</li>
               <li>Puuttuvat statementit estävät laskennan.</li>
               <li>EBIT ≤ 0, EV ≤ 0 tai negatiivinen sijoitettu pääoma pudottavat rivin pois.</li>
             </ul>

@@ -1,51 +1,30 @@
-# Python data pipeline (v1)
+# Python-pipeline: Helsinki + Stockholm
 
-## Vaiheet
-1. Main Market -universe (`data/main_market_universe.csv`)
-2. Financials-generointi (`scripts/generate_financials_csv.py`)
-3. Kelpoisuusarviointi (`magicformula/eligibility.py`)
-4. Normalisointi (`magicformula/normalization.py`)
-5. Ranking-laskenta (`magicformula/ranking.py`)
-6. JSON-export (`scripts/export_ranking_json.py`)
+Kerrokset: virallinen listauslähde → yhtiötunnisteet → talousdatan hankinta → kelpoisuus/normalisointi → ranking → JSON → UI.
 
-## Paikallinen Python-setup
-1. Luo virtuaaliymparisto repojuureen: `python -m venv .venv`
-2. Aktivoi venv (PowerShell): `.venv\Scripts\Activate.ps1`
-3. Asenna riippuvuudet: `pip install -r requirements.txt`
+- fetch_nordic_universe.py tarkistaa Nasdaqin Main Market -listan markkinoittain ja segmenteittäin. Se päivittää ISIN–LEI-linkit refresh_issuer_mapping.py:llä ja validoi CSV-tuonnin import_nordic_universe.py:llä.
+- universe_manifest.json sitoo CSV:t lähdeotoksen listausjoukkoon ja SHA-256-tiivisteisiin. Listausjäsenyys ei riipu LEI- tai talousdatan saatavuudesta.
+- generate_financials_csv.py hakee uusimman yhteisen vuositilinpäätöksen, raportoituun liiketulokseen perustuvan EBITin ja markkinatiedot. --skip-methodological jättää finanssi-/utility-haut pois erikseen auditoituina.
+- eligibility.py erottaa poissulut datapuute- ja metodologialuokkiin. normalization.py ei imputoi pakollisia lähdelukuja.
+- ranking.py laskee yhteisen HEL+STO Magic Formulan. quality.py on erillinen, puuttuvilla laatutekijöillä null.
+- export_ranking_json.py käyttää exchange:ticker-listausavaimia, issuer_id-yhtiöryhmittelyä ja financial_source_checks.csv:n ristiriitaporttia.
+- audit_universe.py tarkistaa joukkojen ja tunnisteiden eheyden, kaavat, osarankit, järjestyksen sekä kattavuusluvut. --require-complete on tiukempi julkaisuportti.
 
-## Talouslukujen generointi
+## Ajot repojuuresta
 
-```bash
-python python_pipeline/scripts/generate_financials_csv.py
-```
-
-Skripti:
-- lukee Main Market -universen tiedostosta `data/main_market_universe.csv`
-- hakee Yahoo Financesta vuosittaiset statementit ja enterprise valuen
-- kayttaa tarvittaessa alias-tickerikarttaa ja Yahoo-hakufallbackia
-- kirjoittaa kayttokelpoiset rivit tiedostoon `data/financials.csv`
-
-## Aja JSON-export
-
-```bash
+```powershell
+python -m pip install -r requirements.txt
+python python_pipeline/scripts/fetch_nordic_universe.py
+python python_pipeline/scripts/generate_financials_csv.py --skip-methodological
 python python_pipeline/scripts/export_ranking_json.py
+python python_pipeline/scripts/audit_universe.py
+python -m pytest -q
 ```
 
-## Aja testit
-Repojuuren `pytest.ini` asettaa import-pathin automaattisesti, joten `PYTHONPATH`-muuttujaa ei tarvita.
+pytest.ini asettaa import-polun. Python 3.11 on CI:n versio. Windowsissa paikallinen venv voi käyttää uudempaa Pythonia; aja samat reunatapaustestit kummassakin ympäristössä.
 
-```bash
-pytest -q
-```
+Financials-haku kirjoittaa audit-JSON:n CSV:n viereen. Puuttuva EV-valuuttamääritys, puuttuva yhteinen periodi tai lähdekomponentti säilyy eksplisiittisenä puutteena. Kaikkien hakujen epäonnistuminen ei ylikirjoita vanhaa taloustaulua tyhjällä.
 
-## Datamalli lyhyesti
-- `main_market_universe.csv` sisaltaa yhtiometadatan koko raakauniverselle.
-- `financials.csv` sisaltaa ne talouslukurivit, joilta vaaditut kentat saatiin haettua luotettavasti.
-- Export erottaa tuloksessa `raw_universe`, `rows` ja `excluded`.
-- Finanssiyhtiot suljetaan pois Magic Formula -rankingista metodologisena valintana.
-## GitHub Actions data refresh
+GitHub Actions käyttää samoja komentoja. Se arkistoi aineiston ja muodostaa vain julkaisuportin läpäisevistä muutoksista draft-PR:n, ei suoraa main-committia.
 
-Workflow `.github/workflows/data-refresh.yml` asentaa riippuvuudet, ajaa `pytest -q`, generoi `data/financials.csv`:n, exporttaa `src/data/ranking-v1.json`:n, validoi exportin ja ajaa frontendin `lint`- ja `build`-tarkistukset.
-
-Jos datasetti muuttuu ja ajo tapahtuu `main`-branchissa, workflow commitoi paivitetyt tiedostot takaisin repoon. Muilla brancheilla sama workflow toimii vain verifiointina.
-
+Menetelmä ja rajat: ../docs/methodology/calculation.md, universe.md ja source-audit-2026-10-29.md.

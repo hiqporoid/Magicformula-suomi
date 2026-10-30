@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: data-refresh
@@ -44,20 +45,17 @@ jobs:
       - name: Run pipeline tests
         run: python -m pytest -q
 
-      - name: Fetch Nordic universe (HEL + STO, >=50M)
+      - name: Refresh verified Nasdaq Main Market listings and manifest
         run: python python_pipeline/scripts/fetch_nordic_universe.py
 
-      - name: Import Nordic universe into project CSVs
-        run: python python_pipeline/scripts/import_nordic_universe.py
-
       - name: Generate financials CSV
-        run: python python_pipeline/scripts/generate_financials_csv.py
+        run: python python_pipeline/scripts/generate_financials_csv.py --skip-methodological
 
       - name: Export ranking JSON
         run: python python_pipeline/scripts/export_ranking_json.py
 
       - name: Audit universe and ranking output
-        run: python python_pipeline/scripts/audit_universe.py
+        run: python python_pipeline/scripts/audit_universe.py --output output/data-audit.json
 
       - name: Validate ranking JSON output
         run: test -s src/data/ranking-v1.json
@@ -68,24 +66,28 @@ jobs:
       - name: Run production build
         run: npm run build
 
+      - name: Require listing coverage and reconciled financial data before delivery
+        run: python python_pipeline/scripts/audit_universe.py --require-complete
+
       - name: Detect dataset changes
         id: changes
         run: |
-          if git diff --quiet -- python_pipeline/data/main_market_universe.csv python_pipeline/data/stockholm_main_market_universe.csv python_pipeline/data/financials.csv src/data/ranking-v1.json; then
+          if test -z "$(git status --porcelain -- python_pipeline/data docs/audit src/data/ranking-v1.json)"; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Upload refreshed dataset
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: data-refresh-output
           path: |
-            python_pipeline/data/financials.csv
-            python_pipeline/data/main_market_universe.csv
-            python_pipeline/data/stockholm_main_market_universe.csv
+            python_pipeline/data
+            docs/audit
             src/data/ranking-v1.json
+            output/*.json
 
       - name: Upload methodology artifacts
         uses: actions/upload-artifact@v4
@@ -105,11 +107,17 @@ jobs:
           echo "- Production build: ok" >> "$GITHUB_STEP_SUMMARY"
           echo "- Dataset changed: ${{ steps.changes.outputs.changed }}" >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Commit refreshed dataset
+      - name: Open draft dataset pull request
         if: github.ref == 'refs/heads/main' && steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          git switch -C codex/data-refresh
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add python_pipeline/data/main_market_universe.csv python_pipeline/data/stockholm_main_market_universe.csv python_pipeline/data/financials.csv src/data/ranking-v1.json
+          git add python_pipeline/data docs/audit src/data/ranking-v1.json
           git commit -m "chore: refresh dataset"
-          git push origin HEAD:main
+          git push --force-with-lease origin HEAD:codex/data-refresh
+          if ! gh pr view codex/data-refresh >/dev/null 2>&1; then
+            gh pr create --draft --base main --head codex/data-refresh --title "Päivitä varmennettu HEL + STO -aineisto" --body "Automaattisesti muodostettu aineisto. Tarkista listauskattavuus, lähdeotos ja audit-raportti ennen yhdistämistä."
+          fi

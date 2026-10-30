@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
@@ -24,37 +24,37 @@ const sortLabels: Record<SortKey, string> = {
 };
 
 function marketCapValue(row: RankingRow): number {
-  return row.financialSnapshot.marketCap ?? -1;
+  return row.financialSnapshot.marketCapEur ?? -1;
 }
 
 function sortRows(rows: RankingRow[], sortKey: SortKey): RankingRow[] {
   return [...rows].sort((a, b) => {
     if (sortKey === "rank") {
-      return a.rank - b.rank || a.ticker.localeCompare(b.ticker);
+      return a.rank - b.rank || a.listingId.localeCompare(b.listingId);
     }
 
     if (sortKey === "magicFormulaScore") {
-      return a.magicFormulaScore - b.magicFormulaScore || a.ticker.localeCompare(b.ticker);
+      return a.magicFormulaScore - b.magicFormulaScore || a.listingId.localeCompare(b.listingId);
     }
 
     if (sortKey === "roc") {
-      return b.roc - a.roc || a.ticker.localeCompare(b.ticker);
+      return b.roc - a.roc || a.listingId.localeCompare(b.listingId);
     }
 
     if (sortKey === "ebitEv") {
-      return b.ebitEv - a.ebitEv || a.ticker.localeCompare(b.ticker);
+      return b.ebitEv - a.ebitEv || a.listingId.localeCompare(b.listingId);
     }
 
     if (sortKey === "qualityScore") {
-      return b.qualityScore - a.qualityScore || a.ticker.localeCompare(b.ticker);
+      return (b.qualityScore ?? -1) - (a.qualityScore ?? -1) || a.listingId.localeCompare(b.listingId);
     }
 
-    return marketCapValue(b) - marketCapValue(a) || a.ticker.localeCompare(b.ticker);
+    return marketCapValue(b) - marketCapValue(a) || a.listingId.localeCompare(b.listingId);
   });
 }
 
 function passesMarketCapFilter(row: RankingRow, filter: MarketCapFilter): boolean {
-  const marketCap = row.financialSnapshot.marketCap;
+  const marketCap = row.financialSnapshot.marketCapEur;
   if (filter === "all") {
     return true;
   }
@@ -114,7 +114,7 @@ export function RankingTable({ rows, exchanges }: Props) {
         <div>
           <p className="eyebrow">Ranking</p>
           <h2>Arvoseulonnan tulokset</h2>
-          <p className="sectionLead">Hae yhtiöitä, rajaa markkina-arvon mukaan ja avaa tarkempi yrityssivu.</p>
+          <p className="sectionLead">Vertailujoukko: nykyisen viennin {rows.length} laskettavaa yhtiötä Helsingistä ja Tukholmasta. Markkinavalinta ja muut suodattimet rajaavat näkymää; sijoituksia ja osarankkeja ei lasketa uudelleen. Datan vuoksi puuttuvat yhtiöt eivät osallistu vertailuun.</p>
         </div>
         <Link href="/metodologia" className="textLink">
           Metodologia ja rajaukset
@@ -135,12 +135,12 @@ export function RankingTable({ rows, exchanges }: Props) {
         </label>
 
         <label className="fieldGroup">
-          <span>Markkina-arvo</span>
+          <span>Markkina-arvo euroina</span>
           <select
             value={marketCapFilter}
             onChange={(event) => setMarketCapFilter(event.target.value as MarketCapFilter)}
           >
-            <option value="all">Kaikki</option>
+            <option value="all">Kaikki kelpoiset</option>
             <option value="over50m">Yli 50 M€</option>
             <option value="over100m">Yli 100 M€</option>
           </select>
@@ -149,10 +149,10 @@ export function RankingTable({ rows, exchanges }: Props) {
         <label className="fieldGroup">
           <span>Pörssi</span>
           <select value={exchangeFilter} onChange={(event) => setExchangeFilter(event.target.value)}>
-            <option value="all">Kaikki</option>
+            <option value="all">Suomi ja Ruotsi</option>
             {exchangeOptions.map((exchange) => (
               <option key={exchange} value={exchange}>
-                {exchange}
+                {exchange === "HEL" ? "Suomi (Helsinki)" : exchange === "STO" ? "Ruotsi (Tukholma)" : exchange}
               </option>
             ))}
           </select>
@@ -176,14 +176,14 @@ export function RankingTable({ rows, exchanges }: Props) {
             onChange={(event) => setValidationFilter(event.target.value as ValidationFilter)}
           >
             <option value="all">Kaikki rivit</option>
-            <option value="clean">Vain puhtaat rivit</option>
+            <option value="clean">Ei automaattisia huomioita</option>
             <option value="warnings">Vain huomiorivit</option>
           </select>
         </label>
       </div>
 
       <div className="tableMetaBar">
-        <span>{visibleRows.length} / {rows.length} riviä näkyvissä</span>
+        <span aria-live="polite">{visibleRows.length} / {rows.length} riviä näkyvissä</span>
         <span>{warningRows} rivillä on datalaadun huomio</span>
       </div>
 
@@ -198,12 +198,14 @@ export function RankingTable({ rows, exchanges }: Props) {
           <table className="rankingTable">
             <thead>
               <tr>
-                <th>Sijoitus</th>
+                <th title="Sijoitus yhteisessä HEL + STO -vertailujoukossa">Yhteissija</th>
                 <th>Yhtiö</th>
-                <th className="numberCell">Markkina-arvo</th>
+                <th className="numberCell">Markkina-arvo EUR</th>
                 <th className="numberCell">MF-piste</th>
                 <th className="numberCell">ROC</th>
+                <th className="numberCell">ROC-rank</th>
                 <th className="numberCell">EBIT/EV</th>
+                <th className="numberCell">EBIT/EV-rank</th>
                 <th className="numberCell">Laatu</th>
                 <th>Datan laatu</th>
               </tr>
@@ -213,28 +215,30 @@ export function RankingTable({ rows, exchanges }: Props) {
                 const isClean = row.validationWarnings.length === 0;
 
                 return (
-                  <tr key={row.ticker} className={row.rank <= 3 ? "topRankRow" : undefined}>
+                  <tr key={row.listingId} className={row.rank <= 3 ? "topRankRow" : undefined}>
                     <td>
                       <span className="rankPill">#{row.rank}</span>
                     </td>
                     <td>
-                      <Link href={`/yhtio/${row.ticker}`} className="companyLink">
+                      <Link href={`/yhtio/${encodeURIComponent(row.listingId)}`} className="companyLink">
                         {row.company}
                       </Link>
-                      <div className="tableSubline">{row.ticker}</div>
+                      <div className="tableSubline">{row.listingId}</div>
                     </td>
-                    <td className="numberCell">{formatMarketCap(row.financialSnapshot.marketCap)}</td>
+                    <td className="numberCell">{formatMarketCap(row.financialSnapshot.marketCapEur, "EUR")}</td>
                     <td className="numberCell">{row.magicFormulaScore}</td>
                     <td className="numberCell">{formatPercent(row.roc)}</td>
+                    <td className="numberCell">{row.rocRank ?? "Ei saatavilla"}</td>
                     <td className="numberCell">{formatPercent(row.ebitEv)}</td>
+                    <td className="numberCell">{row.earningsYieldRank ?? "Ei saatavilla"}</td>
                     <td className="numberCell">{formatScore(row.qualityScore)}</td>
                     <td>
                       {isClean ? (
-                        <span className="statusBadge statusBadgeOk">Puhdas</span>
+                        <span className="statusBadge">Ei automaattisia huomioita</span>
                       ) : (
                         <div className="statusStack">
                           <span className="statusBadge statusBadgeWarn">{formatDataQualityLabel(row.validationWarnings)}</span>
-                          <span>{row.validationWarnings.join(", ")}</span>
+                          <Link href={`/yhtio/${encodeURIComponent(row.listingId)}`} className="textLink" title={row.validationWarnings.join(" ")}>Lähteet ja huomiot</Link>
                         </div>
                       )}
                     </td>

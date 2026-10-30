@@ -1,0 +1,158 @@
+{
+  "retrieved_at": "2026-10-30T17:10:01.787204+00:00",
+  "bulk": {
+    "source_date": "2026-10-30",
+    "source_url": "https://isinmapping.gleif.org/api/v2/isin-lei/2026-10-30/download",
+    "source_sha256": "3b01bb89d82dcb796f135fa59bc17f5d47d19f4b6ee3f4cc5192e99c3c3efa62"
+  },
+  "wanted_isins": 551,
+  "resolved_isins": 531,
+  "unresolved_isins": [
+    "CA46016U1084",
+    "CA5503711080",
+    "CA5503721063",
+    "CA5889141019",
+    "FI0009005078",
+    "FI0009007603",
+    "FI0009007611",
+    "FI0009008270",
+    "FI0009800098",
+    "FI4000058870",
+    "FI4000349378",
+    "FI4000519202",
+    "FI4000552526",
+    "FI4000586409",
+    "FI4000592159",
+    "FI4000592464",
+    "FI4000592472",
+    "FI4000595756",
+    "SE0025011463",
+    "SE0028329433"
+  ],
+  "exact_name_queries": [
+    {
+      "isin": "FI0009800098",
+      "query": "Afarak Group",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Afarak+Group&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "55ab07fdaa29176dfd48d5eed862fa94fb544ef36e306a53ba717aacf38c19d2"
+    },
+    {
+      "isin": "FI4000058870",
+      "query": "Aktia Pankki",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Aktia+Pankki&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "906c1f6aa1c963702387c7a4c1d5e136acec62f165a511973a75db5027701bed"
+    },
+    {
+      "isin": "FI4000586409",
+      "query": "Auroora Group",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Auroora+Group&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "185b62ef383c7f3d65bf18c629af002ed6baa77147607ee35a6dcb46481d9ecb"
+    },
+    {
+      "isin": "FI4000595756",
+      "query": "Framery Group",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Framery+Group&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "25c5e6cceeaa709b57770942bb176a96950987bb75a14583f6ca6db18977b699"
+    },
+    {
+      "isin": "FI4000592472",
+      "query": "Lassila & Tikanoja",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Lassila+%26+Tikanoja&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "d6b613ce0f9baaf6b9e64595b6744cf216b7d3a52cec3613046c3ec575914d40"
+    },
+    {
+      "isin": "FI4000592464",
+      "query": "Luotea Plc",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Luotea+Plc&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "a3291c3bcfd495a980f02f61cfe71a6e20dbd3e1917119b3ca8f8c6894fda3f1"
+    },
+    {
+      "isin": "FI4000552526",
+      "query": "Mandatum",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Mandatum&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "84ca129665870e6126193f47b5fe04d0e44407bce8315d2ab6444935d4db382f"
+    },
+    {
+      "isin": "FI0009005078",
+      "query": "Ponsse Oyj 1",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Ponsse+Oyj+1&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "b32541b9527155273a9cd88ce6d8ba76c20aff1ed6bd557fba10cb82aeba1400"
+    },
+    {
+      "isin": "FI4000592159",
+      "query": "Posti Group",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Posti+Group&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "d88ce6602ff8a270492289af7ad5bddf1cd2ed8b7e87de152a679b158f0b666c"
+    },
+    {
+      "isin": "FI0009002943",
+      "query": "Raisio Oyj",
+      "match": {
+        "lei": "74370083282NHIP4QD02",
+        "legal_name": "Raisio Oyj",
+        "country": "FI",
+        "registration_id": "0664032-4"
+      },
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Raisio+Oyj&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "7a26fc7bf8f8ce59063c95dea3dc5174fbb4e1ce62e076947046e2952e9d0d65"
+    },
+    {
+      "isin": "FI0009008270",
+      "query": "SSH Communications Security",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=SSH+Communications+Security&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "3283f77d1d61bf837d14ce46c1995d012450e59af475ffaff141c949b098445a"
+    },
+    {
+      "isin": "FI0009005961",
+      "query": "Stora Enso Oyj",
+      "match": {
+        "lei": "7437000ZP669LKUTZ738",
+        "legal_name": "Stora Enso Oyj",
+        "country": "FI",
+        "registration_id": "1039050-8"
+      },
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Stora+Enso+Oyj&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "1fe00b7ddb55cd3aaa6b849cb7dbe711b20f651a36e180145be0192dae372b49"
+    },
+    {
+      "isin": "FI4000349378",
+      "query": "AS Tallink Grupp FDR",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=AS+Tallink+Grupp+FDR&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "fbc68f1451071e1a194e523833d576653f8df485d2098440c511411106fce97e"
+    },
+    {
+      "isin": "FI4000519202",
+      "query": "Trainers´ House Oyj",
+      "match": null,
+      "source_url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Trainers%C2%B4+House+Oyj&page%5Bsize%5D=100",
+      "source_date": "2026-10-30",
+      "source_sha256": "20c30528d745b997b24d268492b8d30ef23308c3472a6699698b72466ea4c7f2"
+    }
+  ],
+  "policy": "Certified ISIN–LEI mapping; HEL fallback requires unique exact current legalName, ACTIVE entity, FI legal address. No fuzzy matching.",
+  "output_sha256": "1a3b72f2cdaae126d69a9aead7dcd5791deccf2703d5eaba5ae77d9f23000908"
+}

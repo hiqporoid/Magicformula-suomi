@@ -20,8 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7
     },
-    ...dataset.rows.map((row) => ({
-      url: `${siteUrl}/yhtio/${row.ticker}`,
+    ...dataset.rawUniverse.map((row) => ({
+      url: `${siteUrl}/yhtio/${encodeURIComponent(row.listingId)}`,
       lastModified,
       changeFrequency: "weekly" as const,
       priority: 0.6

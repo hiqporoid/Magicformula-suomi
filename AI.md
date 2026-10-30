@@ -1,50 +1,33 @@
 # AI.md
 
-## Mika projekti on?
-Magicformula-suomi on suomenkielinen sijoitustutkimuksen web-sovellus, joka keskittyy Nasdaq Helsinki Main Market -yhtioihin. Tavoite on tarjota lapinakyva, toistettava ja helposti esiteltava tapa vertailla yhtioita arvo- ja laatumittareilla.
+Magicformula-suomi on suomenkielinen yksityissijoittajan tutkimustyökalu Nasdaq Helsingin ja Nasdaq Stockholmin Main Market -yhtiöille. Ensimmäinen julkaisu kattaa nämä kaksi markkinaa; muut pörssit ovat jatkokehitystä. Ei käyttäjätunnuksia, salkkuja, kaupankäyntiä tai backtestausta.
 
-## Liikeidea
-- Muodostetaan yhdenmukainen yhtiouniversumi (Helsingin paalista).
-- Universe-riveilla kaytetaan `exchange`-kenttaa, jotta usean porssin tuki voidaan lisata ilman datamallin rikkomista.
-- Yllapidetaan universe ja generoitu financials-taulu erillisina lahteina.
-- Lasketaan rankingit (Magic Formula, EBIT/EV, quality overlay) vain kelpoisille riveille.
-- Esitetaan tulokset selkeassa taulukko-UI:ssa metodologian, datalaatuviestien ja disclaimerien kanssa.
+## Luotettavuustilanne 30.10.2026
 
-## Tuotetavoitteet v1
-1. Toimiva universe-rajauksen prosessi.
-2. Deterministinen datanormalisointi ja ranking-laskenta.
-3. Siisti ja uskottava kayttoliittyma rankinglistoille.
-4. Dokumentoitu metodologia ja vastuuvapautus.
-5. Julkaisupolku, jossa deploy ja datapaivitys toimivat ilman live-backendia.
+Alusta ei ole julkaisuvalmis. Aiempi Yahoo-exchange-lista sisälsi myös First Northia. Se on korvattu Nasdaqin virallisella Main Market -rajapinnalla, jonka markkinat, kaikki segmentit ja sivutus on tarkistettu. Listauskattavuus ja talousdatan kattavuus ovat eri asioita: yhtiötunnisteita, talouslukuja sekä EV:n ja tilinpäätöserien kenttäkohtaisia täsmäytyksiä on vielä avoinna.
 
-## Menetelmalliset periaatteet
-- Kaikki kaavat dokumentoidaan (`docs/methodology`).
-- Rankingin tasatilanteet ratkaistaan eksplisiittisesti.
-- Puuttuvat tai poikkeavat arvot kasitellaan ennalta maaratetyilla saannoilla.
-- Raw-universe, ranking-kelpoisuus ja poissulut pidetaan erillisina kasitteina.
-- V1 ei tee sijoitussuosituksia, vaan tarjoaa tutkimusnakyman.
+## Kerrokset ja tunnisteet
 
-## Rajaukset
-- Vain Nasdaq Helsinki Main Market v1:ssa.
-- Ei reaaliaikaista kaupankayntia, ei broker-integraatioita.
-- Ei kayttajakohtaisia portfolioita v1:ssa.
-- Ei tietokantaa, kirjautumista tai live-backendia.
+1. Universe-CSV:t säilyttävät listauskandidaatit, segmentin, varmennustilan, ISINin, yhtiötunnisteen ja lähdeviitteen.
+2. Listing ID = exchange:ticker; issuer_id yhdistää yhtiön eri osakesarjat ja rinnakkaislistaukset. Kotimaa on metadataa, ei listausmaan korvike eikä automaattinen poissulku.
+3. Financials-taulu sisältää lähdeluvut perusvaluuttayksiköissä, yhden yhteisen vuositilinpäätöksen, valuutat, markkina-/FX-päivän ja hakuajan. Puuttuvaa dataa ei imputoida.
+4. Kelpoisuus ja laskenta ovat omissa Python-moduuleissa. 50 miljoonan markkina-arvoraja on EUR-määräinen.
+5. JSON-export erottaa kandidaatit, varmennetut listaukset, metodologiset poissulut ja datan estämän laskennan.
+6. Next.js lukee saman staattisen exportin kaikille sivuille. HEL/STO-suodatus ei laske yhteisrankingia uudelleen. Quality overlay ei vaikuta Magic Formulaan.
 
-## Repon workflow
-1. Paivita suunnitelma (`PLANS.md`) ennen isompaa toteutusta.
-2. Paivita tarvittaessa `python_pipeline/data/main_market_universe.csv` (sis. `exchange`, esim. `HEL`).
-   - Hae ensin koko HEL+STO universe (>=50M markkina-arvo) komennolla `python python_pipeline/scripts/fetch_nordic_universe.py`, joka kirjoittaa tiedoston `/tmp/nordic_universe.csv`.
-   - Tuo sen jälkeen yhdistetty lista projektiin komennolla `python python_pipeline/scripts/import_nordic_universe.py` (skripti varmistaa minimitason HEL>=96 ja STO>=151).
-3. Generoi financials-taulu komennolla `python python_pipeline/scripts/generate_financials_csv.py`.
-4. Aja JSON-export komennolla `python python_pipeline/scripts/export_ranking_json.py`.
-5. Aja universe-audit komennolla `python python_pipeline/scripts/audit_universe.py`.
-6. Aja tarkistukset: `pytest -q`, `npm run lint`, `npm run build`.
-7. Tarkista keskeiset reitit (`/`, `/metodologia`, `/yhtio/<ticker>`, `/robots.txt`, `/sitemap.xml`).
-8. Pushaa `main`-branchiin, jonka Vercel deployaa tuotantoon.
-9. GitHub Actionsin `data-refresh.yml` voi paivittaa `financials.csv`:n ja `ranking-v1.json`:n ajastetusti tai manuaalisesti suoraan `main`-branchiin.
-10. Paivita `progress.md` ja `lessons.md`.
+Täsmälliset kaavat, yksinkertaistukset ja lähderajoitteet: docs/methodology/calculation.md ja universe.md.
 
-## AGENTS.md:n rooli
-`AGENTS.md` on auktoritatiivinen Codex-ajonaikainen ohjaustiedosto (miten agentti toimii tassa repossa).
+## Työjärjestys
 
-`AI.md` on ihmisille suunnattu projektikasikirja, joka tukee tulevia yllapitajia ja kontribuoijia mutta ei ohita `AGENTS.md`:n toimintaohjeita.
+- Lue AGENTS.md, PLANS.md, progress.md, lessons.md ja relevantit skillit.
+- Tarkista Git-tila ja origin/main. Säilytä olemassa oleva työ ja aloita codex/-haara. Älä palauta vanhaa generoitu dataa uuden päälle.
+- Käytä PLANS.md:tä aktiivisesti, yksi milestone työn alla.
+- fetch_nordic_universe.py päivittää virallisen HEL/STO Main Market -snapshotin, GLEIFin ISIN–LEI-linkit, CSV:t ja manifestin. import_nordic_universe.py --input <varmennettu.csv> hyväksyy vain lähteillä varmennetut Main Market -listaukset; rivimäärä ei ole kattavuustodiste.
+- generate_financials_csv.py hakee oletuksena vain varmennetut listaukset. --tickers HEL:UPM,STO:ATCO-B --output output/sample.csv on rajattu lähdeotos, joka ei päivitä julkaistavaa taulua.
+- Aja export_ranking_json.py ja audit_universe.py. --require-complete estää toimituksen, kun molempien pörssien kattavuus ei ole varmennettu. Nykyinen osittainen aineisto hylätään tarkoituksella tällä portilla.
+- Aja Python-testit, npm run lint ja npm run build sekä muuttuneen toiminnon selainvarmennus. Näytä myös lähdeotos → normalisointi → laskenta → JSON → UI.
+- Päivitä lokit ja dokumentaatio. Tarkista diff, commitoi ja pushaa vain tehtävän sallimissa rajoissa.
+- Data Refresh päivittää virallisen listaus- ja issuer-aineiston, talousdatan ja exportin sekä auditoi. Se ei kirjoita suoraan mainiin. Vain tekniset tarkistukset ja lähdetäsmäytyksen julkaisuportin läpäissyt muutos voi muodostaa draft-PR:n; puutteellisen ajon aineisto säilyy artefaktina.
+- Tässä tehtävässä ei yhdistetä mainiin eikä julkaista tuotantoon. Maksullisia lähteitä ei hankita ilman käyttäjän lupaa.
+
+AGENTS.md määrää työskentelyn. AI.md kuvaa projektia ja nykyistä toteutusta.

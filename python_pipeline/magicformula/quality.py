@@ -1,14 +1,16 @@
 from __future__ import annotations
 
+import math
+
 from .models import FinancialRecord
 
 
-def quality_score(record: FinancialRecord) -> float:
-    """Kevyt v1-laatupisteytys välille 0-100."""
-    roic_component = min(max((record.roic or 0.0) * 200, 0), 50)
-    debt_component = 25
-    if record.debt_to_ebitda is not None:
-        debt_component = min(max((4 - record.debt_to_ebitda) * 8.33, 0), 25)
-
-    stability_component = 25  # Placeholder v1:lle
-    return round(roic_component + debt_component + stability_component, 2)
+def quality_score(record: FinancialRecord) -> float | None:
+    """Erillinen laatumittari: ROIC 2/3, velka/EBITDA 1/3. Ei imputointia."""
+    if record.roic is None or record.debt_to_ebitda is None:
+        return None
+    if not all(math.isfinite(value) for value in (record.roic, record.debt_to_ebitda)):
+        return None
+    roic_component = min(max(record.roic * 200, 0), 50)
+    debt_component = min(max((4 - record.debt_to_ebitda) * 8.33, 0), 25)
+    return round((roic_component + debt_component) / 75 * 100, 2)

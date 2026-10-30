@@ -1,16 +1,9 @@
-# Vastuuvapaus ja riskit
+# Vastuuvapaus ja datarajoitteet
 
-Tama sovellus on tarkoitettu tutkimus- ja koulutuskayttoon.
-Sisalto ei ole sijoitusneuvontaa, sijoitussuositus eika kehotus ostaa tai myyda arvopapereita.
+Sovellus on tarkoitettu sijoitustutkimukseen ja koulutukseen. Sisältö ei ole sijoitusneuvontaa, sijoitussuositus eikä kehotus ostaa tai myydä arvopapereita.
 
-## Mita demossa luvataan
-- Ranking muodostetaan dokumentoiduilla kaavoilla samalla tavalla joka ajossa.
-- Poissulut ja validointivaroitukset pidetaan nakyvina UI:ssa.
-- Datasetti on staattinen export, ei reaaliaikainen markkinadata.
+Nykyinen Helsinki + Stockholm -aineisto on osittain varmennettu tutkimusotos. Kandidaattien määrä ei osoita koko Main Marketin kattavuutta. Toimittajan data, sektorit ja yritysjärjestelyjen käsittely voivat sisältää virheitä. Puuttuva yhtiö ei ole automaattisesti huono sijoitus.
 
-## Keskeiset riskit
-- Talousdata voi sisaltaa viivetta, oikaisuja tai kertaluonteisia eria.
-- Sektorierot voivat tehda tunnuslukujen suorasta vertailusta harhaanjohtavaa.
-- Historiallinen tai pistepohjainen ranking ei takaa tulevaa tuottoa.
-- Kayttajan tulee tehda oma jatkoanalyysinsa ennen mahdollisia sijoituspaatoksia.
+Vuositilinpäätös ja ajantasainen yritysarvo kuvaavat eri ajankohtia. EV:n oikaisut sekä toimittajan tase-erien standardointi eivät ole kaikilta osin todennettavissa. Kertaluonteiset erät, IFRS-vuokravelat ja rahoitusliiketoimintaa sisältävät konsernit voivat vääristää vertailua.
 
+Sivusto käyttää staattista exporttia. Viennin luontiaika ei tarkoita kaikkien lähdelukujen päivitystä. Tarkista yhtiön raportti, valuutat, lähdepäivät, poissulut ja varoitukset ennen tulkintaa. Historiallinen tai pistepohjainen ranking ei takaa tulevaa tuottoa.

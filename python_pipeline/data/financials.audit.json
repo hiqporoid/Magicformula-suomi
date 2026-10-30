@@ -1,0 +1,530 @@
+{
+  "retrieved_at": "2026-10-29T18:26:15.481059+00:00",
+  "requested": 557,
+  "written": 427,
+  "missing": [
+    {
+      "listing_id": "HEL:AUROORA",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "HEL:EASOR",
+      "reason": "missing_common_annual_period"
+    },
+    {
+      "listing_id": "HEL:LEHTO",
+      "reason": "financial_instrument_identity_mismatch"
+    },
+    {
+      "listing_id": "HEL:SAVOX",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "HEL:SOSI1",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "HEL:SSABAH",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "HEL:SSABBH",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "HEL:SSH1V",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "HEL:TELIA1",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "HEL:TEM1V",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "STO:8TRA",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:ABB",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:ALIV-SDB",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:ALVO-SDB",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:ARP",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:ASMDEE-B",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:AZN",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:BESQAB-PREF-B",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "STO:BETCO",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:BETS-B",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:BIOG-B",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:CANTA",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:CCC",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:CIBUS",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:CRAD-B",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:CTM",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:EAST",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:ELTEL",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:EMIL-PREF",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "STO:EVO",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:FOI-B",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:G2M",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:G5EN",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:HACK",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:HAKI-A",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "STO:HAKI-B",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "STO:HEXA-B",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:IBT-B",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:IPCO",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:ISOFOL",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:K2A-PREF",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "STO:KDV-B",
+      "reason": "missing_common_annual_period"
+    },
+    {
+      "listing_id": "STO:KEOC",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:LUG",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:LUMI",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:MCOV-B",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:MER",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:MOB",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:NP3-PREF",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "STO:NTECH",
+      "reason": "missing_valuation_or_market_date"
+    },
+    {
+      "listing_id": "STO:OCTV-SDB",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:ORRON",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:STE-A",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:STE-R",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:TIETOS",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:TROAX",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:VICO",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:VIMIAN",
+      "reason": "unsupported_ev_currency_basis"
+    },
+    {
+      "listing_id": "STO:VIVE",
+      "reason": "missing_critical_statement_fields"
+    },
+    {
+      "listing_id": "STO:XANO-B",
+      "reason": "missing_critical_statement_fields"
+    }
+  ],
+  "methodological_skips": [
+    {
+      "listing_id": "HEL:AKTIA",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:ALBAV",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:ALBBV",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:ALISA",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:CAPMAN",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:ENENTO",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:EQV1V",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:EVLI",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:FORTUM",
+      "reason": "utility_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:LAMOR",
+      "reason": "utility_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:LASTIK",
+      "reason": "utility_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:LUOTEA",
+      "reason": "utility_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:MANTA",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:NDA-FI",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:OMASP",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:PNA1V",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:SAMPO",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:TAALA",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "HEL:UNITED",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:ARION-SDB",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:AVARDA",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:AZA",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:BURE",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:CAT-A",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:CAT-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:CRED-A",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:ENITY",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:EQT",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:FLAT-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:FLERIE",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:HAV-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:HOFI",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:INDU-A",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:INDU-C",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:INTRUM",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:INVE-A",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:INVE-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:KINV-A",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:KINV-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:LATO-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:LINC",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:LUND-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:MANG",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:MORROW",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:NAXS",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:NDA-SE",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:NOBA",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:NORION",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:ORES",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:QLIRO",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:RATO-A",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:RATO-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:ROKO-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SAMPO-SEK",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SAVE",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SEAF",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SEB-A",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SEB-C",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SFAB",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SHB-A",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SHB-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:STOR-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:STWK",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SVOL-A",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SVOL-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:SWED-A",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:TANGEN-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:TRAC-B",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:VEFAB",
+      "reason": "financial_sector_methodology"
+    },
+    {
+      "listing_id": "STO:VNV",
+      "reason": "financial_sector_methodology"
+    }
+  ],
+  "partial_sample": false
+}
